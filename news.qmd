@@ -1,0 +1,14 @@
+---
+title: "Avvisi e News"
+lang: it
+page-layout: full
+listing:
+  id: news
+  type: default
+  fields: [date, title, author, description, image]
+  contents: news
+  image-placeholder: img/logo2.jpg
+  sort:
+    - "date desc"
+  max-items: 25
+---

@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Avvisi e news"
+        href: news.qmd
+
+  sidebar:
+    logo: img/logo2.jpg
+    style: "docked"
+    search: false
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Magistrale (CLAMSES)"
+        contents:
+          - href: https://www.unimib.it/magistrale/scienze-statistiche-economiche
+            text: "Sito web di Ateneo"
+          - href: https://elearning.unimib.it/course/index.php?categoryid=3472
+            text: "Informazioni Amministrative"
+          - href: orientamento.qmd
+            text: "Orientamento"
+      - text: "Ph.D. (Ecostatdata)"
+        href: https://www.dems.unimib.it/en/research/phd-economics-statistics-and-data-science
+
+format:
+  html:
+    page-layout: full
+    theme: [simplex, styles.css]
+    toc: true
+    fontsize: 1.2em

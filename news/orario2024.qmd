@@ -1,0 +1,23 @@
+---
+title: "Orario lezioni CLAMSES A.A. 2024-2025"
+lang: it
+date: "10/01/2024"
+author: "Tommaso Rigon"
+description: "Orario delle lezioni (Livellamenti)"
+page-layout: full
+image: ../img/piazza.jpg
+---
+
+Si avvisano gli studenti interessati che le seguenti attività inizieranno **in anticipo** rispetto agli altri insegnamenti:
+
+ - Introduzione all’inferenza statistica: prima lezione il 9/09,  10.30-13.30, aula U6-38
+
+ - Livellamento di analisi matematica: prima lezione il 16/09,  15.30-17.30, aula U2-04
+
+ - Livellamento di programmazione in R: prima lezione il 17/09,  8:30-11:30,  lab 908
+
+Le attività di livellamento sono suggerite a tutti coloro che non abbiano sostenuto durante il Corso di laurea triennale un esame rispettivamente di Analisi Matematica II e di Programmazione in R. I livellamenti possono essere usati per acquisire i 2 CFU in “altre attività formative” previste dal piano di studio.
+
+Il corso di Introduzione all’inferenza statistica è consigliato a tutti coloro che non abbiano conseguito una laurea triennale nella classe L41 (Scienze statistiche).
+
+Per eventuali dubbi è possibile contattare il professor Federico Camerlenghi (federico.camerlenghi@unimib.it)

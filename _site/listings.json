@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/orario2024.html",
+      "/news/yountalents2024.html",
+      "/news/bandoselezione2024.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/orario2024.html",
+      "/news/yountalents2024.html",
+      "/news/bandoselezione2024.html"
+    ]
+  }
+]
