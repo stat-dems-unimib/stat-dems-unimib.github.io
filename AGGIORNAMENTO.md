@@ -23,9 +23,9 @@ Dopo ogni modifica: `quarto render`, poi commit (inclusa la cartella `docs/`) e 
 | `supervisor` | supervisore | `Tommaso Rigon` |
 | `co_supervisor` | co-supervisore/i | `Sudipto Banerjee (UCLA)` |
 | `tutor` | tutor interno (nel CSV, **non** mostrato tra gli alumni) | |
-| `sector` | `Academia` (solo docenti universitari: professori di ogni fascia, RTD/RTT, adjunct), `Postdoc` (postdoc e assegnisti), `Research institute` (enti e istituti di ricerca non universitari, es. IRCCS, CNR), `Industry` (aziende), oppure vuoto | |
+| `sector` | `Academia` (solo docenti universitari: professori di ogni fascia, RTD/RTT; non gli incarichi a contratto), `Postdoc` (postdoc e assegnisti), `Research institute` (enti e istituti di ricerca non universitari, es. IRCCS, CNR), `Industry` (aziende), oppure vuoto | |
 | `position` | posizione attuale | `Postdoctoral Fellow, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health` |
-| `previous_position` | eventuale posizione precedente (mostrata in piccolo) | |
+| `previous_position` | lasciare vuoto: si tiene solo la posizione attuale (colonna non mostrata sul sito) | |
 | `repository` | link alla tesi su BOA | `https://hdl.handle.net/10281/595381` |
 
 Valori ammessi per `programme`:
@@ -101,7 +101,7 @@ In ordine di affidabilità:
 
 1. **Informazione diretta** (dalla persona o da un collega).
 2. **Pagina personale o profilo istituzionale** (es. `https://en.unimib.it/nome-cognome`, pagine di dipartimento, Google Sites, GitHub Pages).
-3. **Banca dati MUR dei docenti** per chi lavora in un'università italiana: [Cerca Università](https://cercauniversita.mur.gov.it). Cercare per cognome e nome con ruolo *Professori Ordinari, Associati e Ricercatori*, poi ripetere con *Ricercatori a tempo determinato*. Non filtrare per settore: alcuni alumni sono passati a settori non statistici (es. Anna Simonetto, oggi in AGRI-05/A). Per distinguere gli omonimi conviene usare il menu *Situazione al* (31/12 degli anni passati): la carriera nel tempo, l'ateneo e il legame con il relatore (es. tesi con un relatore di Brescia e carriera a Brescia) chiariscono quasi sempre se si tratta della stessa persona. Le posizioni passate trovate così vanno in `previous_position`.
+3. **Banca dati MUR dei docenti** per chi lavora in un'università italiana: [Cerca Università](https://cercauniversita.mur.gov.it). Cercare per cognome e nome con ruolo *Professori Ordinari, Associati e Ricercatori*, poi ripetere con *Ricercatori a tempo determinato*. Non filtrare per settore: alcuni alumni sono passati a settori non statistici (es. Anna Simonetto, oggi in AGRI-05/A). Per distinguere gli omonimi conviene usare il menu *Situazione al* (31/12 degli anni passati): la carriera nel tempo, l'ateneo e il legame con il relatore (es. tesi con un relatore di Brescia e carriera a Brescia) chiariscono quasi sempre se si tratta della stessa persona.
 4. **LinkedIn** per chi lavora fuori dall'accademia.
 
 Corrispondenza dei ruoli MUR:

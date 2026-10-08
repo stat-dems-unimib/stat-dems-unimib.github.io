@@ -33,7 +33,7 @@
   const CHIPS = { 'Academia': 'academia', 'Postdoc': 'postdoc', 'Research institute': 'research', 'Industry': 'industry' };
   const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s]}">${esc(s)}</span>` : '';
   const position = r => r.position
-    ? chip(r.sector) + '<br>' + esc(r.position) + (r.previous_position ? '<small>Previously: ' + esc(r.previous_position) + '</small>' : '')
+    ? chip(r.sector) + '<br>' + esc(r.position)
     : na;
   const thesis = r => r.repository ? `<a href="${esc(r.repository)}">${esc(r.thesis)}</a>` : esc(r.thesis);
   const graduate = {
