@@ -33,7 +33,7 @@
   // sector value in the CSV -> [label shown, chip style]
   const CHIPS = {
     'Academia': ['Academia', 'academia'],
-    'Academia (adjunct)': ['Academia', 'academia-light'],
+    'Academia (other)': ['Academia', 'academia-light'],  // academic staff who are not faculty (adjunct, research staff)
     'Postdoc': ['Postdoc', 'postdoc'],
     'Research institute': ['Research institute', 'research'],
     'Industry': ['Industry', 'industry']
