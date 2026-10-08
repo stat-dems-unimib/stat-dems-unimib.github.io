@@ -36,6 +36,7 @@
     'Academia (other)': ['Academia', 'academia-light'],  // academic staff who are not faculty (adjunct, research staff)
     'Postdoc': ['Postdoc', 'postdoc'],
     'Research institute': ['Research institute', 'research'],
+    'Public sector': ['Public sector', 'public'],
     'Industry': ['Industry', 'industry']
   };
   const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s][1]}">${esc(CHIPS[s][0])}</span>` : '';
