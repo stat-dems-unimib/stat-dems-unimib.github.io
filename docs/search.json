@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "phd/students.html",
+    "href": "phd/students.html",
+    "title": "Current PhD students",
+    "section": "",
+    "text": "Students currently enrolled in the Statistics curriculum, with their supervisor, co-supervisor and internal tutor. Past graduates are listed among the PhD alumni.\n\nDownload the data (CSV)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STAT_DEMS",
@@ -7,31 +14,24 @@
     "text": "Statistica al DEMS · Università degli Studi di Milano-Bicocca\nPhD alumni Current PhD students\n\nSiti ufficiali: Statistica, Machine Learning ed Economia · Scienze Statistiche ed Economiche · PhD ECOSTATDATA\nLinkedIn"
   },
   {
-    "objectID": "phd/index.html",
-    "href": "phd/index.html",
+    "objectID": "phd/alumni.html",
+    "href": "phd/alumni.html",
     "title": "PhD alumni",
     "section": "",
     "text": "Thesis, supervision and current position of our doctoral graduates. This page complements the official website of the PhD programme, which remains the reference for admission, regulations and courses. Current students are listed here."
   },
   {
-    "objectID": "phd/index.html#statistics-curriculum-since-cycle-xxxiv",
-    "href": "phd/index.html#statistics-curriculum-since-cycle-xxxiv",
+    "objectID": "phd/alumni.html#statistics-curriculum-since-cycle-xxxiv",
+    "href": "phd/alumni.html#statistics-curriculum-since-cycle-xxxiv",
     "title": "PhD alumni",
     "section": "Statistics curriculum, since cycle XXXIV",
     "text": "Statistics curriculum, since cycle XXXIV\nGraduates of the Statistics curriculum of the PhD in Economics, Statistics and Data Science, from its first cohort (cycle XXXIV, enrolled in 2018). Affiliations are shown for supervisors outside Milano-Bicocca.\n\nDownload the data (CSV)"
   },
   {
-    "objectID": "phd/index.html#earlier-doctoral-programmes",
-    "href": "phd/index.html#earlier-doctoral-programmes",
+    "objectID": "phd/alumni.html#earlier-doctoral-programmes",
+    "href": "phd/alumni.html#earlier-doctoral-programmes",
     "title": "PhD alumni",
     "section": "Earlier doctoral programmes",
     "text": "Earlier doctoral programmes\nBefore 2018 doctoral training in statistics at Milano-Bicocca ran through other programmes: Statistics, Statistics and Applications, and Statistics and Mathematical Finance. The list covers the theses deposited in the BOA institutional repository from 2010 onwards. Supervision is taken from the title page of each thesis; where the title page names only a tutor, the tutor is listed as supervisor. Current positions in Italian universities come from the MUR register of academic staff; the others are still to be completed.\n\nDownload the data (CSV)\n\n\nLast updated October 2026. Corrections and missing positions are welcome: the data live in phd/data/alumni.csv."
-  },
-  {
-    "objectID": "phd/students.html",
-    "href": "phd/students.html",
-    "title": "Current PhD students",
-    "section": "",
-    "text": "Students currently enrolled in the Statistics curriculum, with their supervisor, co-supervisor and internal tutor. Past graduates are listed among the PhD alumni.\n\nDownload the data (CSV)"
   }
 ]

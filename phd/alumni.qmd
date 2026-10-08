@@ -3,6 +3,8 @@ title: "PhD alumni"
 subtitle: "Doctoral graduates in Statistics at the University of Milano-Bicocca"
 toc: false
 page-layout: full
+aliases:
+  - index.html
 ---
 
 Thesis, supervision and current position of our doctoral graduates. This page complements the [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science), which remains the reference for admission, regulations and courses. Current students are listed [here](students.qmd).

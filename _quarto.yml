@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
   resources:
     - "phd/data/*.csv"
     - "assets/*.js"
@@ -21,7 +23,7 @@ website:
     title: "STAT_DEMS"
     left:
       - text: "PhD alumni"
-        href: phd/index.qmd
+        href: phd/alumni.qmd
       - text: "Current PhD students"
         href: phd/students.qmd
     right:

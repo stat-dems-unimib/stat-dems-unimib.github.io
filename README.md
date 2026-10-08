@@ -11,7 +11,7 @@ index.qmd            home page minimale (italiano)
 bachelor/            laurea triennale SMLE (italiano) — per ora vuota
 master/              laurea magistrale CLAMSES, eventi (italiano) — per ora vuota
 phd/                 dottorato (English)
-  index.qmd          PhD alumni (pagina d'ingresso della sezione)
+  alumni.qmd         PhD alumni (anche /phd/ porta qui)
   students.qmd       dottorandi in corso
   data/alumni.csv    registro dei dottori di ricerca (anche dei dottorati precedenti, colonna `programme`)
   data/students.csv  dottorandi in corso
@@ -28,7 +28,7 @@ Per attivare `bachelor/` o `master/`: creare `_metadata.yml` con `lang: it`, le 
 
 ## Aggiornare il registro del PhD
 
-Basta modificare `phd/data/alumni.csv` o `phd/data/students.csv` (una riga per persona; più nomi nello stesso campo separati da `;`) e rigenerare il sito.
+Le fonti e la procedura completa sono in [`AGGIORNAMENTO.md`](AGGIORNAMENTO.md). In breve: basta modificare `phd/data/alumni.csv` o `phd/data/students.csv` (una riga per persona; più nomi nello stesso campo separati da `;`) e rigenerare il sito.
 
 ## Rigenerare il sito
 
