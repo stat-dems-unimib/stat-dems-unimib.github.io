@@ -7,7 +7,8 @@
   const ROMAN = { I: 1, V: 5, X: 10, L: 50 };
   const r2i = s => [...s].reduce((t, c, i, a) => t + (ROMAN[a[i + 1]] > ROMAN[c] ? -ROMAN[c] : ROMAN[c]), 0);
   const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  const na = '<span class="na">—</span>';
+  const na = '<span class="na">—</span>';                                   // not applicable (e.g. no co-supervisor)
+  const unknown = '<span class="unknown" title="Information not available">NA</span>';  // exists but unknown
 
   function parseCSV(text) {
     const rows = []; let row = [], f = '', q = false;
@@ -29,7 +30,7 @@
     const m = s.trim().match(/^(.*?)\s*\((.+)\)$/);
     return m ? `${esc(m[1])} <span class="affil">(${esc(m[2])})</span>` : esc(s.trim());
   };
-  const people = v => v ? v.split(';').map(person).join('<br>') : na;
+  const people = v => v === 'NA' ? unknown : v ? v.split(';').map(person).join('<br>') : na;
   // sector value in the CSV -> [label shown, chip style]
   const CHIPS = {
     'Academia': ['Academia', 'academia'],
@@ -42,7 +43,7 @@
   const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s][1]}">${esc(CHIPS[s][0])}</span>` : '';
   // sector chip, then the position; a sector without a position shows the chip alone
   const position = r => r.position ? chip(r.sector) + '<br>' + esc(r.position)
-    : r.sector ? chip(r.sector) : na;
+    : r.sector ? chip(r.sector) : unknown;
   // name, linked to the person's web page when the CSV gives one
   const nameLink = r => r.website ? `<a href="${esc(r.website)}">${esc(r.name)}</a>` : esc(r.name);
   const thesis = r => r.repository ? `<a href="${esc(r.repository)}">${esc(r.thesis)}</a>` : esc(r.thesis);

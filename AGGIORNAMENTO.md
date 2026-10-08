@@ -31,6 +31,8 @@ Dopo ogni modifica: `quarto render`, poi commit (inclusa la cartella `docs/`) e 
 
 L'ordine delle righe nel CSV non conta: le tabelle sul sito mostrano ogni ciclo in ordine alfabetico per cognome. Il cognome è l'ultima parola del nome, con l'eventuale particella che la precede (De, Di, Del…); i cognomi composti senza particella (es. *Nai Ruscone*) vanno aggiunti alla lista `COMPOUND` in `assets/register.js`.
 
+Celle vuote e `NA`: una cella vuota indica un dato che non esiste (nessun co-supervisor, tutor non ancora assegnato) e sul sito compare come trattino grigio. Se il dato esiste ma non è noto, scrivere `NA` (supervisor, co-supervisor, tutor): sul sito compare un "NA" rosso. Per le posizioni degli alumni basta lasciare vuoti `position` e `sector`: compaiono automaticamente come NA rosso.
+
 Valori ammessi per `programme`:
 
 - `Economics, Statistics and Data Science` → tabella "Statistics curriculum, since cycle XXXIV"
