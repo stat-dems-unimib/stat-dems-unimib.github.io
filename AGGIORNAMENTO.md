@@ -101,7 +101,7 @@ In ordine di affidabilità:
 
 1. **Informazione diretta** (dalla persona o da un collega).
 2. **Pagina personale o profilo istituzionale** (es. `https://en.unimib.it/nome-cognome`, pagine di dipartimento, Google Sites, GitHub Pages).
-3. **Banca dati MUR dei docenti** per chi lavora in un'università italiana: [Cerca Università](https://cercauniversita.mur.gov.it). Cercare per cognome e nome con ruolo *Professori Ordinari, Associati e Ricercatori*, poi ripetere con *Ricercatori a tempo determinato*. Attenzione alle omonimie: controllare che il settore (GSD/SSD) sia statistico o affine (13/STAT, 06/MEDS-24, 13/ECON-05…).
+3. **Banca dati MUR dei docenti** per chi lavora in un'università italiana: [Cerca Università](https://cercauniversita.mur.gov.it). Cercare per cognome e nome con ruolo *Professori Ordinari, Associati e Ricercatori*, poi ripetere con *Ricercatori a tempo determinato*. Non filtrare per settore: alcuni alumni sono passati a settori non statistici (es. Anna Simonetto, oggi in AGRI-05/A). Per distinguere gli omonimi conviene usare il menu *Situazione al* (31/12 degli anni passati): la carriera nel tempo, l'ateneo e il legame con il relatore (es. tesi con un relatore di Brescia e carriera a Brescia) chiariscono quasi sempre se si tratta della stessa persona. Le posizioni passate trovate così vanno in `previous_position`.
 4. **LinkedIn** per chi lavora fuori dall'accademia.
 
 Corrispondenza dei ruoli MUR:
@@ -148,6 +148,7 @@ const f = document.forms[1];
 for (const [cognome, nome] of persone) {
   for (const ruolo of ['00', 'RD']) {           // 00 = PO/PA/RU, RD = ricercatori a t.d.
     const fd = new FormData(f);
+    // fd.set('filtri_ricerca_docenti_form[situazioni]', '31122021');  // situazione al 31/12/2021 (default: ad oggi)
     fd.set('filtri_ricerca_docenti_form[cognome]', cognome);
     fd.set('filtri_ricerca_docenti_form[nome]', nome);
     fd.set('filtri_ricerca_docenti_form[ruolo]', ruolo);
