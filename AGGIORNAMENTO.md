@@ -33,7 +33,7 @@ Valori ammessi per `programme`:
 - `Economics, Statistics and Data Science` → tabella "Statistics curriculum, since cycle XXXIV"
 - `Statistics`, `Statistics and Applications`, `Statistics and Mathematical Finance` → tabella "Earlier doctoral programmes"
 
-Lo storico include solo dottorati di statistica e affini; *Matematica per l'analisi dei mercati finanziari* è stato escluso di proposito. Di *Statistics and Mathematical Finance* si tiene solo il curriculum statistico: le tesi del curriculum finanza vanno escluse (il curriculum non compare su BOA, quindi va verificato caso per caso; nel 2026 Roberto Ascari ha indicato quali rimuovere: Daluiso, Ruffo, Colombo, Del Gusto, Gonzato, Brignone, Gambaro, Santangelo).
+Lo storico include solo dottorati di statistica e affini; *Matematica per l'analisi dei mercati finanziari* è stato escluso di proposito. Di *Statistics and Mathematical Finance* si tiene solo il curriculum statistico: le tesi del curriculum finanza vanno escluse (il curriculum non compare su BOA, quindi va verificato caso per caso; nel 2026 Roberto Ascari ha indicato quali rimuovere: Daluiso, Ruffo, Colombo, Del Gusto, Gonzato, Brignone, Gambaro, Santangelo, Arduca, Bartesaghi, Canna, Kutrolli, Sonubi).
 
 ### `students.csv`
 
