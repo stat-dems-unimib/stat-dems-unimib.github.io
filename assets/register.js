@@ -39,9 +39,9 @@
     'Industry': ['Industry', 'industry']
   };
   const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s][1]}">${esc(CHIPS[s][0])}</span>` : '';
-  const position = r => r.position
-    ? chip(r.sector) + '<br>' + esc(r.position)
-    : na;
+  // sector chip, then the position; a sector without a position shows the chip alone
+  const position = r => r.position ? chip(r.sector) + '<br>' + esc(r.position)
+    : r.sector ? chip(r.sector) : na;
   // name, linked to the person's web page when the CSV gives one
   const nameLink = r => r.website ? `<a href="${esc(r.website)}">${esc(r.name)}</a>` : esc(r.name);
   const thesis = r => r.repository ? `<a href="${esc(r.repository)}">${esc(r.thesis)}</a>` : esc(r.thesis);
