@@ -42,11 +42,13 @@
   const position = r => r.position
     ? chip(r.sector) + '<br>' + esc(r.position)
     : na;
+  // name, linked to the person's web page when the CSV gives one
+  const nameLink = r => r.website ? `<a href="${esc(r.website)}">${esc(r.name)}</a>` : esc(r.name);
   const thesis = r => r.repository ? `<a href="${esc(r.repository)}">${esc(r.thesis)}</a>` : esc(r.thesis);
   const graduate = {
     noun: ['graduate', 'graduates'],
     head: ['Name', 'Thesis', 'Supervisor', 'Co-supervisor', 'Current position'],
-    cells: r => [`<td class="name">${esc(r.name)}<small>PhD in Statistics${r.year ? ', ' + esc(r.year) : ''}</small></td>`,
+    cells: r => [`<td class="name">${nameLink(r)}<small>PhD in Statistics${r.year ? ', ' + esc(r.year) : ''}</small></td>`,
       `<td class="thesis">${thesis(r)}</td>`, `<td>${people(r.supervisor)}</td>`, `<td>${people(r.co_supervisor)}</td>`, `<td>${position(r)}</td>`]
   };
 
@@ -57,7 +59,7 @@
     students: {
       noun: ['student', 'students'],
       head: ['Name', 'Supervisor', 'Co-supervisor', 'Tutor'],
-      cells: r => [`<td class="name">${esc(r.name)}</td>`, `<td>${people(r.supervisor)}</td>`, `<td>${people(r.co_supervisor)}</td>`, `<td>${people(r.tutor)}</td>`]
+      cells: r => [`<td class="name">${nameLink(r)}</td>`, `<td>${people(r.supervisor)}</td>`, `<td>${people(r.co_supervisor)}</td>`, `<td>${people(r.tutor)}</td>`]
     }
   };
 

@@ -19,6 +19,7 @@ Dopo ogni modifica: `quarto render`, poi commit (inclusa la cartella `docs/`) e 
 | `cycle` | ciclo in numeri romani | `XXXVII` |
 | `year` | anno di discussione della tesi | `2026` |
 | `name` | nome e cognome | `Luca Presicce` |
+| `website` | pagina web della persona (anche in `students.csv`): preferire il sito personale (github.io, Google Sites, dominio proprio) se aggiornato, altrimenti la pagina istituzionale dell'ente attuale. Mai LinkedIn, ResearchGate, Scholar | |
 | `thesis` | titolo della tesi | |
 | `supervisor` | supervisore | `Tommaso Rigon` |
 | `co_supervisor` | co-supervisore/i | `Sudipto Banerjee (UCLA)` |

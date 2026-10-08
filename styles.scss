@@ -80,3 +80,7 @@ table.register-alumni th:nth-child(5), table.register-history th:nth-child(5) { 
 table.register-alumni td.name, table.register-history td.name { min-width: 0; max-width: none; }
 table.register-alumni td.thesis, table.register-history td.thesis { max-width: none; }
 .affil { color: #9a9a9a; font-size: .85em; }
+
+// names linked to personal / institutional pages
+table.register td.name a { color: $stat-ink; font-weight: 600; text-decoration: underline; text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+table.register td.name a:hover { text-decoration-color: $stat-gold; }
