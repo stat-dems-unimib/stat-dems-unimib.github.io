@@ -1,0 +1,28 @@
+---
+title: "PhD alumni"
+subtitle: "Doctoral graduates in Statistics at the University of Milano-Bicocca"
+toc: false
+page-layout: full
+---
+
+Thesis, supervision and current position of our doctoral graduates. This page complements the [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science), which remains the reference for admission, regulations and courses. Current students are listed [here](students.qmd).
+
+## Statistics curriculum, since cycle XXXIV
+
+Graduates of the Statistics curriculum of the PhD in Economics, Statistics and Data Science, from its first cohort (cycle XXXIV, enrolled in 2018). Affiliations are shown for supervisors outside Milano-Bicocca.
+
+::: {.register data-csv="data/alumni.csv" data-kind="alumni" data-programme="Economics, Statistics and Data Science"}
+[Download the data (CSV)](data/alumni.csv)
+:::
+
+## Earlier doctoral programmes
+
+Before 2018 doctoral training in statistics at Milano-Bicocca ran through other programmes: Statistics, Statistics and Applications, and Statistics and Mathematical Finance. The list covers the theses deposited in the [BOA institutional repository](https://boa.unimib.it) from 2010 onwards. Supervision is taken from the title page of each thesis; where the title page names only a tutor, the tutor is listed as supervisor. Current positions in Italian universities come from the [MUR register of academic staff](https://cercauniversita.mur.gov.it); the others are still to be completed.
+
+::: {.register data-csv="data/alumni.csv" data-kind="history" data-programme="!Economics, Statistics and Data Science"}
+[Download the data (CSV)](data/alumni.csv)
+:::
+
+<script src="../assets/register.js"></script>
+
+*Last updated October 2026. Corrections and missing positions are welcome: the data live in [`phd/data/alumni.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/alumni.csv).*

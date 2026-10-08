@@ -1,0 +1,80 @@
+/*-- scss:defaults --*/
+// Colours of the DEMS department website (dems.unimib.it): yellow #E5C200, text #3B3B3B.
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+$stat-yellow: #e5c200;
+$stat-yellow-soft: #fbf3c7;
+$stat-ink: #3b3b3b;
+$stat-gold: #6e5d00;   // darker DEMS yellow, readable for links on white
+$stat-muted: #5f6066;
+
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+$font-size-root: 17px;
+$headings-font-weight: 600;
+
+$body-color: $stat-ink;
+$primary: $stat-ink;
+$link-color: $stat-gold;
+$navbar-bg: $stat-yellow;
+$navbar-fg: $stat-ink;
+$navbar-hl: $stat-ink;
+$footer-bg: #fafafa;
+
+/*-- scss:rules --*/
+h1, h2, h3, .navbar-title { letter-spacing: .01em; }
+.title { font-weight: 700; }
+.subtitle { color: $stat-muted; }
+
+.navbar-title { font-family: $headings-font-family; font-weight: 700; }
+.navbar .nav-link { font-family: $headings-font-family; font-weight: 600; font-size: 1.05rem; }
+.navbar .nav-link.active { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; }
+.navbar-logo { max-height: 38px; border-radius: 50%; }
+
+a { text-decoration-color: rgba($stat-gold, .35); text-underline-offset: 3px; }
+a:hover { text-decoration-color: $stat-gold; }
+
+.sidebar-title { font-family: $headings-font-family; font-weight: 700; }
+.sidebar-item .active { font-weight: 600; box-shadow: inset 3px 0 0 $stat-yellow; padding-left: .4rem; }
+
+// Home page: ultra-minimal, no header/footer
+body.home #quarto-header, body.home .nav-footer { display: none; }
+body.home #quarto-content { min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+.home-wrap { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 1rem; padding: 2rem 0; }
+.home-wrap p:has(.home-link) { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+.home-wrap p { margin: 0; }
+.home-logo { width: 150px; height: 150px; border-radius: 50%; }
+.home-link { display: inline-block; margin-top: .5rem; padding: .55rem 1.1rem; border: 2px solid $stat-ink; border-radius: 999px; color: $stat-ink; text-decoration: none; font-family: $headings-font-family; font-weight: 600; font-size: 1.1rem; }
+.home-link:hover { background: $stat-yellow; color: $stat-ink; }
+.home-small { margin-top: 1.5rem; font-size: .85rem; color: $stat-muted; line-height: 1.7; }
+
+// Registers (phd/alumni, phd/students)
+.register-tools { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin: 1rem 0; }
+.register-tools input, .register-tools select { font: inherit; font-size: .92rem; padding: .35rem .6rem; border: 1px solid #cfcfcf; border-radius: 4px; background: #fff; min-width: 0; }
+.register-tools input { flex: 1 1 260px; }
+.register-tools input:focus, .register-tools select:focus { outline: 2px solid $stat-yellow; border-color: $stat-ink; }
+.register-tools .count { font-size: .85rem; color: $stat-muted; }
+.register-wrap { overflow-x: auto; border: 1px solid #e3e3e3; border-radius: 4px; }
+table.register { width: 100%; min-width: 900px; border-collapse: collapse; font-size: .9rem; margin: 0; }
+table.register th { position: sticky; top: 0; background: #fff; font-family: $font-family-monospace; font-weight: 500; font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; color: $stat-muted; text-align: left; padding: .6rem .7rem; border-bottom: 2px solid $stat-ink; white-space: nowrap; }
+table.register td { padding: .55rem .7rem; border-bottom: 1px solid #ececec; vertical-align: top; line-height: 1.4; }
+table.register tr.group td { background: $stat-yellow-soft; font-family: $font-family-monospace; font-size: .74rem; letter-spacing: .06em; text-transform: uppercase; padding: .4rem .7rem; border-bottom: 1px solid #ecdc80; }
+table.register td.name { font-weight: 600; min-width: 11rem; max-width: 16rem; }
+table.register td.name small { font-weight: 400; }
+table.register td.thesis { max-width: 320px; }
+table.register small { display: block; color: $stat-muted; font-size: .8rem; }
+table.register .na { color: #a0a0a0; }
+.chip { display: inline-block; font-family: $font-family-monospace; font-size: .64rem; letter-spacing: .04em; text-transform: uppercase; padding: .15rem .4rem; border-radius: 3px; margin-bottom: .2rem; }
+.chip-academia { background: $stat-yellow; color: $stat-ink; }
+.chip-industry { background: $stat-ink; color: #fff; }
+// Same column widths for the two alumni tables, so they line up
+table.register-alumni, table.register-history { table-layout: fixed; }
+table.register-alumni th:nth-child(1), table.register-history th:nth-child(1) { width: 18%; }
+table.register-alumni th:nth-child(2), table.register-history th:nth-child(2) { width: 28%; }
+table.register-alumni th:nth-child(3), table.register-history th:nth-child(3) { width: 17%; }
+table.register-alumni th:nth-child(4), table.register-history th:nth-child(4) { width: 17%; }
+table.register-alumni th:nth-child(5), table.register-history th:nth-child(5) { width: 20%; }
+table.register-alumni td.name, table.register-history td.name { min-width: 0; max-width: none; }
+table.register-alumni td.thesis, table.register-history td.thesis { max-width: none; }
+.affil { color: #9a9a9a; font-size: .85em; }

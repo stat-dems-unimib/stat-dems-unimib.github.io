@@ -1,37 +1,46 @@
 project:
   type: website
   output-dir: docs
-  
-website:
-  navbar:
-    search: true
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Avvisi e news"
-        href: news.qmd
+  resources:
+    - "phd/data/*.csv"
+    - "assets/*.js"
 
-  sidebar:
-    logo: img/logo2.jpg
-    style: "docked"
-    search: false
-    contents:
-      - text: "Home"
-        href: index.qmd
-      - section: "Magistrale (CLAMSES)"
-        contents:
-          - href: https://www.unimib.it/magistrale/scienze-statistiche-economiche
-            text: "Sito web di Ateneo"
-          - href: https://elearning.unimib.it/course/index.php?categoryid=3472
-            text: "Informazioni Amministrative"
-          - href: orientamento.qmd
-            text: "Orientamento"
-      - text: "Ph.D. (Ecostatdata)"
-        href: https://www.dems.unimib.it/en/research/phd-economics-statistics-and-data-science
+website:
+  title: "STAT_DEMS"
+  description: "Statistica al DEMS, Università degli Studi di Milano-Bicocca"
+  site-url: https://stat-dems-unimib.github.io
+  favicon: img/logo-stat-dems.jpg
+  page-navigation: false
+  bread-crumbs: false
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    logo: img/logo-stat-dems.jpg
+    logo-alt: "STAT_DEMS UNIMIB"
+    title: "STAT_DEMS"
+    left:
+      - text: "PhD alumni"
+        href: phd/index.qmd
+      - text: "Current PhD students"
+        href: phd/students.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/statistica-dems-universit%C3%A0-milano-bicocca/
+        aria-label: "LinkedIn"
+  # Sections (bachelor/, master/, phd/) are independent folders. Add their
+  # pages to the navbar above; a folder can set its own look in _metadata.yml.
+  page-footer:
+    left: "DEMS · Università degli Studi di Milano-Bicocca"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/statistica-dems-universit%C3%A0-milano-bicocca/
+        aria-label: "LinkedIn"
 
 format:
   html:
-    page-layout: full
-    theme: [simplex, styles.css]
+    theme: [cosmo, styles.scss]
     toc: true
-    fontsize: 1.2em
+    toc-title: " "
+    page-layout: article
+    lang: it

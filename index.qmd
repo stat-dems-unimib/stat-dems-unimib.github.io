@@ -1,30 +1,19 @@
 ---
-title: "Scienze Statistiche ed Economiche"
-subtitle: "Università degli studi di Milano-Bicocca"
-page-layout: full
+pagetitle: "STAT_DEMS · Statistica al DEMS, Milano-Bicocca"
+sidebar: false
 toc: false
-lang: it   
-listing:
-  id: news
-  type: default
-  fields: [date, title, author, description]
-  contents: news
-  image-placeholder: img/logo2.jpg
-  sort:
-    - "date desc"
-  max-items: 4
+body-classes: home
 ---
 
+::: {.home-wrap}
+![](img/logo-stat-dems.jpg){.home-logo fig-alt="STAT_DEMS UNIMIB"}
 
-## Benvenuto {.central}
+Statistica al DEMS · Università degli Studi di Milano-Bicocca
 
-La Statistica è una scienza relativamente giovane, nata tre secoli fa e sviluppatasi rapidamente negli ultimi cento anni. Pur non essendo molto insegnata nelle scuole superiori, la statistica pervade tutte le altre discipline: viene usata in medicina, in economia, in sociologia, nel marketing, nella finanza, nelle scienze sperimentali, ecc. Questo fa dello statistico una figura molto ricercata e apprezzata nel mercato del lavoro.
+[PhD alumni](phd/index.qmd){.home-link} [Current PhD students](phd/students.qmd){.home-link}
 
-Per studiare statistica è certamente utile una certa predisposizione per la matematica, ma è ancora più necessaria la curiosità per il mondo che ci circonda. Infatti la statistica fornisce metodi per osservare il mondo e per trasformare tali osservazioni in informazioni e in decisioni.
-
-## [Avvisi e News](news.qmd) {.central}
-
-
-::: {#news}
+::: {.home-small}
+Siti ufficiali: [Statistica, Machine Learning ed Economia](https://www.unimib.it/triennale/statistica-machine-learning-economia) · [Scienze Statistiche ed Economiche](https://www.unimib.it/magistrale/scienze-statistiche-economiche) · [PhD ECOSTATDATA](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science)  
+[LinkedIn](https://www.linkedin.com/company/statistica-dems-universit%C3%A0-milano-bicocca/)
 :::
-
+:::

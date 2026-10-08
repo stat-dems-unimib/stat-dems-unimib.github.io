@@ -1,0 +1,14 @@
+---
+title: "Current PhD students"
+subtitle: "Statistics curriculum, PhD in Economics, Statistics and Data Science"
+toc: false
+page-layout: full
+---
+
+Students currently enrolled in the Statistics curriculum, with their supervisor, co-supervisor and internal tutor. Past graduates are listed among the [PhD alumni](index.qmd).
+
+::: {.register data-csv="data/students.csv" data-kind="students"}
+[Download the data (CSV)](data/students.csv)
+:::
+
+<script src="../assets/register.js"></script>
