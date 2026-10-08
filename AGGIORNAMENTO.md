@@ -23,7 +23,7 @@ Dopo ogni modifica: `quarto render`, poi commit (inclusa la cartella `docs/`) e 
 | `supervisor` | supervisore | `Tommaso Rigon` |
 | `co_supervisor` | co-supervisore/i | `Sudipto Banerjee (UCLA)` |
 | `tutor` | tutor interno (nel CSV, **non** mostrato tra gli alumni) | |
-| `sector` | `Academia & research`, `Industry & finance`, oppure vuoto | |
+| `sector` | `Academia` (solo docenti universitari: professori di ogni fascia, RTD/RTT, adjunct), `Postdoc` (postdoc e assegnisti), `Research institute` (enti e istituti di ricerca non universitari, es. IRCCS, CNR), `Industry` (aziende), oppure vuoto | |
 | `position` | posizione attuale | `Postdoctoral Fellow, Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health` |
 | `previous_position` | eventuale posizione precedente (mostrata in piccolo) | |
 | `repository` | link alla tesi su BOA | `https://hdl.handle.net/10281/595381` |

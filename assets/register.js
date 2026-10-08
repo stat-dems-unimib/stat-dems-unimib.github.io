@@ -30,8 +30,8 @@
     return m ? `${esc(m[1])} <span class="affil">(${esc(m[2])})</span>` : esc(s.trim());
   };
   const people = v => v ? v.split(';').map(person).join('<br>') : na;
-  const chip = s => s === 'Academia & research' ? '<span class="chip chip-academia">Academia &amp; research</span>'
-    : s === 'Industry & finance' ? '<span class="chip chip-industry">Industry &amp; finance</span>' : '';
+  const CHIPS = { 'Academia': 'academia', 'Postdoc': 'postdoc', 'Research institute': 'research', 'Industry': 'industry' };
+  const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s]}">${esc(s)}</span>` : '';
   const position = r => r.position
     ? chip(r.sector) + '<br>' + esc(r.position) + (r.previous_position ? '<small>Previously: ' + esc(r.previous_position) + '</small>' : '')
     : na;
