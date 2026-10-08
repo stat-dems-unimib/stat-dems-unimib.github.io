@@ -25,6 +25,9 @@ Before 2018 doctoral training in statistics at Milano-Bicocca ran through other 
 [Download the data (CSV)](data/alumni.csv)
 :::
 
-<script src="../assets/register.js"></script>
+<script>
+// load the table script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/register.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>
 
 *Last updated October 2026. Corrections and missing positions are welcome: the data live in [`phd/data/alumni.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/alumni.csv).*

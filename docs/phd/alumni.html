@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-a3f3094cb8c4c6c923ce357bfe0ed444.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f207a70987f6191588421f35ff1a4a04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3c2b3ebba6542d4f5e78f927ae5230ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -155,7 +155,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="register" data-csv="data/alumni.csv" data-kind="history" data-programme="!Economics, Statistics and Data Science">
 <p><a href="data/alumni.csv">Download the data (CSV)</a></p>
 </div>
-<script src="../assets/register.js"></script>
+<script>
+// load the table script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/register.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>
 <p><em>Last updated October 2026. Corrections and missing positions are welcome: the data live in <a href="https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/alumni.csv"><code>phd/data/alumni.csv</code></a>.</em></p>
 
 

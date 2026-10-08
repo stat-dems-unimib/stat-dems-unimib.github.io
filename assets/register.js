@@ -30,8 +30,15 @@
     return m ? `${esc(m[1])} <span class="affil">(${esc(m[2])})</span>` : esc(s.trim());
   };
   const people = v => v ? v.split(';').map(person).join('<br>') : na;
-  const CHIPS = { 'Academia': 'academia', 'Postdoc': 'postdoc', 'Research institute': 'research', 'Industry': 'industry' };
-  const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s]}">${esc(s)}</span>` : '';
+  // sector value in the CSV -> [label shown, chip style]
+  const CHIPS = {
+    'Academia': ['Academia', 'academia'],
+    'Academia (adjunct)': ['Academia', 'academia-light'],
+    'Postdoc': ['Postdoc', 'postdoc'],
+    'Research institute': ['Research institute', 'research'],
+    'Industry': ['Industry', 'industry']
+  };
+  const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s][1]}">${esc(CHIPS[s][0])}</span>` : '';
   const position = r => r.position
     ? chip(r.sector) + '<br>' + esc(r.position)
     : na;
@@ -57,7 +64,7 @@
   async function init(el, k) {
     const kind = KINDS[el.dataset.kind];
     let rows;
-    try { rows = parseCSV(await (await fetch(el.dataset.csv)).text()); }
+    try { rows = parseCSV(await (await fetch(el.dataset.csv, { cache: 'no-cache' })).text()); }
     catch (e) { el.innerHTML = `<p>The table could not be loaded. <a href="${el.dataset.csv}">Download the data (CSV)</a>.</p>`; return; }
     const pf = el.dataset.programme;
     if (pf) rows = rows.filter(r => pf.startsWith('!') ? r.programme !== pf.slice(1) : r.programme === pf);

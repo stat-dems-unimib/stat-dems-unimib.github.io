@@ -11,4 +11,7 @@ Students currently enrolled in the Statistics curriculum, with their supervisor,
 [Download the data (CSV)](data/students.csv)
 :::
 
-<script src="../assets/register.js"></script>
+<script>
+// load the table script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/register.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>

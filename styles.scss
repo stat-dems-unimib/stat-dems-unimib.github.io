@@ -67,7 +67,7 @@ table.register small { display: block; color: $stat-muted; font-size: .8rem; }
 table.register .na { color: #a0a0a0; }
 .chip { display: inline-block; font-family: $font-family-monospace; font-size: .64rem; letter-spacing: .04em; text-transform: uppercase; padding: .15rem .4rem; border-radius: 3px; margin-bottom: .2rem; }
 .chip-academia { background: $stat-yellow; color: $stat-ink; }
-.chip-postdoc { background: $stat-yellow-soft; color: $stat-gold; box-shadow: inset 0 0 0 1px $stat-yellow; }
+.chip-postdoc, .chip-academia-light { background: $stat-yellow-soft; color: $stat-gold; box-shadow: inset 0 0 0 1px $stat-yellow; }
 .chip-research { background: #fff; color: $stat-ink; box-shadow: inset 0 0 0 1px $stat-ink; }
 .chip-industry { background: $stat-ink; color: #fff; }
 // Same column widths for the two alumni tables, so they line up
