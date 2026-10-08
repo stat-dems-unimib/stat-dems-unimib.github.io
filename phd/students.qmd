@@ -5,7 +5,7 @@ toc: false
 page-layout: full
 ---
 
-Students currently enrolled in the Statistics curriculum, with their supervisor, co-supervisor and internal tutor. Past graduates are listed among the [PhD alumni](alumni.qmd).
+Students currently enrolled in the Statistics curriculum, with their supervisor, co-supervisor and internal tutor. Tutors are assigned during the first year and supervisors later on, so the most recent cycles are still incomplete. Past graduates are listed among the [PhD alumni](alumni.qmd).
 
 ::: {.register data-csv="data/students.csv" data-kind="students"}
 [Download the data (CSV)](data/students.csv)
