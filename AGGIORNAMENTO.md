@@ -28,6 +28,8 @@ Dopo ogni modifica: `quarto render`, poi commit (inclusa la cartella `docs/`) e 
 | `previous_position` | lasciare vuoto: si tiene solo la posizione attuale (colonna non mostrata sul sito) | |
 | `repository` | link alla tesi su BOA | `https://hdl.handle.net/10281/595381` |
 
+L'ordine delle righe nel CSV non conta: le tabelle sul sito mostrano ogni ciclo in ordine alfabetico per cognome. Il cognome è l'ultima parola del nome, con l'eventuale particella che la precede (De, Di, Del…); i cognomi composti senza particella (es. *Nai Ruscone*) vanno aggiunti alla lista `COMPOUND` in `assets/register.js`.
+
 Valori ammessi per `programme`:
 
 - `Economics, Statistics and Data Science` → tabella "Statistics curriculum, since cycle XXXIV"

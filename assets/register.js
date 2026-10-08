@@ -61,6 +61,20 @@
     }
   };
 
+  // Surname for sorting: last word, plus any preceding particle (De, Di, Del...).
+  // Compound surnames without a particle are listed explicitly.
+  const COMPOUND = ['Nai Ruscone'];
+  const PARTICLES = ['de', 'di', 'del', 'della', 'da', 'dal', 'dalla', 'van', 'von', 'la', 'lo'];
+  const surname = name => {
+    const c = COMPOUND.find(x => name.endsWith(' ' + x));
+    if (c) return c;
+    const w = name.trim().split(/\s+/);
+    let i = w.length - 1;
+    while (i > 1 && PARTICLES.includes(w[i - 1].toLowerCase())) i--;
+    return w.slice(i).join(' ');
+  };
+  const byName = (a, b) => (surname(a.name) + ' ' + a.name).localeCompare(surname(b.name) + ' ' + b.name, 'it', { sensitivity: 'base' });
+
   async function init(el, k) {
     const kind = KINDS[el.dataset.kind];
     let rows;
@@ -68,6 +82,7 @@
     catch (e) { el.innerHTML = `<p>The table could not be loaded. <a href="${el.dataset.csv}">Download the data (CSV)</a>.</p>`; return; }
     const pf = el.dataset.programme;
     if (pf) rows = rows.filter(r => pf.startsWith('!') ? r.programme !== pf.slice(1) : r.programme === pf);
+    rows.sort(byName);  // alphabetical by surname within each cycle
     const cycles = [...new Set(rows.map(r => r.cycle))].sort((a, b) => r2i(b) - r2i(a));
     const id = 'reg' + k;
     el.innerHTML = `<div class="register-tools">
