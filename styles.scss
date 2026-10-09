@@ -66,6 +66,7 @@ table.register td.name small { font-weight: 400; }
 table.register td.thesis { max-width: 320px; }
 table.register small { display: block; color: $stat-muted; font-size: .8rem; }
 table.register .na { color: #a0a0a0; }
+table.register .est { font-style: italic; }
 table.register .unknown { color: #c0392b; font-family: $font-family-monospace; font-size: .8rem; font-weight: 600; letter-spacing: .04em; }
 .chip { display: inline-block; font-family: $font-family-monospace; font-size: .64rem; letter-spacing: .04em; text-transform: uppercase; padding: .15rem .4rem; border-radius: 3px; margin-bottom: .2rem; }
 .chip-academia { background: $stat-yellow; color: $stat-ink; }
