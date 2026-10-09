@@ -3,6 +3,7 @@
 // phd-seminars.csv: date (YYYY-MM-DD), start (HH:MM), year (2, 3 or 4), room, building,
 // candidates (separated by ";", in presentation order). Past sessions are not shown.
 // Names are linked to the web page and supervisor listed in students.csv.
+// The calendar link appears only once the room is filled in.
 (function () {
   const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -65,7 +66,7 @@
           <p class="sem-where"><span><b>${hhmm(d)}–${hhmm(end(r))}</b></span><span>${esc(place(r))}</span></p>
           <ol class="phd-cands">${names(r).map(person).join('')}</ol>
           <p class="sem-meta">About ${slot} minutes per candidate, questions included. The order may change.</p>
-          <p class="sem-actions"><a href="${gcal(r)}" target="_blank" rel="noopener">Add to Google Calendar</a></p>
+          ${r.room ? `<p class="sem-actions"><a href="${gcal(r)}" target="_blank" rel="noopener">Add to Google Calendar</a></p>` : ''}
         </div>
       </article>`;
     }).join('');
