@@ -1,0 +1,18 @@
+---
+title: "Statistics seminars"
+subtitle: "DEMS seminar series in statistics, University of Milano-Bicocca"
+toc: false
+---
+
+Researchers from other universities present their work at Milano-Bicocca. Seminars are in English, last about an hour and are open to the whole Bicocca community, students included. **The room changes from one seminar to the next**: check it here before you go. Seminars in economics and management are listed in the [DEMS events calendar](https://dems.unimib.it/en/events-category/seminars/dems-seminars).
+
+::: {.seminars data-csv="data/seminars.csv"}
+[Download the list of seminars (CSV)](data/seminars.csv)
+:::
+
+<script>
+// load the script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/seminars.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>
+
+*Data in [`phd/data/seminars.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/seminars.csv). Seminars before 2022 are not listed yet.*
