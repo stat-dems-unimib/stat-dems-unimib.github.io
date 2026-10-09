@@ -2,7 +2,7 @@
 // Usage: <div class="phd-sessions" data-csv="data/phd-seminars.csv" data-students="data/students.csv"></div>
 // phd-seminars.csv: date (YYYY-MM-DD), start (HH:MM), year (2, 3 or 4), room, building,
 // candidates (separated by ";", in presentation order). Past sessions are not shown.
-// Names are linked to the web page and supervisor listed in students.csv.
+// Names are linked to the web page, supervisor and co-supervisor(s) listed in students.csv.
 // The calendar link appears only once the room is filled in.
 (function () {
   const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -50,7 +50,11 @@
     const person = n => {
       const s = people[n] || {};
       const name = s.website ? `<a href="${esc(s.website)}">${esc(n)}</a>` : esc(n);
-      const sup = s.supervisor && s.supervisor !== 'NA' ? ` <span class="affil">supervised by ${esc(s.supervisor.split(';')[0].trim())}</span>` : '';
+      // supervisor and co-supervisor(s), names only (affiliations dropped to keep the line short)
+      const sups = [s.supervisor, s.co_supervisor].flatMap(x => (x || '').split(';'))
+        .map(x => x.replace(/\s*\(.*?\)\s*/g, '').trim()).filter(x => x && x !== 'NA');
+      const list = sups.length > 1 ? sups.slice(0, -1).join(', ') + ' and ' + sups[sups.length - 1] : sups[0];
+      const sup = list ? ` <span class="affil">supervised by ${esc(list)}</span>` : '';
       return `<li><span class="sem-speaker">${name}</span>${sup}</li>`;
     };
     const now = new Date();
