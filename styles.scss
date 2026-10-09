@@ -47,6 +47,7 @@ body.home #quarto-content { min-height: 100vh; display: flex; align-items: cente
 .home-logo { width: 150px; height: 150px; border-radius: 50%; }
 .home-link { display: inline-block; margin-top: .5rem; padding: .55rem 1.1rem; border: 2px solid $stat-ink; border-radius: 999px; color: $stat-ink; text-decoration: none; font-family: $headings-font-family; font-weight: 600; font-size: 1.1rem; }
 .home-link:hover { background: $stat-yellow; color: $stat-ink; }
+.home-wip { display: inline-block; font-family: $font-family-monospace; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .55rem; border-radius: 3px; background: $stat-yellow-soft; color: $stat-gold; box-shadow: inset 0 0 0 1px $stat-yellow; }
 .home-small { margin-top: 1.5rem; font-size: .85rem; color: $stat-muted; line-height: 1.7; }
 
 // Registers (phd/alumni, phd/students)
