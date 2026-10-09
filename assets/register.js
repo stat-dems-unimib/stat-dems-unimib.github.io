@@ -42,7 +42,7 @@
   };
   const chip = s => CHIPS[s] ? `<span class="chip chip-${CHIPS[s][1]}">${esc(CHIPS[s][0])}</span>` : '';
   // sector chip, then the position; a sector without a position shows the chip alone
-  const position = r => r.position ? chip(r.sector) + '<br>' + esc(r.position)
+  const position = r => r.position ? (chip(r.sector) ? chip(r.sector) + '<br>' : '') + esc(r.position)
     : r.sector ? chip(r.sector) : unknown;
   // name, linked to the person's web page when the CSV gives one
   const nameLink = r => r.website ? `<a href="${esc(r.website)}">${esc(r.name)}</a>` : esc(r.name);
