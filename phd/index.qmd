@@ -9,7 +9,7 @@ These pages follow the people and the seminars of the Statistics curriculum. The
 ::: {.phd-links}
 [**Current PhD students**<br><span>Students enrolled in the Statistics curriculum, with supervisors and tutors</span>](students.qmd)
 
-[**PhD alumni**<br><span>Theses, supervision and current positions of our graduates since 2010</span>](alumni.qmd)
+[**PhD alumni**<br><span>Theses, supervision and current positions of our graduates</span>](alumni.qmd)
 
 [**Statistics Seminars**<br><span>Upcoming and past DEMS seminars in statistics, with rooms and times</span>](seminars.qmd)
 
