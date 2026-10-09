@@ -132,9 +132,22 @@ h3.sem-group span { color: $stat-muted; }
 }
 
 // PhD home (phd/index)
-.phd-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .8rem; margin: 1.5rem 0 2rem; }
+.phd-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: .8rem; margin: 1.5rem 0 2rem; }
 .phd-links p { margin: 0; display: flex; }
 .phd-links a { flex: 1; display: block; padding: .9rem 1rem; border: 1px solid #e3e3e3; border-top: 4px solid $stat-yellow; border-radius: 4px; color: $stat-ink; text-decoration: none; line-height: 1.35; }
 .phd-links a strong { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
 .phd-links a span { display: block; margin-top: .3rem; font-size: .88rem; color: $stat-muted; }
 .phd-links a:hover { border-color: $stat-ink; border-top-color: $stat-yellow; background: #fafafa; }
+
+// PhD Seminar Series (phd/phd-seminars)
+ol.phd-cands { margin: .3rem 0 .5rem; padding-left: 1.3rem; }
+ol.phd-cands li { margin: .15rem 0; }
+.phd-sessions h3.sem-title { margin-top: 0; }
+
+// Navbar: middle dots separate PhD Home | people pages | seminar pages (desktop only)
+@media (min-width: 992px) {
+  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/alumni.html"]),
+  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/seminars.html"]) { display: flex; align-items: center; }
+  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/alumni.html"])::before,
+  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/seminars.html"])::before { content: "·"; font-weight: 700; font-size: 1.8rem; line-height: 1; color: $stat-ink; opacity: .8; margin: 0 .4rem 0 .25rem; }
+}

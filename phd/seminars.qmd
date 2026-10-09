@@ -1,5 +1,5 @@
 ---
-title: "Statistics seminars"
+title: "Statistics Seminars"
 subtitle: "DEMS seminar series in statistics, University of Milano-Bicocca"
 toc: false
 ---
@@ -15,4 +15,4 @@ Researchers from other universities present their work at Milano-Bicocca. Semina
 (s => { s.src = '../assets/seminars.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
 </script>
 
-*Data in [`phd/data/seminars.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/seminars.csv). Seminars before 2022 are not listed yet.*
+*Data in [`phd/data/seminars.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/seminars.csv). Seminars before 2022 are not listed yet. Presentations by our PhD students are listed in the [PhD Seminar Series](phd-seminars.qmd).*

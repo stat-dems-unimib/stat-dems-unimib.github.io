@@ -22,14 +22,16 @@ website:
     logo-alt: "STAT_DEMS UNIMIB"
     title: "STAT_DEMS"
     left:
-      - text: "PhD"
+      - text: "PhD Home"
         href: phd/index.qmd
       - text: "PhD alumni"
         href: phd/alumni.qmd
       - text: "Current PhD students"
         href: phd/students.qmd
-      - text: "Seminars"
+      - text: "Statistics Seminars"
         href: phd/seminars.qmd
+      - text: "PhD Seminar Series"
+        href: phd/phd-seminars.qmd
     right:
       - icon: linkedin
         href: https://www.linkedin.com/company/statistica-dems-universit%C3%A0-milano-bicocca/

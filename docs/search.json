@@ -37,9 +37,9 @@
   {
     "objectID": "phd/seminars.html",
     "href": "phd/seminars.html",
-    "title": "Statistics seminars",
+    "title": "Statistics Seminars",
     "section": "",
-    "text": "Researchers from other universities present their work at Milano-Bicocca. Seminars are in English, last about an hour and are open to the whole Bicocca community, students included. The room changes from one seminar to the next: check it here before you go. Seminars in economics and management are listed in the DEMS events calendar.\n\nDownload the list of seminars (CSV)\n\n\nData in phd/data/seminars.csv. Seminars before 2022 are not listed yet."
+    "text": "Researchers from other universities present their work at Milano-Bicocca. Seminars are in English, last about an hour and are open to the whole Bicocca community, students included. The room changes from one seminar to the next: check it here before you go. Seminars in economics and management are listed in the DEMS events calendar.\n\nDownload the list of seminars (CSV)\n\n\nData in phd/data/seminars.csv. Seminars before 2022 are not listed yet. Presentations by our PhD students are listed in the PhD Seminar Series."
   },
   {
     "objectID": "phd/index.html",
@@ -54,5 +54,26 @@
     "title": "PhD in Statistics",
     "section": "Next seminar",
     "text": "Next seminar\n\nSee the seminars page"
+  },
+  {
+    "objectID": "phd/index.html#next-statistics-seminar",
+    "href": "phd/index.html#next-statistics-seminar",
+    "title": "PhD in Statistics",
+    "section": "Next statistics seminar",
+    "text": "Next statistics seminar\n\nSee the seminars page"
+  },
+  {
+    "objectID": "phd/phd-seminars.html",
+    "href": "phd/phd-seminars.html",
+    "title": "PhD Seminar Series",
+    "section": "",
+    "text": "Every September, PhD students in their second, third and fourth year present their research to the faculty and to the other students, one session per year of the programme. The series started in September 2026. Attendance is compulsory for the PhD students involved; supervisors, tutors and all colleagues are warmly invited. Online access is available on request for those on an official visiting period abroad.\nThe doctoral year ends on 31 October, so in September 2027 the second year is the cohort that enrolled in 2025/26."
+  },
+  {
+    "objectID": "phd/phd-seminars.html#september-2027",
+    "href": "phd/phd-seminars.html#september-2027",
+    "title": "PhD Seminar Series",
+    "section": "September 2027",
+    "text": "September 2027\n\nDownload the schedule (CSV)\n\n\nData in phd/data/phd-seminars.csv. For talks by visiting researchers, see the Statistics Seminars."
   }
 ]

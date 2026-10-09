@@ -14,12 +14,15 @@ phd/                 dottorato (English)
   index.qmd          home del PhD (/phd/): link alle pagine e prossimo seminario
   alumni.qmd         PhD alumni
   students.qmd       dottorandi in corso
-  seminars.qmd       seminari di statistica del DEMS (prossimi e passati, per anno accademico)
+  seminars.qmd       Statistics Seminars: seminari di statistica del DEMS (prossimi e passati, per anno accademico)
+  phd-seminars.qmd   PhD Seminar Series: presentazioni dei dottorandi a settembre (solo le sessioni future)
   data/alumni.csv    registro dei dottori di ricerca (anche dei dottorati precedenti, colonna `programme`)
   data/students.csv  dottorandi in corso
   data/seminars.csv  seminari: una riga per seminario
+  data/phd-seminars.csv  PhD Seminar Series: una riga per sessione (data, ora, anno 2/3/4, aula, candidati separati da `;`)
 assets/register.js   tabella ricercabile generata dai CSV
 assets/seminars.js   pagina dei seminari generata dal CSV
+assets/phd-seminars.js  sessioni della PhD Seminar Series (nomi collegati a students.csv)
 img/                 immagini e logo
 styles.scss          stile comune
 ```

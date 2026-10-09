@@ -1,0 +1,22 @@
+---
+title: "PhD Seminar Series"
+subtitle: "Research presentations by PhD students of the Statistics curriculum"
+toc: false
+---
+
+Every September, PhD students in their second, third and fourth year present their research to the faculty and to the other students, one session per year of the programme. The series started in September 2026. Attendance is compulsory for the PhD students involved; supervisors, tutors and all colleagues are warmly invited. Online access is available on request for those on an official visiting period abroad.
+
+The doctoral year ends on 31 October, so in September 2027 the second year is the cohort that enrolled in 2025/26.
+
+## September 2027
+
+::: {.phd-sessions data-csv="data/phd-seminars.csv" data-students="data/students.csv"}
+[Download the schedule (CSV)](data/phd-seminars.csv)
+:::
+
+<script>
+// load the script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/phd-seminars.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>
+
+*Data in [`phd/data/phd-seminars.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/phd-seminars.csv). For talks by visiting researchers, see the [Statistics Seminars](seminars.qmd).*
