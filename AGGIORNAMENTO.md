@@ -95,6 +95,7 @@ I campi "advisor" di BOA **non sono affidabili**: spesso mescolano tutor e super
 1. Si riportano le etichette del frontespizio: *Supervisor/Relatore* → `supervisor`; *Co-supervisor/Co-tutor/Correlatore/External supervisor* → `co_supervisor`; *Tutor* → `tutor`.
 2. Se ci sono due "Supervisors" alla pari, il primo va in `supervisor` e il secondo in `co_supervisor`. Se ci sono *Supervisor* e *Internal supervisor*, il primo è `supervisor` e l'interno è `co_supervisor`.
 3. Se il frontespizio indica solo un tutor, il tutor va anche in `supervisor`.
+   Eccezione per i primi cicli di *Statistica* (XV–XVI): se il frontespizio riporta solo "coordinatore" e "tutor", il coordinatore (Donata Marasini) è il `supervisor` e il tutor il `co_supervisor` (confermato da Sonia Migliorati per la tesi di Quatto). Se invece compare un "relatore", il coordinatore non va indicato.
 4. Se il frontespizio non indica nessuno (o il PDF non è leggibile), si usa il dato BOA e lo si considera provvisorio.
 
 Per i cicli XXXIV–XXXVI le pagine DEMS elencano già tutor e supervisori; quando ne indicano più di uno, il primo è il supervisore e gli altri i co-supervisori.
