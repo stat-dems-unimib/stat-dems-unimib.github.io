@@ -22,6 +22,8 @@ website:
     logo-alt: "STAT_DEMS UNIMIB"
     title: "STAT_DEMS"
     left:
+      - text: "PhD"
+        href: phd/index.qmd
       - text: "PhD alumni"
         href: phd/alumni.qmd
       - text: "Current PhD students"

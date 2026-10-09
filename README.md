@@ -11,7 +11,8 @@ index.qmd            home page minimale (italiano)
 bachelor/            laurea triennale SMLE (italiano) — per ora vuota
 master/              laurea magistrale CLAMSES, eventi (italiano) — per ora vuota
 phd/                 dottorato (English)
-  alumni.qmd         PhD alumni (anche /phd/ porta qui)
+  index.qmd          home del PhD (/phd/): link alle pagine e prossimo seminario
+  alumni.qmd         PhD alumni
   students.qmd       dottorandi in corso
   seminars.qmd       seminari di statistica del DEMS (prossimi e passati, per anno accademico)
   data/alumni.csv    registro dei dottori di ricerca (anche dei dottorati precedenti, colonna `programme`)

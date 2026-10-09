@@ -1,0 +1,26 @@
+---
+title: "PhD in Statistics"
+subtitle: "Statistics curriculum of the PhD in Economics, Statistics and Data Science, University of Milano-Bicocca"
+toc: false
+---
+
+These pages follow the people and the seminars of the Statistics curriculum. They complement the [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science), which remains the reference for admission, regulations, courses and deadlines.
+
+::: {.phd-links}
+[**Current PhD students**<br><span>Students enrolled in the Statistics curriculum, with supervisors and tutors</span>](students.qmd)
+
+[**PhD alumni**<br><span>Theses, supervision and current positions of our graduates since 2010</span>](alumni.qmd)
+
+[**Seminars**<br><span>Upcoming and past DEMS seminars in statistics, with rooms and times</span>](seminars.qmd)
+:::
+
+## Next seminar
+
+::: {.seminars data-csv="data/seminars.csv" data-mode="next"}
+[See the seminars page](seminars.qmd)
+:::
+
+<script>
+// load the script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/seminars.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>

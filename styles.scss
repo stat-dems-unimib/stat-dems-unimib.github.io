@@ -129,3 +129,11 @@ h3.sem-group span { color: $stat-muted; }
   .sem-rdate { flex-basis: auto; }
   .sem-rbody { padding-left: .7rem; }
 }
+
+// PhD home (phd/index)
+.phd-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .8rem; margin: 1.5rem 0 2rem; }
+.phd-links p { margin: 0; display: flex; }
+.phd-links a { flex: 1; display: block; padding: .9rem 1rem; border: 1px solid #e3e3e3; border-top: 4px solid $stat-yellow; border-radius: 4px; color: $stat-ink; text-decoration: none; line-height: 1.35; }
+.phd-links a strong { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
+.phd-links a span { display: block; margin-top: .3rem; font-size: .88rem; color: $stat-muted; }
+.phd-links a:hover { border-color: $stat-ink; border-top-color: $stat-yellow; background: #fafafa; }

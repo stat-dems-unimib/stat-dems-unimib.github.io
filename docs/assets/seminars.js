@@ -1,5 +1,6 @@
 // Seminar list built from a CSV file.
 // Usage: <div class="seminars" data-csv="data/seminars.csv"></div>
+// Add data-mode="next" to show only the next seminar.
 // Columns: date (YYYY-MM-DD), start, end (HH:MM), speaker, website, affiliation, title,
 // room, building, note, link, abstract (paragraphs separated by a blank line).
 // Seminars that have not ended yet go under "Upcoming"; the others are grouped
@@ -99,7 +100,9 @@
     const past = rows.filter(r => ends(r) < now).sort((a, b) => when(b) - when(a));
     const years = [...new Set(past.map(academicYear))];
 
-    el.innerHTML = `<h2 id="upcoming">Upcoming</h2>`
+    // data-mode="next": only the next seminar (used on the PhD home page)
+    if (el.dataset.mode === 'next') el.innerHTML = next.length ? card(next[0]) : '<p class="sem-none">No seminar is scheduled at the moment.</p>';
+    else el.innerHTML = `<h2 id="upcoming">Upcoming</h2>`
       + (next.length ? next.map(card).join('') : '<p class="sem-none">New seminars will be announced here.</p>')
       + `<h2 id="past">Past seminars</h2>`
       + years.map(y => {
