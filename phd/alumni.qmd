@@ -17,7 +17,7 @@ Graduates of the Statistics curriculum of the PhD in Economics, Statistics and D
 
 ## Earlier doctoral programmes
 
-Before 2018 doctoral training in statistics at Milano-Bicocca ran through other programmes: Statistics, Statistics and Applications, and Statistics and Mathematical Finance (statistics curriculum only). The list covers the theses deposited in the [BOA institutional repository](https://boa.unimib.it) from 2010 onwards. Supervision is taken from the title page of each thesis; where the title page names only a tutor, the tutor is listed as supervisor. Current positions in Italian universities come from the [MUR register of academic staff](https://cercauniversita.mur.gov.it); the others are still to be completed.
+Before 2018 doctoral training in statistics at Milano-Bicocca ran through other programmes: Methodological and Applied Statistics, Statistics, Statistics and Applications, and Statistics and Mathematical Finance (statistics curriculum only). The list covers the theses deposited in the [BOA institutional repository](https://boa.unimib.it): systematically from 2010 onwards, plus the few earlier ones found there. Supervision is taken from the title page of each thesis; where the title page names only a tutor, the tutor is listed as supervisor. Current positions in Italian universities come from the [MUR register of academic staff](https://cercauniversita.mur.gov.it); the others are still to be completed.
 
 ::: {.register data-csv="data/alumni.csv" data-kind="history" data-programme="!Economics, Statistics and Data Science"}
 [Download the data (CSV)](data/alumni.csv)

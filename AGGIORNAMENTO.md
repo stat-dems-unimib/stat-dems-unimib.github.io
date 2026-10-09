@@ -36,7 +36,7 @@ Celle vuote e `NA`: una cella vuota indica un dato che non esiste (nessun co-sup
 Valori ammessi per `programme`:
 
 - `Economics, Statistics and Data Science` → tabella "Statistics curriculum, since cycle XXXIV"
-- `Statistics`, `Statistics and Applications`, `Statistics and Mathematical Finance` → tabella "Earlier doctoral programmes"
+- `Methodological and Applied Statistics`, `Statistics`, `Statistics and Applications`, `Statistics and Mathematical Finance` → tabella "Earlier doctoral programmes"
 
 Lo storico include solo dottorati di statistica e affini; *Matematica per l'analisi dei mercati finanziari* è stato escluso di proposito. Di *Statistics and Mathematical Finance* si tiene solo il curriculum statistico: le tesi del curriculum finanza vanno escluse (il curriculum non compare su BOA, quindi va verificato caso per caso; nel 2026 Roberto Ascari ha indicato quali rimuovere: Daluiso, Ruffo, Colombo, Del Gusto, Gonzato, Brignone, Gambaro, Santangelo, Arduca, Bartesaghi, Canna, Kutrolli, Sonubi).
 
@@ -83,7 +83,7 @@ I link ai cicli successivi, quando ci saranno, sono in fondo alla [pagina del do
 - `"STATISTICA ED APPLICAZIONI"` → `Statistics and Applications`
 - `"STATISTICA E MATEMATICA PER LA FINANZA - 82R"` e `"STATISTICA E FINANZA MATEMATICA"` → `Statistics and Mathematical Finance`
 
-BOA contiene le tesi depositate dal 2010 circa; quelle precedenti non ci sono.
+La collezione *07 - Tesi di dottorato Bicocca post 2009* parte dal 2010. Le tesi precedenti, quando ci sono, stanno nella collezione *09 - Tesi di dottorato*, che però raccoglie soprattutto tesi discusse **in altri atenei** e caricate dai docenti tra le proprie pubblicazioni (es. Pennoni, Firenze; Zaccaria, Sapienza; Peluso, USI): il campo `dc.publisher.name` e la citazione automatica dicono spesso "Milano-Bicocca" anche quando non è vero, quindi l'ateneo va sempre verificato sul frontespizio. Nell'ottobre 2026 da questa collezione sono state aggiunte Radaelli (`STATISTICA METODOLOGICA ED APPLICATA`, ciclo XVI → `Methodological and Applied Statistics`) e Barbiano di Belgiojoso (`Statistica`, ciclo XXI); è stata esclusa la tesi di Vittadini (1987, precedente alla nascita di Bicocca).
 
 ### 2.2 Supervisore, co-supervisore e tutor
 

@@ -67,7 +67,7 @@
 
   // Surname for sorting: last word, plus any preceding particle (De, Di, Del...).
   // Compound surnames without a particle are listed explicitly.
-  const COMPOUND = ['Nai Ruscone'];
+  const COMPOUND = ['Nai Ruscone', 'Barbiano di Belgiojoso'];
   const PARTICLES = ['de', 'di', 'del', 'della', 'da', 'dal', 'dalla', 'van', 'von', 'la', 'lo'];
   const surname = name => {
     const c = COMPOUND.find(x => name.endsWith(' ' + x));
