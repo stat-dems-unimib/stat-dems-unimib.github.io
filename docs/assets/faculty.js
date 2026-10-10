@@ -1,6 +1,6 @@
 // Faculty list built from a CSV file, with a keyword filter.
 // Usage: <div class="faculty" data-csv="data/faculty.csv"></div>
-// Columns: name, category (Core Faculty | International Faculty), role, institution,
+// Columns: name, category (Faculty | International Faculty), role, institution,
 // department, ssd, keywords (separated by ";"), website, orcid, description.
 // A drop-down menu filters by research area (keyword) and a text box searches names,
 // institutions, keywords and descriptions. The area is kept in the URL (?k=Keyword),
@@ -24,10 +24,10 @@
     return rows.filter(r => r.length > 1).map(r => Object.fromEntries(head.map((k, i) => [k, (r[i] || '').trim()])));
   }
 
-  const SSD = { 'STAT-01/A': 'Statistics', 'STAT-02/A': 'Economic statistics', 'INFO-01/A': 'Computer science' };
-  const GROUPS = ['Core Faculty', 'International Faculty'];
+  const SSD = { 'STAT-01/A': 'Statistics', 'STAT-02/A': 'Economic statistics', 'INFO-01/A': 'Computer science', 'IINF-05/A': 'Information processing systems' };
+  const GROUPS = ['Faculty', 'International Faculty'];
   const NOTE = {
-    'Core Faculty': 'Statisticians of DEMS and the members of the doctoral committee based in Italy.',
+    'Faculty': '',
     'International Faculty': 'Members of the doctoral committee based abroad.'
   };
   const fold = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -75,7 +75,7 @@
         </div>`
         + GROUPS.map(g => {
           const list = rows.filter(r => r.category === g);
-          return list.length ? `<section class="fac-group" data-group="${esc(g)}"><h2 class="fac-h">${esc(g)}</h2><p class="fac-note">${esc(NOTE[g] || '')}</p>${list.map(person).join('')}<p class="fac-empty sem-none" hidden>No one in this group matches the selection.</p></section>` : '';
+          return list.length ? `<section class="fac-group" data-group="${esc(g)}"><h2 class="fac-h">${esc(g)}</h2>${NOTE[g] ? `<p class="fac-note">${esc(NOTE[g])}</p>` : ''}${list.map(person).join('')}<p class="fac-empty sem-none" hidden>No one in this group matches the selection.</p></section>` : '';
         }).join('');
 
       const select = el.querySelector('.fac-select');

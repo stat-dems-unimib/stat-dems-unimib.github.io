@@ -132,7 +132,7 @@ La pagina *Faculty* elenca le persone del curriculum di Statistica con keyword, 
 
 Chi c'è (ottobre 2026):
 
-- `Core Faculty`: docenti DEMS di STAT-01/A e STAT-02/A, Antonio Candelieri, e i membri del collegio dei curricula STAT e BIDAB con sede in Italia, esclusi i membri BIDAB non statistici (Bertoletti, Guerzoni, Manera, Naimzada, Mercorio, Cambria, Hecq, Tamburri).
+- `Faculty`: docenti DEMS di STAT-01/A e STAT-02/A, Antonio Candelieri, e i membri del collegio dei curricula STAT e BIDAB con sede in Italia, esclusi i membri BIDAB che non lavorano in statistica o data science (Bertoletti, Guerzoni, Manera, Naimzada, Cambria, Hecq, Tamburri). Fabio Mercorio (IINF-05/A, DISMEQ), escluso nella prima versione, è stato aggiunto: lavora in data science e IA, come Candelieri.
 - `International Faculty`: i membri STAT/BIDAB del collegio con sede all'estero.
 
 Esclusi di proposito: il curriculum ECO, i relatori esterni non presenti nelle due liste, assegnisti e ricercatori a contratto.
@@ -140,10 +140,10 @@ Esclusi di proposito: il curriculum ECO, i relatori esterni non presenti nelle d
 | colonna | contenuto |
 |---|---|
 | `name` | nome e cognome; il cognome è l'ultima parola e decide l'ordine e il link `#cognome` |
-| `category` | `Core Faculty` oppure `International Faculty` |
+| `category` | `Faculty` oppure `International Faculty` |
 | `role` | ruolo in inglese, con la corrispondenza MUR della sezione 2.4 |
 | `institution`, `department` | ateneo e dipartimento in inglese; se il dipartimento finisce con una sigla tra parentesi, es. `(DEMS)`, l'elenco mostra la sigla |
-| `ssd` | settore 2024 dal MUR (`STAT-01/A`, `STAT-02/A`, `INFO-01/A`); vuoto per CNR ed estero |
+| `ssd` | settore 2024 dal MUR (`STAT-01/A`, `STAT-02/A`, `INFO-01/A`, `IINF-05/A`); vuoto per CNR ed estero. Un settore nuovo va aggiunto anche alla tabella `SSD` in `assets/faculty.js`, che ne mostra il nome |
 | `keywords` | 2-5 keyword separate da `;`, prese dal vocabolario comune qui sotto |
 | `website` | stesse regole degli alumni: sito personale se aggiornato, altrimenti pagina istituzionale; mai LinkedIn, ResearchGate, Scholar |
 | `orcid` | solo il codice, es. `0000-0002-9224-543X` |
@@ -152,7 +152,7 @@ Esclusi di proposito: il curriculum ECO, i relatori esterni non presenti nelle d
 
 **Keyword.** Il filtro funziona solo se tutti usano le stesse parole: prima di inventarne una nuova, controllare se ne esiste già una adatta, ed evitare keyword con una sola persona (meglio accorparle a un'area più ampia) e aree che rischiano di essere divisive, cioè di stabilire chi ne fa parte e chi no (per questo è stata tolta *Probability*). Vocabolario attuale (22 aree, 1-5 per persona; sul sito le keyword di ciascuno sono in ordine alfabetico): Bayesian methods; Bayesian nonparametrics; Business and marketing analytics; Clustering and mixture models; Compositional and bounded data; Computational statistics; Design of experiments; Environment and energy; Functional data analysis; Graphical models and causal inference; Health and biostatistics; Industrial statistics and reliability; Inequality, labour and education; Latent variable models; Machine learning and optimization; Robust statistics; Spatial and spatio-temporal statistics; Statistical ecology; Statistical inference and testing; Survey methods and composite indicators; Time series and econometrics; Transport and road safety.
 
-**Fonti.** Ruolo, ateneo, struttura e SSD vengono dalla banca dati MUR. Keyword e descrizioni vengono, quando c'è, dalla descrizione che la persona dà di sé: sito personale, biografia sulla pagina di ateneo (Bicocca, Cattolica tramite `docenti.unicatt.it`), CV (Argiento), profilo istituzionale (internazionali). Chi non ha un testo del genere (colonna `source` = `publications`) ha keyword e descrizione ricavate dalle pubblicazioni dal 2015 su [OpenAlex](https://openalex.org): sono bozze da far confermare. Quando qualcuno manda la propria descrizione, va sostituita e `source` diventa `own page`. I siti personali vengono dai profili ORCID o dalle pagine di ateneo e sono stati aperti uno per uno (ottobre 2026); quello di Nipoti (bernardonipoti.com) non risponde, per lui si usa la pagina di Bicocca.
+**Fonti.** Ruolo, ateneo, struttura e SSD vengono dalla banca dati MUR. Keyword e descrizioni vengono, quando c'è, dalla descrizione che la persona dà di sé: sito personale (Argiento, Mercorio, Nipoti tra gli ultimi), biografia sulla pagina di ateneo (Bicocca, Cattolica tramite `docenti.unicatt.it`), CV (Tommasi), profilo istituzionale (internazionali). Chi non ha un testo del genere (colonna `source` = `publications`) ha keyword e descrizione ricavate dalle pubblicazioni dal 2015 su [OpenAlex](https://openalex.org): sono bozze da far confermare. Quando qualcuno manda la propria descrizione, va sostituita e `source` diventa `own page`. I siti personali vengono dai profili ORCID o dalle pagine di ateneo e sono stati aperti uno per uno (ottobre 2026); quello di Nipoti (bernardonipoti.com) non risponde, per lui si usa la pagina di Bicocca.
 
 ---
 

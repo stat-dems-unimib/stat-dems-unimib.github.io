@@ -6,7 +6,7 @@ toc: false
 
 Who works on what among the people who supervise, teach and examine in the Statistics curriculum. The list includes:
 
-1. the statisticians who sit on the [doctoral committee](https://www.dems.unimib.it/en/node/1047) of the programme for the Statistics and BIDAB curricula;
+1. the members of the [doctoral committee](https://www.dems.unimib.it/en/node/1047) for the Statistics and BIDAB curricula working in statistics and data science;
 2. the statisticians of the Department of Economics, Management and Statistics (DEMS) with a permanent or tenure-track position.
 
 Keywords help students find possible supervisors and members of their committees; click a name for a short description and links.
