@@ -153,23 +153,14 @@ ol.phd-cands li { margin: .15rem 0; }
   .navbar-nav .nav-item:has(> a.nav-link[href$="phd/seminars.html"])::before { content: "·"; font-weight: 700; font-size: 1.8rem; line-height: 1; color: $stat-ink; opacity: .8; margin: 0 .4rem 0 .25rem; }
 }
 
-// Faculty (phd/faculty)
-.fac-help { margin: 1rem 0 .5rem; font-size: .95rem; }
-.fac-cloud { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .6rem; }
-.fac-kw, .fac-tag { font: inherit; cursor: pointer; border: 1px solid #d6d6d6; background: #fff; color: $stat-ink; border-radius: 999px; line-height: 1.3; }
-.fac-kw { font-size: .85rem; padding: .22rem .65rem; }
-.fac-kw span { font-family: $font-family-monospace; font-size: .72rem; color: $stat-muted; margin-left: .15rem; }
-.fac-kw:hover, .fac-tag:hover { border-color: $stat-ink; }
-.fac-kw.on, .fac-tag.on { background: $stat-yellow; border-color: $stat-yellow; color: $stat-ink; }
-.fac-kw.on span { color: $stat-ink; }
-.fac-kw:focus-visible, .fac-tag:focus-visible { outline: 2px solid $stat-ink; outline-offset: 1px; }
-.fac-status { font-size: .85rem; color: $stat-muted; margin: 0 0 1rem; }
-.fac-status a { margin-left: .5rem; }
+// Faculty (phd/faculty): filters reuse .register-tools
+.fac-tools select { flex: 0 1 22rem; }
+.fac-tools input { flex: 1 1 200px; }
 h2.fac-h { margin-top: 1.8rem; }
 .fac-note { font-size: .9rem; color: $stat-muted; margin-bottom: .4rem; }
 .fac-row { border-bottom: 1px solid #ececec; scroll-margin-top: 80px; }
 .fac-row:first-of-type { border-top: 1px solid #ececec; }
-.fac-row summary { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .25rem 1rem; padding: .6rem .7rem; list-style: none; cursor: pointer; color: $stat-ink; }
+.fac-row summary { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .1rem 1rem; padding: .6rem .7rem; list-style: none; cursor: pointer; color: $stat-ink; }
 .fac-row summary::-webkit-details-marker { display: none; }
 .fac-row summary:hover, .fac-row[open] summary { background: #fafafa; }
 .fac-main { min-width: 0; }
@@ -177,8 +168,10 @@ h2.fac-h { margin-top: 1.8rem; }
 .fac-role { display: block; font-size: .85rem; color: $stat-muted; }
 .fac-ssd { text-align: right; }
 .chip-ssd { background: #fff; color: $stat-muted; box-shadow: inset 0 0 0 1px #cfcfcf; }
-.fac-tags { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .25rem; }
-.fac-tag { font-size: .74rem; padding: .05rem .5rem; color: $stat-muted; }
+.fac-tags { grid-column: 1 / -1; font-size: .8rem; line-height: 1.5; color: #9a9a9a; }
+a.fac-tag { color: $stat-muted; text-decoration: none; }
+a.fac-tag:hover { color: $stat-ink; text-decoration: underline; text-decoration-color: $stat-yellow; }
+a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .fac-body { padding: .1rem .7rem .8rem; }
 .fac-body p { font-size: .93rem; line-height: 1.5; margin: 0 0 .4rem; }
 .fac-meta { font-size: .82rem !important; color: $stat-muted; }
