@@ -1,0 +1,18 @@
+---
+title: "Faculty"
+subtitle: "Statistics curriculum of the PhD in Economics, Statistics and Data Science, University of Milano-Bicocca"
+toc: false
+---
+
+Who works on what among the people who supervise, teach and examine in the Statistics curriculum. Keywords help students find possible supervisors and members of their committees. The official composition of the doctoral committee is on the [PhD programme website](https://www.dems.unimib.it/en/node/1047).
+
+::: {.faculty data-csv="data/faculty.csv"}
+[Download the list (CSV)](data/faculty.csv)
+:::
+
+<script>
+// load the script bypassing the browser cache, so updates show up at once
+(s => { s.src = '../assets/faculty.js?v=' + Date.now(); document.body.appendChild(s); })(document.createElement('script'));
+</script>
+
+*Keywords and descriptions are drafted from publication records ([OpenAlex](https://openalex.org)) and may be incomplete: corrections are welcome. Roles and disciplinary sectors of Italian faculty come from the [MUR register of academic staff](https://cercauniversita.mur.gov.it). Data in [`phd/data/faculty.csv`](https://github.com/stat-dems-unimib/stat-dems-unimib.github.io/blob/main/phd/data/faculty.csv).*

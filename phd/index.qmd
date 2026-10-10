@@ -7,6 +7,8 @@ toc: false
 These pages follow the people and the seminars of the Statistics curriculum. They complement the [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science), which remains the reference for admission, regulations, courses and deadlines.
 
 ::: {.phd-links}
+[**Faculty**<br><span>Who works on what: keywords, research interests and links</span>](faculty.qmd)
+
 [**Current PhD students**<br><span>Students enrolled in the Statistics curriculum, with supervisors and tutors</span>](students.qmd)
 
 [**PhD alumni**<br><span>Theses, supervision and current positions of our graduates</span>](alumni.qmd)

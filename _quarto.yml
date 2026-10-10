@@ -24,6 +24,8 @@ website:
     left:
       - text: "PhD Home"
         href: phd/index.qmd
+      - text: "Faculty"
+        href: phd/faculty.qmd
       - text: "PhD alumni"
         href: phd/alumni.qmd
       - text: "Current PhD students"

@@ -1,9 +1,10 @@
 # Aggiornare le pagine del PhD
 
-Questa guida spiega da dove vengono i dati delle pagine *PhD alumni* e *Current PhD students* e come aggiornarli. Tutti i dati stanno in due file CSV; il sito si limita a leggerli.
+Questa guida spiega da dove vengono i dati delle pagine *PhD alumni*, *Current PhD students* e *Faculty* e come aggiornarli. Tutti i dati stanno in file CSV; il sito si limita a leggerli.
 
 - `phd/data/alumni.csv`: dottori di ricerca (dal ciclo XXXIV e storico completo dalla fondazione di Bicocca)
 - `phd/data/students.csv`: dottorandi in corso
+- `phd/data/faculty.csv`: docenti del curriculum, con keyword e descrizioni (sezione 2.5)
 
 Dopo ogni modifica: `quarto render`, poi commit (inclusa la cartella `docs/`) e push.
 
@@ -124,6 +125,33 @@ Corrispondenza dei ruoli MUR:
 | Ricercatore a t.d. L.79/2022 | `Tenure-track Assistant Professor (RTT)` |
 
 Gli assegnisti non compaiono nella banca dati MUR: per loro serve il profilo di ateneo (`Research fellow`).
+
+### 2.5 Faculty (`phd/data/faculty.csv`)
+
+La pagina *Faculty* elenca le persone del curriculum di Statistica con keyword, settore, dipartimento e una breve descrizione. Si filtra per keyword (una persona compare se ha almeno una delle keyword scelte) e la selezione resta nell'URL, quindi si può condividere: `faculty.html?k=Bayesian%20nonparametrics`. Ogni persona ha anche un link diretto: `faculty.html#rigon`.
+
+Chi c'è (ottobre 2026):
+
+- `Core Faculty`: docenti DEMS di STAT-01/A e STAT-02/A, Antonio Candelieri, e i membri del collegio dei curricula STAT e BIDAB con sede in Italia, esclusi i membri BIDAB non statistici (Bertoletti, Guerzoni, Manera, Naimzada, Mercorio, Cambria, Hecq, Tamburri).
+- `International Faculty`: i membri STAT/BIDAB del collegio con sede all'estero.
+
+Esclusi di proposito: il curriculum ECO, i relatori esterni non presenti nelle due liste, assegnisti e ricercatori a contratto.
+
+| colonna | contenuto |
+|---|---|
+| `name` | nome e cognome; il cognome è l'ultima parola e decide l'ordine e il link `#cognome` |
+| `category` | `Core Faculty` oppure `International Faculty` |
+| `role` | ruolo in inglese, con la corrispondenza MUR della sezione 2.4 |
+| `institution`, `department` | ateneo e dipartimento in inglese; se il dipartimento finisce con una sigla tra parentesi, es. `(DEMS)`, l'elenco mostra la sigla |
+| `ssd` | settore 2024 dal MUR (`STAT-01/A`, `STAT-02/A`, `INFO-01/A`); vuoto per CNR ed estero |
+| `keywords` | 2-5 keyword separate da `;`, prese dal vocabolario comune qui sotto |
+| `website` | stesse regole degli alumni: sito personale se aggiornato, altrimenti pagina istituzionale; mai LinkedIn, ResearchGate, Scholar |
+| `orcid` | solo il codice, es. `0000-0002-9224-543X` |
+| `description` | una o due frasi in inglese, in terza persona ("Works on ...") |
+
+**Keyword.** Il filtro funziona solo se tutti usano le stesse parole: prima di inventarne una nuova, controllare se ne esiste già una adatta. Vocabolario attuale: Bayesian methods; Bayesian nonparametrics; Big data; Biostatistics; Clustering and mixture models; Composite indicators; Compositional and bounded data; Computational statistics; Credit risk and finance; Customer satisfaction and marketing; Design of experiments; Econometrics; Energy markets; Environmental statistics; Foundations of inference; Functional data analysis; Graphical models and causal inference; Health policy and services; Hypothesis testing; Industrial statistics and reliability; Inequality and poverty; Labour market and education; Latent variable models; Longitudinal data; Machine learning; Network data; Optimization; Probability; Robust statistics; Spatial and spatio-temporal statistics; Statistical software; Survey methodology; Time series and forecasting; Transport and road safety.
+
+**Fonti della prima versione.** Ruolo, ateneo, struttura e SSD dalla banca dati MUR. Keyword e descrizioni ricavate dalle pubblicazioni dal 2015 in poi su [OpenAlex](https://openalex.org) (keyword e topic più frequenti per autore) e poi ricondotte al vocabolario comune: sono una bozza, da far rivedere a ciascuno. Siti personali dai profili ORCID, controllati uno per uno. Mancano ancora i link di Argiento, Bianchi, Cameletti (Bergamo) e di Castelletti, Deldossi, Paci, Peluso, Pini (Cattolica).
 
 ---
 
