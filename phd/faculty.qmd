@@ -4,7 +4,12 @@ subtitle: "Statistics curriculum of the PhD in Economics, Statistics and Data Sc
 toc: false
 ---
 
-Who works on what among the people who supervise, teach and examine in the Statistics curriculum. Keywords help students find possible supervisors and members of their committees. The official composition of the doctoral committee is on the [PhD programme website](https://www.dems.unimib.it/en/node/1047).
+Who works on what among the people who supervise, teach and examine in the Statistics curriculum. The list includes:
+
+1. the statisticians who sit on the [doctoral committee](https://www.dems.unimib.it/en/node/1047) of the programme for the Statistics and BIDAB curricula;
+2. the statisticians of the Department of Economics, Management and Statistics (DEMS) with a permanent or tenure-track position.
+
+Keywords help students find possible supervisors and members of their committees; click a name for a short description and links.
 
 ::: {.faculty data-csv="data/faculty.csv"}
 [Download the list (CSV)](data/faculty.csv)
