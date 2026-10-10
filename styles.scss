@@ -1,39 +1,55 @@
 /*-- scss:defaults --*/
-// Colours of the DEMS department website (dems.unimib.it): yellow #E5C200, text #3B3B3B.
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+// DEMS uses yellow #E5C200 and black for primary text; keep grey for secondary details.
+// The DEMS / Milano-Bicocca website uses PT Sans Narrow throughout its interface.
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
 $stat-yellow: #e5c200;
 $stat-yellow-soft: #fbf3c7;
-$stat-ink: #3b3b3b;
+$stat-ink: #000;
 $stat-gold: #6e5d00;   // darker DEMS yellow, readable for links on white
-$stat-muted: #5f6066;
+$stat-muted: #3b3b3b;
 
-$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
-$font-family-monospace: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+$font-family-sans-serif: "PT Sans Narrow", "Arial Narrow", Arial, sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$font-family-monospace: ui-monospace, Menlo, monospace;
 $font-size-root: 17px;
 $headings-font-weight: 600;
 
 $body-color: $stat-ink;
 $primary: $stat-ink;
-$link-color: $stat-gold;
-$navbar-bg: $stat-yellow;
+$link-color: $stat-ink;
+$navbar-bg: #fff;
 $navbar-fg: $stat-ink;
 $navbar-hl: $stat-ink;
 $footer-bg: #fafafa;
 
 /*-- scss:rules --*/
-h1, h2, h3, .navbar-title { letter-spacing: .01em; }
+h1, h2, h3, h4, h5, h6, .navbar-title { color: $stat-ink; letter-spacing: .01em; }
 .title { font-weight: 700; }
 .subtitle { color: $stat-muted; }
+#title-block-header h1.title::after { content: ""; display: block; width: 9rem; height: 5px; margin: .55rem 0 .8rem; background: $stat-yellow; }
 
-.navbar-title { font-family: $headings-font-family; font-weight: 700; }
-.navbar .nav-link { font-family: $headings-font-family; font-weight: 600; font-size: 1.05rem; }
-.navbar .nav-link.active { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; }
+#quarto-header .navbar { border-bottom: 1px solid #dedede; }
+.navbar-title { font-family: $headings-font-family; font-weight: 700; font-size: 1.2rem; }
+.navbar .nav-link { font-family: $headings-font-family; font-weight: 700; font-size: 1rem; color: $stat-ink; text-transform: uppercase; letter-spacing: .02em; padding: .7rem .65rem; white-space: nowrap; }
+.navbar .nav-link:hover, .navbar .nav-link:focus-visible { color: $stat-ink; background: $stat-yellow-soft; }
+.navbar .nav-link.active { color: $stat-ink; background: $stat-yellow; }
 .navbar-logo { max-height: 38px; border-radius: 50%; }
 
-a { text-decoration-color: rgba($stat-gold, .35); text-underline-offset: 3px; }
-a:hover { text-decoration-color: $stat-gold; }
+// Keep every destination visible on narrow screens instead of collapsing into a menu.
+@media (max-width: 991.98px) {
+  body.nav-fixed { padding-top: 112px; }
+  #quarto-header .navbar-container { flex-wrap: wrap; }
+  #quarto-header .navbar-brand-container { flex: 1 1 auto; }
+  #quarto-header .navbar-toggler { display: none; }
+  #quarto-header #navbarCollapse { display: flex !important; flex-basis: 100%; min-width: 0; overflow-x: auto; }
+  #quarto-header #navbarCollapse .navbar-nav { flex-direction: row; flex-wrap: nowrap; max-height: none; }
+  #quarto-header #navbarCollapse .navbar-nav.ms-auto { display: none; }
+}
+
+a { text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 3px; }
+a:focus-visible { outline: 2px solid $stat-yellow; outline-offset: 3px; }
 
 .sidebar-title { font-family: $headings-font-family; font-weight: 700; }
 .sidebar-item .active { font-weight: 600; box-shadow: inset 3px 0 0 $stat-yellow; padding-left: .4rem; }
@@ -47,7 +63,7 @@ body.home #quarto-content { min-height: 100vh; display: flex; align-items: cente
 .home-logo { width: 150px; height: 150px; border-radius: 50%; }
 .home-link { display: inline-block; margin-top: .5rem; padding: .55rem 1.1rem; border: 2px solid $stat-ink; border-radius: 999px; color: $stat-ink; text-decoration: none; font-family: $headings-font-family; font-weight: 600; font-size: 1.1rem; }
 .home-link:hover { background: $stat-yellow; color: $stat-ink; }
-.home-wip { display: inline-block; font-family: $font-family-monospace; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .55rem; border-radius: 3px; background: $stat-yellow-soft; color: $stat-gold; box-shadow: inset 0 0 0 1px $stat-yellow; }
+.home-wip { display: inline-block; font-family: $font-family-sans-serif; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .55rem; border-radius: 3px; background: $stat-yellow-soft; color: $stat-gold; box-shadow: inset 0 0 0 1px $stat-yellow; }
 .home-small { margin-top: 1.5rem; font-size: .85rem; color: $stat-muted; line-height: 1.7; }
 
 // Registers (phd/alumni, phd/students)
@@ -58,17 +74,17 @@ body.home #quarto-content { min-height: 100vh; display: flex; align-items: cente
 .register-tools .count { font-size: .85rem; color: $stat-muted; }
 .register-wrap { overflow-x: auto; border: 1px solid #e3e3e3; border-radius: 4px; }
 table.register { width: 100%; min-width: 900px; border-collapse: collapse; font-size: .9rem; margin: 0; }
-table.register th { position: sticky; top: 0; background: #fff; font-family: $font-family-monospace; font-weight: 500; font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; color: $stat-muted; text-align: left; padding: .6rem .7rem; border-bottom: 2px solid $stat-ink; white-space: nowrap; }
+table.register th { position: sticky; top: 0; background: #fff; font-family: $font-family-sans-serif; font-weight: 700; font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; color: $stat-ink; text-align: left; padding: .6rem .7rem; border-bottom: 2px solid $stat-ink; white-space: nowrap; }
 table.register td { padding: .55rem .7rem; border-bottom: 1px solid #ececec; vertical-align: top; line-height: 1.4; }
-table.register tr.group td { background: $stat-yellow-soft; font-family: $font-family-monospace; font-size: .74rem; letter-spacing: .06em; text-transform: uppercase; padding: .4rem .7rem; border-bottom: 1px solid #ecdc80; }
+table.register tr.group td { background: $stat-yellow-soft; font-family: $font-family-sans-serif; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; padding: .4rem .7rem; border-bottom: 1px solid #ecdc80; }
 table.register td.name { font-weight: 600; min-width: 11rem; max-width: 16rem; }
 table.register td.name small { font-weight: 400; }
 table.register td.thesis { max-width: 320px; }
 table.register small { display: block; color: $stat-muted; font-size: .8rem; }
-table.register .na { color: #a0a0a0; }
+table.register .na { color: $stat-muted; }
 table.register .est { font-style: italic; }
-table.register .unknown { color: #c0392b; font-family: $font-family-monospace; font-size: .8rem; font-weight: 600; letter-spacing: .04em; }
-.chip { display: inline-block; font-family: $font-family-monospace; font-size: .64rem; letter-spacing: .04em; text-transform: uppercase; padding: .15rem .4rem; border-radius: 3px; margin-bottom: .2rem; }
+table.register .unknown { color: #c0392b; font-family: $font-family-sans-serif; font-size: .8rem; font-weight: 700; letter-spacing: .04em; }
+.chip { display: inline-block; font-family: $font-family-sans-serif; font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; padding: .15rem .4rem; border-radius: 3px; margin-bottom: .2rem; }
 .chip-academia { background: $stat-yellow; color: $stat-ink; }
 .chip-postdoc, .chip-academia-light { background: $stat-yellow-soft; color: $stat-gold; box-shadow: inset 0 0 0 1px $stat-yellow; }
 .chip-research { background: #1f3a5f; color: #fff; }
@@ -83,11 +99,11 @@ table.register-alumni th:nth-child(4), table.register-history th:nth-child(4) { 
 table.register-alumni th:nth-child(5), table.register-history th:nth-child(5) { width: 20%; }
 table.register-alumni td.name, table.register-history td.name { min-width: 0; max-width: none; }
 table.register-alumni td.thesis, table.register-history td.thesis { max-width: none; }
-.affil { color: #9a9a9a; font-size: .85em; }
+.affil { color: $stat-muted; font-size: .85em; }
 
 // names linked to personal / institutional pages
 table.register td.name a { color: $stat-ink; font-weight: 600; text-decoration: underline; text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
-table.register td.name a:hover { text-decoration-color: $stat-gold; }
+table.register td.name a:hover { text-decoration-thickness: 3px; }
 
 // Seminars (phd/seminars)
 .seminars h2 { margin-top: 2rem; }
@@ -95,14 +111,14 @@ table.register td.name a:hover { text-decoration-color: $stat-gold; }
 .sem-card { display: flex; gap: 1.1rem; padding: 1rem 1.1rem; margin: 1rem 0; border: 1px solid #e3e3e3; border-left: 5px solid $stat-yellow; border-radius: 4px; background: #fff; scroll-margin-top: 80px; }
 .sem-date { flex: 0 0 5.2rem; display: flex; flex-direction: column; align-items: center; text-align: center; line-height: 1.1; padding-top: .15rem; }
 .sem-day { font-family: $headings-font-family; font-weight: 700; font-size: 2.3rem; }
-.sem-month { font-family: $font-family-monospace; font-size: .72rem; letter-spacing: .05em; text-transform: uppercase; }
+.sem-month { font-family: $font-family-sans-serif; font-size: .72rem; letter-spacing: .05em; text-transform: uppercase; }
 .sem-wday { font-size: .78rem; color: $stat-muted; margin-top: .2rem; }
 .sem-body { flex: 1; min-width: 0; }
 .sem-body p { margin: 0 0 .45rem; }
 .sem-who { font-size: .95rem; }
 .sem-speaker { font-weight: 600; }
 .sem-speaker a { color: $stat-ink; text-decoration: underline; text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
-.sem-speaker a:hover { text-decoration-color: $stat-gold; }
+.sem-speaker a:hover { text-decoration-thickness: 3px; }
 h3.sem-title { font-size: 1.25rem; margin: .1rem 0 .55rem; line-height: 1.25; }
 .sem-where { display: flex; flex-wrap: wrap; gap: .3rem 1rem; background: $stat-yellow-soft; padding: .35rem .6rem; border-radius: 3px; font-size: .95rem; }
 .sem-actions { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .88rem; }
@@ -110,14 +126,14 @@ h3.sem-title { font-size: 1.25rem; margin: .1rem 0 .55rem; line-height: 1.25; }
 .sem-abstract summary { font-size: .88rem; color: $stat-gold; }
 .sem-abstract p, .sem-rbody p { font-size: .93rem; line-height: 1.5; }
 .chip-note { background: #fff; color: $stat-muted; box-shadow: inset 0 0 0 1px #cfcfcf; vertical-align: middle; }
-h3.sem-group { font-family: $font-family-monospace; font-weight: 500; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; background: $stat-yellow-soft; border-bottom: 1px solid #ecdc80; padding: .45rem .7rem; margin: 1.6rem 0 0; }
+h3.sem-group { font-family: $font-family-sans-serif; font-weight: 700; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; background: $stat-yellow-soft; border-bottom: 1px solid #ecdc80; padding: .45rem .7rem; margin: 1.6rem 0 0; }
 h3.sem-group span { color: $stat-muted; }
 .sem-row { border-bottom: 1px solid #ececec; scroll-margin-top: 80px; }
 .sem-row summary { display: flex; gap: 1rem; padding: .55rem .7rem; list-style: none; color: $stat-ink; }
 .sem-row summary::-webkit-details-marker { display: none; }
 .sem-row summary:hover { background: #fafafa; }
 .sem-row[open] summary { background: #fafafa; }
-.sem-rdate { flex: 0 0 6.6rem; font-family: $font-family-monospace; font-size: .78rem; color: $stat-muted; padding-top: .15rem; }
+.sem-rdate { flex: 0 0 6.6rem; font-family: $font-family-sans-serif; font-size: .78rem; color: $stat-muted; padding-top: .15rem; }
 .sem-rmain { flex: 1; min-width: 0; font-size: .93rem; line-height: 1.4; }
 .sem-rtitle { display: block; }
 .sem-rbody { padding: .2rem .7rem .7rem 8.3rem; }
@@ -136,7 +152,7 @@ h3.sem-group span { color: $stat-muted; }
 .phd-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: .8rem; margin: 1.5rem 0 2rem; }
 .phd-links p { margin: 0; display: flex; }
 .phd-links a { flex: 1; display: block; padding: .9rem 1rem; border: 1px solid #e3e3e3; border-top: 4px solid $stat-yellow; border-radius: 4px; color: $stat-ink; text-decoration: none; line-height: 1.35; }
-.phd-links a strong { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
+.phd-links a strong { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; color: $stat-ink; }
 .phd-links a span { display: block; margin-top: .3rem; font-size: .88rem; color: $stat-muted; }
 .phd-links a:hover { border-color: $stat-ink; border-top-color: $stat-yellow; background: #fafafa; }
 
@@ -144,14 +160,6 @@ h3.sem-group span { color: $stat-muted; }
 ol.phd-cands { margin: .3rem 0 .5rem; padding-left: 1.3rem; }
 ol.phd-cands li { margin: .15rem 0; }
 .phd-sessions h3.sem-title { margin-top: 0; }
-
-// Navbar: middle dots separate PhD Home | people pages (faculty, alumni, students) | seminar pages (desktop only)
-@media (min-width: 992px) {
-  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/faculty.html"]),
-  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/seminars.html"]) { display: flex; align-items: center; }
-  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/faculty.html"])::before,
-  .navbar-nav .nav-item:has(> a.nav-link[href$="phd/seminars.html"])::before { content: "·"; font-weight: 700; font-size: 1.8rem; line-height: 1; color: $stat-ink; opacity: .8; margin: 0 .4rem 0 .25rem; }
-}
 
 // Faculty (phd/faculty): filters reuse .register-tools
 .fac-tools select { flex: 0 1 22rem; }
@@ -168,7 +176,7 @@ h2.fac-h { margin-top: 1.8rem; }
 .fac-role { display: block; font-size: .85rem; color: $stat-muted; }
 .fac-ssd { text-align: right; }
 .chip-ssd { background: #fff; color: $stat-muted; box-shadow: inset 0 0 0 1px #cfcfcf; }
-.fac-tags { grid-column: 1 / -1; font-size: .8rem; line-height: 1.5; color: #9a9a9a; }
+.fac-tags { grid-column: 1 / -1; font-size: .8rem; line-height: 1.5; color: $stat-muted; }
 a.fac-tag { color: $stat-muted; text-decoration: none; }
 a.fac-tag:hover { color: $stat-ink; text-decoration: underline; text-decoration-color: $stat-yellow; }
 a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
