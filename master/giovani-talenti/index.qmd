@@ -1,0 +1,117 @@
+---
+title: "Giovani Talenti"
+subtitle: "Programma di avvio alla ricerca per studentesse e studenti della laurea magistrale in Scienze Statistiche ed Economiche (CLAMSES)"
+toc: true
+body-classes: gt
+---
+
+Il programma *Giovani Talenti* (Young Talents) accompagna ogni anno fino a quattro studentesse e studenti particolarmente meritevoli della laurea magistrale in [Scienze Statistiche ed Economiche](https://www.unimib.it/magistrale/scienze-statistiche-economiche) (CLAMSES) nel secondo anno di corso, con l'obiettivo di avvicinarli alla ricerca scientifica in statistica, sia metodologica sia applicata. Il programma affianca il normale percorso di studi e lavora in sinergia con le attività di orientamento del [dottorato](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) del Dipartimento (ECOSTATDATA).
+
+Il programma è stato avviato nell'anno accademico 2024/2025 come progetto pilota del Dipartimento di Economia, Metodi Quantitativi e Strategie di Impresa (DEMS), nell'ambito del progetto *Dipartimento di Eccellenza 2023–2027*. È coordinato da [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) e [Tommaso Rigon](https://tommasorigon.github.io).
+
+::: {.gt-facts}
+[**4 borse di studio**<br><span>da 2.000 € ciascuna, assegnate per merito</span>]{}
+
+[**2 corsi elettivi**<br><span>di 15 ore ciascuno, attivati per il programma</span>]{}
+
+[**1 hackathon**<br><span>tra le attività di CLAMSES, 2 CFU</span>]{}
+
+[**1 scuola estiva**<br><span>a tema statistico, spese a carico del Dipartimento</span>]{}
+:::
+
+## Il programma
+
+Le attività si svolgono durante il secondo anno della laurea magistrale, da ottobre all'estate.
+
+- **Due corsi elettivi** di circa 15 ore ciascuno, attivati appositamente per il programma e tenuti da docenti del Dipartimento. Sono lezioni di approfondimento su temi di ricerca, in forma di *reading group*: chi partecipa studia articoli e capitoli di libri e li presenta in aula. Non è previsto un voto.
+- **Un hackathon** (data challenge), già previsto tra le attività formative di CLAMSES, che dà diritto a 2 CFU.
+- **Una scuola estiva** a tema statistico, in Italia o all'estero, scelta dagli studenti e approvata dai coordinatori del programma, di norma tra maggio e luglio. Le spese di partecipazione sono a carico del Dipartimento.
+
+A chi completa tutte le attività l'Ateneo riconosce l'open badge **«Giovani Talenti in Statistica e Data Science»**, approvato dal Presidio di Qualità nel 2026 e assegnato anche alle coorti degli anni precedenti. L'elenco degli open badge di Milano-Bicocca è sulla [pagina di Ateneo](https://www.unimib.it/studiare/opportunita-studio/open-badge-bicocca/altri-open-badge).
+
+## Ammissione
+
+Ogni anno il Dipartimento pubblica un bando per quattro borse di studio, riservato a chi è iscritto al primo anno di CLAMSES. Il riferimento è sempre il bando ufficiale, pubblicato sul [sito del DEMS](https://dems.unimib.it/it/news/bando-giovani-talenti-studenti-clamses); di seguito i requisiti e la procedura dell'edizione 2026/2027.
+
+**Requisiti**, da possedere alla scadenza del bando:
+
+- iscrizione al primo anno in corso di CLAMSES, come studente frequentante;
+- almeno 24 CFU superati nell'anno accademico in corso;
+- media ponderata non inferiore a 26/30.
+
+**Domanda.** Si presenta online, allegando il curriculum vitae con l'elenco degli esami sostenuti (triennale e magistrale), un'autocertificazione della media e dei CFU, un documento d'identità ed eventuale altra documentazione ritenuta rilevante (ad esempio pubblicazioni o partecipazione a conferenze).
+
+**Selezione.** Una commissione nominata dal Consiglio di Dipartimento valuta i curricula e la carriera del primo anno e ammette i candidati migliori a un colloquio con i coordinatori del programma. La graduatoria finale tiene conto di entrambe le fasi.
+
+| fase | periodo indicativo |
+|---|---|
+| Pubblicazione del bando | inizio luglio |
+| Scadenza delle domande | inizio agosto |
+| Valutazione dei titoli ed elenco degli ammessi al colloquio | fine agosto |
+| Colloquio e graduatoria finale | inizio settembre |
+| Inizio delle attività | ottobre |
+
+: {tbl-colwidths="[60,40]"}
+
+Nelle prime tre edizioni sono stati ammessi al colloquio nove candidati nel 2024, sette nel 2025 e otto nel 2026. Per informazioni sul programma ci si può rivolgere ai coordinatori.
+
+## Partecipanti
+
+| edizione | borsiste e borsisti |
+|---|---|
+| 2026/2027 | Emanuela Crovari · Mattia William D'Angelo · Giuseppe Grattacaso · Matteo Mascetti |
+| 2025/2026 | Stefano Andreoli · Leonardo Arrigoni · Michele Balsamo · Mattia Faini |
+| 2024/2025 | Alessandro Colello · Marco Nobili · Riccardo Pajno · Tommaso Pozzi |
+
+: {tbl-colwidths="[22,78]"}
+
+## Corsi erogati
+
+| edizione | corso | docente | periodo |
+|---|---|---|---|
+| 2025/2026 | *Processi di punto e relative applicazioni* | [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) | ottobre–dicembre 2025 |
+| 2025/2026 | *Statistica per dati areali* | [Andrea Gilardi](https://agila5.github.io/) | marzo–aprile 2026 |
+| 2024/2025 | *Processi di punto e relative applicazioni* | [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) | ottobre–dicembre 2024 |
+| 2024/2025 | *Bayesian Computations* | [Tommaso Rigon](https://tommasorigon.github.io) | marzo 2025 |
+
+: {tbl-colwidths="[16,40,22,22]"}
+
+I corsi dell'edizione 2026/2027 saranno indicati qui appena definito il calendario.
+
+## Scuole estive
+
+```{=html}
+<div class="ev-past gt-schools">
+<details class="sem-row" open><summary><span class="sem-rdate">2025/2026</span><span class="sem-rmain"><span class="sem-rtitle">Como · Firenze</span></span></summary>
+<div class="sem-rbody"><ul>
+<li><a href="https://abs26.imati.cnr.it/"><em>Interpretable Bayesian Learning for Physical and Engineering Sciences</em></a> (Applied Bayesian Statistics School, ABS26), IMATI-CNR, Villa del Grumello, Como, 6–10 luglio 2026: Leonardo Arrigoni, Michele Balsamo, Mattia Faini</li>
+<li><a href="https://datascience.unifi.it/eccellenzadisia/events/the-data-research-camp-2026/"><em>The Data Research Camp 2026</em></a>, DISIA e Florence Center for Data Science, Università di Firenze, 20–24 luglio 2026: Stefano Andreoli</li>
+</ul></div></details>
+<details class="sem-row" open><summary><span class="sem-rdate">2024/2025</span><span class="sem-rmain"><span class="sem-rtitle">Oslo · Rabat · Cumberland Lodge</span></span></summary>
+<div class="sem-rbody"><ul>
+<li><a href="https://prefstat.org"><em>PrefStat: Preference Statistics Summer School</em></a>, Università di Oslo (Norvegia), 30 giugno – 4 luglio 2025: Marco Nobili, Tommaso Pozzi</li>
+<li><em>Summer School on Spatial Econometrics</em>, Rabat (Marocco), 2–3 maggio 2025: Riccardo Pajno</li>
+<li><em>StatML and Bocconi Spring School: Computational Optimal Transport &amp; Statistical Learning with Missing Values</em>, Cumberland Lodge (Regno Unito), 7–11 aprile 2025: Alessandro Colello</li>
+</ul></div></details>
+</div>
+```
+
+## Dopo il programma
+
+Tutti i partecipanti della prima edizione si sono laureati in corso. Il programma è recente: la tabella riporta le posizioni note e viene aggiornata man mano che le coorti concludono gli studi.
+
+| nome | edizione | posizione attuale |
+|---|---|---|
+| Stefano Andreoli | 2025/2026 | [Dottorato]{.chip .chip-postdoc} PhD student in Statistical Science, Duke University (Stati Uniti) |
+| Alessandro Colello | 2024/2025 | [Dottorato]{.chip .chip-postdoc} PhD student in Statistics, University of Texas at Austin (Stati Uniti) |
+| Riccardo Pajno | 2024/2025 | [Dottorato]{.chip .chip-postdoc} Dottorando in Economics, Statistics and Data Science, Università di Milano-Bicocca ([dottorandi in corso](../../phd/students.qmd)) |
+| Marco Nobili | 2024/2025 | [Industria]{.chip .chip-industry} Data Scientist, McKinsey & Company (QuantumBlack, AI by McKinsey) |
+| Tommaso Pozzi | 2024/2025 | [Industria]{.chip .chip-industry} Data Scientist, settore energetico, Milano |
+
+: {tbl-colwidths="[22,14,64]"}
+
+## Contatti
+
+Per informazioni sul programma: [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) e [Tommaso Rigon](https://tommasorigon.github.io). Bando, scadenze e graduatorie ufficiali sono pubblicati sul [sito del DEMS](https://dems.unimib.it/it/news/bando-giovani-talenti-studenti-clamses), che resta il riferimento.
+
+*Chi pensa di proseguire con il dottorato può partecipare anche a [Statistical Minds](../../events/statistical-minds/index.qmd), l'incontro annuale di orientamento al dottorato in Statistica di Milano-Bicocca.*

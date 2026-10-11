@@ -12,7 +12,7 @@ Statistica al DEMS · Università degli Studi di Milano-Bicocca
 
 [Work in progress]{.home-wip}
 
-[PhD](phd/index.qmd){.home-link}
+[PhD](phd/index.qmd){.home-link} [Giovani Talenti](master/giovani-talenti/index.qmd){.home-link}
 
 ::: {.home-small}
 Siti ufficiali: [Statistica, Machine Learning ed Economia](https://www.unimib.it/triennale/statistica-machine-learning-economia) · [Scienze Statistiche ed Economiche](https://www.unimib.it/magistrale/scienze-statistiche-economiche) · [PhD ECOSTATDATA](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science)  

@@ -9,7 +9,10 @@ Sono pagine di **supporto**: non devono duplicare né sostituire i siti ufficial
 ```
 index.qmd            home page minimale (italiano)
 bachelor/            laurea triennale SMLE (italiano) — per ora vuota
-master/              laurea magistrale CLAMSES (italiano) — per ora vuota
+master/              laurea magistrale CLAMSES (italiano)
+  giovani-talenti/   programma Giovani Talenti (Young Talents) per studenti CLAMSES
+    index.qmd        pagina pubblica: programma, ammissione, partecipanti, corsi, scuole estive, placement
+    README.md        fonti e procedura di aggiornamento (non pubblicato sul sito)
 phd/                 dottorato (English)
   index.qmd          home del PhD (/phd/): link alle pagine e prossimo seminario
   alumni.qmd         PhD alumni
@@ -36,7 +39,7 @@ Le sezioni sono cartelle indipendenti. Ognuna ha un `_metadata.yml` per la lingu
 
 Ogni sezione può avere un template proprio: nel suo `_metadata.yml` si possono impostare `format: html:` con `theme`, `css`, `page-layout`, `toc`, ecc., che valgono solo per i file di quella cartella (ad esempio `events/` per le pagine degli eventi). La barra di navigazione in alto invece è comune a tutto il sito; se una sezione deve esserne del tutto indipendente, conviene farne un progetto Quarto separato.
 
-Per attivare `bachelor/` o `master/`: creare `_metadata.yml` con `lang: it`, le pagine `.qmd`, e aggiungere le voci nella `navbar` di `_quarto.yml`.
+Per attivare `bachelor/` (`master/` è già attiva): creare `_metadata.yml` con `lang: it`, le pagine `.qmd`, e aggiungere le voci nella `navbar` di `_quarto.yml`.
 
 ## Aggiornare il registro del PhD
 

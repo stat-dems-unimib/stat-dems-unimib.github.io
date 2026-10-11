@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Giovani Talenti – STAT_DEMS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/logo-stat-dems.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d05aa2444a6bb074f5bec4cc82d1b5ba.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0d06cf6a5ae033063d154431aed5c66c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare",
+    "search-label": "Ricerca"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed gt quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo-stat-dems.jpg" alt="STAT_DEMS UNIMIB" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">STAT_DEMS</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Ricerca"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Attiva/disattiva la navigazione" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../phd/index.html"> 
+<span class="menu-text">PhD Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../phd/faculty.html"> 
+<span class="menu-text">Faculty</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../phd/alumni.html"> 
+<span class="menu-text">PhD alumni</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../phd/students.html"> 
+<span class="menu-text">Current PhD students</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../phd/seminars.html"> 
+<span class="menu-text">Statistics Seminars</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../phd/phd-seminars.html"> 
+<span class="menu-text">PhD Seminar Series</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/statistica-dems-universit%C3%A0-milano-bicocca/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+   
+  <ul>
+  <li><a href="#il-programma" id="toc-il-programma" class="nav-link active" data-scroll-target="#il-programma">Il programma</a></li>
+  <li><a href="#ammissione" id="toc-ammissione" class="nav-link" data-scroll-target="#ammissione">Ammissione</a></li>
+  <li><a href="#partecipanti" id="toc-partecipanti" class="nav-link" data-scroll-target="#partecipanti">Partecipanti</a></li>
+  <li><a href="#corsi-erogati" id="toc-corsi-erogati" class="nav-link" data-scroll-target="#corsi-erogati">Corsi erogati</a></li>
+  <li><a href="#scuole-estive" id="toc-scuole-estive" class="nav-link" data-scroll-target="#scuole-estive">Scuole estive</a></li>
+  <li><a href="#dopo-il-programma" id="toc-dopo-il-programma" class="nav-link" data-scroll-target="#dopo-il-programma">Dopo il programma</a></li>
+  <li><a href="#contatti" id="toc-contatti" class="nav-link" data-scroll-target="#contatti">Contatti</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Giovani Talenti</h1>
+<p class="subtitle lead">Programma di avvio alla ricerca per studentesse e studenti della laurea magistrale in Scienze Statistiche ed Economiche (CLAMSES)</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Il programma <em>Giovani Talenti</em> (Young Talents) accompagna ogni anno fino a quattro studentesse e studenti particolarmente meritevoli della laurea magistrale in <a href="https://www.unimib.it/magistrale/scienze-statistiche-economiche">Scienze Statistiche ed Economiche</a> (CLAMSES) nel secondo anno di corso, con l’obiettivo di avvicinarli alla ricerca scientifica in statistica, sia metodologica sia applicata. Il programma affianca il normale percorso di studi e lavora in sinergia con le attività di orientamento del <a href="https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science">dottorato</a> del Dipartimento (ECOSTATDATA).</p>
+<p>Il programma è stato avviato nell’anno accademico 2024/2025 come progetto pilota del Dipartimento di Economia, Metodi Quantitativi e Strategie di Impresa (DEMS), nell’ambito del progetto <em>Dipartimento di Eccellenza 2023–2027</em>. È coordinato da <a href="https://sites.google.com/unimib.it/camerlenghi-federico/">Federico Camerlenghi</a> e <a href="https://tommasorigon.github.io">Tommaso Rigon</a>.</p>
+<div class="gt-facts">
+<p><span><strong>4 borse di studio</strong><br><span>da 2.000 € ciascuna, assegnate per merito</span></span></p>
+<p><span><strong>2 corsi elettivi</strong><br><span>di 15 ore ciascuno, attivati per il programma</span></span></p>
+<p><span><strong>1 hackathon</strong><br><span>tra le attività di CLAMSES, 2 CFU</span></span></p>
+<p><span><strong>1 scuola estiva</strong><br><span>a tema statistico, spese a carico del Dipartimento</span></span></p>
+</div>
+<section id="il-programma" class="level2">
+<h2 class="anchored" data-anchor-id="il-programma">Il programma</h2>
+<p>Le attività si svolgono durante il secondo anno della laurea magistrale, da ottobre all’estate.</p>
+<ul>
+<li><strong>Due corsi elettivi</strong> di circa 15 ore ciascuno, attivati appositamente per il programma e tenuti da docenti del Dipartimento. Sono lezioni di approfondimento su temi di ricerca, in forma di <em>reading group</em>: chi partecipa studia articoli e capitoli di libri e li presenta in aula. Non è previsto un voto.</li>
+<li><strong>Un hackathon</strong> (data challenge), già previsto tra le attività formative di CLAMSES, che dà diritto a 2 CFU.</li>
+<li><strong>Una scuola estiva</strong> a tema statistico, in Italia o all’estero, scelta dagli studenti e approvata dai coordinatori del programma, di norma tra maggio e luglio. Le spese di partecipazione sono a carico del Dipartimento.</li>
+</ul>
+<p>A chi completa tutte le attività l’Ateneo riconosce l’open badge <strong>«Giovani Talenti in Statistica e Data Science»</strong>, approvato dal Presidio di Qualità nel 2026 e assegnato anche alle coorti degli anni precedenti. L’elenco degli open badge di Milano-Bicocca è sulla <a href="https://www.unimib.it/studiare/opportunita-studio/open-badge-bicocca/altri-open-badge">pagina di Ateneo</a>.</p>
+</section>
+<section id="ammissione" class="level2">
+<h2 class="anchored" data-anchor-id="ammissione">Ammissione</h2>
+<p>Ogni anno il Dipartimento pubblica un bando per quattro borse di studio, riservato a chi è iscritto al primo anno di CLAMSES. Il riferimento è sempre il bando ufficiale, pubblicato sul <a href="https://dems.unimib.it/it/news/bando-giovani-talenti-studenti-clamses">sito del DEMS</a>; di seguito i requisiti e la procedura dell’edizione 2026/2027.</p>
+<p><strong>Requisiti</strong>, da possedere alla scadenza del bando:</p>
+<ul>
+<li>iscrizione al primo anno in corso di CLAMSES, come studente frequentante;</li>
+<li>almeno 24 CFU superati nell’anno accademico in corso;</li>
+<li>media ponderata non inferiore a 26/30.</li>
+</ul>
+<p><strong>Domanda.</strong> Si presenta online, allegando il curriculum vitae con l’elenco degli esami sostenuti (triennale e magistrale), un’autocertificazione della media e dei CFU, un documento d’identità ed eventuale altra documentazione ritenuta rilevante (ad esempio pubblicazioni o partecipazione a conferenze).</p>
+<p><strong>Selezione.</strong> Una commissione nominata dal Consiglio di Dipartimento valuta i curricula e la carriera del primo anno e ammette i candidati migliori a un colloquio con i coordinatori del programma. La graduatoria finale tiene conto di entrambe le fasi.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 60%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>fase</th>
+<th>periodo indicativo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pubblicazione del bando</td>
+<td>inizio luglio</td>
+</tr>
+<tr class="even">
+<td>Scadenza delle domande</td>
+<td>inizio agosto</td>
+</tr>
+<tr class="odd">
+<td>Valutazione dei titoli ed elenco degli ammessi al colloquio</td>
+<td>fine agosto</td>
+</tr>
+<tr class="even">
+<td>Colloquio e graduatoria finale</td>
+<td>inizio settembre</td>
+</tr>
+<tr class="odd">
+<td>Inizio delle attività</td>
+<td>ottobre</td>
+</tr>
+</tbody>
+</table>
+<p>Nelle prime tre edizioni sono stati ammessi al colloquio nove candidati nel 2024, sette nel 2025 e otto nel 2026. Per informazioni sul programma ci si può rivolgere ai coordinatori.</p>
+</section>
+<section id="partecipanti" class="level2">
+<h2 class="anchored" data-anchor-id="partecipanti">Partecipanti</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 78%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>edizione</th>
+<th>borsiste e borsisti</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2026/2027</td>
+<td>Emanuela Crovari · Mattia William D’Angelo · Giuseppe Grattacaso · Matteo Mascetti</td>
+</tr>
+<tr class="even">
+<td>2025/2026</td>
+<td>Stefano Andreoli · Leonardo Arrigoni · Michele Balsamo · Mattia Faini</td>
+</tr>
+<tr class="odd">
+<td>2024/2025</td>
+<td>Alessandro Colello · Marco Nobili · Riccardo Pajno · Tommaso Pozzi</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="corsi-erogati" class="level2">
+<h2 class="anchored" data-anchor-id="corsi-erogati">Corsi erogati</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>edizione</th>
+<th>corso</th>
+<th>docente</th>
+<th>periodo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2025/2026</td>
+<td><em>Processi di punto e relative applicazioni</em></td>
+<td><a href="https://sites.google.com/unimib.it/camerlenghi-federico/">Federico Camerlenghi</a></td>
+<td>ottobre–dicembre 2025</td>
+</tr>
+<tr class="even">
+<td>2025/2026</td>
+<td><em>Statistica per dati areali</em></td>
+<td><a href="https://agila5.github.io/">Andrea Gilardi</a></td>
+<td>marzo–aprile 2026</td>
+</tr>
+<tr class="odd">
+<td>2024/2025</td>
+<td><em>Processi di punto e relative applicazioni</em></td>
+<td><a href="https://sites.google.com/unimib.it/camerlenghi-federico/">Federico Camerlenghi</a></td>
+<td>ottobre–dicembre 2024</td>
+</tr>
+<tr class="even">
+<td>2024/2025</td>
+<td><em>Bayesian Computations</em></td>
+<td><a href="https://tommasorigon.github.io">Tommaso Rigon</a></td>
+<td>marzo 2025</td>
+</tr>
+</tbody>
+</table>
+<p>I corsi dell’edizione 2026/2027 saranno indicati qui appena definito il calendario.</p>
+</section>
+<section id="scuole-estive" class="level2">
+<h2 class="anchored" data-anchor-id="scuole-estive">Scuole estive</h2>
+<div class="ev-past gt-schools">
+<details class="sem-row" open=""><summary><span class="sem-rdate">2025/2026</span><span class="sem-rmain"><span class="sem-rtitle">Como · Firenze</span></span></summary>
+<div class="sem-rbody"><ul>
+<li><a href="https://abs26.imati.cnr.it/"><em>Interpretable Bayesian Learning for Physical and Engineering Sciences</em></a> (Applied Bayesian Statistics School, ABS26), IMATI-CNR, Villa del Grumello, Como, 6–10 luglio 2026: Leonardo Arrigoni, Michele Balsamo, Mattia Faini</li>
+<li><a href="https://datascience.unifi.it/eccellenzadisia/events/the-data-research-camp-2026/"><em>The Data Research Camp 2026</em></a>, DISIA e Florence Center for Data Science, Università di Firenze, 20–24 luglio 2026: Stefano Andreoli</li>
+</ul></div></details>
+<details class="sem-row" open=""><summary><span class="sem-rdate">2024/2025</span><span class="sem-rmain"><span class="sem-rtitle">Oslo · Rabat · Cumberland Lodge</span></span></summary>
+<div class="sem-rbody"><ul>
+<li><a href="https://prefstat.org"><em>PrefStat: Preference Statistics Summer School</em></a>, Università di Oslo (Norvegia), 30 giugno – 4 luglio 2025: Marco Nobili, Tommaso Pozzi</li>
+<li><em>Summer School on Spatial Econometrics</em>, Rabat (Marocco), 2–3 maggio 2025: Riccardo Pajno</li>
+<li><em>StatML and Bocconi Spring School: Computational Optimal Transport &amp; Statistical Learning with Missing Values</em>, Cumberland Lodge (Regno Unito), 7–11 aprile 2025: Alessandro Colello</li>
+</ul></div></details>
+</div>
+</section>
+<section id="dopo-il-programma" class="level2">
+<h2 class="anchored" data-anchor-id="dopo-il-programma">Dopo il programma</h2>
+<p>Tutti i partecipanti della prima edizione si sono laureati in corso. Il programma è recente: la tabella riporta le posizioni note e viene aggiornata man mano che le coorti concludono gli studi.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 14%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>nome</th>
+<th>edizione</th>
+<th>posizione attuale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stefano Andreoli</td>
+<td>2025/2026</td>
+<td><span class="chip chip-postdoc">Dottorato</span> PhD student in Statistical Science, Duke University (Stati Uniti)</td>
+</tr>
+<tr class="even">
+<td>Alessandro Colello</td>
+<td>2024/2025</td>
+<td><span class="chip chip-postdoc">Dottorato</span> PhD student in Statistics, University of Texas at Austin (Stati Uniti)</td>
+</tr>
+<tr class="odd">
+<td>Riccardo Pajno</td>
+<td>2024/2025</td>
+<td><span class="chip chip-postdoc">Dottorato</span> Dottorando in Economics, Statistics and Data Science, Università di Milano-Bicocca (<a href="../../phd/students.html">dottorandi in corso</a>)</td>
+</tr>
+<tr class="even">
+<td>Marco Nobili</td>
+<td>2024/2025</td>
+<td><span class="chip chip-industry">Industria</span> Data Scientist, McKinsey &amp; Company (QuantumBlack, AI by McKinsey)</td>
+</tr>
+<tr class="odd">
+<td>Tommaso Pozzi</td>
+<td>2024/2025</td>
+<td><span class="chip chip-industry">Industria</span> Data Scientist, settore energetico, Milano</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="contatti" class="level2">
+<h2 class="anchored" data-anchor-id="contatti">Contatti</h2>
+<p>Per informazioni sul programma: <a href="https://sites.google.com/unimib.it/camerlenghi-federico/">Federico Camerlenghi</a> e <a href="https://tommasorigon.github.io">Tommaso Rigon</a>. Bando, scadenze e graduatorie ufficiali sono pubblicati sul <a href="https://dems.unimib.it/it/news/bando-giovani-talenti-studenti-clamses">sito del DEMS</a>, che resta il riferimento.</p>
+<p><em>Chi pensa di proseguire con il dottorato può partecipare anche a <a href="../../events/statistical-minds/index.html">Statistical Minds</a>, l’incontro annuale di orientamento al dottorato in Statistica di Milano-Bicocca.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiato!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiato!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/stat-dems-unimib\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>DEMS · Università degli Studi di Milano-Bicocca</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/statistica-dems-universit%C3%A0-milano-bicocca/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

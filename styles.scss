@@ -194,3 +194,20 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 .ev-past details { margin-bottom: 0; }
 .ev-past ul { margin: .2rem 0 .3rem; padding-left: 1.2rem; }
 .ev-past li { margin: .15rem 0; font-size: .93rem; line-height: 1.45; }
+
+// Giovani Talenti (master/giovani-talenti)
+.gt-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; margin: 1.4rem 0 2rem; }
+.gt-facts p { margin: 0; display: flex; }
+.gt-facts p > span { flex: 1; display: block; padding: .85rem 1rem; border: 1px solid #e3e3e3; border-top: 4px solid $stat-yellow; border-radius: 4px; line-height: 1.35; }
+.gt-facts strong { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
+.gt-facts span span { display: block; margin-top: .3rem; font-size: .88rem; color: $stat-muted; }
+.gt-schools .sem-rbody { padding-left: 8.3rem; }
+@media (max-width: 767.98px) { .gt-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 576px) {
+  .gt-schools .sem-rbody { padding-left: .7rem; }
+  body.gt main table { font-size: .85rem; }
+  body.gt main table { display: block; overflow-x: auto; }
+  body.gt main table th, body.gt main table td { padding: .35rem .4rem; }
+  body.gt main table td:first-child { white-space: nowrap; }
+  body.gt main table td, body.gt main table a { word-break: normal; overflow-wrap: normal; hyphens: none; }
+}
