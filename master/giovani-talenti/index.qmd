@@ -42,16 +42,6 @@ Ogni anno il Dipartimento pubblica un bando per quattro borse di studio, riserva
 
 **Selezione.** Una commissione nominata dal Consiglio di Dipartimento valuta i curricula e la carriera del primo anno e ammette i candidati migliori a un colloquio. La graduatoria finale tiene conto di entrambe le fasi.
 
-| fase | periodo indicativo |
-|---|---|
-| Pubblicazione del bando | inizio luglio |
-| Scadenza delle domande | inizio agosto |
-| Valutazione dei titoli ed elenco degli ammessi al colloquio | fine agosto |
-| Colloquio e graduatoria finale | inizio settembre |
-| Inizio delle attività | ottobre |
-
-: {tbl-colwidths="[60,40]"}
-
 ## Partecipanti
 
 | edizione | borsiste e borsisti |
@@ -93,19 +83,6 @@ I corsi dell'edizione 2026/2027 saranno indicati qui appena definito il calendar
 </div>
 ```
 
-## Dopo il programma
-
-Tutti i partecipanti della prima edizione si sono laureati in corso. Il programma è recente: la tabella riporta le posizioni note e viene aggiornata man mano che le coorti concludono gli studi.
-
-| nome | edizione | posizione attuale |
-|---|---|---|
-| Stefano Andreoli | 2025/2026 | [Dottorato]{.chip .chip-postdoc} PhD student in Statistical Science, Duke University (Stati Uniti) |
-| Alessandro Colello | 2024/2025 | [Dottorato]{.chip .chip-postdoc} PhD student in Statistics, University of Texas at Austin (Stati Uniti) |
-| Riccardo Pajno | 2024/2025 | [Dottorato]{.chip .chip-postdoc} Dottorando in Economics, Statistics and Data Science, Università di Milano-Bicocca ([dottorandi in corso](../../phd/students.qmd)) |
-| Marco Nobili | 2024/2025 | [Industria]{.chip .chip-industry} Data Scientist, McKinsey & Company (QuantumBlack, AI by McKinsey) |
-| Tommaso Pozzi | 2024/2025 | [Industria]{.chip .chip-industry} Data Scientist, settore energetico, Milano |
-
-: {tbl-colwidths="[22,14,64]"}
 
 ## Contatti
 
