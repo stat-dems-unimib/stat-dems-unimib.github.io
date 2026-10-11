@@ -190,7 +190,7 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 .ev-next .sem-body ol { margin: .4rem 0 0; padding-left: 1.3rem; }
 .ev-next .sem-body ol li { margin: .2rem 0; font-size: .95rem; }
 .ev-next .sem-where { margin-bottom: .6rem; }
-.ev-past h3 { font-size: 1.15rem; margin: 1.5rem 0 .35rem; padding-bottom: .25rem; border-bottom: 1px solid #ececec; }
-.ev-past h3 .ev-when { font-weight: 400; color: $stat-muted; font-size: .95rem; }
-.ev-past ul { margin: 0 0 .5rem; padding-left: 1.2rem; }
-.ev-past li { margin: .15rem 0; font-size: .95rem; }
+.ev-past { border-top: 1px solid #ececec; margin-top: 1rem; }
+.ev-past details { margin-bottom: 0; }
+.ev-past ul { margin: .2rem 0 .3rem; padding-left: 1.2rem; }
+.ev-past li { margin: .15rem 0; font-size: .93rem; line-height: 1.45; }

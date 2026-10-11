@@ -46,32 +46,35 @@ La domanda di ammissione si può presentare anche prima di essersi laureati. Il 
 
 ## Edizioni precedenti
 
-::: {.ev-past}
-### 2026 [· giovedì 26 marzo, ore 16.30, aula U6-29]{.ev-when}
-
-- [Andrea Ongaro](https://en.unimib.it/andrea-ongaro), coordinatore della sezione di Statistica
-- [Laura Ferrini](https://lauraferrini.github.io/), dottoranda al secondo anno
-- [Tommaso Rigon](https://tommasorigon.github.io), docente del dottorato
-
-### 2025 [· venerdì 14 marzo, ore 16.00, aula U6-11]{.ev-when}
-
-- [Laura Ferrini](https://lauraferrini.github.io/), dottoranda al primo anno
-- [Tommaso Rigon](https://tommasorigon.github.io), docente del dottorato
-- [Andrea Ongaro](https://en.unimib.it/andrea-ongaro), coordinatore della sezione di Statistica, e [Matteo Manera](https://www.unimib.it/matteo-manera), coordinatore del dottorato
-
-### 2024 [· lunedì 25 marzo, ore 16.30, aula U6-11]{.ev-when}
-
-- [Matteo Manera](https://www.unimib.it/matteo-manera), coordinatore del dottorato
-- [Andrea Ongaro](https://en.unimib.it/andrea-ongaro), coordinatore della sezione di Statistica
-- [Tommaso Rigon](https://tommasorigon.github.io), docente del dottorato
-- [Alessandro Colombi](https://alessandrocolombi.github.io/) e [Luca Aiello](https://sites.google.com/view/luca-aiello), dottorandi
-
-### 2023 [· giovedì 23 marzo, ore 9.30, aula U6-21 · prima edizione]{.ev-when}
-
-- *Introduzione*: il dottorato, i corsi, i gruppi di ricerca e il bando, con [Andrea Ongaro](https://en.unimib.it/andrea-ongaro) e [Matteo Manera](https://www.unimib.it/matteo-manera)
-- *Scegliere la ricerca*: [Chiara Magnani](https://sites.google.com/campus.unimib.it/chiaragaiamagnani/home-page) e [Luca Presicce](https://lucapresicce.github.io/), dottorandi al secondo anno, e Claudia Sartirana, dottoranda executive al terzo anno, raccontano il loro percorso e la loro esperienza quotidiana
-- *Fare ricerca*: [Alessandro Colombi](https://alessandrocolombi.github.io/), al secondo anno, e [Francesco Barile](https://francescobarile.github.io/), al terzo anno, presentano in breve due progetti di ricerca
-:::
+```{=html}
+<div class="ev-past">
+<details class="sem-row" id="ed-2026"><summary><span class="sem-rdate">26 marzo 2026</span><span class="sem-rmain"><span class="sem-rtitle">Ongaro · Ferrini · Rigon</span></span></summary>
+<div class="sem-rbody"><p class="sem-meta">Giovedì, ore 16.30, aula U6-29</p><ul>
+<li><a href="https://en.unimib.it/andrea-ongaro">Andrea Ongaro</a>, coordinatore della sezione di Statistica</li>
+<li><a href="https://lauraferrini.github.io/">Laura Ferrini</a>, dottoranda al secondo anno</li>
+<li><a href="https://tommasorigon.github.io">Tommaso Rigon</a>, docente del dottorato</li>
+</ul></div></details>
+<details class="sem-row" id="ed-2025"><summary><span class="sem-rdate">14 marzo 2025</span><span class="sem-rmain"><span class="sem-rtitle">Ferrini · Rigon · Ongaro · Manera</span></span></summary>
+<div class="sem-rbody"><p class="sem-meta">Venerdì, ore 16.00, aula U6-11</p><ul>
+<li><a href="https://lauraferrini.github.io/">Laura Ferrini</a>, dottoranda al primo anno</li>
+<li><a href="https://tommasorigon.github.io">Tommaso Rigon</a>, docente del dottorato</li>
+<li><a href="https://en.unimib.it/andrea-ongaro">Andrea Ongaro</a>, coordinatore della sezione di Statistica, e <a href="https://www.unimib.it/matteo-manera">Matteo Manera</a>, coordinatore del dottorato</li>
+</ul></div></details>
+<details class="sem-row" id="ed-2024"><summary><span class="sem-rdate">25 marzo 2024</span><span class="sem-rmain"><span class="sem-rtitle">Manera · Ongaro · Rigon · Colombi · Aiello</span></span></summary>
+<div class="sem-rbody"><p class="sem-meta">Lunedì, ore 16.30, aula U6-11</p><ul>
+<li><a href="https://www.unimib.it/matteo-manera">Matteo Manera</a>, coordinatore del dottorato</li>
+<li><a href="https://en.unimib.it/andrea-ongaro">Andrea Ongaro</a>, coordinatore della sezione di Statistica</li>
+<li><a href="https://tommasorigon.github.io">Tommaso Rigon</a>, docente del dottorato</li>
+<li><a href="https://alessandrocolombi.github.io/">Alessandro Colombi</a> e <a href="https://sites.google.com/view/luca-aiello">Luca Aiello</a>, dottorandi</li>
+</ul></div></details>
+<details class="sem-row" id="ed-2023"><summary><span class="sem-rdate">23 marzo 2023</span><span class="sem-rmain"><span class="sem-rtitle">Prima edizione · Ongaro · Manera · cinque dottorandi</span></span></summary>
+<div class="sem-rbody"><p class="sem-meta">Giovedì, ore 9.30, aula U6-21</p><ul>
+<li><em>Introduzione</em>: il dottorato, i corsi, i gruppi di ricerca e il bando, con <a href="https://en.unimib.it/andrea-ongaro">Andrea Ongaro</a> e <a href="https://www.unimib.it/matteo-manera">Matteo Manera</a></li>
+<li><em>Scegliere la ricerca</em>: <a href="https://sites.google.com/campus.unimib.it/chiaragaiamagnani/home-page">Chiara Magnani</a> e <a href="https://lucapresicce.github.io/">Luca Presicce</a>, dottorandi al secondo anno, e Claudia Sartirana, dottoranda executive al terzo anno, raccontano il loro percorso e la loro esperienza quotidiana</li>
+<li><em>Fare ricerca</em>: <a href="https://alessandrocolombi.github.io/">Alessandro Colombi</a>, al secondo anno, e <a href="https://francescobarile.github.io/">Francesco Barile</a>, al terzo anno, presentano in breve due progetti di ricerca</li>
+</ul></div></details>
+</div>
+```
 
 ## Organizzazione
 
