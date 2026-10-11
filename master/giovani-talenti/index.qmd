@@ -52,18 +52,18 @@ Ogni anno il Dipartimento pubblica un bando per quattro borse di studio, riserva
 
 : {tbl-colwidths="[22,78]"}
 
-## Corsi erogati
+<!-- ## Corsi erogati -->
 
-| edizione | corso | docente | periodo |
-|---|---|---|---|
-| 2025/2026 | *Processi di punto e relative applicazioni* | [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) | ottobre–dicembre 2025 |
-| 2025/2026 | *Statistica per dati areali* | [Andrea Gilardi](https://agila5.github.io/) | marzo–aprile 2026 |
-| 2024/2025 | *Processi di punto e relative applicazioni* | [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) | ottobre–dicembre 2024 |
-| 2024/2025 | *Bayesian Computations* | [Tommaso Rigon](https://tommasorigon.github.io) | marzo 2025 |
+<!-- | edizione | corso | docente | periodo | -->
+<!-- |---|---|---|---| -->
+<!-- | 2025/2026 | *Processi di punto e relative applicazioni* | [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) | ottobre–dicembre 2025 | -->
+<!-- | 2025/2026 | *Statistica per dati areali* | [Andrea Gilardi](https://agila5.github.io/) | marzo–aprile 2026 | -->
+<!-- | 2024/2025 | *Processi di punto e relative applicazioni* | [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) | ottobre–dicembre 2024 | -->
+<!-- | 2024/2025 | *Bayesian Computations* | [Tommaso Rigon](https://tommasorigon.github.io) | marzo 2025 | -->
 
-: {tbl-colwidths="[16,40,22,22]"}
+<!-- : {tbl-colwidths="[16,40,22,22]"} -->
 
-I corsi dell'edizione 2026/2027 saranno indicati qui appena definito il calendario.
+<!-- I corsi dell'edizione 2026/2027 saranno indicati qui appena definito il calendario. -->
 
 ## Scuole estive
 
