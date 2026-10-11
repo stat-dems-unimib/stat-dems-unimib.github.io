@@ -13,8 +13,6 @@ These pages follow the people and the seminars of the Statistics curriculum. The
 
 [**PhD alumni**<br><span>Theses, supervision and current positions of our graduates</span>](alumni.qmd)
 
-[**Statistics Seminars**<br><span>Upcoming and past DEMS seminars in statistics, with rooms and times</span>](seminars.qmd)
-
 [**PhD Seminar Series**<br><span>Research presentations by our PhD students, every September</span>](phd-seminars.qmd)
 :::
 

@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6, .navbar-title { color: $stat-ink; letter-spacing: .01em;
 .navbar .nav-link:hover, .navbar .nav-link:focus-visible { color: $stat-ink; background: $stat-yellow-soft; }
 .navbar .nav-link.active { color: $stat-ink; background: $stat-yellow; }
 .navbar-logo { max-height: 38px; border-radius: 50%; }
+.navbar .dropdown-menu { margin-top: 0; padding: .25rem 0; border: 1px solid #dedede; border-top: 3px solid $stat-yellow; border-radius: 0 0 4px 4px; }
+.navbar .dropdown-item { font-family: $headings-font-family; font-size: .98rem; color: $stat-ink; padding: .4rem 1rem; }
+.navbar .dropdown-item:hover, .navbar .dropdown-item:focus-visible { color: $stat-ink; background: $stat-yellow-soft; }
+.navbar .dropdown-item.active, .navbar .dropdown-item:active { color: $stat-ink; background: $stat-yellow; }
 
 // Keep every destination visible on narrow screens instead of collapsing into a menu.
 @media (max-width: 991.98px) {
@@ -195,19 +199,11 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 .ev-past ul { margin: .2rem 0 .3rem; padding-left: 1.2rem; }
 .ev-past li { margin: .15rem 0; font-size: .93rem; line-height: 1.45; }
 
-// Giovani Talenti (master/giovani-talenti)
-.gt-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; margin: 1.4rem 0 2rem; }
-.gt-facts p { margin: 0; display: flex; }
-.gt-facts p > span { flex: 1; display: block; padding: .85rem 1rem; border: 1px solid #e3e3e3; border-top: 4px solid $stat-yellow; border-radius: 4px; line-height: 1.35; }
-.gt-facts strong { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
-.gt-facts span span { display: block; margin-top: .3rem; font-size: .88rem; color: $stat-muted; }
-.gt-schools .sem-rbody { padding-left: 8.3rem; }
-@media (max-width: 767.98px) { .gt-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+// Tabelle markdown su schermi stretti: scorrono in orizzontale invece di allargare la pagina
+// (le tabelle dei registri, .register, hanno regole proprie)
 @media (max-width: 576px) {
-  .gt-schools .sem-rbody { padding-left: .7rem; }
-  body.gt main table { font-size: .85rem; }
-  body.gt main table { display: block; overflow-x: auto; }
-  body.gt main table th, body.gt main table td { padding: .35rem .4rem; }
-  body.gt main table td:first-child { white-space: nowrap; }
-  body.gt main table td, body.gt main table a { word-break: normal; overflow-wrap: normal; hyphens: none; }
+  main table:not(.register) { display: block; overflow-x: auto; font-size: .85rem; }
+  main table:not(.register) th, main table:not(.register) td { padding: .35rem .4rem; }
+  main table:not(.register) td, main table:not(.register) a { word-break: normal; overflow-wrap: normal; }
+  main table:not(.register) td:first-child { white-space: nowrap; }
 }

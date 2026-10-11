@@ -1,0 +1,11 @@
+---
+title: "Laurea magistrale in Scienze Statistiche ed Economiche"
+subtitle: "CLAMSES · Università degli Studi di Milano-Bicocca"
+toc: false
+---
+
+Queste pagine raccolgono le iniziative del gruppo di Statistica del DEMS per chi studia nella laurea magistrale. Il riferimento per piano di studi, regolamento, orari e scadenze resta il [sito ufficiale del corso di laurea](https://www.unimib.it/magistrale/scienze-statistiche-economiche).
+
+::: {.phd-links}
+[**Giovani Talenti**<br><span>Programma di avvio alla ricerca per studentesse e studenti del secondo anno</span>](giovani-talenti/index.qmd)
+:::

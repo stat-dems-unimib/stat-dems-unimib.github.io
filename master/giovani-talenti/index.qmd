@@ -2,21 +2,20 @@
 title: "Giovani Talenti"
 subtitle: "Programma di avvio alla ricerca per studentesse e studenti della laurea magistrale in Scienze Statistiche ed Economiche (CLAMSES)"
 toc: true
-body-classes: gt
 ---
 
 Il programma *Giovani Talenti* (Young Talents) accompagna ogni anno fino a quattro studentesse e studenti particolarmente meritevoli della laurea magistrale in [Scienze Statistiche ed Economiche](https://www.unimib.it/magistrale/scienze-statistiche-economiche) (CLAMSES) nel secondo anno di corso, con l'obiettivo di avvicinarli alla ricerca scientifica in statistica, sia metodologica sia applicata. Il programma affianca il normale percorso di studi e lavora in sinergia con le attività di orientamento del [dottorato](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) del Dipartimento (ECOSTATDATA).
 
 Il programma è stato avviato nell'anno accademico 2024/2025 come progetto pilota del Dipartimento di Economia, Metodi Quantitativi e Strategie di Impresa (DEMS), nell'ambito del progetto *Dipartimento di Eccellenza 2023–2027*. È coordinato da [Federico Camerlenghi](https://sites.google.com/unimib.it/camerlenghi-federico/) e [Tommaso Rigon](https://tommasorigon.github.io).
 
-::: {.gt-facts}
-[**4 borse di studio**<br><span>da 2.000 € ciascuna, assegnate per merito</span>]{}
+::: {.phd-links}
+[**4 borse di studio**<br><span>da 2.000 € ciascuna, assegnate per merito</span>](#ammissione)
 
-[**2 corsi elettivi**<br><span>di 15 ore ciascuno, attivati per il programma</span>]{}
+[**2 corsi elettivi**<br><span>di 15 ore ciascuno, attivati per il programma</span>](#corsi-erogati)
 
-[**1 hackathon**<br><span>tra le attività di CLAMSES, 2 CFU</span>]{}
+[**1 hackathon**<br><span>tra le attività di CLAMSES, 2 CFU</span>](#il-programma)
 
-[**1 scuola estiva**<br><span>a tema statistico, spese a carico del Dipartimento</span>]{}
+[**1 scuola estiva**<br><span>a tema statistico, spese a carico del Dipartimento</span>](#scuole-estive)
 :::
 
 ## Il programma
@@ -41,7 +40,7 @@ Ogni anno il Dipartimento pubblica un bando per quattro borse di studio, riserva
 
 **Domanda.** Si presenta online, allegando il curriculum vitae con l'elenco degli esami sostenuti (triennale e magistrale), un'autocertificazione della media e dei CFU, un documento d'identità ed eventuale altra documentazione ritenuta rilevante (ad esempio pubblicazioni o partecipazione a conferenze).
 
-**Selezione.** Una commissione nominata dal Consiglio di Dipartimento valuta i curricula e la carriera del primo anno e ammette i candidati migliori a un colloquio con i coordinatori del programma. La graduatoria finale tiene conto di entrambe le fasi.
+**Selezione.** Una commissione nominata dal Consiglio di Dipartimento valuta i curricula e la carriera del primo anno e ammette i candidati migliori a un colloquio. La graduatoria finale tiene conto di entrambe le fasi.
 
 | fase | periodo indicativo |
 |---|---|
@@ -52,8 +51,6 @@ Ogni anno il Dipartimento pubblica un bando per quattro borse di studio, riserva
 | Inizio delle attività | ottobre |
 
 : {tbl-colwidths="[60,40]"}
-
-Nelle prime tre edizioni sono stati ammessi al colloquio nove candidati nel 2024, sette nel 2025 e otto nel 2026. Per informazioni sul programma ci si può rivolgere ai coordinatori.
 
 ## Partecipanti
 
@@ -81,7 +78,7 @@ I corsi dell'edizione 2026/2027 saranno indicati qui appena definito il calendar
 ## Scuole estive
 
 ```{=html}
-<div class="ev-past gt-schools">
+<div class="ev-past">
 <details class="sem-row" open><summary><span class="sem-rdate">2025/2026</span><span class="sem-rmain"><span class="sem-rtitle">Como · Firenze</span></span></summary>
 <div class="sem-rbody"><ul>
 <li><a href="https://abs26.imati.cnr.it/"><em>Interpretable Bayesian Learning for Physical and Engineering Sciences</em></a> (Applied Bayesian Statistics School, ABS26), IMATI-CNR, Villa del Grumello, Como, 6–10 luglio 2026: Leonardo Arrigoni, Michele Balsamo, Mattia Faini</li>

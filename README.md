@@ -10,6 +10,7 @@ Sono pagine di **supporto**: non devono duplicare né sostituire i siti ufficial
 index.qmd            home page minimale (italiano)
 bachelor/            laurea triennale SMLE (italiano) — per ora vuota
 master/              laurea magistrale CLAMSES (italiano)
+  index.qmd          home della sezione (/master/)
   giovani-talenti/   programma Giovani Talenti (Young Talents) per studenti CLAMSES
     index.qmd        pagina pubblica: programma, ammissione, partecipanti, corsi, scuole estive, placement
     README.md        fonti e procedura di aggiornamento (non pubblicato sul sito)
@@ -37,7 +38,7 @@ styles.scss          stile comune
 
 Le sezioni sono cartelle indipendenti. Ognuna ha un `_metadata.yml` per la lingua (`lang: it` oppure `lang: en`) e, se serve, per un proprio stile; le sue pagine si collegano dalla barra in alto (`navbar` in `_quarto.yml`).
 
-Ogni sezione può avere un template proprio: nel suo `_metadata.yml` si possono impostare `format: html:` con `theme`, `css`, `page-layout`, `toc`, ecc., che valgono solo per i file di quella cartella (ad esempio `events/` per le pagine degli eventi). La barra di navigazione in alto invece è comune a tutto il sito; se una sezione deve esserne del tutto indipendente, conviene farne un progetto Quarto separato.
+Ogni sezione può avere un template proprio: nel suo `_metadata.yml` si possono impostare `format: html:` con `theme`, `css`, `page-layout`, `toc`, ecc., che valgono solo per i file di quella cartella (ad esempio `events/` per le pagine degli eventi). La barra di navigazione in alto invece è comune a tutto il sito (Quarto non permette di cambiarla per cartella): ha una voce per sezione, e le sezioni con più pagine hanno un menu a tendina (come *PhD*); se una sezione deve esserne del tutto indipendente, conviene farne un progetto Quarto separato.
 
 Per attivare `bachelor/` (`master/` è già attiva): creare `_metadata.yml` con `lang: it`, le pagine `.qmd`, e aggiungere le voci nella `navbar` di `_quarto.yml`.
 
