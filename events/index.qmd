@@ -1,0 +1,11 @@
+---
+title: "Eventi"
+subtitle: "Iniziative organizzate dal gruppo di Statistica del DEMS"
+toc: false
+---
+
+Ogni evento ha una propria pagina, con l'edizione in programma e l'archivio delle edizioni precedenti.
+
+::: {.phd-links}
+[**Statistical Minds**<br><span>Orientamento al dottorato in Statistica: docenti, dottorande e dottorandi raccontano la ricerca. Ogni anno a marzo</span>](statistical-minds/index.qmd)
+:::

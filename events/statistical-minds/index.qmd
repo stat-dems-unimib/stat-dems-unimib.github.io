@@ -1,0 +1,80 @@
+---
+title: "Statistical Minds"
+subtitle: "La ricerca statistica raccontata da chi la fa · Evento di orientamento al dottorato in Statistica di Milano-Bicocca"
+toc: false
+---
+
+Statistical Minds è l'incontro annuale di orientamento al dottorato in Statistica di Milano-Bicocca, cioè al curriculum *Statistics* del dottorato in [Economics, Statistics and Data Science](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) (ECOSTATDATA). È pensato per dialogare, orientare e mettere in contatto chi vive la ricerca scientifica in prima persona, docenti, dottorande e dottorandi, con chi sta pensando di proseguire gli studi dopo la laurea magistrale.
+
+L'incontro è in italiano, è aperto a tutti, anche a chi studia in altri atenei, e non richiede prenotazione. Si tiene ogni anno a marzo, a ridosso dell'apertura del bando di ammissione, così da lasciare il tempo per preparare la domanda.
+
+## Edizione 2027
+
+::: {.sem-card .ev-next}
+::: {.sem-date}
+[2027]{.sem-day}
+
+[marzo]{.sem-month}
+
+[data da definire]{.sem-wday}
+:::
+
+::: {.sem-body}
+[Quinta edizione]{.chip .chip-postdoc}
+
+### Statistical Minds 2027 {.sem-title}
+
+::: {.sem-where}
+**Quando:** data da definire, ore 16.30 · **Dove:** aula da definire, Università di Milano-Bicocca
+:::
+
+La data, l'aula e gli interventi saranno pubblicati qui appena definiti. Il programma seguirà quello delle ultime edizioni:
+
+1. **L'esperienza del dottorato**, raccontata da una dottoranda o da un dottorando: perché questa scelta, com'è la giornata tipo, cosa cambia rispetto alla laurea magistrale.
+2. **Cosa vuol dire fare ricerca**: corsi, progetti, pubblicazioni, conferenze e vita accademica; per chi è adatto il dottorato e quali sono le difficoltà.
+3. **Il programma di dottorato e il bando**, presentati dai coordinatori: struttura, borse di studio, procedura di selezione.
+4. **Domande aperte** a docenti, dottorande e dottorandi presenti in aula.
+:::
+:::
+
+## A chi è rivolto
+
+- A studentesse e studenti della laurea magistrale in [Scienze Statistiche ed Economiche](https://www.unimib.it/magistrale/scienze-statistiche-economiche) (CLAMSES), del primo e del secondo anno: l'orario è scelto in una fascia senza lezioni.
+- A chi si è laureato o si sta laureando in statistica o in discipline affini, in Bicocca o in altri atenei.
+
+La domanda di ammissione si può presentare anche prima di essersi laureati. Il curriculum *Statistics* è pensato per chi ha solide basi di statistica metodologica e applicata; il progetto di ricerca da allegare alla domanda di solito riprende il lavoro della tesi magistrale, e la commissione guarda soprattutto alla capacità di esporre le idee in modo chiaro e organico. Bando, scadenze, borse e regolamento sono sul [sito ufficiale del dottorato](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science), che resta il riferimento.
+
+## Edizioni precedenti
+
+::: {.ev-past}
+### 2026 [· giovedì 26 marzo, ore 16.30, aula U6-29]{.ev-when}
+
+- [Andrea Ongaro](https://en.unimib.it/andrea-ongaro), coordinatore della sezione di Statistica
+- [Laura Ferrini](https://lauraferrini.github.io/), dottoranda al secondo anno
+- [Tommaso Rigon](https://tommasorigon.github.io), docente del dottorato
+
+### 2025 [· venerdì 14 marzo, ore 16.00, aula U6-11]{.ev-when}
+
+- [Laura Ferrini](https://lauraferrini.github.io/), dottoranda al primo anno
+- [Tommaso Rigon](https://tommasorigon.github.io), docente del dottorato
+- [Andrea Ongaro](https://en.unimib.it/andrea-ongaro), coordinatore della sezione di Statistica, e [Matteo Manera](https://www.unimib.it/matteo-manera), coordinatore del dottorato
+
+### 2024 [· lunedì 25 marzo, ore 16.30, aula U6-11]{.ev-when}
+
+- [Matteo Manera](https://www.unimib.it/matteo-manera), coordinatore del dottorato
+- [Andrea Ongaro](https://en.unimib.it/andrea-ongaro), coordinatore della sezione di Statistica
+- [Tommaso Rigon](https://tommasorigon.github.io), docente del dottorato
+- [Alessandro Colombi](https://alessandrocolombi.github.io/) e [Luca Aiello](https://sites.google.com/view/luca-aiello), dottorandi
+
+### 2023 [· giovedì 23 marzo, ore 9.30, aula U6-21 · prima edizione]{.ev-when}
+
+- *Introduzione*: il dottorato, i corsi, i gruppi di ricerca e il bando, con [Andrea Ongaro](https://en.unimib.it/andrea-ongaro) e [Matteo Manera](https://www.unimib.it/matteo-manera)
+- *Scegliere la ricerca*: [Chiara Magnani](https://sites.google.com/campus.unimib.it/chiaragaiamagnani/home-page) e [Luca Presicce](https://lucapresicce.github.io/), dottorandi al secondo anno, e Claudia Sartirana, dottoranda executive al terzo anno, raccontano il loro percorso e la loro esperienza quotidiana
+- *Fare ricerca*: [Alessandro Colombi](https://alessandrocolombi.github.io/), al secondo anno, e [Francesco Barile](https://francescobarile.github.io/), al terzo anno, presentano in breve due progetti di ricerca
+:::
+
+## Organizzazione
+
+Statistical Minds è organizzato da [Tommaso Rigon](https://tommasorigon.github.io) e [Roberto Ascari](https://robertoascari.github.io/), a cui ci si può rivolgere per informazioni sull'evento e sul dottorato in Statistica.
+
+*Le persone che hanno discusso la tesi nel frattempo sono tra i [PhD alumni](../../phd/alumni.qmd). Per i seminari dei dottorandi in corso vedi la [PhD Seminar Series](../../phd/phd-seminars.qmd).*

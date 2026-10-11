@@ -9,7 +9,7 @@ Sono pagine di **supporto**: non devono duplicare né sostituire i siti ufficial
 ```
 index.qmd            home page minimale (italiano)
 bachelor/            laurea triennale SMLE (italiano) — per ora vuota
-master/              laurea magistrale CLAMSES, eventi (italiano) — per ora vuota
+master/              laurea magistrale CLAMSES (italiano) — per ora vuota
 phd/                 dottorato (English)
   index.qmd          home del PhD (/phd/): link alle pagine e prossimo seminario
   alumni.qmd         PhD alumni
@@ -23,13 +23,18 @@ phd/                 dottorato (English)
 assets/register.js   tabella ricercabile generata dai CSV
 assets/seminars.js   pagina dei seminari generata dal CSV
 assets/phd-seminars.js  sessioni della PhD Seminar Series (nomi collegati a students.csv)
+events/              eventi (italiano): una cartella per evento o serie di eventi
+  index.qmd          elenco degli eventi (/events/)
+  statistical-minds/ Statistical Minds, orientamento al dottorato (marzo)
+    index.qmd        pagina pubblica: prossima edizione e archivio
+    README.md        note organizzative (non pubblicate sul sito)
 img/                 immagini e logo
 styles.scss          stile comune
 ```
 
 Le sezioni sono cartelle indipendenti. Ognuna ha un `_metadata.yml` per la lingua (`lang: it` oppure `lang: en`) e, se serve, per un proprio stile; le sue pagine si collegano dalla barra in alto (`navbar` in `_quarto.yml`).
 
-Ogni sezione può avere un template proprio: nel suo `_metadata.yml` si possono impostare `format: html:` con `theme`, `css`, `page-layout`, `toc`, ecc., che valgono solo per i file di quella cartella (ad esempio `master/` per le pagine degli eventi). La barra di navigazione in alto invece è comune a tutto il sito; se una sezione deve esserne del tutto indipendente, conviene farne un progetto Quarto separato.
+Ogni sezione può avere un template proprio: nel suo `_metadata.yml` si possono impostare `format: html:` con `theme`, `css`, `page-layout`, `toc`, ecc., che valgono solo per i file di quella cartella (ad esempio `events/` per le pagine degli eventi). La barra di navigazione in alto invece è comune a tutto il sito; se una sezione deve esserne del tutto indipendente, conviene farne un progetto Quarto separato.
 
 Per attivare `bachelor/` o `master/`: creare `_metadata.yml` con `lang: it`, le pagine `.qmd`, e aggiungere le voci nella `navbar` di `_quarto.yml`.
 
