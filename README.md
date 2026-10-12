@@ -15,10 +15,10 @@ master/              laurea magistrale CLAMSES (italiano)
     index.qmd        pagina pubblica: programma, ammissione, partecipanti, corsi, scuole estive, placement
     README.md        fonti e procedura di aggiornamento (non pubblicato sul sito)
 phd/                 dottorato (English)
-  index.qmd          home del PhD (/phd/): link alle pagine e prossimo seminario
+  index.qmd          home del PhD (/phd/): link alle pagine del PhD
   alumni.qmd         PhD alumni
   students.qmd       dottorandi in corso
-  seminars.qmd       Statistics Seminars: seminari di statistica del DEMS (prossimi e passati, per anno accademico)
+  seminars.qmd       Statistics Seminars: seminari di statistica del DEMS (prossimi e passati, per anno accademico); voce a sé nella barra in alto, non nel menu PhD
   phd-seminars.qmd   PhD Seminar Series: presentazioni dei dottorandi a settembre (solo le sessioni future)
   data/alumni.csv    registro dei dottori di ricerca (anche dei dottorati precedenti, colonna `programme`)
   data/students.csv  dottorandi in corso

@@ -22,7 +22,7 @@ Il programma è stato avviato nell'anno accademico 2024/2025 come progetto pilot
 
 Le attività si svolgono durante il secondo anno della laurea magistrale, da ottobre all'estate.
 
-- **Due corsi elettivi** di circa 15 ore ciascuno, attivati appositamente per il programma e tenuti da docenti del Dipartimento. Sono lezioni di approfondimento su temi di ricerca, in forma di *reading group*: chi partecipa studia articoli e capitoli di libri e li presenta in aula. Non è previsto un voto.
+- **Due corsi elettivi** di circa 15 ore ciascuno, attivati appositamente per il programma e tenuti da docenti del Dipartimento. Sono lezioni di approfondimento su temi di ricerca, che prevedono una partecipazione attiva da parte degli studenti. Non è previsto un voto.
 - **Un hackathon** (data challenge), già previsto tra le attività formative di CLAMSES, che dà diritto a 2 CFU.
 - **Una scuola estiva** a tema statistico, in Italia o all'estero, scelta dagli studenti e approvata dai coordinatori del programma, di norma tra maggio e luglio. Le spese di partecipazione sono a carico del Dipartimento.
 
