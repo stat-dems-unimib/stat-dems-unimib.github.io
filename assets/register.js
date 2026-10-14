@@ -46,7 +46,7 @@
     : r.sector ? chip(r.sector) : unknown;
   // name, linked to the person's web page when the CSV gives one
   const nameLink = r => r.website ? `<a href="${esc(r.website)}">${esc(r.name)}</a>` : esc(r.name);
-  const thesis = r => r.repository ? `<a href="${esc(r.repository)}">${esc(r.thesis)}</a>` : esc(r.thesis);
+  const thesis = r => !r.thesis || r.thesis === 'NA' ? unknown : r.repository ? `<a href="${esc(r.repository)}">${esc(r.thesis)}</a>` : esc(r.thesis);
   const graduate = {
     noun: ['graduate', 'graduates'],
     head: ['Name', 'Thesis', 'Supervisor', 'Co-supervisor', 'Current position'],
