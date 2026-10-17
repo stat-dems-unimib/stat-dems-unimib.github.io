@@ -4,6 +4,8 @@ subtitle: "Giornata di incontro tra università e aziende · Laurea magistrale i
 toc: false
 title-block-banner: images/campus-panorama.jpg
 title-block-banner-color: "#ffffff"
+resources:
+  - statistica-impresa-finanza-2027.ics
 ---
 
 :::: {#registrazione .ev-cta}
@@ -15,8 +17,12 @@ title-block-banner-color: "#ffffff"
 I posti sono limitati: per partecipare è necessario iscriversi tramite il modulo online. Il link sarà disponibile a breve su questa pagina.
 :::
 
+::: {.ev-cta-actions}
+[[]{.bi .bi-calendar-plus aria-hidden="true"} *Save the date*](statistica-impresa-finanza-2027.ics){.btn .ev-btn download="statistica-impresa-finanza-2027.ics"}
+
 <!-- Quando il modulo è pronto: [Iscriviti](https://forms.gle/...){.btn .ev-btn} -->
 [Iscrizioni a breve]{.btn .ev-btn .disabled}
+:::
 ::::
 
 :::: {.ev-split layout="[58,42]" layout-valign="center"}

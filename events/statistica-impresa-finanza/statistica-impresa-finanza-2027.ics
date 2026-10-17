@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//STAT_DEMS UNIMIB//Eventi//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:statistica-impresa-finanza-20270520@stat-dems-unimib.github.io
+DTSTAMP:20261017T132000Z
+DTSTART:20270520T080000Z
+DTEND:20270520T150000Z
+SUMMARY:Statistica e Data Science per l'Impresa e la Finanza
+LOCATION:Aula Martini\, Università di Milano-Bicocca\, Milano
+DESCRIPTION:Giornata di incontro tra università e aziende per la laurea magis
+ trale in Scienze Statistiche ed Economiche (Milano-Bicocca). Programma e is
+ crizioni: https://stat-dems-unimib.github.io/events/statistica-impresa-fina
+ nza/
+URL:https://stat-dems-unimib.github.io/events/statistica-impresa-finanza/
+END:VEVENT
+END:VCALENDAR
