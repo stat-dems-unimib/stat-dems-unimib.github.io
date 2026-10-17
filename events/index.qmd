@@ -8,4 +8,6 @@ Ogni evento ha una propria pagina, con l'edizione in programma e l'archivio dell
 
 ::: {.phd-links}
 [**Statistical Minds**<br><span>Orientamento al dottorato in Statistica: docenti, dottorande e dottorandi raccontano la ricerca. Ogni anno a marzo</span>](statistical-minds/index.qmd)
+
+[**Statistica e Data Science per l'Impresa e la Finanza**<br><span>Giornata di incontro tra università e aziende per gli studenti della laurea magistrale CLAMSES. Giovedì 20 maggio 2027</span>](statistica-impresa-finanza/index.qmd)
 :::

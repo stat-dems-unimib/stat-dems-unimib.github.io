@@ -22,12 +22,6 @@ website:
     logo-alt: "STAT_DEMS UNIMIB"
     title: "STAT_DEMS"
     left:
-      - text: "CLAMSES"
-        menu:
-          - text: "CLAMSES Home"
-            href: master/index.qmd
-          - text: "Giovani Talenti"
-            href: master/giovani-talenti/index.qmd
       - text: "PhD"
         menu:
           - text: "PhD Home"

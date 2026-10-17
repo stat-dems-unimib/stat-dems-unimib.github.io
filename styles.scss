@@ -207,3 +207,58 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
   main table:not(.register) td, main table:not(.register) a { word-break: normal; overflow-wrap: normal; }
   main table:not(.register) td:first-child { white-space: nowrap; }
 }
+
+// Event page components (events/): key facts strip and photo gallery
+.ev-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: .8rem; margin: 1.5rem 0 2rem; }
+.ev-facts > div { padding: .8rem 1rem; border: 1px solid #e3e3e3; border-top: 4px solid $stat-yellow; border-radius: 4px; line-height: 1.35; }
+.ev-facts .ev-k { display: block; font-family: $font-family-sans-serif; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: $stat-muted; margin-bottom: .25rem; }
+.ev-facts strong { display: block; font-family: $headings-font-family; font-size: 1.1rem; font-weight: 600; }
+.ev-facts .ev-s { display: block; margin-top: .2rem; font-size: .88rem; color: $stat-muted; }
+.ev-facts p { margin: 0; }
+.ev-lead { display: block; font-family: $headings-font-family; font-size: 1.3rem; line-height: 1.4; font-weight: 500; margin-bottom: .2rem; }
+.ev-split { margin: 1rem 0 1.5rem; }
+.ev-split .quarto-layout-row { gap: 1.6rem; }
+.ev-split .quarto-layout-cell { padding: 0 !important; margin: 0; }
+.ev-split .quarto-layout-cell > p { margin: 0 0 .9rem; }
+.ev-split .quarto-layout-cell > p:last-child { margin-bottom: 0; }
+.ev-split img { border-radius: 6px; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+.ev-split .quarto-figure, .ev-split figure { margin: 0; }
+@media (max-width: 767.98px) {
+  .ev-split .quarto-layout-row { flex-direction: column; }
+  .ev-split.ev-flip .quarto-layout-row { flex-direction: column-reverse; }
+  .ev-split .quarto-layout-cell { width: 100% !important; flex-basis: auto !important; }
+  .ev-split img { max-height: 320px; width: 100%; object-fit: cover; }
+}
+
+.ev-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; margin: 0 0 2.2rem; padding: 1.2rem 1.4rem; background: $stat-yellow-soft; border-left: 5px solid $stat-yellow; border-radius: 4px; scroll-margin-top: 80px; }
+.ev-cta > div { flex: 1 1 320px; }
+.ev-cta p { margin: 0 0 .35rem; }
+.ev-cta p:last-child { margin-bottom: 0; }
+.ev-cta .ev-k { font-family: $font-family-sans-serif; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: $stat-muted; }
+.ev-cta strong { font-family: $headings-font-family; font-size: 1.25rem; }
+.ev-btn { background: $stat-ink; color: #fff !important; border: 0; border-radius: 4px; padding: .65rem 1.4rem; font-weight: 600; text-decoration: none !important; white-space: nowrap; }
+.ev-btn:hover { background: $stat-yellow; color: $stat-ink !important; }
+.ev-btn.disabled { background: #fff; color: $stat-muted !important; border: 1px dashed $stat-muted; pointer-events: none; }
+
+// Photo strip at the end of event pages: horizontal scroll, the cut-off photo signals there is more
+.ev-gallery { position: relative; margin: 2.5rem 0 1rem; }
+.ev-strip { display: flex; gap: .7rem; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; padding-bottom: .6rem; scrollbar-width: thin; }
+.ev-strip > p, .ev-strip .quarto-figure { flex: 0 0 auto; margin: 0; scroll-snap-align: start; }
+.ev-strip img { display: block; height: 320px; width: auto; max-width: none; border-radius: 6px; cursor: zoom-in; transition: opacity .2s; }
+.ev-strip a:hover img { opacity: .85; }
+.ev-nav { position: absolute; top: calc(50% - .3rem); transform: translateY(-50%); width: 2.8rem; height: 2.8rem; border: 0; border-radius: 50%; background: rgba(255,255,255,.95); box-shadow: 0 2px 10px rgba(0,0,0,.25); cursor: pointer; z-index: 2; }
+.ev-nav::before { content: ""; position: absolute; inset: 0; margin: auto; width: .7rem; height: .7rem; border-top: 2.5px solid $stat-ink; border-right: 2.5px solid $stat-ink; }
+.ev-prev { left: -1.1rem; } .ev-prev::before { transform: translateX(15%) rotate(-135deg); }
+.ev-next-btn { right: -1.1rem; } .ev-next-btn::before { transform: translateX(-15%) rotate(45deg); }
+.ev-nav:hover { background: $stat-yellow; }
+.ev-nav:disabled { opacity: 0; pointer-events: none; }
+@media (max-width: 767.98px) {
+  .ev-strip img { height: 230px; }
+  .ev-prev { left: .3rem; } .ev-next-btn { right: .3rem; }
+}
+
+// Banner with photo: keep title and subtitle readable
+.quarto-title-banner { position: relative; background-position: center 72% !important; }
+.quarto-title-banner::before { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.55)); }
+.quarto-title-banner .quarto-title { position: relative; }
+.quarto-title-banner .subtitle, .quarto-title-banner .quarto-title .title { color: #fff; }
