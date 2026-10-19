@@ -102,7 +102,7 @@ Gli orari dei blocchi sono fissati. Relatori e aziende partecipanti saranno annu
 
 ## Organizzazione
 
-L'evento è organizzato da [Riccardo Borgoni](https://www.unimib.it/riccardo-borgoni), [Tommaso Rigon](https://tommasorigon.github.io), [Roberto Ascari](https://robertoascari.github.io/) e [Giorgia Zaccaria](https://giorgiazaccaria.github.io), a cui ci si può rivolgere per informazioni.
+L'evento è organizzato da [Roberto Ascari](https://robertoascari.github.io/), [Riccardo Borgoni](https://www.unimib.it/riccardo-borgoni), [Tommaso Rigon](https://tommasorigon.github.io) e [Giorgia Zaccaria](https://giorgiazaccaria.github.io), a cui ci si può rivolgere per informazioni.
 
 :::: {#galleria .ev-gallery .column-body-outset}
 ::: {.ev-strip}
