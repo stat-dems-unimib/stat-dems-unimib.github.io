@@ -18,7 +18,7 @@ I posti sono limitati: per partecipare è necessario iscriversi tramite il modul
 :::
 
 ::: {.ev-cta-actions}
-[[]{.bi .bi-calendar-plus aria-hidden="true"} *Save the date*](statistica-impresa-finanza-2027.ics){.btn .ev-btn download="statistica-impresa-finanza-2027.ics"}
+[[]{.bi .bi-calendar-plus aria-hidden="true"} Aggiungi al calendario](statistica-impresa-finanza-2027.ics){.btn .ev-btn download="statistica-impresa-finanza-2027.ics"}
 
 <!-- Quando il modulo è pronto: [Iscriviti](https://forms.gle/...){.btn .ev-btn} -->
 [Iscrizioni a breve]{.btn .ev-btn .disabled}
