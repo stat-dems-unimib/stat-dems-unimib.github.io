@@ -14,14 +14,13 @@ resources:
 
 **Evento gratuito, iscrizione obbligatoria**
 
-I posti sono limitati: per partecipare è necessario iscriversi tramite il modulo online. Il link sarà disponibile a breve su questa pagina.
+I posti sono limitati: per partecipare è necessario iscriversi tramite il [modulo online](https://forms.gle/E6Y3GA6wzYYPTAeaA).
 :::
 
 ::: {.ev-cta-actions}
 [[]{.bi .bi-calendar-plus aria-hidden="true"} Aggiungi al calendario](statistica-impresa-finanza-2027.ics){.btn .ev-btn download="statistica-impresa-finanza-2027.ics"}
 
-<!-- Quando il modulo è pronto: [Iscriviti](https://forms.gle/...){.btn .ev-btn} -->
-[Iscrizioni a breve]{.btn .ev-btn .disabled}
+[Iscriviti](https://forms.gle/E6Y3GA6wzYYPTAeaA){.btn .ev-btn}
 :::
 ::::
 
