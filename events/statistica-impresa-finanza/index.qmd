@@ -1,6 +1,6 @@
 ---
 title: "Statistica e Data Science per l'Impresa e la Finanza"
-subtitle: "Giornata di incontro tra università e aziende · Laurea magistrale in Scienze Statistiche ed Economiche"
+subtitle: "Giornata di incontro tra università e aziende · Corsi di laurea SSE e CLAMSES"
 toc: false
 title-block-banner: images/campus-panorama.jpg
 title-block-banner-color: "#ffffff"
@@ -26,7 +26,7 @@ I posti sono limitati: per partecipare è necessario iscriversi tramite il [modu
 
 :::: {.ev-split layout="[58,42]" layout-valign="center"}
 ::: {}
-[Una giornata di incontro tra studentesse e studenti della laurea magistrale in [Scienze Statistiche ed Economiche](https://www.unimib.it/magistrale/scienze-statistiche-economiche) (CLAMSES) e il mondo del lavoro.]{.ev-lead}
+[Una giornata di incontro tra studentesse e studenti dei corsi di laurea triennale (SSE) e magistrale ([CLAMSES](https://www.unimib.it/magistrale/scienze-statistiche-economiche)) in Scienze Statistiche ed Economiche e il mondo del lavoro.]{.ev-lead}
 
 Interverranno ex studenti e ex studentesse di Statistica a Bicocca che oggi lavorano in azienda, nell'impresa e nella finanza, insieme a manager e referenti di aziende che assumono statistici e data scientist.
 
@@ -46,7 +46,7 @@ L'obiettivo è duplice: offrire un orientamento concreto verso i segmenti qualif
 :::
 
 ::: {}
-[Per chi]{.ev-k} **Studenti e laureati CLAMSES**
+[Per chi]{.ev-k} **Studenti e laureati SSE e CLAMSES**
 :::
 
 ::: {}
@@ -60,7 +60,7 @@ L'obiettivo è duplice: offrire un orientamento concreto verso i segmenti qualif
 ![](images/aula.jpg){fig-alt="Un'aula del campus di Milano-Bicocca"}
 
 ::: {}
-Alle studentesse e agli studenti della laurea magistrale in Scienze Statistiche ed Economiche, in particolare a chi sta per laurearsi o sta scegliendo come orientare il proprio percorso dopo la laurea.
+Alle studentesse, agli studenti e ai laureati dei corsi di laurea triennale (SSE) e magistrale (CLAMSES) in Scienze Statistiche ed Economiche, in particolare a chi sta per laurearsi o sta scegliendo come orientare il proprio percorso dopo la laurea.
 
 La partecipazione è gratuita, ma i posti sono limitati e l'[iscrizione](#registrazione) è obbligatoria.
 :::
