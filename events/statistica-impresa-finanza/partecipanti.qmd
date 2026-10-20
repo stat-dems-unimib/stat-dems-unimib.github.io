@@ -1,0 +1,20 @@
+---
+title: "Partecipanti"
+subtitle: "Statistica e Data Science per l'Impresa e la Finanza · giovedì 20 maggio 2027"
+toc: false
+title-block-banner: images/campus-panorama.jpg
+title-block-banner-color: "#ffffff"
+---
+
+Organizzatori, speaker e partecipanti della giornata, in ordine alfabetico. L'elenco viene aggiornato man mano che le partecipazioni sono confermate.
+
+| Nome | Affiliazione | Ruolo |
+|---|---|---|
+| [Roberto Ascari](https://robertoascari.github.io/) | Università Milano-Bicocca | Organizzatore |
+| [Riccardo Borgoni](https://www.unimib.it/riccardo-borgoni) | Università Milano-Bicocca | Organizzatore |
+| [Marta Crispino](https://sites.google.com/site/crispinostat/) | Banca d'Italia | Speaker |
+| [Paolo Maranzano](https://www.paolomaranzano.net/) | Università Milano-Bicocca | Speaker |
+| [Tommaso Rigon](https://tommasorigon.github.io) | Università Milano-Bicocca | Organizzatore |
+| [Giorgia Zaccaria](https://giorgiazaccaria.github.io) | Università Milano-Bicocca | Organizzatrice |
+
+[← Torna alla pagina dell'evento](index.qmd)

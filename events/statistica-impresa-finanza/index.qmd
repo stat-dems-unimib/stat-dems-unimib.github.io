@@ -62,43 +62,126 @@ L'obiettivo è duplice: offrire un orientamento concreto verso i segmenti qualif
 ::: {}
 Alle studentesse e agli studenti della laurea magistrale in Scienze Statistiche ed Economiche, in particolare a chi sta per laurearsi o sta scegliendo come orientare il proprio percorso dopo la laurea.
 
-La partecipazione è gratuita, ma i posti sono limitati e l'[iscrizione](#registrazione) è obbligatoria.
+La partecipazione è gratuita, ma i posti sono limitati e l'[iscrizione](#registrazione) è obbligatoria. L'elenco di chi ha già confermato è nella pagina [Partecipanti](partecipanti.qmd).
 :::
 ::::
 
 ## Programma
 
-::: {.sem-card .ev-next}
-::: {.sem-date}
-[20]{.sem-day}
-
-[maggio]{.sem-month}
-
-[giovedì 2027]{.sem-wday}
-:::
-
-::: {.sem-body}
 [Programma provvisorio]{.chip .chip-note}
 
-### Orari della giornata {.sem-title}
+La giornata alterna interventi invitati, una sessione di short talk e una tavola rotonda conclusiva, con una pausa pranzo e due coffee break pensati anche come momenti di incontro. Gli orari dei blocchi sono fissati; relatori, titoli e abstract saranno aggiunti qui man mano che vengono confermati.
 
-La giornata alterna interventi invitati, una sessione di short talk e una tavola rotonda conclusiva, con una pausa pranzo e due coffee break pensati anche come momenti di incontro.
+:::: {.ev-prog}
+::: {.ev-slot}
+[10.00–10.05]{.ev-time}
 
-| Orario | |
-|---|---|
-| 10.00–10.05 | Saluti istituzionali e introduzione alla giornata |
-| 10.05–11.20 | **Interventi invitati**: due talk |
-| 11.20–11.45 | *Coffee break* |
-| 11.45–13.00 | **Short talk**: dodici interventi da 5 minuti |
-| 13.00–14.00 | *Pausa pranzo* |
-| 14.00–15.15 | **Interventi invitati**: due talk |
-| 15.15–15.45 | *Coffee break* |
-| 15.45–16.45 | **Tavola rotonda** |
-| 16.45–17.00 | Chiusura |
+Saluti istituzionali e introduzione alla giornata
+:::
 
-Gli orari dei blocchi sono fissati. Relatori e aziende partecipanti saranno annunciati qui man mano che gli interventi vengono confermati.
+::: {.ev-slot .ev-main}
+[10.05–11.20]{.ev-time}
+
+[Interventi invitati]{.ev-block}
+
+::: {.ev-talk}
+[[Marta Crispino](https://sites.google.com/site/crispinostat/)]{.ev-speaker} [Banca d'Italia]{.ev-aff}
+
+[Titolo in arrivo]{.ev-title .ev-tbd}
+
+<!-- Quando arrivano titolo e abstract: sostituire la riga sopra con
+[Titolo dell'intervento]{.ev-title}
+
+<details class="ev-abstract"><summary>Abstract</summary>
+
+Testo dell'abstract.
+
+</details>
+-->
+:::
+
+::: {.ev-talk}
+[[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [Università Milano-Bicocca]{.ev-aff}
+
+[Titolo in arrivo]{.ev-title .ev-tbd}
+
+<!-- Quando arrivano titolo e abstract: sostituire la riga sopra con
+[Titolo dell'intervento]{.ev-title}
+
+<details class="ev-abstract"><summary>Abstract</summary>
+
+Testo dell'abstract.
+
+</details>
+-->
 :::
 :::
+
+::: {.ev-slot .ev-break}
+[11.20–11.45]{.ev-time}
+
+*Coffee break*
+:::
+
+::: {.ev-slot .ev-main}
+[11.45–13.00]{.ev-time}
+
+[Short talk]{.ev-block}
+
+Dodici interventi da 5 minuti di ex studentesse e studenti che oggi lavorano in azienda. [Relatori in arrivo]{.ev-tbd}
+
+<!-- Quando arrivano i nomi, un blocco per ciascuno (togliere "Relatori in arrivo" sopra):
+::: {.ev-talk .ev-short}
+[Nome Cognome]{.ev-speaker} [Azienda]{.ev-aff}
+
+[Titolo dell'intervento]{.ev-title}
+
+<details class="ev-abstract"><summary>Abstract</summary>
+
+Testo dell'abstract.
+
+</details>
+:::
+-->
+:::
+
+::: {.ev-slot .ev-break}
+[13.00–14.00]{.ev-time}
+
+*Pausa pranzo*
+:::
+
+::: {.ev-slot .ev-main}
+[14.00–15.15]{.ev-time}
+
+[Interventi invitati]{.ev-block}
+
+Due interventi. [Relatori in arrivo]{.ev-tbd}
+:::
+
+::: {.ev-slot .ev-break}
+[15.15–15.45]{.ev-time}
+
+*Coffee break*
+:::
+
+::: {.ev-slot .ev-main}
+[15.45–16.45]{.ev-time}
+
+[Tavola rotonda]{.ev-block}
+
+[Partecipanti in arrivo]{.ev-tbd}
+:::
+
+::: {.ev-slot}
+[16.45–17.00]{.ev-time}
+
+Chiusura
+:::
+
+::::
+
+Chi partecipa, con le rispettive affiliazioni, è elencato nella pagina [Partecipanti](partecipanti.qmd).
 
 ## Organizzazione
 

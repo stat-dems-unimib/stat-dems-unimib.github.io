@@ -261,6 +261,38 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
   .ev-prev { left: .3rem; } .ev-next-btn { right: .3rem; }
 }
 
+// Event programme: one row per time slot, talks with title and collapsible abstract
+.ev-prog { margin: 1rem 0 2rem; border-top: 1px solid #e3e3e3; }
+.ev-slot { display: grid; grid-template-columns: 7.5rem 1fr; column-gap: 1.2rem; padding: .85rem .6rem; border-bottom: 1px solid #e3e3e3; }
+.ev-slot > * { grid-column: 2; margin: 0; }
+.ev-slot > p:first-child { grid-column: 1; grid-row: 1 / span 10; }
+.ev-slot > * + * { margin-top: .35rem; }
+.ev-slot > :nth-child(2) { margin-top: 0; }
+.ev-slot { align-items: baseline; }
+.ev-time { font-family: $font-family-sans-serif; font-variant-numeric: tabular-nums; color: $stat-muted; white-space: nowrap; }
+.ev-main .ev-time { color: $stat-ink; font-weight: 600; }
+.ev-break { background: #fafafa; }
+.ev-break .ev-time, .ev-break em { color: $stat-muted; }
+.ev-block { font-family: $headings-font-family; font-weight: 600; font-size: 1.1rem; }
+.ev-talk { margin-top: .7rem !important; padding: .7rem .9rem; border-left: 3px solid $stat-yellow; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.06); border-radius: 3px; }
+.ev-talk p { margin: 0; }
+.ev-talk p + p, .ev-talk p + details { margin-top: .25rem; }
+.ev-short { padding: .5rem .8rem; margin-top: .45rem !important; }
+.ev-speaker { font-weight: 600; }
+.ev-aff { color: $stat-muted; }
+.ev-aff::before { content: "· "; }
+.ev-title { font-style: italic; }
+.ev-tbd { color: $stat-muted; font-style: italic; font-size: .92rem; }
+.ev-abstract summary { cursor: pointer; font-size: .9rem; font-weight: 600; color: $stat-ink; }
+.ev-abstract summary::marker { color: $stat-gold; }
+.ev-abstract[open] summary { margin-bottom: .35rem; }
+.ev-abstract p { font-size: .93rem; line-height: 1.5; }
+@media (max-width: 575.98px) {
+  .ev-slot { grid-template-columns: 1fr; }
+  .ev-slot > p:first-child { grid-row: auto; grid-column: 1; }
+  .ev-slot > * { grid-column: 1; }
+}
+
 // Banner with photo: keep title and subtitle readable
 .quarto-title-banner { position: relative; background-position: center 72% !important; }
 .quarto-title-banner::before { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.55)); }
