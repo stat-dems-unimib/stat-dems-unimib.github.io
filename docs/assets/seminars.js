@@ -38,7 +38,7 @@
   const buildingCode = r => (r.building.match(/U\d+/) || [''])[0];
   const who = r => `<span class="sem-speaker">${r.website ? `<a href="${esc(r.website)}">${esc(r.speaker)}</a>` : esc(r.speaker)}</span>${r.affiliation ? ` <span class="affil">(${esc(r.affiliation)})</span>` : ''}`;
   const abstract = r => r.abstract ? r.abstract.split(/\n\s*\n/).map(p => `<p>${esc(p)}</p>`).join('') : '<p class="sem-none">Abstract not available.</p>';
-  const linkLabel = u => /arxiv\.org/.test(u) ? 'arXiv' : /dems\.unimib\.it/.test(u) ? 'DEMS event page' : 'Related paper';
+  const linkLabel = u => /sites\.google\.com\/unimib\.it\/mitss/.test(u) ? 'MITSS webinar series' : /arxiv\.org/.test(u) ? 'arXiv' : /dems\.unimib\.it/.test(u) ? 'DEMS event page' : 'Related paper';
 
   // calendar helpers
   const stamp = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}T${String(d.getHours()).padStart(2, '0')}${String(d.getMinutes()).padStart(2, '0')}00`;
@@ -73,6 +73,7 @@
         <p class="sem-actions">
           <a href="#" data-ics="${slug(r)}">Add to calendar (.ics)</a>
           <a href="${gcal(r)}" target="_blank" rel="noopener">Google Calendar</a>
+          ${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${linkLabel(r.link)}</a>` : ''}
           ${buildingCode(r) ? `<a href="${map(r)}" target="_blank" rel="noopener">Map of building ${buildingCode(r)}</a>` : ''}
         </p>
         <details class="sem-abstract"><summary>Abstract</summary>${abstract(r)}${r.link ? `<p><a href="${esc(r.link)}">${linkLabel(r.link)}</a></p>` : ''}</details>
