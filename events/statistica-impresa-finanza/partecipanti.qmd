@@ -11,9 +11,20 @@ Organizzatori, speaker e partecipanti della giornata, in ordine alfabetico. L'el
 | Nome | Affiliazione | Ruolo |
 |---|---|---|
 | [Roberto Ascari](https://robertoascari.github.io/) | Università Milano-Bicocca | Organizzatore |
+| Caterina Flavia Barera | Windtre | |
+| Beatrice Berruti | Mediobanca | |
 | [Riccardo Borgoni](https://www.unimib.it/riccardo-borgoni) | Università Milano-Bicocca | Organizzatore |
+| Francesco Bosco | KPMG | |
+| Eduardo Buono | SDG Group | |
+| Luna Cantaroni | PwC | |
+| Luca Cardone | Brightstar Lottery | |
 | [Marta Crispino](https://sites.google.com/site/crispinostat/) | Banca d'Italia | Speaker |
+| Mattia Fumagalli | Assist Digital | |
+| Chiara Galimberti | PriceHubble | Speaker |
+| Camilla Mantovani | Axa | |
 | [Paolo Maranzano](https://www.paolomaranzano.net/) | Università Milano-Bicocca | Speaker |
+| Damiano Marcotti | European Banking Authority | |
+| Fabio Marigo | Flutter SEA | |
 | [Tommaso Rigon](https://tommasorigon.github.io) | Università Milano-Bicocca | Organizzatore |
 | [Giorgia Zaccaria](https://giorgiazaccaria.github.io) | Università Milano-Bicocca | Organizzatrice |
 

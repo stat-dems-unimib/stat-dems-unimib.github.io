@@ -156,7 +156,13 @@ Testo dell'abstract.
 
 [Interventi invitati]{.ev-block}
 
-Due interventi. [Relatori in arrivo]{.ev-tbd}
+::: {.ev-talk}
+[Chiara Galimberti]{.ev-speaker} [PriceHubble]{.ev-aff}
+
+[Titolo in arrivo]{.ev-title .ev-tbd}
+:::
+
+[Secondo relatore in arrivo]{.ev-tbd}
 :::
 
 ::: {.ev-slot .ev-break}
