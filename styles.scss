@@ -301,6 +301,7 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 
 // PhD courses (phd/draft/courses): one row per course, grouped by term; reuses .sem-group and .chip
 .crs-term { margin: 0 0 1.6rem; }
+.crs-totals { font-size: .9rem; color: $stat-muted; margin: -.4rem 0 1rem; }
 .crs-term h3.sem-group { margin-top: 0; }
 .crs-row { border-bottom: 1px solid #ececec; margin: 0; }
 .crs-row > summary, .crs-sum { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; padding: .6rem .7rem; color: $stat-ink; }

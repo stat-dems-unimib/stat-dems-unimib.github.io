@@ -7,31 +7,37 @@ include-in-header:
   text: '<meta name="robots" content="noindex">'
 ---
 
-Courses, instructors and teaching periods of the Statistics curriculum of the PhD in Economics, Statistics and Data Science. First-year students attend courses with a final exam; second-year students attend reading groups. A short description of the contents is given where a syllabus is available. The [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) remains the reference; detailed timetables are in the Google calendars for the [first year](https://calendar.google.com/calendar/embed?src=c_4223552c63dcc9f610371e23a4043a88a1573bc139d5d350f9569beabc41e77b%40group.calendar.google.com&ctz=Europe/Rome) and the [second year](https://calendar.google.com/calendar/embed?src=c_c815906ccefc45fb890f3b3e789db5bfeb36bd13b2cedce148536c16c160099c%40group.calendar.google.com&ctz=Europe/Rome).
+Courses, instructors, teaching periods and workload of the Statistics curriculum of the PhD in Economics, Statistics and Data Science. First-year courses are compulsory and end with a final exam; second-year reading groups are optional and also end with a final assessment. All teaching is in English. Click on a course to see its contents.
+
+The [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) remains the reference; detailed timetables are in the Google calendars for the [first year](https://calendar.google.com/calendar/embed?src=c_4223552c63dcc9f610371e23a4043a88a1573bc139d5d350f9569beabc41e77b%40group.calendar.google.com&ctz=Europe/Rome) and the [second year](https://calendar.google.com/calendar/embed?src=c_c815906ccefc45fb890f3b3e789db5bfeb36bd13b2cedce148536c16c160099c%40group.calendar.google.com&ctz=Europe/Rome).
 
 Instructors without an affiliation are from the University of Milano-Bicocca. Rows in grey are potential courses from the Big Data & Analytics for Business curriculum, not yet confirmed for the Statistics curriculum.
 
 ## First year (cycle XLII)
 
+::: {.crs-totals}
+15 compulsory courses and modules · 248 hours · 29 CFU
+:::
+
 ```{=html}
 <div class="crs-term">
   <h3 class="sem-group">Term I <span>· lectures 26 Oct – 18 Dec 2026 · exams 7 – 14 Jan 2027</span></h3>
   <details class="crs-row">
-    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis I</span><span class="crs-who">Francesco Battistoni <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">27 Oct – 12 Nov · 16 h</span></span></summary>
+    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis I</span><span class="crs-who">Francesco Battistoni <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">27 Oct – 12 Nov · 16 h · 2 CFU</span></span></summary>
     <div class="crs-body">
       <p>Sequences and series of functions: pointwise and uniform convergence, uniform Cauchy condition, preservation of continuity and of the integral. Metric spaces, induced topology, compactness, completeness and density; normed spaces and the space C[0,1]. Cardinality, σ-algebras and Borel σ-algebras, measurable functions with values in a metric space.</p>
       <p class="crs-links"><a href="https://drive.google.com/file/d/16M0RGNawIcn2Jj8yEcw-xZvqY8wKyyvv/view">Syllabus (PDF)</a></p>
     </div>
   </details>
   <details class="crs-row">
-    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis II</span><span class="crs-who">Carlo Alberto De Bernardi <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">17 Nov – 10 Dec · 16 h</span></span></summary>
+    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis II</span><span class="crs-who">Carlo Alberto De Bernardi <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">17 Nov – 10 Dec · 16 h · 2 CFU</span></span></summary>
     <div class="crs-body">
       <p>Measurable functions and approximation by simple functions. Positive measures, completion, Lebesgue measure via the outer measure, Carathéodory's extension theorem. Lebesgue integral: monotone convergence, Fatou's lemma, dominated convergence, comparison with the Riemann integral. Absolute continuity, Radon–Nikodym theorem and Lebesgue decomposition. Exercises.</p>
       <p class="crs-links"><a href="https://drive.google.com/file/d/16M0RGNawIcn2Jj8yEcw-xZvqY8wKyyvv/view">Syllabus (PDF, common to Mathematical Analysis I–III)</a></p>
     </div>
   </details>
   <details class="crs-row">
-    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis III</span><span class="crs-who">Enrico Miglierina <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">14 – 18 Dec · 8 h</span></span></summary>
+    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis III</span><span class="crs-who">Enrico Miglierina <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">14 – 18 Dec · 8 h · 1 CFU</span></span></summary>
     <div class="crs-body">
       <p>Product measure and integration on product spaces; Tonelli and Fubini theorems with counterexamples. L<sup>p</sup> spaces, Hölder and Minkowski inequalities, completeness of L<sup>p</sup> for 1 ≤ p ≤ ∞; the example of ℓ<sup>p</sup>.</p>
       <p class="crs-links"><a href="https://drive.google.com/file/d/16M0RGNawIcn2Jj8yEcw-xZvqY8wKyyvv/view">Syllabus (PDF, common to Mathematical Analysis I–III)</a></p>
@@ -41,37 +47,122 @@ Instructors without an affiliation are from the University of Milano-Bicocca. Ro
 
 <div class="crs-term">
   <h3 class="sem-group">Term II <span>· lectures 18 Jan – 24 Mar 2027 · exams 8 – 15 Apr 2027</span></h3>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Probability I</span><span class="crs-who">Pier Giovanni Bissiri</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Probability II</span><span class="crs-who">Federico Camerlenghi</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Stochastic Processes</span><span class="crs-who">Mario Beraha</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Inference I and II</span><span class="crs-who">Tommaso Rigon, Samantha Leorato <span class="affil">(Univ. Milano)</span></span><span class="crs-note">Starts in Term II and ends in Term III. Single exam.</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II – III</span></span></div></div>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Probability I</span><span class="crs-who">Pier Giovanni Bissiri</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II · 16 h · 2 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Axioms of probability and probability spaces; extension of probability measures and the Lebesgue measure on (0,1). Independence, conditional probability, Borel–Cantelli lemmas, tail σ-field and Kolmogorov's 0–1 law. Random variables and their distributions, the Lebesgue integral and expectation; monotone and dominated convergence, Fatou's lemma.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Probability II</span><span class="crs-who">Federico Camerlenghi</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II · 16 h · 2 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Conditional expectations and probabilities, Radon–Nikodym theorem. Modes of convergence of random variables, weak convergence, Slutsky's theorem. Characteristic functions, tightness, Helly and Prokhorov theorems, Lévy's inversion and continuity theorems. Central limit theorems (Lindeberg–Lévy, Lindeberg–Lyapunov), laws of large numbers, infinitely divisible distributions.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Stochastic Processes</span><span class="crs-who">Mario Beraha</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II · 24 h · 3 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Markov chains: transition probabilities, transience and recurrence, stationary distributions. Discrete-time martingales: stopping times, optional sampling, inequalities and convergence theorems. Continuous-time processes and the Poisson process. Brownian motion: existence, quadratic variation, reflection principle. Stochastic calculus: Itô integral and Itô's formula, Lévy's characterisation, Gaussian processes, stochastic differential equations and the Feynman–Kac theorem.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Statistical Inference I and II</span><span class="crs-who">Tommaso Rigon, Samantha Leorato <span class="affil">(Univ. Milano)</span></span><span class="crs-note">Starts in Term II and ends in Term III. Single exam.</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II – III · 48 h · 6 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Likelihood inference: point and interval estimation, exponential families, sufficiency and conditionality, likelihood asymptotics; quasi-, pseudo- and composite likelihood. Modern hypothesis testing, from classical significance tests to post-selection inference: multiple comparisons, familywise error rate and false discovery rate control, simultaneous control of false discovery proportions.</p>
+    </div>
+  </details>
 </div>
 
 <div class="crs-term">
   <h3 class="sem-group">Term III <span>· lectures 19 Apr – 2 Jul 2027 · exams 12 – 16 Jul 2027</span></h3>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Bayesian Statistics I</span><span class="crs-who">Bernardo Nipoti</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Bayesian Statistics II</span><span class="crs-who">Riccardo Corradin</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Bayesian Statistics III</span><span class="crs-who">Sirio Legramanti <span class="affil">(Univ. Bergamo)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III</span></span></div></div>
-  <div class="crs-row crs-potential"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Natural Language Processing</span><span class="crs-who">Erik Cambria <span class="affil">(Nanyang Technological University, Singapore)</span></span><span class="crs-note">From the Big Data &amp; Analytics for Business curriculum. Not confirmed.</span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term III</span></span></div></div>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Bayesian Statistics I</span><span class="crs-who">Bernardo Nipoti</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III · 16 h · 2 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Principles of Bayesian statistics: exchangeability and de Finetti's theorem, the Bayesian framework, conjugate priors, point estimation, tests and credible intervals, the univariate and multivariate normal models, introduction to hierarchical modelling.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Bayesian Statistics II</span><span class="crs-who">Riccardo Corradin</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III · 16 h · 2 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Bayesian computation, theory and programming: Metropolis–Hastings and Gibbs sampling with Rcpp and RcppArmadillo; adaptive Metropolis, MALA and Hamiltonian Monte Carlo; data augmentation, missing data and the EM algorithm; Laplace approximation, variational Bayes and expectation propagation, with applications to probit and logit models.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Bayesian Statistics III</span><span class="crs-who">Sirio Legramanti <span class="affil">(Univ. Bergamo)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III · 16 h · 2 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Mixture models in Bayesian statistics: finite and infinite mixtures, latent allocation variables and the induced clustering, components versus clusters. Exchangeable partition probability functions, priors on the number of components and of clusters. Posterior functionals and their approximation via MCMC; marginal and conditional algorithms, the Chinese restaurant process and its generalisations.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Computational Statistics II</span><span class="crs-who">Alessia Pini <span class="affil">(Univ. Cattolica)</span></span><span class="crs-note">Course of the Economics curriculum, optional for Statistics students.</span></span><span class="crs-side"><span class="chip chip-note">Optional</span><span class="crs-when">Term III · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>The jackknife for bias estimation and reduction. The bootstrap: empirical distribution and plug-in principle, standard errors, confidence intervals (percentile, bootstrap-t, BCa), coverage and consistency, hypothesis testing. Introduction to the EM algorithm, with Gaussian mixtures and model-based clustering as examples.</p>
+    </div>
+  </details>
+  <details class="crs-row crs-potential">
+    <summary><span class="crs-main"><span class="crs-title">Natural Language Processing</span><span class="crs-who">Erik Cambria <span class="affil">(Nanyang Technological University, Singapore)</span></span><span class="crs-note">From the Big Data &amp; Analytics for Business curriculum. Not confirmed.</span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term III · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Natural language understanding: evolution of NLP, text preprocessing and representation, text classification, word embeddings, applications.</p>
+    </div>
+  </details>
 </div>
 
 <div class="crs-term">
   <h3 class="sem-group">Term IV <span>· lectures 6 Sep – 22 Oct 2027</span></h3>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling I</span><span class="crs-who">Federico Castelletti <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling II</span><span class="crs-who">D. Spinelli, Giorgia Zaccaria</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling III</span><span class="crs-who">Luca Brusa</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling IV</span><span class="crs-who">Francesco Bartolucci <span class="affil">(Univ. Perugia)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
-  <div class="crs-row crs-potential"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Explainable AI for Business Value</span><span class="crs-who">Fabio Mercorio</span><span class="crs-note">From the Big Data &amp; Analytics for Business curriculum. Not confirmed.</span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term IV</span></span></div></div>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Statistical Modelling I</span><span class="crs-who">Federico Castelletti <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Graphical models: undirected graphs and DAGs, Markov properties and Markov equivalence; Gaussian and discrete graphical models; graphical lasso and the PC algorithm; Bayesian graphical model selection with MCMC; causal inference with directed acyclic graphs.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Statistical Modelling II</span><span class="crs-who">Daniele Spinelli, Giorgia Zaccaria</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Mixture models for clustering and classification: Gaussian mixtures and parsimonious models, the EM algorithm, degeneracies and spurious solutions, model selection; mixtures of t distributions and of factor analysers. Robust statistics for multivariate data (minimum covariance determinant, forward search) and robust classification and clustering.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Statistical Modelling III</span><span class="crs-who">Luca Brusa</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Latent variable models: linear and generalised linear mixed models for longitudinal data, discrete latent variable models, hidden Markov models for longitudinal data.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Statistical Modelling IV</span><span class="crs-who">Francesco Bartolucci <span class="affil">(Univ. Perugia)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Causal inference and impact evaluation: the potential outcomes framework, randomised trials, selection on observables and propensity score methods, difference-in-differences, causal inference with discrete latent variable models.</p>
+    </div>
+  </details>
+  <details class="crs-row crs-potential">
+    <summary><span class="crs-main"><span class="crs-title">Explainable AI for Business Value</span><span class="crs-who">Fabio Mercorio</span><span class="crs-note">From the Big Data &amp; Analytics for Business curriculum. Not confirmed.</span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term IV · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>What AI is and why it needs to be explainable; explainable AI frameworks; explainability in business; the trade-off between interpretability and accuracy; examples.</p>
+    </div>
+  </details>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term III or IV <span>· period to be defined</span></h3>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Statistical Learning</span><span class="crs-who">Instructor to be confirmed</span><span class="crs-note">Compulsory in the official teaching plan, not yet listed on the PhD website.</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">8 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Parametric and nonparametric inference: optimality of the MLE, Bernstein–von Mises theorem, James–Stein estimator; wavelet and kernel estimators, adaptation and minimax lower bounds. Nonparametric Bayes: posterior consistency and contraction rates, Dirichlet process mixtures and Gaussian processes. High-dimensional inference: lasso and ridge, covariance estimation, spike-and-slab and horseshoe priors; variational and distributed Bayes. Conformal prediction and variable selection with statistical guarantees.</p>
+    </div>
+  </details>
 </div>
 ```
 
 ## Second year (cycle XLI)
 
+::: {.crs-totals}
+6 optional reading groups · 12 hours and 1 CFU each
+:::
+
 ```{=html}
 <div class="crs-term">
   <h3 class="sem-group">Term I <span>· 26 Oct – 18 Dec 2026</span></h3>
   <details class="crs-row">
-    <summary><span class="crs-main"><span class="crs-title">Approximate Bayesian Computational Methods</span><span class="crs-who">Augusto Fasano <span class="affil">(Univ. Torino and Collegio Carlo Alberto)</span></span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term I</span></span></summary>
+    <summary><span class="crs-main"><span class="crs-title">Approximate Bayesian Computational Methods</span><span class="crs-who">Augusto Fasano <span class="affil">(Univ. Torino and Collegio Carlo Alberto)</span></span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term I · 12 h · 1 CFU</span></span></summary>
     <div class="crs-body">
       <p>Theoretical and computational aspects of the most widely used approximate methods for Bayesian inference when the posterior is intractable or MCMC is computationally impractical, with a focus on binary and categorical regression. Four modules:</p>
       <ul>
@@ -83,15 +174,45 @@ Instructors without an affiliation are from the University of Milano-Bicocca. Ro
       <p class="crs-links"><a href="https://drive.google.com/file/d/1cwhLdL_OMDEscSRRN6H1S2F_MeOxRtsS/view">Syllabus with references (PDF)</a></p>
     </div>
   </details>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Probabilistic Preference Learning</span><span class="crs-who">Valeria Vitelli <span class="affil">(Univ. Oslo)</span></span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term I</span></span></div></div>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Probabilistic Preference Learning</span><span class="crs-who">Valeria Vitelli <span class="affil">(Univ. Oslo)</span></span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term I · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Aims of a preference learning analysis and types of preference data. Probabilistic models for rankings: distance-based models on the space of permutations and score-based models. Maximum likelihood and Bayesian inference, clustering of preference data with mixture models. Practical sessions in R; no prior experience with ranking models is required.</p>
+    </div>
+  </details>
 </div>
 
 <div class="crs-term">
   <h3 class="sem-group">Term II <span>· 18 Jan – 24 Mar 2027</span></h3>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Automated Machine Learning and Neural Architecture Search</span><span class="crs-who">Antonio Candelieri</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Some Issues on Statistical Modelling</span><span class="crs-who">Riccardo Borgoni, Paolo Maranzano</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II</span></span></div></div>
-  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Spatio-temporal Data</span><span class="crs-who">Paolo Maranzano, Riccardo Borgoni</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II</span></span></div></div>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Automated Machine Learning and Neural Architecture Search</span><span class="crs-who">Antonio Candelieri</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Automated machine learning: algorithm selection and hyperparameter optimisation with a limited number of trials; neural architecture search for deep networks. Basics of sequential model-based optimisation (Bayesian optimisation), the standard methodology for AutoML and NAS.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Some Issues on Statistical Modelling</span><span class="crs-who">Riccardo Borgoni, Paolo Maranzano</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Missing data: mechanisms, weighting and imputation. Measurement error and its effect on regression models. Quantile regression: fundamentals and inference. Implementations and case studies in R.</p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Spatio-temporal Data</span><span class="crs-who">Paolo Maranzano, Riccardo Borgoni</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II · 12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>Models and techniques for data with spatial and temporal dependence: detecting dependence (autocorrelation functions, spatial correlograms); resampling and validation schemes for temporal data (block and moving-window resampling, hv-blocking, prequential approach, temporal bootstrap) and for spatio-temporal data (leave-location-out, leave-time-out, nearest neighbour distance matching, spatio-temporal partitioning); R packages.</p>
+    </div>
+  </details>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term I or II <span>· period to be defined</span></h3>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Deep Learning</span><span class="crs-who">Matteo Borrotti</span><span class="crs-note">In the official teaching plan, not yet listed on the PhD website.</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">12 h · 1 CFU</span></span></summary>
+    <div class="crs-body">
+      <p>An overview of deep learning, from classical to modern models: neural network basics, deep architectures, training algorithms and practical issues for shallow and deep networks, and advanced topics such as adversarial learning.</p>
+    </div>
+  </details>
 </div>
 ```
 
-*Last updated: November 2026. Sources: the [PhD programme website](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) (Coursework: Statistics) and the syllabi linked there.*
+*Last updated: November 2026. Sources: the [PhD programme website](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) (Coursework sections), the syllabi linked there, and the official teaching plan of cycle XLII (hours, credits and course descriptions).*
