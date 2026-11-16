@@ -92,4 +92,20 @@ Instructors without an affiliation are from the University of Milano-Bicocca.
 </div>
 ```
 
+## Potential additions
+
+Courses of the first year of the Big Data & Analytics for Business curriculum that could also be offered to students of the Statistics curriculum. Not confirmed; periods as on the official website.
+
+```{=html}
+<div class="crs-term">
+  <h3 class="sem-group">Term III <span>· lectures 19 Apr – 2 Jul 2027 · exams 12 – 16 Jul 2027</span></h3>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Natural Language Processing</span><span class="crs-who">Erik Cambria <span class="affil">(Nanyang Technological University, Singapore)</span></span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term III</span></span></div></div>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term IV <span>· lectures 6 Sep – 22 Oct 2027 · exam at the end of the module</span></h3>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Explainable AI for Business Value</span><span class="crs-who">Fabio Mercorio</span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term IV</span></span></div></div>
+</div>
+```
+
 *Last updated: November 2026. Sources: the [PhD programme website](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) (Coursework: Statistics) and the syllabi linked there.*
