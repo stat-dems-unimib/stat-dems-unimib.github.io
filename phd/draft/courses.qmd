@@ -1,0 +1,95 @@
+---
+title: "PhD courses"
+subtitle: "Courses and reading groups of the Statistics curriculum, first and second year, academic year 2026/27"
+toc: false
+search: false
+include-in-header:
+  text: '<meta name="robots" content="noindex">'
+---
+
+Courses, instructors and teaching periods of the Statistics curriculum of the PhD in Economics, Statistics and Data Science. First-year students attend courses with a final exam; second-year students attend reading groups. A short description of the contents is given where a syllabus is available. The [official website of the PhD programme](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) remains the reference; detailed timetables are in the Google calendars for the [first year](https://calendar.google.com/calendar/embed?src=c_4223552c63dcc9f610371e23a4043a88a1573bc139d5d350f9569beabc41e77b%40group.calendar.google.com&ctz=Europe/Rome) and the [second year](https://calendar.google.com/calendar/embed?src=c_c815906ccefc45fb890f3b3e789db5bfeb36bd13b2cedce148536c16c160099c%40group.calendar.google.com&ctz=Europe/Rome).
+
+Instructors without an affiliation are from the University of Milano-Bicocca.
+
+## First year (cycle XLII)
+
+```{=html}
+<div class="crs-term">
+  <h3 class="sem-group">Term I <span>· lectures 26 Oct – 18 Dec 2026 · exams 7 – 14 Jan 2027</span></h3>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis I</span><span class="crs-who">Francesco Battistoni <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">27 Oct – 12 Nov · 16 h</span></span></summary>
+    <div class="crs-body">
+      <p>Sequences and series of functions: pointwise and uniform convergence, uniform Cauchy condition, preservation of continuity and of the integral. Metric spaces, induced topology, compactness, completeness and density; normed spaces and the space C[0,1]. Cardinality, σ-algebras and Borel σ-algebras, measurable functions with values in a metric space.</p>
+      <p class="crs-links"><a href="https://drive.google.com/file/d/16M0RGNawIcn2Jj8yEcw-xZvqY8wKyyvv/view">Syllabus (PDF)</a></p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis II</span><span class="crs-who">Carlo Alberto De Bernardi <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">17 Nov – 10 Dec · 16 h</span></span></summary>
+    <div class="crs-body">
+      <p>Measurable functions and approximation by simple functions. Positive measures, completion, Lebesgue measure via the outer measure, Carathéodory's extension theorem. Lebesgue integral: monotone convergence, Fatou's lemma, dominated convergence, comparison with the Riemann integral. Absolute continuity, Radon–Nikodym theorem and Lebesgue decomposition. Exercises.</p>
+      <p class="crs-links"><a href="https://drive.google.com/file/d/16M0RGNawIcn2Jj8yEcw-xZvqY8wKyyvv/view">Syllabus (PDF, common to Mathematical Analysis I–III)</a></p>
+    </div>
+  </details>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Mathematical Analysis III</span><span class="crs-who">Enrico Miglierina <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">14 – 18 Dec · 8 h</span></span></summary>
+    <div class="crs-body">
+      <p>Product measure and integration on product spaces; Tonelli and Fubini theorems with counterexamples. L<sup>p</sup> spaces, Hölder and Minkowski inequalities, completeness of L<sup>p</sup> for 1 ≤ p ≤ ∞; the example of ℓ<sup>p</sup>.</p>
+      <p class="crs-links"><a href="https://drive.google.com/file/d/16M0RGNawIcn2Jj8yEcw-xZvqY8wKyyvv/view">Syllabus (PDF, common to Mathematical Analysis I–III)</a></p>
+    </div>
+  </details>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term II <span>· lectures 18 Jan – 24 Mar 2027 · exams 8 – 15 Apr 2027</span></h3>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Probability I</span><span class="crs-who">Pier Giovanni Bissiri</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Probability II</span><span class="crs-who">Federico Camerlenghi</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Stochastic Processes</span><span class="crs-who">Mario Beraha</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Inference I and II</span><span class="crs-who">Tommaso Rigon, Samantha Leorato <span class="affil">(Univ. Milano)</span></span><span class="crs-note">Starts in Term II and ends in Term III. Single exam.</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term II – III</span></span></div></div>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term III <span>· lectures 19 Apr – 2 Jul 2027 · exams 12 – 16 Jul 2027</span></h3>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Bayesian Statistics I</span><span class="crs-who">Bernardo Nipoti</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Bayesian Statistics II</span><span class="crs-who">Riccardo Corradin</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Bayesian Statistics III</span><span class="crs-who">Sirio Legramanti <span class="affil">(Univ. Bergamo)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term III</span></span></div></div>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term IV <span>· lectures 6 Sep – 22 Oct 2027</span></h3>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling I</span><span class="crs-who">Federico Castelletti <span class="affil">(Univ. Cattolica)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling II</span><span class="crs-who">D. Spinelli, Giorgia Zaccaria</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling III</span><span class="crs-who">Luca Brusa</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Statistical Modelling IV</span><span class="crs-who">Francesco Bartolucci <span class="affil">(Univ. Perugia)</span></span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">Term IV</span></span></div></div>
+</div>
+```
+
+## Second year (cycle XLI)
+
+```{=html}
+<div class="crs-term">
+  <h3 class="sem-group">Term I <span>· 26 Oct – 18 Dec 2026</span></h3>
+  <details class="crs-row">
+    <summary><span class="crs-main"><span class="crs-title">Approximate Bayesian Computational Methods</span><span class="crs-who">Augusto Fasano <span class="affil">(Univ. Torino and Collegio Carlo Alberto)</span></span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term I</span></span></summary>
+    <div class="crs-body">
+      <p>Theoretical and computational aspects of the most widely used approximate methods for Bayesian inference when the posterior is intractable or MCMC is computationally impractical, with a focus on binary and categorical regression. Four modules:</p>
+      <ul>
+        <li>Laplace approximation, Variational Bayes and Expectation Propagation: general principles and theoretical guarantees.</li>
+        <li>Variational Bayes for binary regression: logit and probit models.</li>
+        <li>Expectation Propagation in practice: the clutter problem and probit regression.</li>
+        <li>Extensions to categorical data, dynamic settings and beyond.</li>
+      </ul>
+      <p class="crs-links"><a href="https://drive.google.com/file/d/1cwhLdL_OMDEscSRRN6H1S2F_MeOxRtsS/view">Syllabus with references (PDF)</a></p>
+    </div>
+  </details>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Probabilistic Preference Learning</span><span class="crs-who">Valeria Vitelli <span class="affil">(Univ. Oslo)</span></span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term I</span></span></div></div>
+</div>
+
+<div class="crs-term">
+  <h3 class="sem-group">Term II <span>· 18 Jan – 24 Mar 2027</span></h3>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Automated Machine Learning and Neural Architecture Search</span><span class="crs-who">Antonio Candelieri</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Some Issues on Statistical Modelling</span><span class="crs-who">Riccardo Borgoni, Paolo Maranzano</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II</span></span></div></div>
+  <div class="crs-row"><div class="crs-sum"><span class="crs-main"><span class="crs-title">Spatio-temporal Data</span><span class="crs-who">Paolo Maranzano, Riccardo Borgoni</span></span><span class="crs-side"><span class="chip chip-academia-light">Reading group</span><span class="crs-when">Term II</span></span></div></div>
+</div>
+```
+
+*Last updated: November 2026. Sources: the [PhD programme website](https://www.dems.unimib.it/en/programmes/post-lauream/phd-economics-statistics-and-data-science) (Coursework: Statistics) and the syllabi linked there.*

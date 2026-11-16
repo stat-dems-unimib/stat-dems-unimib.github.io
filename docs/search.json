@@ -28,95 +28,25 @@
     "text": "Who works on what among the people who supervise, teach and examine in the Statistics curriculum. The list includes:\n\nthe members of the doctoral committee for the Statistics and BIDAB curricula working in statistics and data science;\nthe statisticians of the Department of Economics, Management and Statistics (DEMS) with a permanent or tenure-track position.\n\nKeywords help students find possible supervisors and members of their committees; click a name for a short description and links.\n\nDownload the list (CSV)\n\n\nKeywords and descriptions follow each person’s own web page where one is available; otherwise they are drafted from publication records (OpenAlex). Corrections are welcome. Roles and disciplinary sectors of Italian faculty come from the MUR register of academic staff. Data in phd/data/faculty.csv."
   },
   {
-    "objectID": "master/index.html",
-    "href": "master/index.html",
-    "title": "Laurea magistrale in Scienze Statistiche ed Economiche",
+    "objectID": "phd/alumni.html",
+    "href": "phd/alumni.html",
+    "title": "PhD alumni",
     "section": "",
-    "text": "Queste pagine raccolgono le iniziative del gruppo di Statistica del DEMS per chi studia nella laurea magistrale. Il riferimento per piano di studi, regolamento, orari e scadenze resta il sito ufficiale del corso di laurea.\n\nGiovani TalentiProgramma di avvio alla ricerca per studentesse e studenti del secondo anno"
+    "text": "Thesis, supervision and current position of our doctoral graduates. This page complements the official website of the PhD programme, which remains the reference for admission, regulations and courses. Current students are listed here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "STAT_DEMS",
-    "section": "",
-    "text": "Statistica al DEMS · Università degli Studi di Milano-Bicocca\nWork in progress\nPhD\n\nSiti ufficiali: Statistica, Machine Learning ed Economia · Scienze Statistiche ed Economiche · PhD ECOSTATDATA\nLinkedIn"
+    "objectID": "phd/alumni.html#statistics-curriculum-since-cycle-xxxiv",
+    "href": "phd/alumni.html#statistics-curriculum-since-cycle-xxxiv",
+    "title": "PhD alumni",
+    "section": "Statistics curriculum, since cycle XXXIV",
+    "text": "Statistics curriculum, since cycle XXXIV\nGraduates of the Statistics curriculum of the PhD in Economics, Statistics and Data Science, from its first cohort (cycle XXXIV, enrolled in 2018). Affiliations are shown for supervisors outside Milano-Bicocca.\n\nDownload the data (CSV)"
   },
   {
-    "objectID": "events/statistica-impresa-finanza/partecipanti.html",
-    "href": "events/statistica-impresa-finanza/partecipanti.html",
-    "title": "Partecipanti",
-    "section": "",
-    "text": "Organizzatori, speaker e partecipanti della giornata, in ordine alfabetico. L’elenco viene aggiornato man mano che le partecipazioni sono confermate.\n\n\n\nNome\nAffiliazione\nRuolo\n\n\n\n\nRoberto Ascari\nUniversità Milano-Bicocca\nOrganizzatore\n\n\nCaterina Flavia Barera\nWindtre\n\n\n\nBeatrice Berruti\nMediobanca\n\n\n\nRiccardo Borgoni\nUniversità Milano-Bicocca\nOrganizzatore\n\n\nFrancesco Bosco\nKPMG\n\n\n\nEduardo Buono\nSDG Group\n\n\n\nLuna Cantaroni\nPwC\n\n\n\nLuca Cardone\nBrightstar Lottery\n\n\n\nMarta Crispino\nBanca d’Italia\nSpeaker\n\n\nMattia Fumagalli\nAssist Digital\n\n\n\nChiara Galimberti\nPriceHubble\nSpeaker\n\n\nCamilla Mantovani\nAxa\n\n\n\nPaolo Maranzano\nUniversità Milano-Bicocca\nSpeaker\n\n\nDamiano Marcotti\nEuropean Banking Authority\n\n\n\nFabio Marigo\nFlutter SEA\n\n\n\nTommaso Rigon\nUniversità Milano-Bicocca\nOrganizzatore\n\n\nGiorgia Zaccaria\nUniversità Milano-Bicocca\nOrganizzatrice\n\n\n\n← Torna alla pagina dell’evento"
-  },
-  {
-    "objectID": "events/index.html",
-    "href": "events/index.html",
-    "title": "Eventi",
-    "section": "",
-    "text": "Ogni evento ha una propria pagina, con l’edizione in programma e l’archivio delle edizioni precedenti.\n\nStatistical MindsOrientamento al dottorato in Statistica: docenti, dottorande e dottorandi raccontano la ricerca. Ogni anno a marzo\nStatistica e Data Science per l’Impresa e la FinanzaGiornata di incontro tra università e aziende per gli studenti della laurea magistrale CLAMSES. Giovedì 20 maggio 2027"
-  },
-  {
-    "objectID": "events/statistica-impresa-finanza/index.html",
-    "href": "events/statistica-impresa-finanza/index.html",
-    "title": "Statistica e Data Science per l’Impresa e la Finanza",
-    "section": "",
-    "text": "Iscrizioni\nEvento gratuito, iscrizione obbligatoria\nI posti sono limitati: per partecipare è necessario iscriversi tramite il modulo online.\n\n\n Aggiungi al calendario\nIscriviti"
-  },
-  {
-    "objectID": "events/statistica-impresa-finanza/index.html#a-chi-è-rivolto",
-    "href": "events/statistica-impresa-finanza/index.html#a-chi-è-rivolto",
-    "title": "Statistica e Data Science per l’Impresa e la Finanza",
-    "section": "A chi è rivolto",
-    "text": "A chi è rivolto\n\n\n\n\n\n\nAlle studentesse e agli studenti della laurea magistrale in Scienze Statistiche ed Economiche, in particolare a chi sta per laurearsi o sta scegliendo come orientare il proprio percorso dopo la laurea.\nLa partecipazione è gratuita, ma i posti sono limitati e l’iscrizione è obbligatoria. L’elenco di chi ha già confermato è nella pagina Partecipanti."
-  },
-  {
-    "objectID": "events/statistica-impresa-finanza/index.html#programma",
-    "href": "events/statistica-impresa-finanza/index.html#programma",
-    "title": "Statistica e Data Science per l’Impresa e la Finanza",
-    "section": "Programma",
-    "text": "Programma\nProgramma provvisorio\nLa giornata alterna interventi invitati, una sessione di short talk e una tavola rotonda conclusiva, con una pausa pranzo e due coffee break pensati anche come momenti di incontro. Gli orari dei blocchi sono fissati; relatori, titoli e abstract saranno aggiunti qui man mano che vengono confermati.\n\n\n10.00–10.05\nSaluti istituzionali e introduzione alla giornata\n\n\n10.05–11.20\nInterventi invitati\n\nMarta Crispino Banca d’Italia\nTitolo in arrivo\n\n\n\nPaolo Maranzano Università Milano-Bicocca\nTitolo in arrivo\n\n\n\n\n11.20–11.45\nCoffee break\n\n\n11.45–13.00\nShort talk\nDodici interventi da 5 minuti di ex studentesse e studenti che oggi lavorano in azienda. Relatori in arrivo\n\n\n\n13.00–14.00\nPausa pranzo\n\n\n14.00–15.15\nInterventi invitati\n\nChiara Galimberti PriceHubble\nTitolo in arrivo\n\nSecondo relatore in arrivo\n\n\n15.15–15.45\nCoffee break\n\n\n15.45–16.45\nTavola rotonda\nPartecipanti in arrivo\n\n\n16.45–17.00\nChiusura\n\n\nChi partecipa, con le rispettive affiliazioni, è elencato nella pagina Partecipanti."
-  },
-  {
-    "objectID": "events/statistica-impresa-finanza/index.html#organizzazione",
-    "href": "events/statistica-impresa-finanza/index.html#organizzazione",
-    "title": "Statistica e Data Science per l’Impresa e la Finanza",
-    "section": "Organizzazione",
-    "text": "Organizzazione\nL’evento è organizzato da Roberto Ascari, Riccardo Borgoni, Tommaso Rigon e Giorgia Zaccaria, a cui ci si può rivolgere per informazioni."
-  },
-  {
-    "objectID": "events/statistical-minds/index.html",
-    "href": "events/statistical-minds/index.html",
-    "title": "Statistical Minds",
-    "section": "",
-    "text": "Statistical Minds è l’incontro annuale di orientamento al dottorato in Statistica di Milano-Bicocca, cioè al curriculum Statistics del dottorato in Economics, Statistics and Data Science (ECOSTATDATA). È pensato per dialogare, orientare e mettere in contatto chi vive la ricerca scientifica in prima persona, docenti, dottorande e dottorandi, con chi sta pensando di proseguire gli studi dopo la laurea magistrale.\nL’incontro è in italiano, è aperto a tutti, anche a chi studia in altri atenei, e non richiede prenotazione. Si tiene ogni anno a marzo, a ridosso dell’apertura del bando di ammissione, così da lasciare il tempo per preparare la domanda."
-  },
-  {
-    "objectID": "events/statistical-minds/index.html#edizione-2027",
-    "href": "events/statistical-minds/index.html#edizione-2027",
-    "title": "Statistical Minds",
-    "section": "Edizione 2027",
-    "text": "Edizione 2027\n\n\n2027\nmarzo\ndata da definire\n\n\nQuinta edizione\n\nStatistical Minds 2027\n\nQuando: data da definire, ore 16.30 · Dove: aula da definire, Università di Milano-Bicocca\n\nLa data, l’aula e gli interventi saranno pubblicati qui appena definiti. Il programma seguirà quello delle ultime edizioni:\n\nL’esperienza del dottorato, raccontata da una dottoranda o da un dottorando: perché questa scelta, com’è la giornata tipo, cosa cambia rispetto alla laurea magistrale.\nCosa vuol dire fare ricerca: corsi, progetti, pubblicazioni, conferenze e vita accademica; per chi è adatto il dottorato e quali sono le difficoltà.\nIl programma di dottorato e il bando, presentati dai coordinatori: struttura, borse di studio, procedura di selezione.\nDomande aperte a docenti, dottorande e dottorandi presenti in aula."
-  },
-  {
-    "objectID": "events/statistical-minds/index.html#a-chi-è-rivolto",
-    "href": "events/statistical-minds/index.html#a-chi-è-rivolto",
-    "title": "Statistical Minds",
-    "section": "A chi è rivolto",
-    "text": "A chi è rivolto\n\nA studentesse e studenti della laurea magistrale in Scienze Statistiche ed Economiche (CLAMSES), del primo e del secondo anno: l’orario è scelto in una fascia senza lezioni.\nA chi si è laureato o si sta laureando in statistica o in discipline affini, in Bicocca o in altri atenei.\n\nLa domanda di ammissione si può presentare anche prima di essersi laureati. Il curriculum Statistics è pensato per chi ha solide basi di statistica metodologica e applicata; il progetto di ricerca da allegare alla domanda di solito riprende il lavoro della tesi magistrale, e la commissione guarda soprattutto alla capacità di esporre le idee in modo chiaro e organico. Bando, scadenze, borse e regolamento sono sul sito ufficiale del dottorato, che resta il riferimento."
-  },
-  {
-    "objectID": "events/statistical-minds/index.html#edizioni-precedenti",
-    "href": "events/statistical-minds/index.html#edizioni-precedenti",
-    "title": "Statistical Minds",
-    "section": "Edizioni precedenti",
-    "text": "Edizioni precedenti\n\n26 marzo 2026Ongaro · Ferrini · Rigon\nGiovedì, ore 16.30, aula U6-29\nAndrea Ongaro, coordinatore della sezione di Statistica\nLaura Ferrini, dottoranda al secondo anno\nTommaso Rigon, docente del dottorato\n\n14 marzo 2025Ferrini · Rigon · Ongaro · Manera\nVenerdì, ore 16.00, aula U6-11\nLaura Ferrini, dottoranda al primo anno\nTommaso Rigon, docente del dottorato\nAndrea Ongaro, coordinatore della sezione di Statistica, e Matteo Manera, coordinatore del dottorato\n\n25 marzo 2024Manera · Ongaro · Rigon · Colombi · Aiello\nLunedì, ore 16.30, aula U6-11\nMatteo Manera, coordinatore del dottorato\nAndrea Ongaro, coordinatore della sezione di Statistica\nTommaso Rigon, docente del dottorato\nAlessandro Colombi e Luca Aiello, dottorandi\n\n23 marzo 2023Prima edizione · Ongaro · Manera · cinque dottorandi\nGiovedì, ore 9.30, aula U6-21\nIntroduzione: il dottorato, i corsi, i gruppi di ricerca e il bando, con Andrea Ongaro e Matteo Manera\nScegliere la ricerca: Chiara Magnani e Luca Presicce, dottorandi al secondo anno, e Claudia Sartirana, dottoranda executive al terzo anno, raccontano il loro percorso e la loro esperienza quotidiana\nFare ricerca: Alessandro Colombi, al secondo anno, e Francesco Barile, al terzo anno, presentano in breve due progetti di ricerca"
-  },
-  {
-    "objectID": "events/statistical-minds/index.html#organizzazione",
-    "href": "events/statistical-minds/index.html#organizzazione",
-    "title": "Statistical Minds",
-    "section": "Organizzazione",
-    "text": "Organizzazione\nStatistical Minds è organizzato da Tommaso Rigon e Roberto Ascari, a cui ci si può rivolgere per informazioni sull’evento e sul dottorato in Statistica.\nLe persone che hanno discusso la tesi nel frattempo sono tra i PhD alumni. Per i seminari dei dottorandi in corso vedi la PhD Seminar Series."
+    "objectID": "phd/alumni.html#earlier-doctoral-programmes",
+    "href": "phd/alumni.html#earlier-doctoral-programmes",
+    "title": "PhD alumni",
+    "section": "Earlier doctoral programmes",
+    "text": "Earlier doctoral programmes\nBefore 2018 doctoral training in statistics at Milano-Bicocca ran through other programmes: Methodological and Applied Statistics, Statistics, Statistics and Applications, and Statistics and Mathematical Finance (statistics curriculum only). Theses are linked to the BOA institutional repository or, for those defended before 2010, to the catalogue of the Italian national libraries (OPAC SBN). Supervision is taken from the title page of each thesis; where the title page names only a tutor, the tutor is listed as supervisor. Current positions in Italian universities come from the MUR register of academic staff; the others are still to be completed.\n\nDownload the data (CSV)\n\n\nLast updated October 2026. Corrections and missing positions are welcome: the data live in phd/data/alumni.csv."
   },
   {
     "objectID": "master/giovani-talenti/index.html",
@@ -161,25 +91,95 @@
     "text": "Contatti\nPer informazioni sul programma: Federico Camerlenghi e Tommaso Rigon. Bando, scadenze e graduatorie ufficiali sono pubblicati sul sito del DEMS, che resta il riferimento.\nChi pensa di proseguire con il dottorato può partecipare anche a Statistical Minds, l’incontro annuale di orientamento al dottorato in Statistica di Milano-Bicocca."
   },
   {
-    "objectID": "phd/alumni.html",
-    "href": "phd/alumni.html",
-    "title": "PhD alumni",
+    "objectID": "events/statistical-minds/index.html",
+    "href": "events/statistical-minds/index.html",
+    "title": "Statistical Minds",
     "section": "",
-    "text": "Thesis, supervision and current position of our doctoral graduates. This page complements the official website of the PhD programme, which remains the reference for admission, regulations and courses. Current students are listed here."
+    "text": "Statistical Minds è l’incontro annuale di orientamento al dottorato in Statistica di Milano-Bicocca, cioè al curriculum Statistics del dottorato in Economics, Statistics and Data Science (ECOSTATDATA). È pensato per dialogare, orientare e mettere in contatto chi vive la ricerca scientifica in prima persona, docenti, dottorande e dottorandi, con chi sta pensando di proseguire gli studi dopo la laurea magistrale.\nL’incontro è in italiano, è aperto a tutti, anche a chi studia in altri atenei, e non richiede prenotazione. Si tiene ogni anno a marzo, a ridosso dell’apertura del bando di ammissione, così da lasciare il tempo per preparare la domanda."
   },
   {
-    "objectID": "phd/alumni.html#statistics-curriculum-since-cycle-xxxiv",
-    "href": "phd/alumni.html#statistics-curriculum-since-cycle-xxxiv",
-    "title": "PhD alumni",
-    "section": "Statistics curriculum, since cycle XXXIV",
-    "text": "Statistics curriculum, since cycle XXXIV\nGraduates of the Statistics curriculum of the PhD in Economics, Statistics and Data Science, from its first cohort (cycle XXXIV, enrolled in 2018). Affiliations are shown for supervisors outside Milano-Bicocca.\n\nDownload the data (CSV)"
+    "objectID": "events/statistical-minds/index.html#edizione-2027",
+    "href": "events/statistical-minds/index.html#edizione-2027",
+    "title": "Statistical Minds",
+    "section": "Edizione 2027",
+    "text": "Edizione 2027\n\n\n2027\nmarzo\ndata da definire\n\n\nQuinta edizione\n\nStatistical Minds 2027\n\nQuando: data da definire, ore 16.30 · Dove: aula da definire, Università di Milano-Bicocca\n\nLa data, l’aula e gli interventi saranno pubblicati qui appena definiti. Il programma seguirà quello delle ultime edizioni:\n\nL’esperienza del dottorato, raccontata da una dottoranda o da un dottorando: perché questa scelta, com’è la giornata tipo, cosa cambia rispetto alla laurea magistrale.\nCosa vuol dire fare ricerca: corsi, progetti, pubblicazioni, conferenze e vita accademica; per chi è adatto il dottorato e quali sono le difficoltà.\nIl programma di dottorato e il bando, presentati dai coordinatori: struttura, borse di studio, procedura di selezione.\nDomande aperte a docenti, dottorande e dottorandi presenti in aula."
   },
   {
-    "objectID": "phd/alumni.html#earlier-doctoral-programmes",
-    "href": "phd/alumni.html#earlier-doctoral-programmes",
-    "title": "PhD alumni",
-    "section": "Earlier doctoral programmes",
-    "text": "Earlier doctoral programmes\nBefore 2018 doctoral training in statistics at Milano-Bicocca ran through other programmes: Methodological and Applied Statistics, Statistics, Statistics and Applications, and Statistics and Mathematical Finance (statistics curriculum only). Theses are linked to the BOA institutional repository or, for those defended before 2010, to the catalogue of the Italian national libraries (OPAC SBN). Supervision is taken from the title page of each thesis; where the title page names only a tutor, the tutor is listed as supervisor. Current positions in Italian universities come from the MUR register of academic staff; the others are still to be completed.\n\nDownload the data (CSV)\n\n\nLast updated October 2026. Corrections and missing positions are welcome: the data live in phd/data/alumni.csv."
+    "objectID": "events/statistical-minds/index.html#a-chi-è-rivolto",
+    "href": "events/statistical-minds/index.html#a-chi-è-rivolto",
+    "title": "Statistical Minds",
+    "section": "A chi è rivolto",
+    "text": "A chi è rivolto\n\nA studentesse e studenti della laurea magistrale in Scienze Statistiche ed Economiche (CLAMSES), del primo e del secondo anno: l’orario è scelto in una fascia senza lezioni.\nA chi si è laureato o si sta laureando in statistica o in discipline affini, in Bicocca o in altri atenei.\n\nLa domanda di ammissione si può presentare anche prima di essersi laureati. Il curriculum Statistics è pensato per chi ha solide basi di statistica metodologica e applicata; il progetto di ricerca da allegare alla domanda di solito riprende il lavoro della tesi magistrale, e la commissione guarda soprattutto alla capacità di esporre le idee in modo chiaro e organico. Bando, scadenze, borse e regolamento sono sul sito ufficiale del dottorato, che resta il riferimento."
+  },
+  {
+    "objectID": "events/statistical-minds/index.html#edizioni-precedenti",
+    "href": "events/statistical-minds/index.html#edizioni-precedenti",
+    "title": "Statistical Minds",
+    "section": "Edizioni precedenti",
+    "text": "Edizioni precedenti\n\n26 marzo 2026Ongaro · Ferrini · Rigon\nGiovedì, ore 16.30, aula U6-29\nAndrea Ongaro, coordinatore della sezione di Statistica\nLaura Ferrini, dottoranda al secondo anno\nTommaso Rigon, docente del dottorato\n\n14 marzo 2025Ferrini · Rigon · Ongaro · Manera\nVenerdì, ore 16.00, aula U6-11\nLaura Ferrini, dottoranda al primo anno\nTommaso Rigon, docente del dottorato\nAndrea Ongaro, coordinatore della sezione di Statistica, e Matteo Manera, coordinatore del dottorato\n\n25 marzo 2024Manera · Ongaro · Rigon · Colombi · Aiello\nLunedì, ore 16.30, aula U6-11\nMatteo Manera, coordinatore del dottorato\nAndrea Ongaro, coordinatore della sezione di Statistica\nTommaso Rigon, docente del dottorato\nAlessandro Colombi e Luca Aiello, dottorandi\n\n23 marzo 2023Prima edizione · Ongaro · Manera · cinque dottorandi\nGiovedì, ore 9.30, aula U6-21\nIntroduzione: il dottorato, i corsi, i gruppi di ricerca e il bando, con Andrea Ongaro e Matteo Manera\nScegliere la ricerca: Chiara Magnani e Luca Presicce, dottorandi al secondo anno, e Claudia Sartirana, dottoranda executive al terzo anno, raccontano il loro percorso e la loro esperienza quotidiana\nFare ricerca: Alessandro Colombi, al secondo anno, e Francesco Barile, al terzo anno, presentano in breve due progetti di ricerca"
+  },
+  {
+    "objectID": "events/statistical-minds/index.html#organizzazione",
+    "href": "events/statistical-minds/index.html#organizzazione",
+    "title": "Statistical Minds",
+    "section": "Organizzazione",
+    "text": "Organizzazione\nStatistical Minds è organizzato da Tommaso Rigon e Roberto Ascari, a cui ci si può rivolgere per informazioni sull’evento e sul dottorato in Statistica.\nLe persone che hanno discusso la tesi nel frattempo sono tra i PhD alumni. Per i seminari dei dottorandi in corso vedi la PhD Seminar Series."
+  },
+  {
+    "objectID": "events/statistica-impresa-finanza/index.html",
+    "href": "events/statistica-impresa-finanza/index.html",
+    "title": "Statistica e Data Science per l’Impresa e la Finanza",
+    "section": "",
+    "text": "Iscrizioni\nEvento gratuito, iscrizione obbligatoria\nI posti sono limitati: per partecipare è necessario iscriversi tramite il modulo online.\n\n\n Aggiungi al calendario\nIscriviti"
+  },
+  {
+    "objectID": "events/statistica-impresa-finanza/index.html#a-chi-è-rivolto",
+    "href": "events/statistica-impresa-finanza/index.html#a-chi-è-rivolto",
+    "title": "Statistica e Data Science per l’Impresa e la Finanza",
+    "section": "A chi è rivolto",
+    "text": "A chi è rivolto\n\n\n\n\n\n\nAlle studentesse e agli studenti della laurea magistrale in Scienze Statistiche ed Economiche, in particolare a chi sta per laurearsi o sta scegliendo come orientare il proprio percorso dopo la laurea.\nLa partecipazione è gratuita, ma i posti sono limitati e l’iscrizione è obbligatoria. L’elenco di chi ha già confermato è nella pagina Partecipanti."
+  },
+  {
+    "objectID": "events/statistica-impresa-finanza/index.html#programma",
+    "href": "events/statistica-impresa-finanza/index.html#programma",
+    "title": "Statistica e Data Science per l’Impresa e la Finanza",
+    "section": "Programma",
+    "text": "Programma\nProgramma provvisorio\nLa giornata alterna interventi invitati, una sessione di short talk e una tavola rotonda conclusiva, con una pausa pranzo e due coffee break pensati anche come momenti di incontro. Gli orari dei blocchi sono fissati; relatori, titoli e abstract saranno aggiunti qui man mano che vengono confermati.\n\n\n10.00–10.05\nSaluti istituzionali e introduzione alla giornata\n\n\n10.05–11.20\nInterventi invitati\n\nMarta Crispino Banca d’Italia\nTitolo in arrivo\n\n\n\nPaolo Maranzano Università Milano-Bicocca\nTitolo in arrivo\n\n\n\n\n11.20–11.45\nCoffee break\n\n\n11.45–13.00\nShort talk\nDodici interventi da 5 minuti di ex studentesse e studenti che oggi lavorano in azienda. Relatori in arrivo\n\n\n\n13.00–14.00\nPausa pranzo\n\n\n14.00–15.15\nInterventi invitati\n\nChiara Galimberti PriceHubble\nTitolo in arrivo\n\nSecondo relatore in arrivo\n\n\n15.15–15.45\nCoffee break\n\n\n15.45–16.45\nTavola rotonda\nPartecipanti in arrivo\n\n\n16.45–17.00\nChiusura\n\n\nChi partecipa, con le rispettive affiliazioni, è elencato nella pagina Partecipanti."
+  },
+  {
+    "objectID": "events/statistica-impresa-finanza/index.html#organizzazione",
+    "href": "events/statistica-impresa-finanza/index.html#organizzazione",
+    "title": "Statistica e Data Science per l’Impresa e la Finanza",
+    "section": "Organizzazione",
+    "text": "Organizzazione\nL’evento è organizzato da Roberto Ascari, Riccardo Borgoni, Tommaso Rigon e Giorgia Zaccaria, a cui ci si può rivolgere per informazioni."
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Eventi",
+    "section": "",
+    "text": "Ogni evento ha una propria pagina, con l’edizione in programma e l’archivio delle edizioni precedenti.\n\nStatistical MindsOrientamento al dottorato in Statistica: docenti, dottorande e dottorandi raccontano la ricerca. Ogni anno a marzo\nStatistica e Data Science per l’Impresa e la FinanzaGiornata di incontro tra università e aziende per gli studenti della laurea magistrale CLAMSES. Giovedì 20 maggio 2027"
+  },
+  {
+    "objectID": "events/statistica-impresa-finanza/partecipanti.html",
+    "href": "events/statistica-impresa-finanza/partecipanti.html",
+    "title": "Partecipanti",
+    "section": "",
+    "text": "Organizzatori, speaker e partecipanti della giornata, in ordine alfabetico. L’elenco viene aggiornato man mano che le partecipazioni sono confermate.\n\n\n\nNome\nAffiliazione\nRuolo\n\n\n\n\nRoberto Ascari\nUniversità Milano-Bicocca\nOrganizzatore\n\n\nCaterina Flavia Barera\nWindtre\n\n\n\nBeatrice Berruti\nMediobanca\n\n\n\nRiccardo Borgoni\nUniversità Milano-Bicocca\nOrganizzatore\n\n\nFrancesco Bosco\nKPMG\n\n\n\nEduardo Buono\nSDG Group\n\n\n\nLuna Cantaroni\nPwC\n\n\n\nLuca Cardone\nBrightstar Lottery\n\n\n\nMarta Crispino\nBanca d’Italia\nSpeaker\n\n\nMattia Fumagalli\nAssist Digital\n\n\n\nChiara Galimberti\nPriceHubble\nSpeaker\n\n\nCamilla Mantovani\nAxa\n\n\n\nPaolo Maranzano\nUniversità Milano-Bicocca\nSpeaker\n\n\nDamiano Marcotti\nEuropean Banking Authority\n\n\n\nFabio Marigo\nFlutter SEA\n\n\n\nTommaso Rigon\nUniversità Milano-Bicocca\nOrganizzatore\n\n\nGiorgia Zaccaria\nUniversità Milano-Bicocca\nOrganizzatrice\n\n\n\n← Torna alla pagina dell’evento"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STAT_DEMS",
+    "section": "",
+    "text": "Statistica al DEMS · Università degli Studi di Milano-Bicocca\nWork in progress\nPhD\n\nSiti ufficiali: Statistica, Machine Learning ed Economia · Scienze Statistiche ed Economiche · PhD ECOSTATDATA\nLinkedIn"
+  },
+  {
+    "objectID": "master/index.html",
+    "href": "master/index.html",
+    "title": "Laurea magistrale in Scienze Statistiche ed Economiche",
+    "section": "",
+    "text": "Queste pagine raccolgono le iniziative del gruppo di Statistica del DEMS per chi studia nella laurea magistrale. Il riferimento per piano di studi, regolamento, orari e scadenze resta il sito ufficiale del corso di laurea.\n\nGiovani TalentiProgramma di avvio alla ricerca per studentesse e studenti del secondo anno"
   },
   {
     "objectID": "phd/index.html",
