@@ -315,6 +315,9 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 .crs-side { display: flex; flex-direction: column; align-items: flex-end; gap: .15rem; text-align: right; }
 .crs-side .chip { margin: 0; }
 .crs-when { font-size: .82rem; color: $stat-muted; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.crs-potential .crs-sum { background: #f4f4f4; color: #8a8a8a; }
+.crs-potential .crs-title { font-weight: 600; font-style: italic; }
+.crs-potential .crs-note, .crs-potential .affil { color: #8a8a8a; }
 .crs-body { padding: .1rem .7rem .8rem; }
 .crs-body p, .crs-body li { font-size: .93rem; line-height: 1.5; }
 .crs-body p { margin: 0 0 .4rem; }
