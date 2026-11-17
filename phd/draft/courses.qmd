@@ -16,7 +16,7 @@ Instructors without an affiliation are from the University of Milano-Bicocca. Ro
 ## First year (cycle XLII)
 
 ::: {.crs-totals}
-15 compulsory courses and modules · 248 hours · 29 CFU
+14 compulsory courses and modules · 240 hours · 28 CFU
 :::
 
 ```{=html}
@@ -131,16 +131,6 @@ Instructors without an affiliation are from the University of Milano-Bicocca. Ro
     <summary><span class="crs-main"><span class="crs-title">Explainable AI for Business Value</span><span class="crs-who">Fabio Mercorio</span><span class="crs-note">From the Big Data &amp; Analytics for Business curriculum. Not confirmed.</span></span><span class="crs-side"><span class="chip chip-note">Potential</span><span class="crs-when">Term IV · 12 h · 1 CFU</span></span></summary>
     <div class="crs-body">
       <p>What AI is and why it needs to be explainable; explainable AI frameworks; explainability in business; the trade-off between interpretability and accuracy; examples.</p>
-    </div>
-  </details>
-</div>
-
-<div class="crs-term">
-  <h3 class="sem-group">Term III or IV <span>· period to be defined</span></h3>
-  <details class="crs-row">
-    <summary><span class="crs-main"><span class="crs-title">Statistical Learning</span><span class="crs-who">Instructor to be confirmed</span><span class="crs-note">Compulsory in the official teaching plan, not yet listed on the PhD website.</span></span><span class="crs-side"><span class="chip chip-academia">Course</span><span class="crs-when">8 h · 1 CFU</span></span></summary>
-    <div class="crs-body">
-      <p>Parametric and nonparametric inference: optimality of the MLE, Bernstein–von Mises theorem, James–Stein estimator; wavelet and kernel estimators, adaptation and minimax lower bounds. Nonparametric Bayes: posterior consistency and contraction rates, Dirichlet process mixtures and Gaussian processes. High-dimensional inference: lasso and ridge, covariance estimation, spike-and-slab and horseshoe priors; variational and distributed Bayes. Conformal prediction and variable selection with statistical guarantees.</p>
     </div>
   </details>
 </div>
