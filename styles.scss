@@ -298,3 +298,33 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 .quarto-title-banner::before { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.55)); }
 .quarto-title-banner .quarto-title { position: relative; }
 .quarto-title-banner .subtitle, .quarto-title-banner .quarto-title .title { color: #fff; }
+
+// PhD courses (phd/draft/courses): one row per course, grouped by term; reuses .sem-group and .chip
+.crs-term { margin: 0 0 1.6rem; }
+.crs-totals { font-size: .9rem; color: $stat-muted; margin: -.4rem 0 1rem; }
+.crs-term h3.sem-group { margin-top: 0; }
+.crs-row { border-bottom: 1px solid #ececec; margin: 0; }
+.crs-row > summary, .crs-sum { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; padding: .6rem .7rem; color: $stat-ink; }
+.crs-row > summary { list-style: none; cursor: pointer; }
+.crs-row > summary::-webkit-details-marker { display: none; }
+.crs-row > summary:hover, .crs-row[open] > summary { background: #fafafa; }
+.crs-row > summary .crs-title { text-decoration: underline; text-decoration-color: $stat-yellow; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.crs-main { min-width: 0; }
+.crs-title { display: block; font-weight: 600; }
+.crs-who { display: block; font-size: .92rem; }
+.crs-note { display: block; font-size: .85rem; color: $stat-gold; }
+.crs-side { display: flex; flex-direction: column; align-items: flex-end; gap: .15rem; text-align: right; }
+.crs-side .chip { margin: 0; }
+.crs-when { font-size: .82rem; color: $stat-muted; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.crs-potential .crs-sum { background: #f4f4f4; color: #8a8a8a; }
+.crs-potential .crs-title { font-weight: 600; font-style: italic; }
+.crs-potential .crs-note, .crs-potential .affil { color: #8a8a8a; }
+.crs-body { padding: .1rem .7rem .8rem; }
+.crs-body p, .crs-body li { font-size: .93rem; line-height: 1.5; }
+.crs-body p { margin: 0 0 .4rem; }
+.crs-body ul { margin: 0 0 .5rem; padding-left: 1.2rem; }
+.crs-links { font-size: .88rem !important; }
+@media (max-width: 576px) {
+  .crs-row > summary, .crs-sum { grid-template-columns: minmax(0, 1fr); }
+  .crs-side { flex-direction: row; align-items: baseline; gap: .6rem; text-align: left; }
+}
