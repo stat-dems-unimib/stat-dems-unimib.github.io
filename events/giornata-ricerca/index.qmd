@@ -1,14 +1,9 @@
 ---
 title: "Giornata della ricerca Stat@DEMS"
-subtitle: "Una giornata per conoscere la ricerca statistica del DEMS · Lunedì 18 gennaio 2027"
 toc: false
 resources:
   - giornata-ricerca-2027.ics
 ---
-
-[Negli ultimi anni il gruppo di Statistica del DEMS è cresciuto molto, e la distanza fisica tra gli edifici non aiuta a conoscere il lavoro di chi non incontriamo tutti i giorni. La Giornata della ricerca Stat@DEMS nasce per questo: una giornata in cui ciascuno racconta brevemente di cosa si occupa, per conoscerci meglio e far nascere nuove collaborazioni.]{.ev-lead}
-
-Non si tratta di seminari veri e propri: ogni intervento dura al massimo 10 minuti ed è pensato per presentarsi agli altri e descrivere i propri temi di ricerca. L'evento è aperto a docenti, ricercatrici e ricercatori, assegniste e assegnisti, dottorande e dottorandi del DEMS.
 
 ::: {.ev-facts}
 ::: {}
