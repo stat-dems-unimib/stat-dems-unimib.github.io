@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//STAT_DEMS UNIMIB//Eventi//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:giornata-ricerca-20270118@stat-dems-unimib.github.io
+DTSTAMP:20261118T120000Z
+DTSTART:20270118T080000Z
+DTEND:20270118T170000Z
+SUMMARY:Giornata della ricerca Stat@DEMS
+LOCATION:Aula U7-13\, Università di Milano-Bicocca\, Milano
+DESCRIPTION:Una giornata per conoscere la ricerca statistica del DEMS. Prog
+ ramma: https://stat-dems-unimib.github.io/events/giornata-ricerca/
+URL:https://stat-dems-unimib.github.io/events/giornata-ricerca/
+END:VEVENT
+END:VCALENDAR
