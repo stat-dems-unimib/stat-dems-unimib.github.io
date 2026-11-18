@@ -15,14 +15,6 @@ resources:
 ::: {}
 [Dove]{.ev-k} **Aula U7-13** [Università di Milano-Bicocca]{.ev-s}
 :::
-
-::: {}
-[Per chi]{.ev-k} **Chi fa ricerca in Statistica al DEMS**
-:::
-
-::: {}
-[Formato]{.ev-k} **Brevi interventi da 10 minuti** [con pranzo insieme al Sottosopra]{.ev-s}
-:::
 :::
 
 [[]{.bi .bi-calendar-plus aria-hidden="true"} Aggiungi al calendario](giornata-ricerca-2027.ics){.btn .ev-btn download="giornata-ricerca-2027.ics"}
@@ -59,7 +51,7 @@ Accoglienza e introduzione alla giornata
 ::: {.ev-slot .ev-break}
 [13.00–14.30]{.ev-time}
 
-*Pranzo insieme al Sottosopra*
+*Pranzo insieme*
 :::
 
 ::: {.ev-slot .ev-main}
