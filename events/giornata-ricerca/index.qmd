@@ -79,4 +79,4 @@ Chiusura
 
 ## Proporre un intervento
 
-Chi desidera presentare la propria ricerca può scrivere a [Tommaso Rigon](https://tommasorigon.github.io), indicando un titolo o una breve descrizione dei propri temi ed eventuali preferenze tra mattina e pomeriggio.
+Chi desidera presentare la propria ricerca può scrivere a [Tommaso Rigon](https://tommasorigon.github.io), indicando un titolo ed eventuali preferenze tra mattina e pomeriggio.
