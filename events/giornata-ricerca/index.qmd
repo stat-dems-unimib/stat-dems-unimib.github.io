@@ -5,6 +5,8 @@ resources:
   - giornata-ricerca-2027.ics
 ---
 
+[Una giornata di brevi interventi per conoscerci meglio e scoprire la ricerca del gruppo di Statistica del DEMS.]{.ev-lead}
+
 ::: {.ev-facts}
 ::: {}
 [Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.00–18.00]{.ev-s}
