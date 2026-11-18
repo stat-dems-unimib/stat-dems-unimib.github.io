@@ -26,14 +26,8 @@ resources:
 Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle proposte ricevute. Nomi e titoli saranno aggiunti qui man mano che arrivano.
 
 :::: {.ev-prog}
-::: {.ev-slot}
-[9.00–9.15]{.ev-time}
-
-Accoglienza e introduzione alla giornata
-:::
-
 ::: {.ev-slot .ev-main}
-[9.15–13.00]{.ev-time}
+[9.00–13.00]{.ev-time}
 
 [Interventi della mattina]{.ev-block}
 
@@ -55,17 +49,11 @@ Accoglienza e introduzione alla giornata
 :::
 
 ::: {.ev-slot .ev-main}
-[14.30–17.45]{.ev-time}
+[14.30–18.00]{.ev-time}
 
 [Interventi del pomeriggio]{.ev-block}
 
 [Relatori in arrivo]{.ev-tbd}
-:::
-
-::: {.ev-slot}
-[17.45–18.00]{.ev-time}
-
-Chiusura
 :::
 ::::
 
