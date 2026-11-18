@@ -9,7 +9,7 @@ resources:
 
 ::: {.ev-facts}
 ::: {}
-[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.00–18.00]{.ev-s}
+[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.30–17.30]{.ev-s}
 :::
 
 ::: {}
@@ -27,7 +27,7 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 
 :::: {.ev-prog}
 ::: {.ev-slot .ev-main}
-[9.00–13.00]{.ev-time}
+[9.30–13.00]{.ev-time}
 
 [Interventi della mattina]{.ev-block}
 
@@ -49,7 +49,7 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 :::
 
 ::: {.ev-slot .ev-main}
-[14.30–18.00]{.ev-time}
+[14.30–17.30]{.ev-time}
 
 [Interventi del pomeriggio]{.ev-block}
 
