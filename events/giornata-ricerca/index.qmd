@@ -31,9 +31,13 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 
 [Interventi della mattina]{.ev-block}
 
-[Relatori in arrivo]{.ev-tbd}
+::: {.ev-talk .ev-short}
+[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff}
 
-<!-- Un blocco per ogni intervento (togliere "Relatori in arrivo" sopra):
+[Titolo in arrivo]{.ev-title .ev-tbd}
+:::
+
+<!-- Un blocco per ogni intervento:
 ::: {.ev-talk .ev-short}
 [Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff}
 
