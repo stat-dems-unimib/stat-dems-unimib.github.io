@@ -10,4 +10,5 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: dove è stato messo 
 
 | nome | ruolo | titolo | preferenza | slot | note |
 |---|---|---|---|---|---|
-| Riccardo Corradin | RTD-B | da ricevere | nessuna | mattina | |
+| Riccardo Corradin | RTD-B | Some developments in Bayesian methods | nessuna | mattina | |
+| Antonio Candelieri | PA | The interplay between Machine Learning and Optimization: a long and happy marriage (ahead) | pomeriggio | pomeriggio | disponibile solo 11.30–15.30: tenerlo a inizio pomeriggio |

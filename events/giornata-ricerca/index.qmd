@@ -34,7 +34,7 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 ::: {.ev-talk .ev-short}
 [[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff}
 
-[Titolo in arrivo]{.ev-title .ev-tbd}
+[Some developments in Bayesian methods]{.ev-title}
 :::
 
 <!-- Un blocco per ogni intervento:
@@ -57,7 +57,11 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 
 [Interventi del pomeriggio]{.ev-block}
 
-[Relatori in arrivo]{.ev-tbd}
+::: {.ev-talk .ev-short}
+[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff}
+
+[The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
+:::
 :::
 ::::
 
