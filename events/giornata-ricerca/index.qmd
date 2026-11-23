@@ -1,55 +1,56 @@
 ---
-title: "Giornata della ricerca Stat@DEMS"
+title: "Stat@DEMS Research Day"
+lang: en
 toc: false
 css: giornata-ricerca.css
 resources:
   - giornata-ricerca-2027.ics
 ---
 
-[Una giornata di brevi interventi per conoscerci meglio e scoprire la ricerca del gruppo di Statistica del DEMS.]{.ev-lead}
+[A day of short talks to get to know each other and the research of the Statistics group at DEMS.]{.ev-lead}
 
 ::: {.ev-facts}
 ::: {}
-[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.30–17.30]{.ev-s}
+[When]{.ev-k} **Monday 18 January 2027** [9:30–17:30]{.ev-s}
 :::
 
 ::: {}
-[Dove]{.ev-k} **Aula U7-13** [Università di Milano-Bicocca]{.ev-s}
+[Where]{.ev-k} **Room U7-13** [University of Milano-Bicocca]{.ev-s}
 :::
 :::
 
-[[]{.bi .bi-calendar-plus aria-hidden="true"} Aggiungi al calendario](giornata-ricerca-2027.ics){.btn .ev-btn download="giornata-ricerca-2027.ics"}
+[[]{.bi .bi-calendar-plus aria-hidden="true"} Add to calendar](giornata-ricerca-2027.ics){.btn .ev-btn download="giornata-ricerca-2027.ics"}
 
-## Programma
+## Programme
 
-[Programma provvisorio]{.chip .chip-note}
+[Provisional programme]{.chip .chip-note}
 
-Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle proposte ricevute. Nomi e titoli saranno aggiunti qui man mano che arrivano.
+Talks will be split between morning and afternoon based on the proposals received. Names and titles will be added here as they come in.
 
 :::: {.ev-prog}
 ::: {.ev-slot .ev-main}
-[9.30–13.00]{.ev-time}
+[9:30–13:00]{.ev-time}
 
-[Interventi della mattina]{.ev-block}
+[Morning talks]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Pier Giovanni Bissiri](https://en.unimib.it/pier-giovanni-bissiri)]{.ev-speaker} [PA]{.ev-aff} [Bayesian learning beyond exchangeability]{.ev-title}
+[[Pier Giovanni Bissiri](https://en.unimib.it/pier-giovanni-bissiri)]{.ev-speaker} [Assoc. Prof.]{.ev-aff} [Bayesian learning beyond exchangeability]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
+[[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [Full Prof.]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
+[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [Asst. Prof.]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni]{.ev-title}
+[[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [Asst. Prof.]{.ev-aff} [Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
+[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [Assoc. Prof.]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
 :::
 
 <!-- Un blocco per ogni intervento:
@@ -60,38 +61,38 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 :::
 
 ::: {.ev-slot .ev-break}
-[13.00–14.30]{.ev-time}
+[13:00–14:30]{.ev-time}
 
-*Pranzo insieme*
+*Lunch together*
 :::
 
 ::: {.ev-slot .ev-main}
-[14.30–17.30]{.ev-time}
+[14:30–17:30]{.ev-time}
 
-[Interventi del pomeriggio]{.ev-block}
+[Afternoon talks]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
+[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [Asst. Prof.]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & performance d'impresa: un percorso di ricerca tra dati, modelli e domande aperte]{.ev-title}
+[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [Assoc. Prof.]{.ev-aff} [Digital footprints & performance d'impresa: un percorso di ricerca tra dati, modelli e domande aperte]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Punti, linee, poligoni e altre storie]{.ev-title}
+[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [Asst. Prof.]{.ev-aff} [Punti, linee, poligoni e altre storie]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [La vita nelle code: rischio sistemico e nuove transizioni]{.ev-title}
+[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [Assoc. Prof.]{.ev-aff} [La vita nelle code: rischio sistemico e nuove transizioni]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Bayesian nonparametrics: from ecology to other applications]{.ev-title}
+[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [Assoc. Prof.]{.ev-aff} [Bayesian nonparametrics: from ecology to other applications]{.ev-title}
 :::
 :::
 ::::
 
-## Proporre un intervento
+## Propose a talk
 
-Chi desidera presentare la propria ricerca può scrivere a [Tommaso Rigon](https://tommasorigon.github.io), indicando un titolo ed eventuali preferenze tra mattina e pomeriggio.
+If you would like to present your research, write to [Tommaso Rigon](https://tommasorigon.github.io) with a title and any preference between morning and afternoon.
