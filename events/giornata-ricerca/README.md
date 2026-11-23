@@ -11,3 +11,4 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: dove è stato messo 
 | nome | ruolo | titolo | preferenza | slot | note |
 |---|---|---|---|---|---|
 | Riccardo Corradin | RTD-B | da ricevere | nessuna | mattina | |
+| Tommaso Rigon | Professore associato | da definire | nessuna | mattina | |

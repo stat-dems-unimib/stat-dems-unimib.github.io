@@ -37,6 +37,12 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 [Titolo in arrivo]{.ev-title .ev-tbd}
 :::
 
+::: {.ev-talk .ev-short}
+[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [Professore associato]{.ev-aff}
+
+[Titolo in arrivo]{.ev-title .ev-tbd}
+:::
+
 <!-- Un blocco per ogni intervento:
 ::: {.ev-talk .ev-short}
 [Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff}
