@@ -44,6 +44,10 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 [[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni]{.ev-title}
 :::
 
+::: {.ev-talk .ev-short .ev-line}
+[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
+:::
+
 <!-- Un blocco per ogni intervento:
 ::: {.ev-talk .ev-short .ev-line}
 [Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff} [Titolo o tema di ricerca]{.ev-title}
@@ -61,10 +65,6 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 [14.30–17.30]{.ev-time}
 
 [Interventi del pomeriggio]{.ev-block}
-
-::: {.ev-talk .ev-short .ev-line}
-[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
-:::
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
