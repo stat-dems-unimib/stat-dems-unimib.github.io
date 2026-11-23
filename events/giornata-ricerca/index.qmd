@@ -87,7 +87,7 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Statistica bayesiana nonparametrica: dall'ecologia ad altre applicazioni]{.ev-title}
+[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Bayesian nonparametrics: from ecology to other applications]{.ev-title}
 :::
 :::
 ::::

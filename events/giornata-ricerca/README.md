@@ -20,7 +20,7 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: dove è stato messo 
 | Andrea Gilardi | RTT | Punti, linee, poligoni e altre storie | nessuna | pomeriggio | |
 | Matteo Pelagatti | PO | Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions | mattina | mattina | lezione 13.30–15.30 |
 | Paolo Maranzano | RTT | Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni | mattina | mattina | lezione 13.30–15.30 |
-| Tommaso Rigon | PA | Statistica bayesiana nonparametrica: dall'ecologia ad altre applicazioni | pomeriggio | pomeriggio | |
+| Tommaso Rigon | PA | Bayesian nonparametrics: from ecology to other applications | pomeriggio | pomeriggio | |
 | Pier Giovanni Bissiri | PA | Bayesian learning beyond exchangeability | mattina | mattina | primo della mattina, lontano da Corradin (tema affine) |
 | Caterina Liberati | PA | Digital footprints & performance d'impresa: un percorso di ricerca tra dati, modelli e domande aperte | nessuna | pomeriggio | solo dopo le 11.00 (ritardi treni): messa al pomeriggio, ben lontana dal limite |
 | Andrea Ugolini | PA | La vita nelle code: rischio sistemico e nuove transizioni | pomeriggio | pomeriggio | lezione al mattino: non a inizio pomeriggio. Econometria, esterno alla sezione |
