@@ -11,4 +11,4 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: dove è stato messo 
 | nome | ruolo | titolo | preferenza | slot | note |
 |---|---|---|---|---|---|
 | Riccardo Corradin | RTD-B | da ricevere | nessuna | mattina | |
-| Tommaso Rigon | Professore associato | Statistica bayesiana nonparametrica: modelli, calcolo e applicazioni | nessuna | mattina | |
+| Tommaso Rigon | Professore associato | Statistica bayesiana nonparametrica: dall'ecologia ad altre applicazioni | nessuna | mattina | |
