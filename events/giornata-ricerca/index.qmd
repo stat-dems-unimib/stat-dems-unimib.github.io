@@ -1,6 +1,7 @@
 ---
 title: "Giornata della ricerca Stat@DEMS"
 toc: false
+css: giornata-ricerca.css
 resources:
   - giornata-ricerca-2027.ics
 ---
@@ -31,17 +32,21 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 
 [Interventi della mattina]{.ev-block}
 
-::: {.ev-talk .ev-short}
-[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff}
+::: {.ev-talk .ev-short .ev-line}
+[[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
+:::
 
-[Some developments in Bayesian methods]{.ev-title}
+::: {.ev-talk .ev-short .ev-line}
+[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni]{.ev-title}
 :::
 
 <!-- Un blocco per ogni intervento:
-::: {.ev-talk .ev-short}
-[Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff}
-
-[Titolo o tema di ricerca]{.ev-title}
+::: {.ev-talk .ev-short .ev-line}
+[Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff} [Titolo o tema di ricerca]{.ev-title}
 :::
 -->
 :::
@@ -57,10 +62,16 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 
 [Interventi del pomeriggio]{.ev-block}
 
-::: {.ev-talk .ev-short}
-[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff}
+::: {.ev-talk .ev-short .ev-line}
+[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
+:::
 
-[The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
+::: {.ev-talk .ev-short .ev-line}
+[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Punti, linee, poligoni e altre storie]{.ev-title}
 :::
 :::
 ::::
