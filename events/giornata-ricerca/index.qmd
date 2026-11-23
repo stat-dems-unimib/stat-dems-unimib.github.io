@@ -31,8 +31,6 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 ::: {.ev-slot .ev-main}
 [9.30–10.30]{.ev-time}
 
-[Sessione 1]{.ev-block}
-
 ::: {.ev-talk .ev-short .ev-line}
 [[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
 :::
@@ -55,8 +53,6 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 ::: {.ev-slot .ev-main}
 [11.00–12.00]{.ev-time}
 
-[Sessione 2]{.ev-block}
-
 ::: {.ev-talk .ev-short .ev-line}
 [[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
 :::
@@ -74,8 +70,6 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 
 ::: {.ev-slot .ev-main}
 [13.30–14.30]{.ev-time}
-
-[Sessione 3]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
@@ -95,8 +89,6 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 ::: {.ev-slot .ev-main}
 [15.00–16.00]{.ev-time}
 
-[Sessione 4]{.ev-block}
-
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
 :::
@@ -114,8 +106,6 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 
 ::: {.ev-slot .ev-main}
 [16.30–17.30]{.ev-time}
-
-[Sessione 5]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [Life in the tails: systemic risk and new transitions]{.ev-title}
