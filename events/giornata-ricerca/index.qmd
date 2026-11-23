@@ -9,7 +9,7 @@ resources:
 
 ::: {.ev-facts}
 ::: {}
-[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.30–17.30]{.ev-s}
+[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.00–16.45]{.ev-s}
 :::
 
 ::: {}
@@ -23,12 +23,12 @@ resources:
 
 [Programma provvisorio]{.chip .chip-note}
 
-Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo di cinque interventi da 10 minuti, separate da pause di mezz'ora. Nomi e titoli saranno aggiunti qui man mano che arrivano.
+Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di cinque interventi da 10 minuti. Nomi e titoli saranno aggiunti qui man mano che arrivano.
 
 :::: {.ev-prog}
 
 ::: {.ev-slot .ev-main}
-[9.30–10.30]{.ev-time}
+[9.00–10.00]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
@@ -44,13 +44,13 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 :::
 
 ::: {.ev-slot .ev-break}
-[10.30–11.00]{.ev-time}
+[10.00–10.15]{.ev-time}
 
 *Pausa*
 :::
 
 ::: {.ev-slot .ev-main}
-[11.00–12.00]{.ev-time}
+[10.15–11.15]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
@@ -62,34 +62,34 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 :::
 
 ::: {.ev-slot .ev-break}
-[12.00–12.30]{.ev-time}
+[11.15–11.30]{.ev-time}
 
 *Pausa*
 :::
 
 ::: {.ev-slot .ev-main}
-[12.30–13.30]{.ev-time}
+[11.30–12.30]{.ev-time}
+
+::: {.ev-talk .ev-short .ev-line}
+[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
+:::
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
 :::
-
-::: {.ev-talk .ev-short .ev-line}
-[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & firm performance: a research journey through data, models and open questions]{.ev-title}
-:::
 :::
 
 ::: {.ev-slot .ev-break}
-[13.30–15.00]{.ev-time}
+[12.30–14.30]{.ev-time}
 
 *Pranzo insieme*
 :::
 
 ::: {.ev-slot .ev-main}
-[15.00–16.00]{.ev-time}
+[14.30–15.30]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
+[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & firm performance: a research journey through data, models and open questions]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
@@ -98,20 +98,20 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 :::
 
 ::: {.ev-slot .ev-break}
-[16.00–16.30]{.ev-time}
+[15.30–15.45]{.ev-time}
 
 *Pausa*
 :::
 
 ::: {.ev-slot .ev-main}
-[16.30–17.30]{.ev-time}
+[15.45–16.45]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [Life in the tails: systemic risk and new transitions]{.ev-title}
 :::
 :::
 
-<!-- Un blocco per ogni intervento, al massimo cinque per sessione:
+<!-- Un blocco per ogni intervento, al massimo cinque per blocco orario:
 ::: {.ev-talk .ev-short .ev-line}
 [Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff} [Titolo]{.ev-title}
 :::

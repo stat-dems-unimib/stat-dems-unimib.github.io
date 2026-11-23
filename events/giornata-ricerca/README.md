@@ -2,9 +2,9 @@
 
 Questo file non viene pubblicato sul sito (Quarto rende solo i `.qmd`). La pagina pubblica è `index.qmd`.
 
-Lunedì 18 gennaio 2027, aula U7-13. Interventi da massimo 10 minuti. Fino a 25 interventi.
+Lunedì 18 gennaio 2027, aula U7-13. Interventi da massimo 10 minuti. Obiettivo: 20 interventi; massimo 25.
 
-Struttura: cinque sessioni da un'ora, ciascuna con al massimo cinque interventi da 10 minuti più 10 minuti di margine per non sforare, separate da pause di mezz'ora. Sessione 1 9.30–10.30, pausa, sessione 2 11.00–12.00, pausa, sessione 3 12.30–13.30, pranzo 13.30–15.00 (non prima delle 12.30), sessione 4 15.00–16.00, pausa, sessione 5 16.30–17.30.
+Struttura (fino a 25 interventi): blocchi da un'ora, ciascuno con al massimo cinque interventi da 10 minuti più 10 minuti di margine per non sforare, con pause da 15 minuti. B1 9.00–10.00, pausa, B2 10.15–11.15, pausa, B3 11.30–12.30, pranzo 12.30–14.30, B4 14.30–15.30, pausa, B5 15.45–16.45. Aula prenotata 9.00–18.00.
 
 Ordine del programma: mescolare il più possibile i temi, evitando interventi affini uno dopo l'altro (proposta di Giorgia Zaccaria), nel rispetto dei vincoli di orario in `note`. L'ordine attuale è provvisorio: va rifatto quando la lista è chiusa.
 
@@ -14,20 +14,20 @@ Vincoli di orario: tenere ogni persona ben lontana dai propri limiti, mai a rido
 
 Titoli e slide in inglese. I titoli di Maranzano, Liberati, Gilardi e Ugolini, arrivati in italiano, sono stati tradotti da noi: se i relatori mandano una versione propria, sostituirla.
 
-Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: sessione in cui è stato messo nel programma di `index.qmd` (S1–S5).
+Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: sessione in cui è stato messo nel programma di `index.qmd` (B1–B5).
 
 | nome | ruolo | titolo | preferenza | slot | note |
 |---|---|---|---|---|---|
-| Riccardo Corradin | RTD-B | Some developments in Bayesian methods | nessuna | S2 | lontano da Bissiri (tema affine) |
-| Antonio Candelieri | PA | The interplay between Machine Learning and Optimization: a long and happy marriage (ahead) | pomeriggio | S3 | disponibile solo 11.30–15.30: S3 (12.30–13.30), lontano da entrambi i limiti |
-| Giorgia Zaccaria | RTT | Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations | nessuna | S2 | suggerisce di mescolare i temi; propone di ripetere l'evento ogni anno |
-| Andrea Gilardi | RTT | Points, lines, polygons and other stories | nessuna | S4 | |
-| Matteo Pelagatti | PO | Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions | mattina | S1 | lezione 13.30–15.30: S1, lontano dalla lezione |
-| Paolo Maranzano | RTT | Economy, Society and Territories: producing statistical evidence to understand change and guide decisions | mattina | S1 | lezione 13.30–15.30: S1, lontano dalla lezione |
-| Tommaso Rigon | PA | Bayesian nonparametrics: from ecology to other applications | pomeriggio | S4 | |
-| Pier Giovanni Bissiri | PA | Bayesian learning beyond exchangeability | mattina | S1 | lontano da Corradin (tema affine) |
-| Caterina Liberati | PA | Digital footprints & firm performance: a research journey through data, models and open questions | nessuna | S3 | solo dopo le 11.00 (ritardi treni): S3, ben lontana dal limite |
-| Andrea Ugolini | PA | Life in the tails: systemic risk and new transitions | pomeriggio | S5 | lezione al mattino: S5, il più lontano possibile. Econometria, esterno alla sezione |
+| Riccardo Corradin | RTD-B | Some developments in Bayesian methods | nessuna | B2 | lontano da Bissiri (tema affine) |
+| Antonio Candelieri | PA | The interplay between Machine Learning and Optimization: a long and happy marriage (ahead) | pomeriggio | B3 | disponibile solo 11.30–15.30: ultimo di B3 (verso le 12.15), al mattino come richiesto, lontano dalle 15.30 |
+| Giorgia Zaccaria | RTT | Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations | nessuna | B2 | suggerisce di mescolare i temi; propone di ripetere l'evento ogni anno |
+| Andrea Gilardi | RTT | Points, lines, polygons and other stories | nessuna | B3 | |
+| Matteo Pelagatti | PO | Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions | mattina | B1 | lezione 13.30–15.30: B1, lontano dalla lezione |
+| Paolo Maranzano | RTT | Economy, Society and Territories: producing statistical evidence to understand change and guide decisions | mattina | B1 | lezione 13.30–15.30: B1, lontano dalla lezione |
+| Tommaso Rigon | PA | Bayesian nonparametrics: from ecology to other applications | pomeriggio | B4 | |
+| Pier Giovanni Bissiri | PA | Bayesian learning beyond exchangeability | mattina | B1 | lontano da Corradin (tema affine) |
+| Caterina Liberati | PA | Digital footprints & firm performance: a research journey through data, models and open questions | nessuna | B4 | solo dopo le 11.00 (ritardi treni): B4, ben lontana dal limite |
+| Andrea Ugolini | PA | Life in the tails: systemic risk and new transitions | pomeriggio | B5 | lezione al mattino: B5, il più lontano possibile. Econometria, esterno alla sezione |
 
 ## Partecipanti senza intervento
 
