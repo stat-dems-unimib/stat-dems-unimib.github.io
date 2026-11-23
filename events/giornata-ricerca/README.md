@@ -4,7 +4,7 @@ Questo file non viene pubblicato sul sito (Quarto rende solo i `.qmd`). La pagin
 
 Lunedì 18 gennaio 2027, aula U7-13. Interventi da massimo 10 minuti. Fino a 25 interventi.
 
-Struttura: cinque sessioni da un'ora, ciascuna con al massimo cinque interventi da 10 minuti più 10 minuti di margine per non sforare, separate da pause di mezz'ora. Sessione 1 9.30–10.30, pausa, sessione 2 11.00–12.00, pranzo 12.00–13.30, sessione 3 13.30–14.30, pausa, sessione 4 15.00–16.00, pausa, sessione 5 16.30–17.30.
+Struttura: cinque sessioni da un'ora, ciascuna con al massimo cinque interventi da 10 minuti più 10 minuti di margine per non sforare, separate da pause di mezz'ora. Sessione 1 9.30–10.30, pausa, sessione 2 11.00–12.00, pausa, sessione 3 12.30–13.30, pranzo 13.30–15.00 (non prima delle 12.30), sessione 4 15.00–16.00, pausa, sessione 5 16.30–17.30.
 
 Ordine del programma: mescolare il più possibile i temi, evitando interventi affini uno dopo l'altro (proposta di Giorgia Zaccaria), nel rispetto dei vincoli di orario in `note`. L'ordine attuale è provvisorio: va rifatto quando la lista è chiusa.
 
@@ -19,7 +19,7 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: sessione in cui è s
 | nome | ruolo | titolo | preferenza | slot | note |
 |---|---|---|---|---|---|
 | Riccardo Corradin | RTD-B | Some developments in Bayesian methods | nessuna | S2 | lontano da Bissiri (tema affine) |
-| Antonio Candelieri | PA | The interplay between Machine Learning and Optimization: a long and happy marriage (ahead) | pomeriggio | S3 | disponibile solo 11.30–15.30: S3 (13.30–14.30), lontano da entrambi i limiti |
+| Antonio Candelieri | PA | The interplay between Machine Learning and Optimization: a long and happy marriage (ahead) | pomeriggio | S3 | disponibile solo 11.30–15.30: S3 (12.30–13.30), lontano da entrambi i limiti |
 | Giorgia Zaccaria | RTT | Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations | nessuna | S2 | suggerisce di mescolare i temi; propone di ripetere l'evento ogni anno |
 | Andrea Gilardi | RTT | Points, lines, polygons and other stories | nessuna | S4 | |
 | Matteo Pelagatti | PO | Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions | mattina | S1 | lezione 13.30–15.30: S1, lontano dalla lezione |

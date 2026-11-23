@@ -1,4 +1,0 @@
-/* Compact talks for this page only: one line, wrapping to two only when the title is long */
-.ev-talk.ev-line { padding: .35rem .8rem; margin-top: .3rem !important; min-width: 0; }
-.ev-talk.ev-line p { white-space: normal; }
-.ev-talk.ev-line .ev-title::before { content: "— "; font-style: normal; color: #3b3b3b; }

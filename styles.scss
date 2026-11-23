@@ -282,6 +282,9 @@ a.fac-tag.on { color: $stat-ink; font-weight: 600; text-decoration: underline; t
 .ev-aff { color: $stat-muted; }
 .ev-aff::before { content: "· "; }
 .ev-title { font-style: italic; }
+// compact talks (speaker, role and title on one line, wrapping only when needed)
+.ev-talk.ev-line { padding: .35rem .8rem; margin-top: .3rem !important; min-width: 0; }
+.ev-talk.ev-line .ev-title::before { content: "— "; font-style: normal; color: $stat-ink; }
 .ev-tbd { color: $stat-muted; font-style: italic; font-size: .92rem; }
 .ev-abstract summary { cursor: pointer; font-size: .9rem; font-weight: 600; color: $stat-ink; }
 .ev-abstract summary::marker { color: $stat-gold; }

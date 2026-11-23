@@ -1,7 +1,6 @@
 ---
 title: "Giornata della ricerca Stat@DEMS"
 toc: false
-css: giornata-ricerca.css
 resources:
   - giornata-ricerca-2027.ics
 ---
@@ -63,13 +62,13 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 :::
 
 ::: {.ev-slot .ev-break}
-[12.00–13.30]{.ev-time}
+[12.00–12.30]{.ev-time}
 
-*Pranzo insieme*
+*Pausa*
 :::
 
 ::: {.ev-slot .ev-main}
-[13.30–14.30]{.ev-time}
+[12.30–13.30]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
@@ -81,9 +80,9 @@ Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo d
 :::
 
 ::: {.ev-slot .ev-break}
-[14.30–15.00]{.ev-time}
+[13.30–15.00]{.ev-time}
 
-*Pausa*
+*Pranzo insieme*
 :::
 
 ::: {.ev-slot .ev-main}
