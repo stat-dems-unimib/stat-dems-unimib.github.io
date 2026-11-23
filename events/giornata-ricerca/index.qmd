@@ -33,6 +33,10 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 [Interventi della mattina]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
+[[Pier Giovanni Bissiri](https://en.unimib.it/pier-giovanni-bissiri)]{.ev-speaker} [PA]{.ev-aff} [Bayesian learning beyond exchangeability]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
 [[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
 :::
 
