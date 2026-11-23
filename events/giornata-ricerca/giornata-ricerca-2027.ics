@@ -8,11 +8,10 @@ UID:giornata-ricerca-20270118@stat-dems-unimib.github.io
 DTSTAMP:20261118T120000Z
 DTSTART:20270118T083000Z
 DTEND:20270118T163000Z
-SUMMARY:Stat@DEMS Research Day
-LOCATION:Room U7-13\, University of Milano-Bicocca\, Milano
-DESCRIPTION:A day of short talks on the research of the Statistics group at
-  DEMS. Programme: https://stat-dems-unimib.github.io/events/giornata-ricer
- ca/
+SUMMARY:Giornata della ricerca Stat@DEMS
+LOCATION:Aula U7-13\, Università di Milano-Bicocca\, Milano
+DESCRIPTION:Una giornata per conoscere la ricerca statistica del DEMS. Prog
+ ramma: https://stat-dems-unimib.github.io/events/giornata-ricerca/
 URL:https://stat-dems-unimib.github.io/events/giornata-ricerca/
 END:VEVENT
 END:VCALENDAR
