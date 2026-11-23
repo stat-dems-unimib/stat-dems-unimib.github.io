@@ -9,7 +9,7 @@ resources:
 
 ::: {.ev-facts}
 ::: {}
-[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 9.00–16.45]{.ev-s}
+[Quando]{.ev-k} **Lunedì 18 gennaio 2027** [ore 10.15–18.00]{.ev-s}
 :::
 
 ::: {}
@@ -28,7 +28,7 @@ Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di
 :::: {.ev-prog}
 
 ::: {.ev-slot .ev-main}
-[9.00–10.00]{.ev-time}
+[10.15–11.15]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
@@ -44,24 +44,6 @@ Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di
 :::
 
 ::: {.ev-slot .ev-break}
-[10.00–10.15]{.ev-time}
-
-*Pausa*
-:::
-
-::: {.ev-slot .ev-main}
-[10.15–11.15]{.ev-time}
-
-::: {.ev-talk .ev-short .ev-line}
-[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
-:::
-
-::: {.ev-talk .ev-short .ev-line}
-[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
-:::
-:::
-
-::: {.ev-slot .ev-break}
 [11.15–11.30]{.ev-time}
 
 *Pausa*
@@ -71,7 +53,11 @@ Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di
 [11.30–12.30]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
+[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
@@ -93,7 +79,7 @@ Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Bayesian nonparametrics: from ecology to other applications]{.ev-title}
+[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
 :::
 :::
 
@@ -109,6 +95,22 @@ Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [Life in the tails: systemic risk and new transitions]{.ev-title}
 :::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Bayesian nonparametrics: from ecology to other applications]{.ev-title}
+:::
+:::
+
+::: {.ev-slot .ev-break}
+[16.45–17.00]{.ev-time}
+
+*Pausa*
+:::
+
+::: {.ev-slot .ev-main}
+[17.00–18.00]{.ev-time}
+
+[Relatori in arrivo]{.ev-tbd}
 :::
 
 <!-- Un blocco per ogni intervento, al massimo cinque per blocco orario:

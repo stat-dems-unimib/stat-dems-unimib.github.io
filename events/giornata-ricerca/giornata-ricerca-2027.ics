@@ -6,8 +6,8 @@ METHOD:PUBLISH
 BEGIN:VEVENT
 UID:giornata-ricerca-20270118@stat-dems-unimib.github.io
 DTSTAMP:20261118T120000Z
-DTSTART:20270118T080000Z
-DTEND:20270118T154500Z
+DTSTART:20270118T091500Z
+DTEND:20270118T170000Z
 SUMMARY:Giornata della ricerca Stat@DEMS
 LOCATION:Aula U7-13\, Università di Milano-Bicocca\, Milano
 DESCRIPTION:Una giornata per conoscere la ricerca statistica del DEMS. Prog
