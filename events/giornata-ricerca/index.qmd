@@ -75,7 +75,15 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
+[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & performance d'impresa: un percorso di ricerca tra dati, modelli e domande aperte]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
 [[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Punti, linee, poligoni e altre storie]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [La vita nelle code: rischio sistemico e nuove transizioni]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
