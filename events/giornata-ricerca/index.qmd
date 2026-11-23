@@ -45,7 +45,7 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni]{.ev-title}
+[[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economy, Society and Territories: producing statistical evidence to understand change and guide decisions]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
@@ -75,15 +75,15 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & performance d'impresa: un percorso di ricerca tra dati, modelli e domande aperte]{.ev-title}
+[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & firm performance: a research journey through data, models and open questions]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Punti, linee, poligoni e altre storie]{.ev-title}
+[[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [La vita nelle code: rischio sistemico e nuove transizioni]{.ev-title}
+[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [Life in the tails: systemic risk and new transitions]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}

@@ -10,6 +10,8 @@ Vincoli di orario: tenere ogni persona ben lontana dai propri limiti, mai a rido
 
 ## Proposte di intervento
 
+Titoli e slide in inglese. I titoli di Maranzano, Liberati, Gilardi e Ugolini, arrivati in italiano, sono stati tradotti da noi: se i relatori mandano una versione propria, sostituirla.
+
 Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: dove è stato messo nel programma di `index.qmd`.
 
 | nome | ruolo | titolo | preferenza | slot | note |
@@ -17,13 +19,13 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: dove è stato messo 
 | Riccardo Corradin | RTD-B | Some developments in Bayesian methods | nessuna | mattina | |
 | Antonio Candelieri | PA | The interplay between Machine Learning and Optimization: a long and happy marriage (ahead) | pomeriggio | mattina | disponibile solo 11.30–15.30: ultimo della mattina, prima del pranzo |
 | Giorgia Zaccaria | RTT | Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations | nessuna | pomeriggio | suggerisce di mescolare i temi; propone di ripetere l'evento ogni anno |
-| Andrea Gilardi | RTT | Punti, linee, poligoni e altre storie | nessuna | pomeriggio | |
+| Andrea Gilardi | RTT | Points, lines, polygons and other stories | nessuna | pomeriggio | |
 | Matteo Pelagatti | PO | Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions | mattina | mattina | lezione 13.30–15.30 |
-| Paolo Maranzano | RTT | Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni | mattina | mattina | lezione 13.30–15.30 |
+| Paolo Maranzano | RTT | Economy, Society and Territories: producing statistical evidence to understand change and guide decisions | mattina | mattina | lezione 13.30–15.30 |
 | Tommaso Rigon | PA | Bayesian nonparametrics: from ecology to other applications | pomeriggio | pomeriggio | |
 | Pier Giovanni Bissiri | PA | Bayesian learning beyond exchangeability | mattina | mattina | primo della mattina, lontano da Corradin (tema affine) |
-| Caterina Liberati | PA | Digital footprints & performance d'impresa: un percorso di ricerca tra dati, modelli e domande aperte | nessuna | pomeriggio | solo dopo le 11.00 (ritardi treni): messa al pomeriggio, ben lontana dal limite |
-| Andrea Ugolini | PA | La vita nelle code: rischio sistemico e nuove transizioni | pomeriggio | pomeriggio | lezione al mattino: non a inizio pomeriggio. Econometria, esterno alla sezione |
+| Caterina Liberati | PA | Digital footprints & firm performance: a research journey through data, models and open questions | nessuna | pomeriggio | solo dopo le 11.00 (ritardi treni): messa al pomeriggio, ben lontana dal limite |
+| Andrea Ugolini | PA | Life in the tails: systemic risk and new transitions | pomeriggio | pomeriggio | lezione al mattino: non a inizio pomeriggio. Econometria, esterno alla sezione |
 
 ## Partecipanti senza intervento
 
