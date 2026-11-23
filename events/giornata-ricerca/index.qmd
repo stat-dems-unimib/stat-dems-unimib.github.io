@@ -24,72 +24,109 @@ resources:
 
 [Programma provvisorio]{.chip .chip-note}
 
-Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle proposte ricevute. Nomi e titoli saranno aggiunti qui man mano che arrivano.
+Gli interventi sono organizzati in sessioni da un'ora, ciascuna con un massimo di cinque interventi da 10 minuti, separate da pause di mezz'ora. Nomi e titoli saranno aggiunti qui man mano che arrivano.
 
 :::: {.ev-prog}
+
 ::: {.ev-slot .ev-main}
-[9.30–13.00]{.ev-time}
+[9.30–10.30]{.ev-time}
 
-[Interventi della mattina]{.ev-block}
-
-::: {.ev-talk .ev-short .ev-line}
-[[Pier Giovanni Bissiri](https://en.unimib.it/pier-giovanni-bissiri)]{.ev-speaker} [PA]{.ev-aff} [Bayesian learning beyond exchangeability]{.ev-title}
-:::
+[Sessione 1]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Matteo Pelagatti](https://en.unimib.it/matteo-maria-pelagatti)]{.ev-speaker} [PO]{.ev-aff} [Time Series in Motion: New Methods for Modeling, Testing, and Simulation to Answer Economic Questions]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
+[[Pier Giovanni Bissiri](https://en.unimib.it/pier-giovanni-bissiri)]{.ev-speaker} [PA]{.ev-aff} [Bayesian learning beyond exchangeability]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economy, Society and Territories: producing statistical evidence to understand change and guide decisions]{.ev-title}
 :::
-
-::: {.ev-talk .ev-short .ev-line}
-[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
-:::
-
-<!-- Un blocco per ogni intervento:
-::: {.ev-talk .ev-short .ev-line}
-[Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff} [Titolo o tema di ricerca]{.ev-title}
-:::
--->
 :::
 
 ::: {.ev-slot .ev-break}
-[13.00–14.30]{.ev-time}
+[10.30–11.00]{.ev-time}
+
+*Pausa*
+:::
+
+::: {.ev-slot .ev-main}
+[11.00–12.00]{.ev-time}
+
+[Sessione 2]{.ev-block}
+
+::: {.ev-talk .ev-short .ev-line}
+[[Riccardo Corradin](https://rcorradin.github.io/)]{.ev-speaker} [RTD-B]{.ev-aff} [Some developments in Bayesian methods]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
+:::
+:::
+
+::: {.ev-slot .ev-break}
+[12.00–13.30]{.ev-time}
 
 *Pranzo insieme*
 :::
 
 ::: {.ev-slot .ev-main}
-[14.30–17.30]{.ev-time}
+[13.30–14.30]{.ev-time}
 
-[Interventi del pomeriggio]{.ev-block}
+[Sessione 3]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Giorgia Zaccaria](https://giorgiazaccaria.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Looking for Ariadne's thread in complex data: hierarchies, outliers and missing values in heterogeneous populations]{.ev-title}
+[[Antonio Candelieri](https://en.unimib.it/antonio-candelieri)]{.ev-speaker} [PA]{.ev-aff} [The interplay between Machine Learning and Optimization: a long and happy marriage (ahead)]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & firm performance: a research journey through data, models and open questions]{.ev-title}
 :::
+:::
+
+::: {.ev-slot .ev-break}
+[14.30–15.00]{.ev-time}
+
+*Pausa*
+:::
+
+::: {.ev-slot .ev-main}
+[15.00–16.00]{.ev-time}
+
+[Sessione 4]{.ev-block}
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [Life in the tails: systemic risk and new transitions]{.ev-title}
-:::
-
-::: {.ev-talk .ev-short .ev-line}
 [[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Bayesian nonparametrics: from ecology to other applications]{.ev-title}
 :::
 :::
+
+::: {.ev-slot .ev-break}
+[16.00–16.30]{.ev-time}
+
+*Pausa*
+:::
+
+::: {.ev-slot .ev-main}
+[16.30–17.30]{.ev-time}
+
+[Sessione 5]{.ev-block}
+
+::: {.ev-talk .ev-short .ev-line}
+[[Andrea Ugolini](https://en.unimib.it/andrea-ugolini)]{.ev-speaker} [PA]{.ev-aff} [Life in the tails: systemic risk and new transitions]{.ev-title}
+:::
+:::
+
+<!-- Un blocco per ogni intervento, al massimo cinque per sessione:
+::: {.ev-talk .ev-short .ev-line}
+[Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff} [Titolo]{.ev-title}
+:::
+-->
 ::::
 
 ## Proporre un intervento
