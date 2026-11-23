@@ -44,10 +44,6 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 [[Paolo Maranzano](https://www.paolomaranzano.net/)]{.ev-speaker} [RTT]{.ev-aff} [Economia, Società e Territori: produrre evidenze statistiche per comprendere i cambiamenti e orientare le decisioni]{.ev-title}
 :::
 
-::: {.ev-talk .ev-short .ev-line}
-[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Statistica bayesiana nonparametrica: dall'ecologia ad altre applicazioni]{.ev-title}
-:::
-
 <!-- Un blocco per ogni intervento:
 ::: {.ev-talk .ev-short .ev-line}
 [Nome Cognome]{.ev-speaker} [Ruolo]{.ev-aff} [Titolo o tema di ricerca]{.ev-title}
@@ -76,6 +72,10 @@ Gli interventi saranno distribuiti tra mattina e pomeriggio in base alle propost
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Punti, linee, poligoni e altre storie]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Tommaso Rigon](https://tommasorigon.github.io)]{.ev-speaker} [PA]{.ev-aff} [Statistica bayesiana nonparametrica: dall'ecologia ad altre applicazioni]{.ev-title}
 :::
 :::
 ::::
