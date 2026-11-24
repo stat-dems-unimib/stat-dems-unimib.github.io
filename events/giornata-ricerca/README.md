@@ -28,6 +28,7 @@ Preferenza: `mattina`, `pomeriggio` oppure `nessuna`. Slot: sessione in cui è s
 | Pier Giovanni Bissiri | PA | Bayesian learning beyond exchangeability | mattina | B1 | lontano da Corradin (tema affine) |
 | Caterina Liberati | PA | Digital footprints & firm performance: a research journey through data, models and open questions | nessuna | B3 | solo dopo le 11.00 (ritardi treni): B3, ben lontana dal limite |
 | Andrea Ugolini | PA | Life in the tails: systemic risk and new transitions | pomeriggio | B4 | lezione al mattino: pomeriggio inoltrato. Econometria, esterno alla sezione |
+| Elisa Ossola | PA | The latent factor structure of corporate bonds | nessuna | B3 | Econometria, esterna alla sezione. Primo di B3, lontana da Liberati e Ugolini (temi affini) |
 
 ## Partecipanti senza intervento
 

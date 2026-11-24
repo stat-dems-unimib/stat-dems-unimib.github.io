@@ -75,11 +75,15 @@ Gli interventi sono organizzati in blocchi da un'ora, ciascuno con un massimo di
 [14.30–15.30]{.ev-time}
 
 ::: {.ev-talk .ev-short .ev-line}
-[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & firm performance: a research journey through data, models and open questions]{.ev-title}
+[[Elisa Ossola](https://en.unimib.it/elisa-ossola)]{.ev-speaker} [PA]{.ev-aff} [The latent factor structure of corporate bonds]{.ev-title}
 :::
 
 ::: {.ev-talk .ev-short .ev-line}
 [[Andrea Gilardi](https://agila5.github.io/)]{.ev-speaker} [RTT]{.ev-aff} [Points, lines, polygons and other stories]{.ev-title}
+:::
+
+::: {.ev-talk .ev-short .ev-line}
+[[Caterina Liberati](https://en.unimib.it/caterina-liberati)]{.ev-speaker} [PA]{.ev-aff} [Digital footprints & firm performance: a research journey through data, models and open questions]{.ev-title}
 :::
 :::
 
