@@ -34,7 +34,7 @@
   const surname = n => n.trim().split(/\s+/).pop();
   const slug = r => (r.date + '-' + surname(r.speaker)).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]/g, '');
   const hours = r => r.start ? esc(r.start) + (r.end ? '–' + esc(r.end) : '') : '';
-  const place = r => [r.room, r.building ? 'building ' + r.building : ''].filter(Boolean).map(esc).join(', ');
+  const place = r => [r.room, r.building ? 'building ' + r.building : ''].filter(Boolean).map(esc).join(', ') || 'Room to be announced';
   const buildingCode = r => (r.building.match(/U\d+/) || [''])[0];
   const who = r => `<span class="sem-speaker">${r.website ? `<a href="${esc(r.website)}">${esc(r.speaker)}</a>` : esc(r.speaker)}</span>${r.affiliation ? ` <span class="affil">(${esc(r.affiliation)})</span>` : ''}`;
   const abstract = r => r.abstract ? r.abstract.split(/\n\s*\n/).map(p => `<p>${esc(p)}</p>`).join('') : '<p class="sem-none">Abstract not available.</p>';
