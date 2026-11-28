@@ -23,7 +23,7 @@ include-in-header:
   - **SGI** fa prima i modelli e poi concentra tutto il ML in un corso da 15 CFU al 3° anno.
   - **Bergamo** (Data Analytics) mette al 2° anno un unico *Statistical Learning* da 12 CFU, sul modello del manuale ISLR: logistica, penalizzazione, alberi, *ensemble*, GAM e CV insieme. L'ottimizzazione per il ML è in Analisi 2 e le reti neurali sono in un corso di programmazione.
 - **CLAMSES non ha un corso sui GLM.** Per chi passa da SMLE a CLAMSES, *Modelli statistici avanzati* è l'unico corso in cui i GLM si studiano in modo sistematico.
-- **Proposta**: FML come corso sulla previsione vista dalla statistica; logistica anticipata al 2° anno; un accordo con CLAMSES su che cosa la magistrale può dare per acquisito. Vedi la [proposta](#proposta).
+- **Proposta**: FML come corso sulla previsione vista dalla statistica; Statistica computazionale (3°, DS) riportata a Monte Carlo, bootstrap, ottimizzazione ed EM; logistica anticipata al 2° anno; un accordo con CLAMSES su che cosa la magistrale può dare per acquisito. Vedi la [proposta](#proposta).
 
 ## I piani di studio
 
@@ -226,7 +226,7 @@ Al 2° anno ci sono *Fondamenti di Statistical Learning* (15 CFU, che però cont
 :::
 
 ::: {.callout-warning collapse="true" title="4. Nel tronco comune manca la statistica computazionale"}
-In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun corso obbligatorio. La *Statistica computazionale* del 3° anno (percorso DS) tratta in realtà di misture. A Padova invece è un corso da 9 CFU al 2° anno. In CLAMSES la teoria di Monte Carlo e del bootstrap c'è, ed è obbligatoria per tutti: in triennale basterebbe usarli come strumenti.
+In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun corso obbligatorio. La *Statistica computazionale* del 3° anno (percorso DS) tratta in realtà di misture. A Padova invece è un corso da 9 CFU al 2° anno. In CLAMSES Monte Carlo e bootstrap ci sono e sono obbligatori per tutti; ottimizzazione numerica ed EM invece mancano anche lì. La [proposta](#proposta) riporta Statistica computazionale a questi contenuti.
 :::
 
 ::: {.callout-warning collapse="true" title="5. A valle c'è già un altro Foundations of Machine Learning"}
@@ -242,8 +242,7 @@ In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun
 | Il problema della previsione | Perdita e rischio, regressione e classificazione, regola di Bayes, errore riducibile e irriducibile | Linguaggio comune ai corsi a valle |
 | Distorsione e varianza | *Training* e *test*, *overfitting*, convalida incrociata | Oggi arriva solo al 3° anno, e nel solo percorso DS |
 | Valutare un classificatore | Matrice di confusione, ROC/AUC, calibrazione, *score* di Brier, classi sbilanciate | In CLAMSES c'è solo un cenno; serve ai percorsi Mercato e Finanza |
-| Due metodi di riferimento | kNN; logistica **come classificatore** (perdita logistica, discesa del gradiente) | La teoria dei GLM resta a *Modelli statistici avanzati* |
-| Ottimizzazione numerica | Newton e discesa del gradiente applicati a perdita e verosimiglianza; discesa stocastica; simulazione come strumento | Riprende i metodi del gradiente di *Algoritmi e ottimizzazione* (1°); non c'è in nessun corso statistico di CLAMSES |
+| Due metodi di riferimento | kNN; logistica **come classificatore** (perdita logistica, discesa del gradiente come la si è vista in *Algoritmi e ottimizzazione*) | La teoria dei GLM resta a *Modelli statistici avanzati* |
 
 : {.striped .hover}
 
@@ -253,8 +252,22 @@ In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun
 - Reti neurali: restano a Fondamenti di IA e DL.
 - PCA e *clustering*: restano ad *Analisi esplorativa*.
 - Teoria dei GLM: resta a *Modelli statistici avanzati*.
-- Teoria di Monte Carlo e del bootstrap: resta a Prob. e stat. computazionale M.
+- Simulazione, bootstrap, ottimizzazione numerica: restano a Statistica computazionale (3°, DS).
 :::
+
+**Statistica computazionale "vecchio stile"** (3° anno, percorso DS, 6 CFU). Il corso passa dalle misture agli strumenti computazionali di base, che in SMLE oggi non insegna nessuno. Va al I semestre, II periodo: subito dopo *Modelli statistici avanzati*, quindi IRLS e Fisher *scoring* arrivano quando i GLM sono appena stati visti.
+
+| Blocco | Contenuti | Ore |
+|---|---|:-:|
+| Ottimizzazione per la verosimiglianza | Newton-Raphson, Fisher *scoring* e IRLS, quasi-Newton, `optim`; verosimiglianza profilo, informazione osservata numerica; gradiente e gradiente stocastico | ~12 |
+| Algoritmo EM | Dati incompleti; misture gaussiane e *clustering* basato su modelli (ciò che resta del corso attuale) | ~8 |
+| Simulazione e Monte Carlo | Inversione, accettazione-rifiuto; integrazione Monte Carlo; studi di simulazione su livello, potenza, copertura e distorsione | ~12 |
+| Bootstrap e jackknife | Errori standard, intervalli percentile e BCa, bootstrap nella regressione; legame con la convalida incrociata | ~12 |
+| Progetto | Uno studio di simulazione o un'analisi bootstrap su dati reali | ~4 |
+
+: {.striped .hover}
+
+I nomi restano imperfetti: *Fondamenti di Statistical Learning* contiene in realtà modello lineare e analisi esplorativa, e *Modelli statistici avanzati* sono i GLM. È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.
 
 ::: {.callout-note collapse="true" title="Raccordo con CLAMSES: che cosa diventa richiamo"}
 | Argomento | In SMLE | In CLAMSES |
@@ -262,7 +275,8 @@ In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun
 | Rischio, distorsione e varianza, CV | FML (2°) | *Data Mining M*, *Machine Learning M*: richiamo, poi ottimismo, criteri di informazione, teoria dell'apprendimento |
 | Logistica, kNN | FML + modulo sui modelli (2°) | *Statistica avanzata M*: confronto teorico tra classificatori, senza ripartire da zero |
 | Teoria dei GLM | *Modelli statistici avanzati* (3°) | Data per nota |
-| Monte Carlo, bootstrap | Solo come strumento | Prob. e stat. computazionale M: teoria |
+| Monte Carlo, bootstrap | Statistica computazionale (3°, solo DS): uso e studi di simulazione | Prob. e stat. computazionale M: resta per tutti (la seguono anche SGI e gli altri percorsi); per i laureati DS diventa un approfondimento |
+| Ottimizzazione numerica, EM | Statistica computazionale (3°, solo DS) | Non c'è: da dare per noto |
 | Alberi, *ensemble*, reti | Percorso DS (3°) | Statistical Learning M, Machine Learning M |
 
 : {.striped .sm}
@@ -274,6 +288,7 @@ Vincolo: CLAMSES accoglie anche laureati SGI e di altre classi. Al posto delle r
 - **Modelli per l'apprendimento statistico** (2°): aggiungere alcune lezioni su logistica e Poisson, come in Modelli statistici 1 di Padova.
 - **Modelli statistici avanzati** (3°): portarlo verso Modelli statistici 2 di Padova (dispersione esponenziale, IRLS, devianza, quasi-verosimiglianza, sovradispersione, cenni a dati correlati) e ridurre il ripasso del modello lineare.
 - **Data mining** (3°, DS): concentrarsi su alberi, *ensemble*, dati mancanti e *text mining*, dando per noti distorsione e varianza.
+- **Statistica computazionale** (3°, DS): ridisegnarla come sopra. Va concordato con chi la tiene oggi, perché le misture passano da contenuto principale ad applicazione dell'EM.
 - **Strumenti di ML** (3°): partire da FML, senza ripeterla.
 :::
 
@@ -281,7 +296,7 @@ Vincolo: CLAMSES accoglie anche laureati SGI e di altre classi. Al posto delle r
 | Opzione | Pro | Contro |
 |---|---|---|
 | ML introduttivo classico (kNN, alberi, LDA, *clustering*) | Facile, attraente | Duplica Data mining e CLAMSES; non risolve il problema della logistica |
-| Statistica computazionale "alla Padova" | Solida | Poco ML; si sovrappone a Prob. e stat. computazionale M |
+| FML come statistica computazionale "alla Padova" | Solida | Toglie a FML la previsione; meglio farlo in Statistica computazionale (proposta adottata) |
 | FML al 3° anno, dopo i GLM | Risolve l'ordine | Richiede di modificare l'ordinamento |
 | Modello Bergamo: fondere FML e *Modelli per l'apprendimento statistico* in un unico *Statistical Learning* al 2° anno (stile ISLR) | Ordine coerente: modello lineare, logistica e ML in un unico corso; nessun doppione interno | Svuota Data mining (3°) e si sovrappone molto a Data Mining M e Statistical Learning M; restringe il tempo per la teoria del modello lineare |
 | Modello SGI: un unico corso di ML al 3° anno | Nessuna sovrapposizione interna | Richiede di modificare l'ordinamento; toglie il ML ai percorsi Mercato e Finanza |
@@ -294,7 +309,7 @@ Vincolo: CLAMSES accoglie anche laureati SGI e di altre classi. Al posto delle r
 - **Cicli di FML**: il prospetto della programmazione non li indica.
 - **Chi scrive il *syllabus* di FML**: insieme ai titolari di *Modelli per l'apprendimento statistico*, Data mining e *Modelli statistici avanzati*. Per CLAMSES vanno coinvolti almeno i titolari di Statistica avanzata M, Data Mining M, Machine Learning M e Prob. e stat. computazionale M.
 - **R e Python**: Informatica (1°) e *Machine Learning M* usano Python, i corsi di statistica R. FML può essere il ponte tra i due.
-- **Statistica computazionale (3°, DS)**: il nome è fuorviante, perché tratta di misture.
+- **Statistica computazionale solo nel percorso DS**: chi sceglie Mercato o Finanza esce senza simulazione né bootstrap. Metterla nel tronco comune, come a Padova, richiederebbe di modificare l'ordinamento.
 
 ## Fonti
 
