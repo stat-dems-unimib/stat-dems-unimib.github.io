@@ -107,65 +107,70 @@ I percorsi sono tre: STAT (Statistica e data science), SPI (Statistica per le im
 
 ## Dove sta ogni argomento
 
-⚠︎ segna i punti critici per SMLE. DM e ML = *Data mining e machine learning* (SGI); DS = percorso Data Science di SMLE.
+Ogni cella riporta insegnamento, anno di corso e CFU. ⚠︎ segna i punti critici per SMLE. DM e ML = *Data mining e machine learning* (SGI); DS = percorso Data Science di SMLE; "tutti" = tutti i percorsi di CLAMSES.
 
 ::: {.callout-note collapse="false" title="Matematica"}
-| Argomento | SMLE | SGI | Padova | CLAMSES |
+| Argomento | SMLE | SGI | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|
-| Analisi in una variabile | Analisi matematica I (1°, 9) | Analisi matematica I (1°, 9) | Istituzioni di analisi (1°, **12**), con cenni alle funzioni di due variabili | livellamento (non per laureati SSE/SMLE) |
-| Più variabili, ottimizzazione vincolata, integrali multipli | Analisi matematica II (2°, 6) | Analisi matematica II (2°, 6) | Analisi matematica 2 (2°, 9, **a scelta**; obbligatoria nel percorso Metodologico), con anche serie di funzioni ed equazioni differenziali | Matematica per l'economia M (MAF) |
-| Algebra lineare | Algebra lineare (1°, 6) | Algebra lineare (1°, 6) | Algebra lineare (1°, 6) | — |
-| Probabilità | Calcolo delle probabilità (1°, 9, SECS-S/01) | Calcolo delle probabilità (1°, 9) | Istituzioni di probabilità (1°, 9, MAT/06) | Probabilità applicata (tutti): convergenze, vettori gaussiani |
-| Ricerca operativa | Algoritmi e ottimizzazione (1°, 6): PL, simplesso, PLI, **metodi del gradiente**, *derivative-free* | — | Ottimizzazione: modelli e metodi (2°, 9, STS): PL, dualità, PLI, non lineare, Gurobi in Python | — |
+| Analisi in una variabile | Analisi matematica I<br>1° anno · 9 CFU | Analisi matematica I<br>1° anno · 9 CFU | Istituzioni di analisi matematica<br>1° anno · **12 CFU** (con cenni alle funzioni di due variabili) | — |
+| Più variabili, ottimizzazione vincolata, integrali multipli | Analisi matematica II<br>2° anno · 6 CFU | Analisi matematica II<br>2° anno · 6 CFU | Analisi matematica 2<br>2° anno · 9 CFU · **a scelta** (obbligatoria nel percorso Metodologico); anche serie di funzioni ed equazioni differenziali | Matematica per l'economia M<br>1° anno · 6 CFU · solo MAF |
+| Algebra lineare | Algebra lineare<br>1° anno · 6 CFU | Algebra lineare<br>1° anno · 6 CFU | Algebra lineare<br>1° anno · 6 CFU | — |
+| Probabilità | Calcolo delle probabilità<br>1° anno · 9 CFU | Calcolo delle probabilità<br>1° anno · 9 CFU | Istituzioni di probabilità<br>1° anno · 9 CFU | Probabilità applicata<br>1° anno · 6 CFU · tutti |
+| Ricerca operativa | Algoritmi e ottimizzazione<br>1° anno · 6 CFU: PL, simplesso, PLI, **metodi del gradiente**, *derivative-free* | — | Ottimizzazione: modelli e metodi<br>2° anno · 9 CFU · solo STS | — |
+| **Totale obbligatorio** | **36 CFU** | **30 CFU** | **27 CFU** (+ 9 in STS) | |
 
 : {.striped .hover .sm}
 :::
 
 ::: {.callout-note collapse="false" title="Informatica e dati"}
-| Argomento | SMLE | SGI | Padova | CLAMSES |
+| Argomento | SMLE | SGI | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|
-| Programmazione | Informatica (1°, 6): architettura, algoritmi, **Python**, NumPy, pandas | Informatica (1°, 9): **Python**, tabelle, grafici | Sistemi di elaborazione 1 (1°, 6): **Python**, complessità, ricerca | Machine Learning M (Python, STAT) |
-| Algoritmi e strutture dati | — | — | Strutture dati e programmazione (1°, 6): oggetti, ricorsione, ordinamento, pile, *hash*, alberi, grafi | — |
-| Laboratorio | Laboratorio di informatica (1°, 3; dal 2027/28 non più mutuato da SGI) | Laboratorio di informatica (1°, 3) | — | — |
-| Basi di dati | Basi di dati (2°, 6): SQL, progettazione, dati semi-strutturati | Basi di dati (2°, 6) | Basi di dati (2°, 6); Basi di dati 2 (3°, percorso Big Data) | — |
-| Sistemi e dati complessi | Gestione dati complessi (3°, DS, dal 2028/29) | Sistemi informativi (3°, 9): CRM, *data warehouse*, *social media analytics* | Sistemi di elaborazione 2 (3°): reti, *cloud*, calcolo distribuito; Information retrieval (3°): motori di ricerca, RAG | — |
-| IA | Introduzione all'IA (3°, DS, 3) | Data processing and analysis (3°, a scelta): *embedding*, XAI | — | — |
+| Programmazione | Informatica<br>1° anno · 6 CFU · Python, NumPy, pandas | Informatica<br>1° anno · 9 CFU · Python | Sistemi di elaborazione 1<br>1° anno · 6 CFU · Python | Machine Learning M<br>2° anno · 6 CFU · Python · solo STAT |
+| Algoritmi e strutture dati | — | — | Strutture dati e programmazione<br>1° anno · 6 CFU | — |
+| Laboratorio | Laboratorio di informatica<br>1° anno · 3 CFU | Laboratorio di informatica<br>1° anno · 3 CFU | — | — |
+| Basi di dati | Basi di dati<br>2° anno · 6 CFU | Basi di dati<br>2° anno · 6 CFU | Basi di dati<br>2° anno · 6 CFU; Basi di dati 2<br>3° anno · 9 CFU · percorso Big Data | — |
+| Sistemi e dati complessi | Gestione dati complessi<br>3° anno · 6 CFU · solo DS (dal 2028/29) | Sistemi informativi<br>3° anno · 9 CFU | Sistemi di elaborazione 2; Information retrieval<br>3° anno · 9 CFU ciascuno · a scelta (STS) | — |
+| IA | Introduzione all'IA<br>3° anno · 3 CFU · solo DS | Data processing and analysis<br>3° anno · 6 CFU · a scelta | — | — |
+| **Totale obbligatorio** | **15 CFU** (+ 9 in DS; Algoritmi e ottimizzazione, INF/01, è contato in Matematica) | **27 CFU** | **18 CFU** | |
 
 : {.striped .hover .sm}
 :::
 
-::: {.callout-note collapse="false" title="Inferenza e modelli"}
-| Argomento | SMLE | SGI | Padova | CLAMSES |
+::: {.callout-note collapse="false" title="Statistica di base, inferenza e modelli"}
+| Argomento | SMLE | SGI | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|
-| Inferenza, verosimiglianza | Inferenza statistica (2°, 12) | Statistica II (2°, 12) | Statistica 2 (2°, 12) | Teorie dell'inferenza (tutti) |
-| Campionamento | dentro Inferenza statistica | Piano degli esperimenti (3°, a scelta) | corso dedicato (2°, 9) | Indagini campionarie M (SPI) |
-| Modello lineare | *Modelli per l'apprendimento statistico* (2°) | *Modelli statistici* (2°) | Modelli statistici 1 (2°) | solo richiami |
-| Logistica e Poisson | ⚠︎ solo al 3° anno (*Modelli statistici avanzati*) | 2° anno | **2° anno** (Modelli statistici 1) | Statistica avanzata M; Microeconometria (tutti) |
-| Teoria dei GLM | *Modelli statistici avanzati* (3°) | in DM e ML (3°) | Modelli statistici 2 (3°, a scelta) | ⚠︎ **nessun corso dedicato** |
-| Serie storiche | Serie storiche economiche (3°) | Dati spaziali e temporali (2°) | Serie storiche (3°) | VAR e cointegrazione; Dynamic models (tutti) |
+| Statistica descrittiva | Statistica e Data Visualization<br>1° anno · 6 CFU | Statistica I<br>1° anno · 6 CFU; Statistica I – Complementi<br>2° anno · 6 CFU | Statistica 1<br>1° anno · 9 CFU | — |
+| Inferenza, verosimiglianza | Inferenza statistica<br>2° anno · 12 CFU | Statistica II<br>2° anno · 12 CFU | Statistica 2<br>2° anno · 12 CFU | Teorie dell'inferenza<br>1° anno · 6 CFU · tutti |
+| Campionamento | dentro Inferenza statistica | Piano degli esperimenti<br>3° anno · 6 CFU · a scelta | Teoria e tecnica dell'indagine e del campionamento<br>2° anno · 9 CFU | Metodi per le indagini campionarie M<br>1° anno · 6 CFU · solo SPI |
+| Modello lineare | *Modelli per l'apprendimento statistico*<br>2° anno · 9 CFU | *Modelli statistici* (modulo di ASM)<br>2° anno · 8 CFU | Modelli statistici 1<br>2° anno · 9 CFU (6 sul modello lineare) | solo richiami |
+| Logistica e Poisson | ⚠︎ solo al 3° anno, in *Modelli statistici avanzati* | *Modelli statistici*<br>2° anno · 8 CFU | **Modelli statistici 1**<br>2° anno · 9 CFU (3 su logistica e Poisson) | Statistica multivariata, 1° anno · 6 CFU · tutti; Microeconometria, 1° anno · 6 CFU · tutti |
+| Teoria dei GLM | *Modelli statistici avanzati*<br>3° anno · 6 CFU | dentro DM e ML<br>3° anno · 15 CFU | Modelli statistici 2<br>3° anno · 9 CFU · a scelta | ⚠︎ **nessun corso dedicato** |
+| Serie storiche | Serie storiche economiche<br>3° anno · 9 CFU | Analisi dei dati spaziali e temporali<br>2° anno · 6 CFU | Serie storiche<br>3° anno · 9 CFU | Serie storiche ed economiche, 1° anno · 6 CFU; Dynamic models and ML forecasting, 1° anno · 6 CFU · tutti |
 
 : {.striped .hover .sm}
 :::
 
 ::: {.callout-note collapse="false" title="Multivariata e statistica computazionale"}
-| Argomento | SMLE | SGI | Padova | CLAMSES |
+| Argomento | SMLE | SGI | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|
-| PCA, *cluster*, fattoriale | *Analisi esplorativa* (2°) | ASM (2°) | Analisi dati multidimensionali (3°) | Statistica avanzata M (tutti) |
-| Monte Carlo, bootstrap | ⚠︎ nessun corso obbligatorio | DM e ML (3°) | Statistica computazionale (2°, STS) | Prob. e stat. computazionale M (tutti) |
-| Lisciamento, *spline*, GAM | — | DM e ML (3°) | Statistica computazionale (2°) | Data Mining M (STAT) |
-| Misture | Statistica computazionale (3°, DS) | — | Big data (3°) | Bayesian statistical modeling (STAT) |
+| PCA, *cluster*, fattoriale | *Analisi esplorativa*<br>2° anno · 6 CFU | *Analisi esplorativa* (modulo di ASM)<br>2° anno · 7 CFU | Analisi dei dati multidimensionali<br>3° anno · 6 CFU | Statistica multivariata<br>1° anno · 6 CFU · tutti |
+| Monte Carlo, bootstrap | ⚠︎ nessun corso obbligatorio | dentro DM e ML<br>3° anno · 15 CFU | Statistica computazionale<br>2° anno · 9 CFU · obbligatoria in STS | Statistica computazionale (modulo)<br>1° anno · 6 CFU · tutti |
+| Lisciamento, *spline*, GAM | — | dentro DM e ML<br>3° anno · 15 CFU | Statistica computazionale<br>2° anno · 9 CFU | Data Mining M<br>1° anno · 6 CFU · STAT |
+| Misture | Statistica computazionale<br>3° anno · 6 CFU · solo DS | — | Metodi statistici per big data<br>3° anno · 9 CFU · a scelta | Bayesian statistical modeling<br>2° anno · 6 CFU · STAT |
 
 : {.striped .hover .sm}
 :::
 
 ::: {.callout-note collapse="false" title="Machine learning"}
-| Argomento | SMLE | SGI | Padova | CLAMSES |
+| Argomento | SMLE | SGI | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|
-| Distorsione e varianza, CV | ⚠︎ Data mining (3°, DS) | DM e ML (3°) | magistrale | Data Mining M; Machine Learning M (STAT) |
-| Ridge, lasso | — | — | Big data (3°, a scelta) | Data Mining M (STAT) |
-| Bayes, LDA, QDA, kNN | ⚠︎ Data mining (3°, DS) | ASM (2°), DM e ML (3°) | magistrale | Statistica avanzata M (tutti); Machine Learning M (STAT) |
-| Alberi ed *ensemble* | alberi in Data mining (3°, DS) | DM e ML (3°) | magistrale | Statistical Learning M (STAT) |
-| Reti neurali | Fondamenti di IA e DL (3°, DS) | DM e ML (3°) | cenni in Big data (3°) | Statistical Learning M; Machine Learning M (STAT) |
+| Fondamenti, previsione | **Fondamenti di Machine Learning**<br>2° anno · 6 CFU · contenuto da definire | — | — | Machine Learning M<br>2° anno · 6 CFU · STAT |
+| Distorsione e varianza, CV | ⚠︎ Data mining<br>3° anno · 6 CFU · solo DS | dentro DM e ML<br>3° anno · 15 CFU | in magistrale | Data Mining M, 1° anno · 6 CFU; Machine Learning M, 2° anno · 6 CFU · STAT |
+| Ridge, lasso | — | — | Metodi statistici per big data<br>3° anno · 9 CFU · a scelta | Data Mining M<br>1° anno · 6 CFU · STAT |
+| Bayes, LDA, QDA, kNN | ⚠︎ Data mining<br>3° anno · 6 CFU · solo DS | LDA in *Analisi esplorativa* (2° anno); il resto in DM e ML (3° anno) | in magistrale | Statistica multivariata, 1° anno · 6 CFU · tutti; Machine Learning M, 2° anno · 6 CFU · STAT |
+| Alberi ed *ensemble* | alberi in Data mining<br>3° anno · 6 CFU · solo DS | dentro DM e ML<br>3° anno · 15 CFU | in magistrale | Statistical Learning M<br>2° anno · 6 CFU · STAT |
+| Reti neurali | Fondamenti di IA e DL<br>3° anno · 3 + 3 CFU · solo DS | dentro DM e ML<br>3° anno · 15 CFU | cenni in Metodi statistici per big data<br>3° anno · 9 CFU · a scelta | Statistical Learning M e Machine Learning M<br>2° anno · 6 + 6 CFU · STAT |
+| Applicazioni settoriali | Strumenti di ML per l'analisi di mercato / per la finanza<br>3° anno · 6 CFU · percorsi Mercato e Finanza | — | — | — |
 
 : {.striped .hover .sm}
 :::
