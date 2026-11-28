@@ -7,3 +7,7 @@
 *_files/
 
 **/*.quarto_ipynb
+
+# Local Claude files
+.claude/
+Claude outputs/
