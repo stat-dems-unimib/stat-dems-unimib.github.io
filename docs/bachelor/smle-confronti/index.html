@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SMLE, SGI, Bergamo, Padova e CLAMSES: piani di studio a confronto – STAT_DEMS</title>
+<title>SMLE a confronto: SGI, Bergamo, Padova, Warwick, LSE, Bocconi e CLAMSES – STAT_DEMS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">SMLE, SGI, Bergamo, Padova e CLAMSES: piani di studio a confronto</h1>
+<h1 class="title">SMLE a confronto: SGI, Bergamo, Padova, Warwick, LSE, Bocconi e CLAMSES</h1>
 <p class="subtitle lead">Il piano di studio di Statistica, Machine Learning ed Economia (SMLE) e la collocazione di <em>Fondamenti di Machine Learning</em></p>
 </div>
 
@@ -203,6 +203,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Padova</strong> insegna logistica e Poisson al 2° anno, ha Statistica computazionale (in STS) e lascia il ML alla magistrale.</li>
 <li><strong>SGI</strong> fa prima i modelli e poi concentra tutto il ML in un corso da 15 CFU al 3° anno.</li>
 <li><strong>Bergamo</strong> (Data Analytics) mette al 2° anno un unico <em>Statistical Learning</em> da 12 CFU, sul modello del manuale ISLR.</li>
+<li><strong>Warwick e LSE</strong> (BSc Data Science) mettono il ML al <strong>3° anno</strong>, dopo probabilità, inferenza e regressione: a Warwick <em>Fundamentals of Machine Learning</em> è un modulo a scelta del 3° anno; a LSE <em>Machine Learning</em> e <em>Artificial Intelligence</em> sono obbligatori al 3°.</li>
+<li><strong>Bocconi</strong> (BEMACS, ora <em>Management and Computer Science</em>) fa ML al 2° anno, dopo un solo corso di statistica del 1° anno, insegnato per casi di studio.</li>
 </ul></li>
 <li><strong>CLAMSES non ha un corso sui GLM.</strong> Per chi passa da SMLE a CLAMSES, <em>Modelli statistici avanzati</em> è l’unico corso in cui i GLM si studiano in modo sistematico.</li>
 <li><strong>Lacune di base rispetto a Padova</strong>: algebra lineare (proiezioni, QR, teorema spettrale), probabilità (vettori gaussiani, trasformazioni), algoritmi e strutture dati. Mancano inoltre inferenza causale e disegno degli esperimenti. Vedi <a href="#dove-sta-ogni-argomento">dove sta ogni argomento</a> e <a href="#argomenti-scoperti">argomenti scoperti</a>.</li>
@@ -640,8 +642,270 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="CLAMSES · Milano-Bicocca, LM-82, 2026/27">
+<div class="callout callout-style-default callout-note callout-titled" title="Data Science · Warwick, BSc, 2026/27">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Data Science · Warwick, BSc, 2026/27
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Crediti in CATS (15 CATS = 7,5 ECTS = 7,5 CFU). 1° anno tutto obbligatorio; 2° anno circa 20% a scelta; 3° anno circa 75% a scelta.</p>
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Anno</th>
+<th>Insegnamento</th>
+<th style="text-align: center;">CATS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Programming for Computer Scientists (Java); Design of Information Structures (strutture dati, ricerca, ordinamento, complessità)</td>
+<td style="text-align: center;">15 + 15</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Vectors and Matrices; Calculus 1 e 2; Sets and Numbers; Mathematical Programming 1 (programmazione lineare)</td>
+<td style="text-align: center;">10 + 20 + 10 + 10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Introduction to Statistical Modelling (modelli, verosimiglianza, R); Probability 1 e 2</td>
+<td style="text-align: center;">15 + 25</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Software Engineering; Database Systems; Algorithms</td>
+<td style="text-align: center;">15 + 15 + 15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Mathematical Methods for Statistics and Probability (più variabili, ottimizzazione vincolata, matrici simmetriche, ortogonalizzazione e regressione)</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Probability for Mathematical Statistics (distribuzioni condizionate, normale multivariata, LGN, TLC); Mathematical Statistics (verosimiglianza, stima, test, <strong>inferenza bayesiana</strong>)</td>
+<td style="text-align: center;">10 + 10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td><strong>Linear Statistical Modelling with R</strong> (modello lineare normale, test F, ANOVA, diagnostica, selezione); Stochastic Processes</td>
+<td style="text-align: center;">10 + 10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>A scelta, tra cui Python for data-analytic tasks, Artificial Intelligence, Data Analytics</td>
+<td style="text-align: center;">~25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Data Science Project</td>
+<td style="text-align: center;">30</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td>A scelta, tra cui <strong>Fundamentals of Machine Learning</strong> (CV, regolarizzazione, logistica, kNN, discriminante, reti, PCA), <strong>GLM for Regression and Classification</strong> (anche quasi-verosimiglianza e sovradispersione), Multivariate Statistics, Bayesian Statistics, Bayesian Forecasting, Professional Practice of Data Analysis</td>
+<td style="text-align: center;">~90</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Data Science · LSE, BSc, coorte 2026/27">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Data Science · LSE, BSc, coorte 2026/27
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Crediti in <em>unit</em> (1 unit = 15 ECTS; 0,5 unit = 7,5 ECTS). Quattro unit all’anno, più il corso interdisciplinare LSE100 al 1° anno.</p>
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Anno</th>
+<th>Insegnamento</th>
+<th style="text-align: center;">Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Elementary Statistical Theory (descrittiva, probabilità, distribuzioni, stima, test, ANOVA, regressione)</td>
+<td style="text-align: center;">1,0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Mathematical Methods (algebra lineare con diagonalizzazione ortogonale, più variabili, Lagrange)</td>
+<td style="text-align: center;">1,0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Programming for Data Science (Python, oggetti, ricorsione, eccezioni); <strong>Managing and Visualising Data</strong> (API, <em>web scraping</em>, pulizia, SQL, JSON e XML, visualizzazione)</td>
+<td style="text-align: center;">0,5 + 0,5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Due mezze unit a scelta tra microeconomia, macroeconomia, finanza, contabilità, analisi, matematica discreta</td>
+<td style="text-align: center;">0,5 + 0,5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Probability and Distribution Theory (trasformazioni, distribuzioni condizionate, misture); <strong>Applied Regression</strong> (regressione multipla, diagnostica, introduzione ai GLM, in R)</td>
+<td style="text-align: center;">0,5 + 0,5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Algorithms and Data Structures; Databases (SQL, NoSQL, database vettoriali)</td>
+<td style="text-align: center;">0,5 + 0,5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Further Mathematical Methods (Linear Algebra: proiezioni, minimi quadrati, <strong>SVD</strong>); analisi o calcolo</td>
+<td style="text-align: center;">0,5 + 0,5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>A scelta, tra cui Econometrics I e II, Statistical Inference, Sample Surveys and Experiments, Optimisation, Survival Models</td>
+<td style="text-align: center;">1,0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td><strong>Machine Learning</strong> (kNN, lineare e logistica, regolarizzazione, CV, alberi, <em>ensemble</em>, reti; inferenza causale con <em>double ML</em>); <strong>Artificial Intelligence</strong> (<em>deep learning</em>, PyTorch)</td>
+<td style="text-align: center;">0,5 + 0,5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td>Applied Statistics Project</td>
+<td style="text-align: center;">0,5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>A scelta, tra cui Regression and GLM, Stochastic Simulation, Time Series, Bayesian Inference, Multilevel and Longitudinal Models, Financial Statistics, <strong>Ethics for Data Science</strong>, Optimisation for ML</td>
+<td style="text-align: center;">2,5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Management and Computer Science (ex BEMACS) · Bocconi, coorte 2026/27">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Management and Computer Science (ex BEMACS) · Bocconi, coorte 2026/27
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>180 CFU, in inglese. I contenuti vengono dal catalogo Bocconi 2026/27; per il 2° e 3° anno valgono per le coorti precedenti.</p>
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Anno</th>
+<th>Insegnamento</th>
+<th style="text-align: center;">CFU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Mathematics (una variabile, integrali, matematica discreta)</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td><strong>Statistics</strong>: insegnata per casi di studio (visualizzazione, randomizzazione e RCT, confondimento, paradosso di Simpson, probabilità, distribuzioni, censura, LGN e TLC, <em>p</em>-value, test multipli, <strong>bootstrap</strong>)</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Fundamentals of Computer Science (algoritmi, complessità, strutture dati, grafi, Python, oggetti)</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Microeconomics; Macroeconomics; Principles of Management; Cognition and Behavior; Fundamentals of IT Law</td>
+<td style="text-align: center;">8 + 8 + 8 + 6 + 6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Applied Mathematics (algebra lineare: spazi vettoriali, autovalori, spazi con prodotto interno)</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Probability and Stochastic Models / Advanced Statistical Methods (vettori aleatori, trasformazioni, simulazione, stima, verosimiglianza e <strong>metodi bayesiani</strong>, test)</td>
+<td style="text-align: center;">7 + 7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Computer Programming (NumPy, SciPy, Monte Carlo, <em>simulated annealing</em>, gradiente, programmazione dinamica)</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td><strong>Machine Learning</strong> (ottimizzazione, lineare e logistica, <em>kernel</em>, SVM, alberi, <em>ensemble</em>, reti, distorsione e varianza, PCA, <em>clustering</em>, <em>reinforcement learning</em>, scikit-learn)</td>
+<td style="text-align: center;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Accounting; Principles of Finance; European IP and Data Law; lingua</td>
+<td style="text-align: center;">8 + 7 + 8 + 4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td>Econometrics (regressione, causalità, panel, scelta binaria, variabili strumentali, valutazione delle politiche, serie storiche)</td>
+<td style="text-align: center;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Big Data and Databases (SQL, NoSQL, Spark, alberi, <em>ensemble</em>, reti); AI for Management; Marketing Analytics</td>
+<td style="text-align: center;">6 + 6 + 8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td>Game Theory; Mechanism Design; due insegnamenti a scelta o tirocinio; prova finale</td>
+<td style="text-align: center;">8 + 8 + 12 + 3</td>
+</tr>
+</tbody>
+</table>
+<p>Da notare: non c’è un corso di analisi in più variabili, e la statistica del 1° anno è costruita interamente su casi di studio, come era stato proposto per FML.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="CLAMSES · Milano-Bicocca, LM-82, 2026/27">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -650,7 +914,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>I percorsi sono tre: STAT (Statistica e data science), SPI (Statistica per le imprese) e MAF (Mercati assicurativi e finanziari). I laureati SSE e SMLE non possono inserire nel piano i corsi di livellamento.</p>
 <table class="table-striped table-hover table-sm small caption-top table">
@@ -731,9 +995,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="dove-sta-ogni-argomento" class="level2">
 <h2 class="anchored" data-anchor-id="dove-sta-ogni-argomento">Dove sta ogni argomento</h2>
-<p>Le tabelle per insegnamento riportano anno di corso e CFU; quelle argomento per argomento usano ✓, <em>cenni</em>, “a scelta” e —. ⚠︎ segna i punti critici per SMLE. DM e ML = <em>Data mining e machine learning</em> (SGI); DS = percorso Data Science di SMLE; “tutti” = tutti i percorsi di CLAMSES.</p>
+<p>Le tabelle per insegnamento (solo corsi italiani) riportano anno di corso e CFU; quelle argomento per argomento usano ✓, <em>cenni</em>, “a scelta” e —. ⚠︎ segna i punti critici per SMLE. DM e ML = <em>Data mining e machine learning</em> (SGI); DS = percorso Data Science di SMLE; “tutti” = tutti i percorsi di CLAMSES.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Matematica: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -742,7 +1006,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
@@ -818,7 +1082,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Matematica e probabilità: argomento per argomento">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -827,17 +1091,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div id="callout-10" class="callout-10-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>✓ = trattato; <em>cenni</em> = solo accennato; <strong>⚠︎</strong> = assente in SMLE ma presente altrove; “a scelta” = solo in un insegnamento opzionale. Fonti: <em>syllabus</em> 2026/27.</p>
+<p>✓ = trattato; <em>cenni</em> = solo accennato; <strong>⚠︎</strong> = assente in SMLE ma presente altrove; “a scelta” = solo in un insegnamento opzionale; n.d. = non risulta dai programmi pubblicati. Fonti: <em>syllabus</em> 2026/27. Per Warwick, LSE e Bocconi i crediti sono nei rispettivi <a href="#i-piani-di-studio">piani di studio</a>.</p>
 <p><strong>Algebra lineare</strong> (SMLE, SGI, Padova: 6 CFU ciascuno; Bergamo: dentro <em>Analisi matematica 1 e algebra lineare</em>, 9 CFU, con richiami in Analisi 2)</p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -846,11 +1113,17 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Sistemi lineari, eliminazione di Gauss, inversa</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -862,12 +1135,18 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">richiami</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
 <td>Determinanti; autovalori e diagonalizzazione</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">richiami</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
@@ -876,6 +1155,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">richiami</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="odd">
 <td>Numeri complessi</td>
@@ -883,12 +1165,18 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">in Analisi II</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td>Prodotto scalare, basi ortonormali, <strong>proiezioni ortogonali</strong></td>
 <td style="text-align: center;"><em>cenni</em></td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
@@ -897,6 +1185,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">Gram-Schmidt in Analisi II</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓ (proiezioni e minimi quadrati)</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td><strong>Decomposizione LU</strong>, matrici elementari, decomposizione a blocchi</td>
@@ -904,6 +1195,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td><strong>Teorema spettrale</strong></td>
@@ -911,24 +1205,43 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
+<td>Decomposizione a valori singolari (SVD), inverse generalizzate</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">in Analisi dei dati multidimensionali (3°)</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr class="odd">
 <td>I quattro sottospazi fondamentali di una matrice</td>
 <td style="text-align: center;"><strong>⚠︎</strong></td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Analisi</strong> (SMLE e SGI: 9 + 6 CFU obbligatori; Bergamo: 9 + 12, con l’ottimizzazione; Padova: 12 obbligatori + 9 a scelta)</p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -937,11 +1250,17 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Una variabile: limiti, derivate, Taylor, integrali, serie numeriche</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -953,6 +1272,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓ (due variabili)</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"><strong>—</strong></td>
 </tr>
 <tr class="odd">
 <td>Estremi vincolati, moltiplicatori di Lagrange</td>
@@ -960,6 +1282,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">KKT</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>Funzione implicita (Dini)</td>
@@ -967,6 +1292,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Integrali multipli, cambio di variabili</td>
@@ -974,6 +1302,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>Serie di funzioni e di potenze</td>
@@ -981,6 +1312,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Equazioni differenziali ordinarie</td>
@@ -988,11 +1322,17 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;"><em>cenni</em></td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>Serie di Fourier</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 <td style="text-align: center;"><em>cenni</em></td>
 <td style="text-align: center;">—</td>
 </tr>
@@ -1002,17 +1342,23 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Calcolo delle probabilità</strong> (9 CFU ovunque; a Bergamo dentro un corso unico con la descrittiva)</p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1021,11 +1367,17 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Assiomi, probabilità condizionata, Bayes, indipendenza</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -1037,9 +1389,15 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
 <td>Variabili casuali notevoli discrete e continue, momenti</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -1051,6 +1409,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;"><em>cenni</em></td>
 <td style="text-align: center;">in Inferenza</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
 <td><strong>Densità e valore atteso condizionati</strong></td>
@@ -1058,11 +1419,17 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">in Inferenza</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td><strong>Trasformazioni di variabili e vettori aleatori</strong></td>
 <td style="text-align: center;"><strong>⚠︎</strong></td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
@@ -1072,9 +1439,15 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (chi-quadrato)</td>
 <td style="text-align: center;">in Inferenza</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td>Disuguaglianze (Markov, Chebyshev), convergenze, LGN, TLC</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -1086,6 +1459,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td>Funzione generatrice dei momenti</td>
@@ -1093,6 +1469,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 </tbody>
 </table>
@@ -1100,7 +1479,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="Matematica e probabilità: che cosa manca a SMLE e cosa ritoccare">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1109,10 +1488,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <ul>
-<li><strong>Algebra lineare.</strong> Padova insegna proiezioni ortogonali, Gram-Schmidt e QR, LU e teorema spettrale; SMLE no. Sono esattamente gli strumenti che servono poi: i minimi quadrati sono una proiezione, QR è come si calcolano, il teorema spettrale sta dietro la PCA e le forme quadratiche. <em>Ritocco</em>: spostare lì il tempo oggi dedicato a numeri complessi e teorema fondamentale dell’algebra.</li>
+<li><strong>Algebra lineare.</strong> Padova insegna proiezioni ortogonali, Gram-Schmidt e QR, LU e teorema spettrale; SMLE no. Lo stesso vale per Warwick (ortogonalizzazione e regressione nello stesso corso) e LSE (proiezioni, minimi quadrati e SVD). Sono esattamente gli strumenti che servono poi: i minimi quadrati sono una proiezione, QR è come si calcolano, il teorema spettrale sta dietro la PCA e le forme quadratiche. <em>Ritocco</em>: spostare lì il tempo oggi dedicato a numeri complessi e teorema fondamentale dell’algebra.</li>
 <li><strong>Probabilità.</strong> Mancano densità condizionate, trasformazioni di vettori aleatori (jacobiano) e vettori gaussiani. Servono subito al modello lineare (distribuzione dello stimatore, χ² e F come forme quadratiche gaussiane) e a Inferenza statistica. <em>Ritocco</em>: aggiungerli a Calcolo delle probabilità, se necessario a scapito di parte del calcolo dei momenti.</li>
 <li><strong>Analisi.</strong> Qui SMLE non è indietro: ha Analisi II obbligatoria (a Padova è a scelta), con Lagrange, Dini e integrali multipli. Manca solo la teoria della misura, che non è necessaria in triennale.</li>
 </ul>
@@ -1120,7 +1499,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Informatica e dati: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1129,7 +1508,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
@@ -1213,7 +1592,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Informatica: argomento per argomento">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1222,16 +1601,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse show">
+<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi di dati (6). SGI: Informatica (9) + Laboratorio (3) + Basi di dati (6). Bergamo: Informatica per data science (12) + Programmazione per data science (9). Padova: Sistemi di elaborazione 1 (6) + Strutture dati e programmazione (6) + Basi di dati (6) + Ottimizzazione (9, solo STS).</p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1240,6 +1622,9 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
@@ -1249,11 +1634,17 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td>Python di base (variabili, cicli, funzioni, file)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">Java (Python a scelta)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
@@ -1263,6 +1654,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td>Laboratorio in R (<em>data frame</em>, <em>join</em>, ggplot2)</td>
@@ -1270,6 +1664,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">in Statistica 1 (20 ore)</td>
+<td style="text-align: center;">✓ (R nei corsi di statistica)</td>
+<td style="text-align: center;">✓ (R in Applied Regression)</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Programmazione a oggetti</td>
@@ -1277,11 +1674,17 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">solo percorso II</td>
 <td style="text-align: center;">✓ (ereditarietà, polimorfismo, <em>design pattern</em>)</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td>Ricorsione</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
@@ -1291,12 +1694,18 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td><strong>Algoritmi di ricerca e ordinamento</strong> (binaria, <em>merge sort</em>, <em>quick sort</em>)</td>
 <td style="text-align: center;"><strong>⚠︎</strong></td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;"><em>merge sort</em></td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
@@ -1305,6 +1714,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td><strong>Tabelle <em>hash</em>, dizionari, <em>heap</em>, alberi binari di ricerca</strong></td>
@@ -1312,6 +1724,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">dizionari Python</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"><em>cenni</em></td>
 </tr>
 <tr class="odd">
 <td>Grafi</td>
@@ -1319,6 +1734,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (come struttura dati)</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td>Eccezioni</td>
@@ -1326,6 +1744,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="odd">
 <td>SQL, modello E-R, progettazione, normalizzazione</td>
@@ -1333,6 +1754,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓ (3°)</td>
 </tr>
 <tr class="even">
 <td>NoSQL, dati semi-strutturati</td>
@@ -1340,6 +1764,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓ (JSON, XML, Parquet)</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓ (anche database vettoriali)</td>
+<td style="text-align: center;">✓ (Hadoop, Spark)</td>
 </tr>
 <tr class="odd">
 <td><strong>Pulizia dei dati, formati, <em>web scraping</em></strong></td>
@@ -1347,6 +1774,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓ (API, <em>scraping</em>, JSON, XML)</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
 <td>Programmazione lineare e intera, simplesso, dualità</td>
@@ -1354,6 +1784,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓ (solo STS)</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Ottimizzazione non lineare, gradiente, <em>derivative-free</em></td>
@@ -1361,6 +1794,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (+ KKT, SGD, Newton)</td>
 <td style="text-align: center;">✓ (solo STS)</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓ (gradiente, <em>simulated annealing</em>)</td>
 </tr>
 <tr class="even">
 <td>Uso di un <em>solver</em> (Gurobi)</td>
@@ -1368,13 +1804,29 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (solo STS)</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
+<td>Ingegneria del software, lavoro di gruppo su un progetto</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr class="even">
 <td>Sviluppo software con IA, <em>AI literacy</em></td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">✓</td>
 </tr>
 </tbody>
 </table>
@@ -1382,7 +1834,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="Informatica: che cosa manca a SMLE e cosa ritoccare">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1391,18 +1843,18 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
+<div id="callout-14" class="callout-14-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <ul>
 <li><strong>Algoritmi e strutture dati.</strong> Padova dedica un intero corso (6 CFU) a complessità, ordinamento, <em>hash</em>, <em>heap</em>, alberi e grafi; SMLE ha solo liste, pile e code, e in Informatica la complessità è appena accennata. <em>Ritocco</em>: con 6 CFU non si può fare tutto, ma complessità, ricerca e ordinamento e dizionari e <em>hash</em> sono il minimo per scrivere codice statistico efficiente.</li>
-<li><strong>Dati “veri”.</strong> Bergamo insegna pulizia dei dati, formati (JSON, XML, Parquet) e <em>web scraping</em>; SMLE no. <em>Ritocco</em>: è il contenuto naturale del Laboratorio di informatica, che dal 2027/28 non sarà più mutuato da SGI, o di Gestione dati complessi (dal 2028/29).</li>
+<li><strong>Dati “veri”.</strong> Bergamo e LSE (<em>Managing and Visualising Data</em>, 1° anno) insegnano pulizia dei dati, formati (JSON, XML, Parquet), API e <em>web scraping</em>; SMLE no. <em>Ritocco</em>: è il contenuto naturale del Laboratorio di informatica, che dal 2027/28 non sarà più mutuato da SGI, o di Gestione dati complessi (dal 2028/29).</li>
 <li><strong>Ottimizzazione.</strong> Qui SMLE è più avanti di Padova: <em>Algoritmi e ottimizzazione</em> è obbligatorio per tutti, mentre a Padova Ottimizzazione è solo in STS. Bergamo va oltre e collega esplicitamente ottimizzazione e ML (SGD, SVM, kNN); FML può fare lo stesso.</li>
 </ul>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Statistica di base, inferenza e modelli: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1411,7 +1863,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
@@ -1495,7 +1947,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Multivariata e statistica computazionale: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1504,7 +1956,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
@@ -1564,7 +2016,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Machine learning: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1573,7 +2025,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
@@ -1657,7 +2109,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Statistica: argomento per argomento">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -1666,17 +2118,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-15" class="callout-15-contents callout-collapse collapse show">
+<div id="callout-18" class="callout-18-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>Stessa legenda delle tabelle precedenti. In più: “DS” = solo percorso Data Science di SMLE; “3°” = l’argomento arriva al 3° anno. Per SMLE il 2° e il 3° anno seguono i <em>syllabus</em> SSE; per Bergamo il 3° anno non ha programmi pubblicati (n.d. = non disponibile, potrebbe essere in <em>Modellazione statistica di dati complessi</em>).</p>
 <p><strong>Descrittiva e inferenza</strong></p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1685,11 +2140,17 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Descrittiva uni- e bivariata, grafici, dipendenza, regressione semplice descrittiva</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -1701,9 +2162,15 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Stima puntuale, proprietà, momenti e massima verosimiglianza</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
@@ -1715,6 +2182,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
 <td>Neyman-Pearson, test uniformemente più potenti</td>
@@ -1722,6 +2192,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td><strong>Teoria asintotica della verosimiglianza</strong>: informazione osservata e attesa, test di Wald, <em>score</em> e rapporto di verosimiglianza, caso multiparametrico</td>
@@ -1729,17 +2202,33 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">rapporto di verosimiglianza</td>
 <td style="text-align: center;">✓ (asintotica dello SMV)</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">n.d.</td>
+</tr>
+<tr class="odd">
+<td>Inferenza bayesiana di base (<em>prior</em>, <em>posterior</em>, intervalli di credibilità)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓ (2°)</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓ (2°)</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Modelli</strong></p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1748,6 +2237,9 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
@@ -1757,6 +2249,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓ (Econometria, 3°)</td>
 </tr>
 <tr class="even">
 <td>Diagnostica, valori anomali, punti leva</td>
@@ -1764,6 +2259,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓ (3°)</td>
 </tr>
 <tr class="odd">
 <td>Variabili qualitative, interazioni, ANOVA e ANCOVA come modello lineare</td>
@@ -1771,12 +2269,18 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td>Selezione delle variabili, AIC e BIC</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓ (anche fuori campione)</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
@@ -1785,6 +2289,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="even">
 <td><strong>Regressione logistica e di Poisson</strong></td>
@@ -1792,6 +2299,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">3°, a scelta</td>
+<td style="text-align: center;">✓ (introduzione ai GLM)</td>
+<td style="text-align: center;">✓ (logistica in ML)</td>
 </tr>
 <tr class="odd">
 <td>Teoria dei GLM: famiglia esponenziale, IRLS, devianza</td>
@@ -1799,6 +2309,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;"><em>cenni</em> (3°)</td>
 <td style="text-align: center;">n.d.</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>Quasi-verosimiglianza, sovradispersione</td>
@@ -1806,6 +2319,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">n.d.</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Risposte multinomiali e ordinali, modelli log-lineari</td>
@@ -1813,6 +2329,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">n.d.</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>Dati correlati: effetti casuali, <em>multilevel</em>, GEE</td>
@@ -1820,6 +2339,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a scelta</td>
 <td style="text-align: center;">n.d.</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">panel (3°)</td>
 </tr>
 <tr class="odd">
 <td>Variabili strumentali, equazioni simultanee</td>
@@ -1827,17 +2349,23 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">✓ (3°)</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Multivariata, computazionale e machine learning</strong></p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1846,6 +2374,9 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
@@ -1855,6 +2386,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓ (3°)</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">✓ (PCA e <em>clustering</em>)</td>
 </tr>
 <tr class="even">
 <td>Inferenza sulla normale multivariata (test sul vettore delle medie, regioni di confidenza)</td>
@@ -1862,6 +2396,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Correlazioni canoniche</td>
@@ -1869,6 +2406,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>MDS, t-SNE, analisi delle corrispondenze</td>
@@ -1876,12 +2416,18 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a scelta</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Simulazione e Monte Carlo</td>
 <td style="text-align: center;"><strong>⚠︎</strong></td>
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">a scelta</td>
 <td style="text-align: center;">✓</td>
 </tr>
 <tr class="even">
@@ -1890,6 +2436,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">✓ (1° anno)</td>
 </tr>
 <tr class="odd">
 <td>Stima di densità e lisciamento (nuclei, <em>spline</em>)</td>
@@ -1897,6 +2446,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td>Misture, <em>clustering</em> basato su modelli</td>
@@ -1904,6 +2456,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Distorsione e varianza, convalida incrociata</td>
@@ -1911,6 +2466,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">3°, a scelta</td>
+<td style="text-align: center;">✓ (3°)</td>
+<td style="text-align: center;">✓ (2°)</td>
 </tr>
 <tr class="even">
 <td>Penalizzazione (ridge, lasso)</td>
@@ -1918,6 +2476,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">3°, a scelta</td>
+<td style="text-align: center;">✓ (3°)</td>
+<td style="text-align: center;">n.d.</td>
 </tr>
 <tr class="odd">
 <td>kNN, analisi discriminante, alberi</td>
@@ -1925,6 +2486,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">3°, a scelta</td>
+<td style="text-align: center;">✓ (3°)</td>
+<td style="text-align: center;">✓ (2°)</td>
 </tr>
 <tr class="even">
 <td><em>Bagging</em>, <em>boosting</em>, <em>random forest</em></td>
@@ -1932,6 +2496,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">✓ (3°)</td>
+<td style="text-align: center;">✓</td>
 </tr>
 <tr class="odd">
 <td>Reti neurali</td>
@@ -1939,6 +2506,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;"><em>cenni</em>, a scelta</td>
+<td style="text-align: center;">3°, a scelta</td>
+<td style="text-align: center;">✓ (3°, anche <em>deep learning</em>)</td>
+<td style="text-align: center;">✓ (2°)</td>
 </tr>
 <tr class="even">
 <td>Dati mancanti, imputazione</td>
@@ -1946,6 +2516,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;"><em>cenni</em></td>
+<td style="text-align: center;"><em>cenni</em></td>
 </tr>
 <tr class="odd">
 <td><em>Text mining</em></td>
@@ -1953,17 +2526,23 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a scelta</td>
 <td style="text-align: center;">✓ (3°)</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">n.d.</td>
+<td style="text-align: center;">—</td>
 </tr>
 </tbody>
 </table>
 <p><strong>Serie storiche, indagini, esperimenti, statistiche applicate</strong></p>
 <table class="table-striped table-hover table-sm small caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1972,6 +2551,9 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">SGI</th>
 <th style="text-align: center;">Bergamo</th>
 <th style="text-align: center;">Padova</th>
+<th style="text-align: center;">Warwick</th>
+<th style="text-align: center;">LSE</th>
+<th style="text-align: center;">Bocconi</th>
 </tr>
 </thead>
 <tbody>
@@ -1981,11 +2563,17 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">✓ (percorso ES)</td>
 <td style="text-align: center;">✓ (3°)</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;"><em>cenni</em> (Econometria)</td>
 </tr>
 <tr class="even">
 <td>Modelli a componenti non osservate, filtro di Kalman, analisi spettrale</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 </tr>
@@ -1995,6 +2583,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a scelta</td>
 <td style="text-align: center;"><em>cenni</em></td>
 <td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="even">
 <td><strong>Metodologia d’indagine</strong>: errori, rilevazione, questionario, campionamento a più stadi, post-stratificazione</td>
@@ -2002,6 +2593,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (corso da 9 CFU)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Disegno degli esperimenti</td>
@@ -2009,6 +2603,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">a scelta</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (STS)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;"><em>cenni</em> (RCT al 1° anno)</td>
 </tr>
 <tr class="even">
 <td>Dati spaziali, geostatistica</td>
@@ -2016,6 +2613,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (STS)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Analisi di sopravvivenza</td>
@@ -2023,6 +2623,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;"><em>cenni</em>, a scelta</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (STS)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">a scelta</td>
+<td style="text-align: center;"><em>cenni</em></td>
 </tr>
 <tr class="even">
 <td>Statistica economica: numeri indici, contabilità nazionale, input-output, disuguaglianza</td>
@@ -2030,6 +2633,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">✓ (6 CFU)</td>
 <td style="text-align: center;">✓ (SEI)</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 <tr class="odd">
 <td>Demografia, statistica sociale e medica</td>
@@ -2037,6 +2643,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">✓</td>
 <td style="text-align: center;">—</td>
 <td style="text-align: center;">a scelta</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
 </tr>
 </tbody>
 </table>
@@ -2044,7 +2653,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="Statistica: che cosa manca a SMLE e cosa ritoccare">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2053,13 +2662,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-16" class="callout-16-contents callout-collapse collapse show">
+<div id="callout-19" class="callout-19-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <ul>
 <li><strong>Inferenza basata sulla verosimiglianza.</strong> L’Inferenza statistica di SMLE (oggi Statistica II di SSE) segue l’impostazione classica di Neyman-Pearson; Padova costruisce invece tutto sulla verosimiglianza (informazione, test di Wald, <em>score</em> e rapporto di verosimiglianza, caso multiparametrico). È la base per GLM, Econometria e CLAMSES. <em>Ritocco</em>: in Inferenza statistica, più verosimiglianza e meno test uniformemente più potenti; in alternativa la parte multiparametrica può stare all’inizio di <em>Modelli statistici avanzati</em>.</li>
-<li><strong>Logistica e Poisson al 3° anno.</strong> SGI, Bergamo e Padova le insegnano al 2°. <em>Ritocco</em>: qualche lezione nel modulo sui modelli del 2° anno.</li>
+<li><strong>Logistica e Poisson al 3° anno.</strong> SGI, Bergamo, Padova e LSE le insegnano al 2°. <em>Ritocco</em>: qualche lezione nel modulo sui modelli del 2° anno.</li>
 <li><strong>Statistica computazionale.</strong> Simulazione, bootstrap e lisciamento mancano nel tronco comune, ovunque altrove ci sono. <em>Ritocco</em>: FML, come nella <a href="#proposta">proposta</a>.</li>
 <li><strong>Indagini campionarie.</strong> Padova ha un corso da 9 CFU su metodologia d’indagine e campionamento; SMLE ne fa solo una parte dentro Inferenza statistica. Per un profilo economico (Istat, ricerche di mercato) è una lacuna; si recupera in parte in CLAMSES (<em>Metodi per le indagini campionarie M</em>, solo SPI) e, nel percorso Mercato, in Analisi di mercato.</li>
+<li><strong>Inferenza bayesiana.</strong> Warwick e Bocconi la introducono al 2° anno, dentro i corsi di statistica matematica; in SMLE arriva solo in CLAMSES. Non è una priorità, ma un paio di lezioni in Inferenza statistica allineerebbero SMLE agli standard internazionali.</li>
+<li><strong>Quando arriva il ML.</strong> Warwick e LSE lo mettono al 3° anno, dopo regressione e inferenza; Bergamo e Bocconi al 2°. È un argomento a favore di un FML del 2° anno più computazionale che “di ML”.</li>
 <li><strong>Punti di forza di SMLE.</strong> Statistica economica (12 CFU, più di tutti), GLM completi con quasi-verosimiglianza e sovradispersione (a Padova sono a scelta), variabili strumentali in Econometria, robustezza e stimatore <em>sandwich</em>.</li>
 </ul>
 </div>
@@ -2069,7 +2680,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="i-problemi-di-fondamenti-di-ml" class="level2">
 <h2 class="anchored" data-anchor-id="i-problemi-di-fondamenti-di-ml">I problemi di Fondamenti di ML</h2>
 <div class="callout callout-style-default callout-warning callout-titled" title="1. Arriva prima della regressione logistica">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2078,14 +2689,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna “da ML” e <em>Modelli statistici avanzati</em> la ripete “da statistica”, oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno). Bergamo lo aggira: la logistica entra nel suo <em>Statistical Learning</em> al 2° anno, dentro un unico corso da 12 CFU. Con la <a href="#proposta">proposta</a> il problema si attenua, perché FML non si regge sulla logistica.</p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="2. Nomi che si confondono">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2094,14 +2705,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Al 2° anno ci sono <em>Fondamenti di Statistical Learning</em> (15 CFU, che però contiene modello lineare e analisi esplorativa) e <em>Fondamenti di Machine Learning</em> (6 CFU). Dai titoli non si capisce chi fa cosa.</p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="3. Molti corsi a valle fanno già ML">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2110,7 +2721,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-sm small caption-top table">
 <colgroup>
@@ -2172,7 +2783,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="4. Nel tronco comune manca la statistica computazionale">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2181,14 +2792,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun corso obbligatorio. La <em>Statistica computazionale</em> del 3° anno (percorso DS) tratta in realtà di misture. A Padova invece è un corso da 9 CFU al 2° anno. In CLAMSES Monte Carlo e bootstrap ci sono e sono obbligatori per tutti; ottimizzazione numerica ed EM invece mancano anche lì. La <a href="#proposta">proposta</a> mette questi contenuti in FML, quindi nel tronco comune.</p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled" title="5. A valle c'è già un altro Foundations of Machine Learning">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2197,7 +2808,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div id="callout-24" class="callout-24-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><em>Machine Learning M</em> (STAT) adotta il manuale di Mohri, Rostamizadeh e Talwalkar e parte dagli stessi fondamenti. Uno studente SMLE che sceglie STAT li vedrebbe tre volte: in FML, in ML M e, per la CV, in <em>Data Mining M</em>. Con la <a href="#proposta">proposta</a> FML non è più un corso di “fondamenti di ML” in senso stretto, e in comune resta soprattutto la CV. Serve comunque un accordo tra i docenti di SMLE e di CLAMSES.</p>
 </div>
@@ -2252,7 +2863,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Si aggancia a corsi già presenti: riprende i metodi del gradiente di <em>Algoritmi e ottimizzazione</em> (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in <em>Modelli statistici avanzati</em> (IRLS), Data mining e <em>Strumenti di ML</em>. Statistica computazionale (3° anno, DS) resta com’è, sulle misture.</p>
 <p>I nomi restano imperfetti (<em>Fondamenti di Machine Learning</em> è un corso computazionale, <em>Fondamenti di Statistical Learning</em> contiene modello lineare e analisi esplorativa, <em>Modelli statistici avanzati</em> sono i GLM, <em>Statistica computazionale</em> è un corso sui modelli mistura). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Che cosa FML non deve fare">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2261,7 +2872,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div id="callout-25" class="callout-25-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Alberi, <em>ensemble</em>, LDA/QDA, kNN: restano a Data mining e a Statistical Learning M.</li>
@@ -2274,7 +2885,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Raccordo con CLAMSES: che cosa diventa richiamo">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2283,7 +2894,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div id="callout-26" class="callout-26-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-sm small caption-top table">
 <colgroup>
@@ -2336,7 +2947,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Ritocchi agli altri corsi SMLE">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2345,7 +2956,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-24" class="callout-24-contents callout-collapse collapse">
+<div id="callout-27" class="callout-27-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li><strong>Modelli per l’apprendimento statistico</strong> (2°): aggiungere alcune lezioni su logistica e Poisson, come in Modelli statistici 1 di Padova. Non è più indispensabile per FML, ma resta utile.</li>
@@ -2359,7 +2970,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled" title="Alternative considerate">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2368,7 +2979,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-25" class="callout-25-contents callout-collapse collapse">
+<div id="callout-28" class="callout-28-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-sm small caption-top table">
 <colgroup>
@@ -2439,21 +3050,21 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td><strong>Inferenza causale</strong>: esiti potenziali, randomizzazione, confondimento, <em>propensity score</em>, differenze nelle differenze</td>
 <td>Solo variabili strumentali ed equazioni simultanee in Econometria (2°)</td>
-<td>SGI: Analisi dei dati (causalità, <em>path analysis</em>, SEM; a scelta). Bergamo: Metodi empirici per l’analisi economica e Modelli e analisi empirica di politiche pubbliche (3°, ES; programmi non pubblicati). Padova: cenni in Modelli statistici applicati (STS); corso dedicato in magistrale. CLAMSES: panel e IV in Microeconometria</td>
+<td>SGI: Analisi dei dati (causalità, <em>path analysis</em>, SEM; a scelta). Bergamo: Metodi empirici per l’analisi economica e Modelli e analisi empirica di politiche pubbliche (3°, ES; programmi non pubblicati). Padova: cenni in Modelli statistici applicati (STS); corso dedicato in magistrale. LSE: inferenza causale con <em>double ML</em> in Machine Learning (3°). Bocconi: RCT e confondimento al 1° anno, valutazione delle politiche in Econometria (3°). CLAMSES: panel e IV in Microeconometria</td>
 <td>Econometria (esiti potenziali, DiD); Strumenti di ML per l’analisi di mercato (A/B test, effetti di trattamento, <em>uplift</em>); casi di studio in FML</td>
 <td style="text-align: center;"><strong>Alta</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Disegno degli esperimenti</strong>, A/B test</td>
 <td>—</td>
-<td>SGI: Piano degli esperimenti (a scelta). Padova: Modelli statistici applicati (STS)</td>
+<td>SGI: Piano degli esperimenti (a scelta). Padova: Modelli statistici applicati (STS). LSE: Sample Surveys and Experiments (a scelta)</td>
 <td>Insieme all’inferenza causale, in Strumenti di ML per l’analisi di mercato o Analisi di mercato</td>
 <td style="text-align: center;"><strong>Alta</strong></td>
 </tr>
 <tr class="odd">
 <td>Regole, privacy ed etica dei dati</td>
 <td>—</td>
-<td>Bergamo: Diritto dell’IA e dei dati (1°, 6 CFU)</td>
+<td>Bergamo: Diritto dell’IA e dei dati (1°, 6 CFU). Bocconi: IT Law (1°) e European IP and Data Law (2°). LSE: Ethics for Data Science (a scelta)</td>
 <td>Fondamenti di IA e DL (da definire) o seminari tra le altre attività</td>
 <td style="text-align: center;">Media</td>
 </tr>
@@ -2467,9 +3078,9 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Statistica bayesiana</td>
 <td>—</td>
-<td>Nessuna triennale del confronto; CLAMSES: Statistica bayesiana M</td>
-<td>Va bene in magistrale; al più cenni in Inferenza statistica</td>
-<td style="text-align: center;">Bassa</td>
+<td>Warwick e Bocconi: al 2° anno, dentro la statistica matematica. LSE: a scelta. CLAMSES: Statistica bayesiana M</td>
+<td>Cenni in Inferenza statistica</td>
+<td style="text-align: center;">Media</td>
 </tr>
 <tr class="even">
 <td>Dati longitudinali e <em>multilevel</em></td>
@@ -2500,7 +3111,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="fonti" class="level2">
 <h2 class="anchored" data-anchor-id="fonti">Fonti</h2>
 <div class="callout callout-style-default callout-note callout-titled" title="Documenti consultati">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-29-contents" aria-controls="callout-29" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -2509,12 +3120,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-26" class="callout-26-contents callout-collapse collapse">
+<div id="callout-29" class="callout-29-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>SMLE: programmazione didattica e copertura degli insegnamenti 2026/27; <a href="https://elearning.unimib.it/pluginfile.php/2181058/mod_resource/content/0/Reg_Statistica%2C%20Machine%20learning%20ed%20economia_26-27.pdf">Regolamento didattico 2026/27</a>; <a href="https://elearning.unimib.it/course/view.php?id=70713">piano di studi</a>.</li>
 <li>e-learning Milano-Bicocca: <a href="https://elearning.unimib.it/course/index.php?categoryid=12801">SMLE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2906">SSE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2912">SGI</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=3323">CLAMSES</a> (piani e <em>syllabus</em> 2026/27); <a href="https://elearning.unimib.it/pluginfile.php/2136963/mod_resource/content/1/Reg_Statistica%20e%20gestione%20delle%20informazioni_26-27.pdf">Regolamento SGI 2026/27</a>.</li>
 <li>Bergamo: <a href="https://www.unibg.it/studiare/corsi/offertaformativa/data-analytics-economia-e-tecnologie-digitali">pagina del corso</a> e <a href="https://unibg.coursecatalogue.cineca.it/corsi/2026/1359">Course Catalogue</a> (coorti 2025 e 2026).</li>
+<li>Warwick: <a href="https://warwick.ac.uk/study/undergraduate/courses/bsc-data-science">BSc Data Science</a> e <a href="https://courses.warwick.ac.uk/">catalogo dei moduli 2026/27</a>.</li>
+<li>LSE: <a href="https://www.lse.ac.uk/resources/calendar2026-2027/programmeRegulations/undergraduate/2026/BScDataScience.htm">regolamento del BSc Data Science, coorte 2026/27</a> e <em>course guide</em> 2026/27.</li>
+<li>Bocconi: <a href="https://www.unibocconi.it/en/programs/bachelor-science/management-and-computer-science/study-plan">piano di studi di Management and Computer Science</a> e <a href="https://didattica.unibocconi.eu/ts/index.php?anno=2027">catalogo dei corsi 2026/27</a>.</li>
 <li>Padova: <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf">Bollettino 2026/27</a>; percorsi <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf">SEI</a> e <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf">STS</a>; pagine dei corsi <a href="https://www.stat.unipd.it/corsi/statistica-economia-e-impresa-sei">SEI</a> e <a href="https://www.stat.unipd.it/corsi/statistica-tecnologie-scienze-sts">STS</a>.</li>
 </ul>
 </div>
