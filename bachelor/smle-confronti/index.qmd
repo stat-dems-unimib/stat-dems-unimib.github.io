@@ -257,7 +257,7 @@ SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi 
 - **Ottimizzazione.** Qui SMLE è più avanti di Padova: *Algoritmi e ottimizzazione* è obbligatorio per tutti, mentre a Padova Ottimizzazione è solo in STS. Bergamo va oltre e collega esplicitamente ottimizzazione e ML (SGD, SVM, kNN); FML può fare lo stesso.
 :::
 
-::: {.callout-note collapse="false" title="Statistica di base, inferenza e modelli"}
+::: {.callout-note collapse="true" title="Statistica di base, inferenza e modelli: insegnamenti e CFU"}
 | Argomento | SMLE | SGI | Bergamo | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|---|
 | Statistica descrittiva | Statistica e Data Visualization<br>1° anno · 6 CFU | Statistica I<br>1° anno · 6 CFU; Statistica I – Complementi<br>2° anno · 6 CFU | Statistica descrittiva e calcolo delle probabilità<br>1° anno · 9 CFU (insieme) | Statistica 1<br>1° anno · 9 CFU | — |
@@ -271,7 +271,7 @@ SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi 
 : {.striped .hover .sm}
 :::
 
-::: {.callout-note collapse="false" title="Multivariata e statistica computazionale"}
+::: {.callout-note collapse="true" title="Multivariata e statistica computazionale: insegnamenti e CFU"}
 | Argomento | SMLE | SGI | Bergamo | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|---|
 | PCA, *cluster*, fattoriale | *Analisi esplorativa*<br>2° anno · 6 CFU | *Analisi esplorativa* (modulo di ASM)<br>2° anno · 7 CFU | Statistical Learning (modulo non supervisionato)<br>2° anno | Analisi dei dati multidimensionali<br>3° anno · 6 CFU | Statistica multivariata<br>1° anno · 6 CFU · tutti |
@@ -282,7 +282,7 @@ SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi 
 : {.striped .hover .sm}
 :::
 
-::: {.callout-note collapse="false" title="Machine learning"}
+::: {.callout-note collapse="true" title="Machine learning: insegnamenti e CFU"}
 | Argomento | SMLE | SGI | Bergamo | Padova (SEI, STS) | CLAMSES |
 |---|---|---|---|---|---|
 | Fondamenti, previsione | **Fondamenti di Machine Learning**<br>2° anno · 6 CFU · contenuto da definire | — | **Statistical Learning**<br>2° anno · 12 CFU | — | Machine Learning M<br>2° anno · 6 CFU · STAT |
@@ -294,6 +294,87 @@ SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi 
 | Applicazioni settoriali | Strumenti di ML per l'analisi di mercato / per la finanza<br>3° anno · 6 CFU · percorsi Mercato e Finanza | — | Analisi di dati testuali<br>3° anno · 6 CFU | — | — |
 
 : {.striped .hover .sm}
+:::
+
+::: {.callout-note collapse="false" title="Statistica: argomento per argomento"}
+Stessa legenda delle tabelle precedenti. In più: "DS" = solo percorso Data Science di SMLE; "3°" = l'argomento arriva al 3° anno. Per SMLE il 2° e il 3° anno seguono i *syllabus* SSE; per Bergamo il 3° anno non ha programmi pubblicati (n.d. = non disponibile, potrebbe essere in *Modellazione statistica di dati complessi*).
+
+**Descrittiva e inferenza**
+
+| Argomento | SMLE | SGI | Bergamo | Padova |
+|---|:-:|:-:|:-:|:-:|
+| Descrittiva uni- e bivariata, grafici, dipendenza, regressione semplice descrittiva | ✓ | ✓ | ✓ | ✓ |
+| Descrittiva in forma matriciale, PCA campionaria al 1° anno | — | — | — | ✓ |
+| Stima puntuale, proprietà, momenti e massima verosimiglianza | ✓ | ✓ | ✓ | ✓ |
+| Intervalli di confidenza, test Z, t, χ², F | ✓ | ✓ | ✓ | ✓ |
+| Neyman-Pearson, test uniformemente più potenti | ✓ | ✓ | — | — |
+| **Teoria asintotica della verosimiglianza**: informazione osservata e attesa, test di Wald, *score* e rapporto di verosimiglianza, caso multiparametrico | **⚠︎** solo rapporto di verosimiglianza | rapporto di verosimiglianza | ✓ (asintotica dello SMV) | ✓ |
+
+: {.striped .hover .sm}
+
+**Modelli**
+
+| Argomento | SMLE | SGI | Bergamo | Padova |
+|---|:-:|:-:|:-:|:-:|
+| Regressione lineare multipla: minimi quadrati, verosimiglianza, Gauss-Markov, test F, previsione | ✓ | ✓ | ✓ | ✓ |
+| Diagnostica, valori anomali, punti leva | ✓ | ✓ | ✓ | ✓ |
+| Variabili qualitative, interazioni, ANOVA e ANCOVA come modello lineare | ✓ | ✓ | ✓ | ✓ |
+| Selezione delle variabili, AIC e BIC | ✓ | ✓ | ✓ (anche fuori campione) | ✓ |
+| Eteroschedasticità, stimatore *sandwich*, minimi quadrati pesati, robustezza | ✓ (3°) | ✓ (3°) | ✓ | — |
+| **Regressione logistica e di Poisson** | **⚠︎** solo al 3° anno | ✓ | ✓ | ✓ |
+| Teoria dei GLM: famiglia esponenziale, IRLS, devianza | ✓ (3°) | *cenni* (3°) | n.d. | a scelta |
+| Quasi-verosimiglianza, sovradispersione | ✓ (3°) | — | n.d. | a scelta |
+| Risposte multinomiali e ordinali, modelli log-lineari | — | ✓ (3°) | n.d. | a scelta |
+| Dati correlati: effetti casuali, *multilevel*, GEE | — | a scelta | n.d. | a scelta |
+| Variabili strumentali, equazioni simultanee | ✓ (Econometria) | — | — | — |
+
+: {.striped .hover .sm}
+
+**Multivariata, computazionale e machine learning**
+
+| Argomento | SMLE | SGI | Bergamo | Padova |
+|---|:-:|:-:|:-:|:-:|
+| PCA, *cluster* gerarchico e k-medie, analisi fattoriale | ✓ | ✓ | ✓ | ✓ (3°) |
+| Inferenza sulla normale multivariata (test sul vettore delle medie, regioni di confidenza) | — | — | — | ✓ |
+| Correlazioni canoniche | — | — | — | ✓ |
+| MDS, t-SNE, analisi delle corrispondenze | — | a scelta | — | a scelta |
+| Simulazione e Monte Carlo | **⚠︎** | ✓ (3°) | ✓ | ✓ |
+| Bootstrap | **⚠︎** | ✓ (3°) | ✓ | ✓ |
+| Stima di densità e lisciamento (nuclei, *spline*) | — | ✓ (3°) | ✓ | ✓ |
+| Misture, *clustering* basato su modelli | DS | — | ✓ | a scelta |
+| Distorsione e varianza, convalida incrociata | DS | ✓ (3°) | ✓ | — |
+| Penalizzazione (ridge, lasso) | — | — | ✓ | a scelta |
+| kNN, analisi discriminante, alberi | DS | ✓ | ✓ | — |
+| *Bagging*, *boosting*, *random forest* | — | ✓ (3°) | ✓ | — |
+| Reti neurali | DS (da definire) | ✓ (3°) | ✓ | *cenni*, a scelta |
+| Dati mancanti, imputazione | DS | ✓ (3°) | ✓ | — |
+| *Text mining* | DS | a scelta | ✓ (3°) | a scelta |
+
+: {.striped .hover .sm}
+
+**Serie storiche, indagini, esperimenti, statistiche applicate**
+
+| Argomento | SMLE | SGI | Bergamo | Padova |
+|---|:-:|:-:|:-:|:-:|
+| Componenti, destagionalizzazione, ARMA e SARIMA, previsione | ✓ (3°) | ✓ | ✓ (percorso ES) | ✓ (3°) |
+| Modelli a componenti non osservate, filtro di Kalman, analisi spettrale | — | ✓ | — | — |
+| Campionamento da popolazioni finite (casuale semplice, stratificato) | ✓ (dentro Inferenza) | a scelta | *cenni* | ✓ |
+| **Metodologia d'indagine**: errori, rilevazione, questionario, campionamento a più stadi, post-stratificazione | **⚠︎** | — | — | ✓ (corso da 9 CFU) |
+| Disegno degli esperimenti | — | a scelta | — | ✓ (STS) |
+| Dati spaziali, geostatistica | — | ✓ | — | ✓ (STS) |
+| Analisi di sopravvivenza | — | *cenni*, a scelta | — | ✓ (STS) |
+| Statistica economica: numeri indici, contabilità nazionale, input-output, disuguaglianza | ✓ (12 CFU) | — | ✓ (6 CFU) | ✓ (SEI) |
+| Demografia, statistica sociale e medica | — | ✓ | — | a scelta |
+
+: {.striped .hover .sm}
+:::
+
+::: {.callout-warning collapse="false" title="Statistica: che cosa manca a SMLE e cosa ritoccare"}
+- **Inferenza basata sulla verosimiglianza.** L'Inferenza statistica di SMLE (oggi Statistica II di SSE) segue l'impostazione classica di Neyman-Pearson; Padova costruisce invece tutto sulla verosimiglianza (informazione, test di Wald, *score* e rapporto di verosimiglianza, caso multiparametrico). È la base per GLM, Econometria e CLAMSES. *Ritocco*: in Inferenza statistica, più verosimiglianza e meno test uniformemente più potenti; in alternativa la parte multiparametrica può stare all'inizio di *Modelli statistici avanzati*.
+- **Logistica e Poisson al 3° anno.** SGI, Bergamo e Padova le insegnano al 2°. *Ritocco*: qualche lezione nel modulo sui modelli del 2° anno.
+- **Statistica computazionale.** Simulazione, bootstrap e lisciamento mancano nel tronco comune, ovunque altrove ci sono. *Ritocco*: FML, come nella [proposta](#proposta).
+- **Indagini campionarie.** Padova ha un corso da 9 CFU su metodologia d'indagine e campionamento; SMLE ne fa solo una parte dentro Inferenza statistica. Per un profilo economico (Istat, ricerche di mercato) è una lacuna; si recupera in parte in CLAMSES (*Metodi per le indagini campionarie M*, solo SPI) e, nel percorso Mercato, in Analisi di mercato.
+- **Punti di forza di SMLE.** Statistica economica (12 CFU, più di tutti), GLM completi con quasi-verosimiglianza e sovradispersione (a Padova sono a scelta), variabili strumentali in Econometria, robustezza e stimatore *sandwich*.
 :::
 
 ## I problemi di Fondamenti di ML
