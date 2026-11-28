@@ -158,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#dove-sta-ogni-argomento" id="toc-dove-sta-ogni-argomento" class="nav-link" data-scroll-target="#dove-sta-ogni-argomento">Dove sta ogni argomento</a></li>
   <li><a href="#i-problemi-di-fondamenti-di-ml" id="toc-i-problemi-di-fondamenti-di-ml" class="nav-link" data-scroll-target="#i-problemi-di-fondamenti-di-ml">I problemi di Fondamenti di ML</a></li>
   <li><a href="#proposta" id="toc-proposta" class="nav-link" data-scroll-target="#proposta">Proposta</a></li>
+  <li><a href="#argomenti-scoperti" id="toc-argomenti-scoperti" class="nav-link" data-scroll-target="#argomenti-scoperti">Argomenti scoperti</a></li>
   <li><a href="#domande-aperte" id="toc-domande-aperte" class="nav-link" data-scroll-target="#domande-aperte">Domande aperte</a></li>
   <li><a href="#fonti" id="toc-fonti" class="nav-link" data-scroll-target="#fonti">Fonti</a></li>
   </ul>
@@ -199,12 +200,13 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Ogni argomento possibile per FML è già trattato altrove</strong>: nel 3° anno di SMLE e, soprattutto, in CLAMSES. Lì classificazione, Monte Carlo e bootstrap sono nel nucleo obbligatorio del 1° anno, e il percorso STAT ha <em>Machine Learning M</em>, che usa un manuale intitolato proprio <em>Foundations of Machine Learning</em>.</li>
 <li><strong>Gli altri corsi scelgono strade diverse.</strong>
 <ul>
-<li><strong>Padova</strong> insegna logistica e Poisson al 2° anno, ha Statistica computazionale e lascia il ML alla magistrale.</li>
+<li><strong>Padova</strong> insegna logistica e Poisson al 2° anno, ha Statistica computazionale (in STS) e lascia il ML alla magistrale.</li>
 <li><strong>SGI</strong> fa prima i modelli e poi concentra tutto il ML in un corso da 15 CFU al 3° anno.</li>
-<li><strong>Bergamo</strong> (Data Analytics) mette al 2° anno un unico <em>Statistical Learning</em> da 12 CFU, sul modello del manuale ISLR: logistica, penalizzazione, alberi, <em>ensemble</em>, GAM e CV insieme. L’ottimizzazione per il ML è in Analisi 2 e le reti neurali sono in un corso di programmazione.</li>
+<li><strong>Bergamo</strong> (Data Analytics) mette al 2° anno un unico <em>Statistical Learning</em> da 12 CFU, sul modello del manuale ISLR.</li>
 </ul></li>
 <li><strong>CLAMSES non ha un corso sui GLM.</strong> Per chi passa da SMLE a CLAMSES, <em>Modelli statistici avanzati</em> è l’unico corso in cui i GLM si studiano in modo sistematico.</li>
-<li><strong>Proposta</strong>: FML come corso di <strong>statistica computazionale “vecchio stile”</strong> nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione. Statistica computazionale (3°, DS) resta com’è, sulle misture. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Vedi la <a href="#proposta">proposta</a>.</li>
+<li><strong>Lacune di base rispetto a Padova</strong>: algebra lineare (proiezioni, QR, teorema spettrale), probabilità (vettori gaussiani, trasformazioni), algoritmi e strutture dati. Mancano inoltre inferenza causale e disegno degli esperimenti. Vedi <a href="#dove-sta-ogni-argomento">dove sta ogni argomento</a> e <a href="#argomenti-scoperti">argomenti scoperti</a>.</li>
+<li><strong>Proposta</strong>: FML come corso di <strong>statistica computazionale “vecchio stile”</strong> nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione, insegnati a partire da casi di studio. Statistica computazionale (3°, DS) resta com’è, sulle misture. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Vedi la <a href="#proposta">proposta</a>.</li>
 </ul>
 </section>
 <section id="i-piani-di-studio" class="level2">
@@ -283,83 +285,90 @@ ul.task-list li input[type="checkbox"] {
 <td>=</td>
 </tr>
 <tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Laboratorio di informatica; lingua straniera</td>
+<td style="text-align: center;">3 + 3</td>
+<td>—</td>
+<td>=</td>
+</tr>
+<tr class="even">
 <td style="text-align: center;">2</td>
 <td>Analisi matematica II</td>
 <td style="text-align: center;">6</td>
 <td>MAT/05</td>
 <td>=</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">2</td>
 <td>Fondamenti di Statistical Learning: <em>Modelli per l’apprendimento statistico</em> (9) + <em>Analisi esplorativa</em> (6)</td>
 <td style="text-align: center;">15</td>
 <td>SECS-S/01</td>
 <td>Analisi statistica multivariata</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">2</td>
 <td>Inferenza statistica</td>
 <td style="text-align: center;">12</td>
 <td>SECS-S/01</td>
 <td>Statistica II</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">2</td>
 <td>Basi di dati</td>
 <td style="text-align: center;">6</td>
 <td>INF/01</td>
 <td>=</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">2</td>
 <td>Macroeconomia ed Econometria</td>
 <td style="text-align: center;">6 + 6</td>
 <td>SECS-P/01, P/05</td>
 <td>=</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">2</td>
 <td>Statistica economica II</td>
 <td style="text-align: center;">6</td>
 <td>SECS-S/03</td>
 <td>=</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">2</td>
 <td><strong>Fondamenti di Machine Learning</strong></td>
 <td style="text-align: center;">6</td>
 <td>SECS-S/01</td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">3</td>
 <td>Modelli statistici e serie storiche: <em>Serie storiche economiche</em> (9) + <em>Modelli statistici avanzati</em> (6)</td>
 <td style="text-align: center;">15</td>
 <td>SECS-S/03, S/01</td>
 <td>Serie storiche + Statistica III</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">3</td>
 <td>Percorso <strong>Data Science</strong>: Data mining, Statistica computazionale, Gestione dati complessi, <strong>Fondamenti di IA e Deep Learning</strong></td>
 <td style="text-align: center;">24</td>
 <td>S/01, INF/01</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">3</td>
 <td>Percorso <strong>Analisi di mercato</strong>: Analisi di mercato, Economia industriale, Statistica aziendale, <strong>Strumenti di ML per l’analisi di mercato</strong></td>
 <td style="text-align: center;">24</td>
 <td>S/03, P/02</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">3</td>
 <td>Percorso <strong>Mercati finanziari</strong>: Econ. mercati monetari e finanziari, Finanza aziendale, Matematica finanziaria, <strong>Strumenti di ML per la finanza</strong></td>
 <td style="text-align: center;">24</td>
 <td>P/02, P/09, S/06, P/01</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">3</td>
 <td>A scelta libera o stage; prova finale</td>
 <td style="text-align: center;">12 + 6</td>
@@ -722,7 +731,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="dove-sta-ogni-argomento" class="level2">
 <h2 class="anchored" data-anchor-id="dove-sta-ogni-argomento">Dove sta ogni argomento</h2>
-<p>Ogni cella riporta insegnamento, anno di corso e CFU. ⚠︎ segna i punti critici per SMLE. DM e ML = <em>Data mining e machine learning</em> (SGI); DS = percorso Data Science di SMLE; “tutti” = tutti i percorsi di CLAMSES.</p>
+<p>Le tabelle per insegnamento riportano anno di corso e CFU; quelle argomento per argomento usano ✓, <em>cenni</em>, “a scelta” e —. ⚠︎ segna i punti critici per SMLE. DM e ML = <em>Data mining e machine learning</em> (SGI); DS = percorso Data Science di SMLE; “tutti” = tutti i percorsi di CLAMSES.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Matematica: insegnamenti e CFU">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -1662,7 +1671,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna “da ML” e <em>Modelli statistici avanzati</em> la ripete “da statistica”, oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno). Con la <a href="#proposta">proposta</a> il problema si attenua, perché FML non si regge sulla logistica. Bergamo lo aggira: la logistica entra nel suo <em>Statistical Learning</em> al 2° anno, dentro un unico corso da 12 CFU.</p>
+<p>Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna “da ML” e <em>Modelli statistici avanzati</em> la ripete “da statistica”, oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno). Bergamo lo aggira: la logistica entra nel suo <em>Statistical Learning</em> al 2° anno, dentro un unico corso da 12 CFU. Con la <a href="#proposta">proposta</a> il problema si attenua, perché FML non si regge sulla logistica.</p>
 </div>
 </div>
 </div>
@@ -1726,12 +1735,12 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Statistica avanzata M (tutti)</td>
 <td>Bayes, LDA, QDA, logistica</td>
-<td><strong>Alto</strong> se FML fa classificazione</td>
+<td>Basso con la proposta (FML non fa classificazione)</td>
 </tr>
 <tr class="odd">
 <td>Prob. e stat. computazionale M (tutti)</td>
 <td>Monte Carlo, bootstrap</td>
-<td><strong>Alto</strong> se FML fa simulazione</td>
+<td><strong>Alto</strong> con la proposta: sovrapposizione accettata, vedi il raccordo</td>
 </tr>
 <tr class="even">
 <td>Data Mining M (STAT)</td>
@@ -1741,7 +1750,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Machine Learning M (STAT)</td>
 <td>Errore di generalizzazione, metriche, k-fold, kNN</td>
-<td><strong>Alto</strong>: stesso impianto “fondativo”</td>
+<td>Medio con la proposta: resta in comune la CV</td>
 </tr>
 <tr class="even">
 <td>Statistical Learning M (STAT)</td>
@@ -1781,7 +1790,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-19" class="callout-19-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><em>Machine Learning M</em> (STAT) adotta il manuale di Mohri, Rostamizadeh e Talwalkar e parte dagli stessi fondamenti. Uno studente SMLE che sceglie STAT li vedrebbe tre volte: in FML, in ML M e, per la CV, in <em>Data Mining M</em>. Il problema si risolve solo con un accordo tra i docenti di SMLE e di CLAMSES.</p>
+<p><em>Machine Learning M</em> (STAT) adotta il manuale di Mohri, Rostamizadeh e Talwalkar e parte dagli stessi fondamenti. Uno studente SMLE che sceglie STAT li vedrebbe tre volte: in FML, in ML M e, per la CV, in <em>Data Mining M</em>. Con la <a href="#proposta">proposta</a> FML non è più un corso di “fondamenti di ML” in senso stretto, e in comune resta soprattutto la CV. Serve comunque un accordo tra i docenti di SMLE e di CLAMSES.</p>
 </div>
 </div>
 </div>
@@ -1830,6 +1839,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+<p><strong>Metodo: per casi di studio.</strong> Ogni blocco parte da un problema concreto (una verosimiglianza che non si risolve a mano, l’incertezza di un indicatore economico, un test di cui non si conosce la distribuzione, una previsione da valutare) e ne ricava il metodo. Il corso resta metodologico nei contenuti; i casi ne sono il filo. Il progetto finale è un’occasione per lavorare in modo riproducibile (Git, Quarto o R Markdown).</p>
 <p>Si aggancia a corsi già presenti: riprende i metodi del gradiente di <em>Algoritmi e ottimizzazione</em> (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in <em>Modelli statistici avanzati</em> (IRLS), Data mining e <em>Strumenti di ML</em>. Statistica computazionale (3° anno, DS) resta com’è, sulle misture.</p>
 <p>I nomi restano imperfetti (<em>Fondamenti di Machine Learning</em> è un corso computazionale, <em>Fondamenti di Statistical Learning</em> contiene modello lineare e analisi esplorativa, <em>Modelli statistici avanzati</em> sono i GLM, <em>Statistica computazionale</em> è un corso sui modelli mistura). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Che cosa FML non deve fare">
@@ -1933,6 +1943,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Modelli statistici avanzati</strong> (3°): portarlo verso Modelli statistici 2 di Padova (dispersione esponenziale, IRLS, devianza, quasi-verosimiglianza, sovradispersione, cenni a dati correlati) e ridurre il ripasso del modello lineare.</li>
 <li><strong>Data mining</strong> (3°, DS): dare per noti CV e distorsione e varianza; concentrarsi su classificatori, alberi, <em>ensemble</em>, dati mancanti e <em>text mining</em>.</li>
 <li><strong>Strumenti di ML</strong> (3°): presupporre gli strumenti di FML.</li>
+<li><strong>Algebra lineare, Calcolo delle probabilità, Informatica, Laboratorio</strong>: vedi le lacune in <a href="#dove-sta-ogni-argomento">Dove sta ogni argomento</a>.</li>
+<li><strong>Econometria</strong> (2°) e <strong>Strumenti di ML per l’analisi di mercato</strong> (3°): spazio per l’inferenza causale, vedi gli <a href="#argomenti-scoperti">argomenti scoperti</a>.</li>
 </ul>
 </div>
 </div>
@@ -1974,11 +1986,16 @@ ul.task-list li input[type="checkbox"] {
 <td>Duplica Data mining e CLAMSES</td>
 </tr>
 <tr class="odd">
+<td>FML interamente per casi di studio, senza un programma metodologico</td>
+<td>Coinvolgente, vicino al lavoro reale</td>
+<td>Dipende molto dal docente; rischio di superficialità al 2° anno; valutazione difficile con molti studenti. Meglio come metodo (proposta adottata) che come contenuto</td>
+</tr>
+<tr class="even">
 <td>Modello Bergamo: un unico <em>Statistical Learning</em> al 2° anno (stile ISLR)</td>
 <td>Ordine coerente</td>
 <td>Svuota Data mining (3°); molto sovrapposto a Data Mining M e Statistical Learning M</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Modello SGI: un unico corso di ML al 3° anno</td>
 <td>Nessuna sovrapposizione interna</td>
 <td>Richiede di modificare l’ordinamento; toglie il ML ai percorsi Mercato e Finanza</td>
@@ -1989,11 +2006,85 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+<section id="argomenti-scoperti" class="level2">
+<h2 class="anchored" data-anchor-id="argomenti-scoperti">Argomenti scoperti</h2>
+<p>Argomenti che il tronco comune di SMLE non tratta, con una possibile collocazione senza aggiungere esami.</p>
+<table class="table-striped table-hover table-sm small caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Argomento</th>
+<th>SMLE oggi</th>
+<th>Altrove</th>
+<th>Dove metterlo in SMLE</th>
+<th style="text-align: center;">Priorità</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Inferenza causale</strong>: esiti potenziali, randomizzazione, confondimento, <em>propensity score</em>, differenze nelle differenze</td>
+<td>Solo variabili strumentali ed equazioni simultanee in Econometria (2°)</td>
+<td>SGI: Analisi dei dati (causalità, <em>path analysis</em>, SEM; a scelta). Bergamo: Metodi empirici per l’analisi economica e Modelli e analisi empirica di politiche pubbliche (3°, ES; programmi non pubblicati). Padova: cenni in Modelli statistici applicati (STS); corso dedicato in magistrale. CLAMSES: panel e IV in Microeconometria</td>
+<td>Econometria (esiti potenziali, DiD); Strumenti di ML per l’analisi di mercato (A/B test, effetti di trattamento, <em>uplift</em>); casi di studio in FML</td>
+<td style="text-align: center;"><strong>Alta</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Disegno degli esperimenti</strong>, A/B test</td>
+<td>—</td>
+<td>SGI: Piano degli esperimenti (a scelta). Padova: Modelli statistici applicati (STS)</td>
+<td>Insieme all’inferenza causale, in Strumenti di ML per l’analisi di mercato o Analisi di mercato</td>
+<td style="text-align: center;"><strong>Alta</strong></td>
+</tr>
+<tr class="odd">
+<td>Regole, privacy ed etica dei dati</td>
+<td>—</td>
+<td>Bergamo: Diritto dell’IA e dei dati (1°, 6 CFU)</td>
+<td>Fondamenti di IA e DL (da definire) o seminari tra le altre attività</td>
+<td style="text-align: center;">Media</td>
+</tr>
+<tr class="even">
+<td>Riproducibilità (Git, Quarto o R Markdown)</td>
+<td>—</td>
+<td>Padova: Data visualization (a scelta)</td>
+<td>Progetto di FML; Laboratorio di informatica dal 2027/28</td>
+<td style="text-align: center;">Media</td>
+</tr>
+<tr class="odd">
+<td>Statistica bayesiana</td>
+<td>—</td>
+<td>Nessuna triennale del confronto; CLAMSES: Statistica bayesiana M</td>
+<td>Va bene in magistrale; al più cenni in Inferenza statistica</td>
+<td style="text-align: center;">Bassa</td>
+</tr>
+<tr class="even">
+<td>Dati longitudinali e <em>multilevel</em></td>
+<td>—</td>
+<td>SGI: Statistical models (a scelta). CLAMSES: panel in Microeconometria</td>
+<td>Va bene in magistrale</td>
+<td style="text-align: center;">Bassa</td>
+</tr>
+<tr class="odd">
+<td>Analisi di sopravvivenza</td>
+<td>—</td>
+<td>Padova: Modelli statistici applicati (STS)</td>
+<td>Non necessaria per il profilo di SMLE</td>
+<td style="text-align: center;">Bassa</td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="domande-aperte" class="level2">
 <h2 class="anchored" data-anchor-id="domande-aperte">Domande aperte</h2>
 <ul>
 <li><strong>Cicli di FML</strong>: il prospetto della programmazione non li indica.</li>
 <li><strong>Chi scrive il <em>syllabus</em> di FML</strong>: insieme ai titolari di <em>Modelli per l’apprendimento statistico</em>, Data mining, Statistica computazionale e <em>Modelli statistici avanzati</em>. Per CLAMSES vanno coinvolti almeno i titolari di Statistica avanzata M, Data Mining M, Machine Learning M e Prob. e stat. computazionale M.</li>
+<li><strong>Inferenza causale</strong>: chi la insegna? In Econometria e in Strumenti di ML per l’analisi di mercato va concordata con i titolari, che appartengono a settori diversi (econometria e statistica economica).</li>
 <li><strong>R e Python</strong>: Informatica (1°) e <em>Machine Learning M</em> usano Python, i corsi di statistica R. FML può essere il ponte tra i due.</li>
 </ul>
 </section>
@@ -2012,10 +2103,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-24" class="callout-24-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
-<li>Programmazione didattica SMLE 2026/27 e copertura degli insegnamenti 2026/27.</li>
+<li>SMLE: programmazione didattica e copertura degli insegnamenti 2026/27; <a href="https://elearning.unimib.it/pluginfile.php/2181058/mod_resource/content/0/Reg_Statistica%2C%20Machine%20learning%20ed%20economia_26-27.pdf">Regolamento didattico 2026/27</a>; <a href="https://elearning.unimib.it/course/view.php?id=70713">piano di studi</a>.</li>
 <li>e-learning Milano-Bicocca: <a href="https://elearning.unimib.it/course/index.php?categoryid=12801">SMLE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2906">SSE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2912">SGI</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=3323">CLAMSES</a> (piani e <em>syllabus</em> 2026/27); <a href="https://elearning.unimib.it/pluginfile.php/2136963/mod_resource/content/1/Reg_Statistica%20e%20gestione%20delle%20informazioni_26-27.pdf">Regolamento SGI 2026/27</a>.</li>
 <li>Bergamo: <a href="https://www.unibg.it/studiare/corsi/offertaformativa/data-analytics-economia-e-tecnologie-digitali">pagina del corso</a> e <a href="https://unibg.coursecatalogue.cineca.it/corsi/2026/1359">Course Catalogue</a> (coorti 2025 e 2026).</li>
-<li>Padova: <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf">Bollettino 2026/27</a>; percorsi <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf">SEI</a> e <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf">STS</a>.</li>
+<li>Padova: <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf">Bollettino 2026/27</a>; percorsi <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf">SEI</a> e <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf">STS</a>; pagine dei corsi <a href="https://www.stat.unipd.it/corsi/statistica-economia-e-impresa-sei">SEI</a> e <a href="https://www.stat.unipd.it/corsi/statistica-tecnologie-scienze-sts">STS</a>.</li>
 </ul>
 </div>
 </div>
