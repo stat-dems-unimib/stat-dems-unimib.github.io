@@ -2720,7 +2720,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-body-container callout-body">
 <ul>
 <li><strong>Inferenza basata sulla verosimiglianza.</strong> L’Inferenza statistica di SMLE (oggi Statistica II di SSE) segue l’impostazione classica di Neyman-Pearson; Padova costruisce invece tutto sulla verosimiglianza (informazione, test di Wald, <em>score</em> e rapporto di verosimiglianza, caso multiparametrico). È la base per GLM, Econometria e CLAMSES. <em>Ritocco</em>: in Inferenza statistica, più verosimiglianza e meno test uniformemente più potenti; in alternativa la parte multiparametrica può stare all’inizio di <em>Modelli statistici avanzati</em>.</li>
-<li><strong>Logistica e Poisson al 3° anno.</strong> SGI, Bergamo, Padova e LSE le insegnano al 2°. <em>Ritocco</em>: qualche lezione nel modulo sui modelli del 2° anno.</li>
+<li><strong>Logistica e Poisson al 3° anno.</strong> SGI, Bergamo, Padova e LSE le insegnano al 2°. <em>Ritocco</em>: 3 CFU nel modulo sui modelli del 2° anno, sul modello di Modelli statistici 1 di Padova; <em>Modelli statistici avanzati</em> parte allora dalla teoria generale dei GLM e arriva a modelli più avanzati (vedi le <a href="#proposta">ripercussioni</a>).</li>
 <li><strong>Statistica computazionale.</strong> Simulazione, bootstrap e lisciamento mancano nel tronco comune, ovunque altrove ci sono. <em>Ritocco</em>: FML, come nella <a href="#proposta">proposta</a>.</li>
 <li><strong>Indagini campionarie.</strong> Padova ha un corso da 9 CFU su metodologia d’indagine e campionamento; SMLE ne fa solo una parte dentro Inferenza statistica. Per un profilo economico (Istat, ricerche di mercato) è una lacuna; si recupera in parte in CLAMSES (<em>Metodi per le indagini campionarie M</em>, solo SPI) e, nel percorso Mercato, in Analisi di mercato.</li>
 <li><strong>Inferenza bayesiana.</strong> Warwick e Bocconi la introducono al 2° anno, dentro i corsi di statistica matematica; in SMLE arriva solo in CLAMSES. Non è una priorità, ma un paio di lezioni in Inferenza statistica allineerebbero SMLE agli standard internazionali.</li>
@@ -2745,7 +2745,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-20" class="callout-20-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna “da ML” e <em>Modelli statistici avanzati</em> la ripete “da statistica”, oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno). Bergamo lo aggira: la logistica entra nel suo <em>Statistical Learning</em> al 2° anno, dentro un unico corso da 12 CFU. Con la <a href="#proposta">proposta</a> il problema si attenua, perché FML non si regge sulla logistica.</p>
+<p>Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna “da ML” e <em>Modelli statistici avanzati</em> la ripete “da statistica”, oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno). Bergamo lo aggira: la logistica entra nel suo <em>Statistical Learning</em> al 2° anno, dentro un unico corso da 12 CFU. Con la <a href="#proposta">proposta</a> il problema si risolve: FML non si regge sulla logistica, e logistica e Poisson passano al modulo sui modelli del 2° anno.</p>
 </div>
 </div>
 </div>
@@ -3038,8 +3038,8 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Laboratorio di informatica</td>
 <td style="text-align: center;">1°</td>
-<td>Deve dare in R le basi che FML presuppone: funzioni, cicli, generazione di numeri casuali</td>
-<td style="text-align: center;">Poco</td>
+<td>Diventa il corso di R: programmazione di base, descrittiva in R (oggi nel modulo sui modelli), funzioni, cicli, generazione di numeri casuali. Dal 2027/28 non è più mutuato da SGI, quindi si può riprogettare</td>
+<td style="text-align: center;">Medio</td>
 </tr>
 <tr class="odd">
 <td>Calcolo delle probabilità</td>
@@ -3050,14 +3050,14 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td><em>Modelli per l’apprendimento statistico</em></td>
 <td style="text-align: center;">2°</td>
-<td>La convalida incrociata passa a FML; restano AIC e BIC. Se la probabilità multivariata passa a Calcolo delle probabilità e i Monte Carlo a FML, restano ore per anticipare logistica e Poisson</td>
-<td style="text-align: center;">Medio</td>
+<td><strong>Modello Padova</strong> (Modelli statistici 1): modello lineare come ora, più i complementi oggi all’inizio di <em>Modelli statistici avanzati</em> (errata specificazione, <em>sandwich</em>, minimi quadrati pesati, Box-Cox), più <strong>3 CFU su logistica e Poisson</strong>. Escono la parte introduttiva su R (al laboratorio), i Monte Carlo (a FML) e la convalida incrociata (a FML); restano AIC e BIC</td>
+<td style="text-align: center;"><strong>Alto</strong></td>
 </tr>
 <tr class="odd">
 <td><em>Modelli statistici avanzati</em> (GLM)</td>
 <td style="text-align: center;">3°</td>
-<td>IRLS e Fisher <em>scoring</em> si presentano come casi di Newton già visti; più tempo per inferenza, sovradispersione e quasi-verosimiglianza; bootstrap e simulazioni come strumenti</td>
-<td style="text-align: center;">Medio</td>
+<td><strong>Modello Padova</strong> (Modelli statistici 2): si parte dalla teoria generale (famiglie esponenziali di dispersione, IRLS come caso di Newton già visto in FML) e si va oltre: sovradispersione e quasi-verosimiglianza, beta-binomiale, modelli con inflazione di zeri, tabelle di contingenza e modelli log-lineari, risposte correlate</td>
+<td style="text-align: center;"><strong>Alto</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Statistica computazionale</strong></td>
