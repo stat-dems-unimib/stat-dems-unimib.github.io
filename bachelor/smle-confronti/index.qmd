@@ -1,34 +1,31 @@
 ---
-title: "SMLE, SGI e Padova: piani di studio a confronto"
-subtitle: "Documento di lavoro sul piano di studio della laurea triennale in Statistica, Machine Learning ed Economia (SMLE), con un focus su *Fondamenti di Machine Learning*"
+title: "SMLE, SGI, Padova e CLAMSES: piani di studio a confronto"
+subtitle: "Il piano di studio di Statistica, Machine Learning ed Economia (SMLE) e la collocazione di *Fondamenti di Machine Learning*"
 date: 2026-11-28
 date-format: "D MMMM YYYY"
 toc: true
+toc-depth: 2
 search: false
+grid:
+  body-width: 1200px
+  margin-width: 230px
+  sidebar-width: 0px
 include-in-header:
   text: '<meta name="robots" content="noindex, nofollow">'
 ---
 
-::: {.callout-note appearance="simple"}
-**Pagina di lavoro, non collegata dal sito.** Confronta il piano SMLE (coorte 2026/27) con l'altra laurea triennale in statistica di Milano-Bicocca, Statistica e Gestione delle Informazioni (SGI, nuovo regolamento 2026/27), e con le due lauree triennali di Padova, SEI e STS (Bollettino 2026/27). Guarda anche **a valle**, alla magistrale CLAMSES (piano e *syllabus* 2026/27), dove arriva la maggior parte dei laureati SMLE. Lo scopo è capire **che cosa insegna ciascun corso**, dove i corsi si sovrappongono e dove collocare *Fondamenti di Machine Learning*. Le fonti sono in fondo alla pagina.
-:::
-
 ## In breve
 
-1. **SMLE è appena partito** (1° anno nel 2026/27). Per il 2° e il 3° anno i programmi non esistono ancora: il riferimento sono i corsi corrispondenti di Scienze Statistiche ed Economiche (SSE), che SMLE sostituisce.
-2. **Fondamenti di Machine Learning (FML)** è un corso nuovo: 6 CFU, SECS-S/01, caratterizzante, al 2° anno. Il suo contenuto **è ancora da definire**. Al 2° anno arriva prima dei modelli lineari generalizzati, che oggi sono in Statistica III e in SMLE saranno in *Modelli statistici avanzati* al 3° anno. In pratica FML dovrebbe usare la regressione logistica prima che sia stata insegnata.
-3. **Gli argomenti "da machine learning" sono già distribuiti su molti corsi**: Fondamenti di Statistical Learning (2° anno), Data Mining, Statistica Computazionale e Fondamenti di IA e Deep Learning (3° anno, percorso Data Science), i due corsi *Strumenti di ML* (percorsi Mercato e Finanza) e, in CLAMSES, Data Mining M, Statistical Learning M e Machine Learning M. Se FML non ha un perimetro definito, rischia di diventare il "corso di tutto un po'".
-4. **Padova sceglie diversamente**: nella triennale non c'è un corso di ML obbligatorio. Il nucleo comune è statistica più solida: Statistica 1–2, Modelli statistici 1 (con logistica e Poisson già al 2° anno), Statistica computazionale, Analisi dei dati multidimensionali. Il ML vero e proprio è in un corso a scelta del 3° anno (*Metodi statistici per big data*) e soprattutto nella magistrale (*Data mining*, *Machine learning*).
-5. **SGI, qui a Bicocca, sceglie una terza strada**: i modelli al 2° anno (il modulo *Modelli statistici* di ASM include già le risposte non gaussiane) e **tutto il ML in un unico corso da 15 CFU al 3° anno** (*Data mining e machine learning*: logistica politomica, LDA, Naive Bayes, kNN, reti neurali, alberi, *bagging*, *boosting*, *random forest*). In SGI c'è quindi un solo punto in cui si fa ML, e lo si fa dopo i modelli.
-6. **CLAMSES riprende quasi tutto, già al 1° anno e per tutti i percorsi.** *Statistica avanzata M* contiene classificatore di Bayes, LDA, QDA e regressione logistica, oltre alla teoria della verosimiglianza. *Probabilità e statistica computazionale M* contiene Monte Carlo, bootstrap e jackknife. Nel percorso STAT si aggiungono *Data Mining M* (distorsione e varianza, CV, penalizzazione, *spline*, GAM) e *Machine Learning M*, il cui testo di riferimento si intitola proprio *Foundations of Machine Learning* (Mohri et al.): CV, kNN, SVM, reti. Per FML, quindi, **non esiste un contenuto "vergine"**: qualunque cosa faccia, gli studenti la ritroveranno in magistrale. Il problema non si risolve dentro SMLE: serve un accordo verticale con CLAMSES.
-7. **CLAMSES non ha un corso sui GLM.** La teoria dei GLM compare solo in frammenti: famiglie esponenziali in *Teorie dell'inferenza*, logit, probit e conteggi in *Microeconometria*, GLM bayesiani in *Bayesian statistical modeling*. Per chi passa da SMLE a CLAMSES, *Modelli statistici avanzati* (l'ex Statistica III) resta **l'unico luogo in cui i GLM si studiano in modo sistematico**: è un motivo per non ridurlo.
-8. **Proposta**: fare di FML un corso sulla **previsione dal punto di vista statistico**: funzione di perdita e rischio, distorsione e varianza, convalida incrociata, metriche di classificazione, ottimizzazione numerica, con un livello pensato come base per CLAMSES. Scrivere esplicitamente che cosa *non* fa. In parallelo, anticipare la logistica al 2° anno, come fa Padova, e concordare con CLAMSES che cosa diventa "richiamo". I dettagli sono [più sotto](#proposta).
+- **Fondamenti di Machine Learning (FML)** è al 2° anno (6 CFU) e il suo contenuto è ancora da definire. Viene **prima dei GLM**, che in SMLE restano al 3° anno, in *Modelli statistici avanzati* (l'ex Statistica III).
+- **Ogni argomento possibile per FML è già trattato altrove**: nel 3° anno di SMLE e, soprattutto, in CLAMSES. Lì classificazione, Monte Carlo e bootstrap sono nel nucleo obbligatorio del 1° anno, e il percorso STAT ha *Machine Learning M*, che usa un manuale intitolato proprio *Foundations of Machine Learning*.
+- **Padova e SGI scelgono altre strade.** Padova insegna logistica e Poisson al 2° anno, ha Statistica computazionale e lascia il ML alla magistrale. SGI fa prima i modelli e poi concentra tutto il ML in un corso da 15 CFU al 3° anno.
+- **CLAMSES non ha un corso sui GLM.** Per chi passa da SMLE a CLAMSES, *Modelli statistici avanzati* è l'unico corso in cui i GLM si studiano in modo sistematico.
+- **Proposta**: FML come corso sulla previsione vista dalla statistica; logistica anticipata al 2° anno; un accordo con CLAMSES su che cosa la magistrale può dare per acquisito. Vedi la [proposta](#proposta).
 
-## I piani a colpo d'occhio
+## I piani di studio
 
-### SMLE (Milano-Bicocca, L-41, coorte 2026/27)
-
-Si tratta di 20 esami per 168 CFU, più lingua (3), laboratorio di informatica (3) e prova finale (6). I primi due anni sono comuni; al 3° anno si sceglie tra tre percorsi. In **grassetto** gli insegnamenti nuovi rispetto a SSE (in giallo nel prospetto della programmazione).
+::: {.callout-note collapse="false" title="SMLE · Milano-Bicocca, L-41, coorte 2026/27"}
+In **grassetto** gli insegnamenti nuovi rispetto a SSE. Per il 2° e il 3° anno valgono ancora i *syllabus* SSE.
 
 | Anno | Insegnamento | CFU | SSD | Corrisponde in SSE a |
 |:-:|---|:-:|---|---|
@@ -37,245 +34,241 @@ Si tratta di 20 esami per 168 CFU, più lingua (3), laboratorio di informatica (
 | 1 | Statistica e Data Visualization | 6 | SECS-S/01 | Statistica I |
 | 1 | Calcolo delle probabilità | 9 | SECS-S/01 | = |
 | 1 | Informatica e ottimizzazione: Informatica (6) + **Algoritmi e ottimizzazione** (6) | 12 | INF/01 | Informatica |
-| 1 | Microeconomia | 6 | SECS-P/01 | = |
-| 1 | Statistica economica I | 6 | SECS-S/03 | = |
+| 1 | Microeconomia; Statistica economica I | 6 + 6 | SECS-P/01, S/03 | = |
 | 2 | Analisi matematica II | 6 | MAT/05 | = |
 | 2 | Fondamenti di Statistical Learning: *Modelli per l'apprendimento statistico* (9) + *Analisi esplorativa* (6) | 15 | SECS-S/01 | Analisi statistica multivariata |
 | 2 | Inferenza statistica | 12 | SECS-S/01 | Statistica II |
 | 2 | Basi di dati | 6 | INF/01 | = |
 | 2 | Macroeconomia ed Econometria | 6 + 6 | SECS-P/01, P/05 | = |
 | 2 | Statistica economica II | 6 | SECS-S/03 | = |
-| 2 | **Fondamenti di Machine Learning** | 6 | SECS-S/01 | (nuovo) |
+| 2 | **Fondamenti di Machine Learning** | 6 | SECS-S/01 | — |
 | 3 | Modelli statistici e serie storiche: *Serie storiche economiche* (9) + *Modelli statistici avanzati* (6) | 15 | SECS-S/03, S/01 | Serie storiche + Statistica III |
-| 3 | Percorso **Data Science**: Data mining, Statistica computazionale, Gestione dati complessi, **Fondamenti di IA e Deep Learning** (3 + 3) | 24 | S/01, INF/01 | Data mining, Stat. comp., Org. sistemi informativi |
+| 3 | Percorso **Data Science**: Data mining, Statistica computazionale, Gestione dati complessi, **Fondamenti di IA e Deep Learning** | 24 | S/01, INF/01 | |
 | 3 | Percorso **Analisi di mercato**: Analisi di mercato, Economia industriale, Statistica aziendale, **Strumenti di ML per l'analisi di mercato** | 24 | S/03, P/02 | |
 | 3 | Percorso **Mercati finanziari**: Econ. mercati monetari e finanziari, Finanza aziendale, Matematica finanziaria, **Strumenti di ML per la finanza** | 24 | P/02, P/09, S/06, P/01 | |
-| 3 | A scelta libera o stage | 12 | | |
+| 3 | A scelta libera o stage; prova finale | 12 + 6 | | |
 
-: Piano SMLE. Fonte: programmazione didattica 2026/27 ed e-learning SMLE. {.striped .hover}
+: {.striped .hover}
 
-Due note della programmazione: dal 2027/28 il laboratorio di informatica non sarà più mutuato da SGI; dal 2028/29 *Gestione dati complessi* sostituirà il corso mutuato da SGI (Organizzazione dei sistemi informativi).
+Dal 2027/28 il laboratorio di informatica non sarà più mutuato da SGI; dal 2028/29 *Gestione dati complessi* sostituisce Organizzazione dei sistemi informativi, oggi mutuato da SGI.
+:::
 
-### SGI (Milano-Bicocca, L-41, regolamento 2026/27)
-
-Anche SGI ha 20 esami, con un 3° anno in gran parte a scelta: 18 CFU di affini, 12 CFU liberi o stage. Dal 2026/27 parte il nuovo regolamento; al 3° anno si fa ancora riferimento ai *syllabus* del vecchio ordinamento.
-
+::: {.callout-note collapse="true" title="SGI · Milano-Bicocca, L-41, regolamento 2026/27"}
 | Anno | Insegnamento | CFU |
 |:-:|---|:-:|
-| 1 | Algebra lineare; Analisi matematica I | 6 + 9 |
-| 1 | Calcolo delle probabilità | 9 |
-| 1 | Statistica I (descrittiva uni- e bivariata) | 6 |
-| 1 | Informatica | 9 |
-| 1 | Demografia; Statistica medica | 9 + 6 |
-| 2 | Analisi matematica II | 6 |
-| 2 | **Analisi statistica multivariata**: *Analisi esplorativa* (7: *cluster*, PCA, **analisi discriminante lineare**) + *Modelli statistici* (8: regressione lineare e "estensioni per risposte di diversa natura", selezione, diagnostica) | 15 |
-| 2 | Statistica I – Complementi (regressione polinomiale, correlazione parziale) | 6 |
-| 2 | Statistica II (inferenza, verosimiglianza, ANOVA, R) | 12 |
-| 2 | Basi di dati | 6 |
-| 2 | Analisi dei dati spaziali e temporali (ARIMA, ETS/UCM, Kalman, geostatistica) | 6 |
-| 2 | Statistica sociale | 9 |
-| 3 | **Data mining e machine learning** | 15 |
+| 1 | Algebra lineare; Analisi matematica I; Calcolo delle probabilità | 6 + 9 + 9 |
+| 1 | Statistica I; Informatica; Demografia; Statistica medica | 6 + 9 + 9 + 6 |
+| 2 | Analisi matematica II; Basi di dati | 6 + 6 |
+| 2 | Analisi statistica multivariata: *Analisi esplorativa* (7: *cluster*, PCA, **LDA**) + *Modelli statistici* (8: regressione lineare e risposte non gaussiane) | 15 |
+| 2 | Statistica I – Complementi; Statistica II | 6 + 12 |
+| 2 | Analisi dei dati spaziali e temporali (ARIMA, ETS/UCM, Kalman, geostatistica); Statistica sociale | 6 + 9 |
+| 3 | **Data mining e machine learning**: GLM, bootstrap, *loess* e *spline*, dati mancanti, selezione del modello; validazione, LDA, logistica politomica, Naive Bayes, kNN, reti neurali, alberi, *bagging*, *boosting*, *random forest* | 15 |
 | 3 | Sistemi informativi | 9 |
-| 3 | Affini a scelta (18 CFU tra): Statistical models (longitudinali, multilevel), Analisi dei dati (fattoriale, SEM), Data science per dati non strutturati (SVD, NMF, MDS, t-SNE, SOM), Data processing and analysis (*embedding*, NoSQL, XAI), Piano degli esperimenti, biostatistica ed epidemiologia, demografia sociale | 18 |
+| 3 | 18 CFU a scelta tra: Statistical models (longitudinali, *multilevel*), Analisi dei dati (fattoriale, SEM), Data science per dati non strutturati (SVD, MDS, t-SNE), Data processing and analysis (*embedding*, XAI), Piano degli esperimenti, biostatistica, demografia | 18 |
 
-: Piano SGI. Fonte: Regolamento didattico SGI 2026/27 e *syllabus* su e-learning. {.striped .hover}
+: {.striped .hover}
+:::
 
-*Data mining e machine learning* (SGI, 3° anno, 15 CFU) merita una nota, perché è il termine di paragone più vicino a FML. Ha due parti:
+::: {.callout-note collapse="true" title="SEI e STS · Padova, L-41, Bollettino 2026/27"}
+Quasi tutti gli insegnamenti sono da 9 CFU. Sono previsti 18 CFU a scelta, 6 CFU di tirocinio obbligatorio e 3 CFU di prova finale.
 
-- **Data mining**: *modelling* robusto, cioè GLM con interazioni, bootstrap e jackknife, regressione robusta, IRLS e WLS, *loess* e *spline*, dati mancanti e imputazione, diagnostica, selezione del modello, cenni ai modelli *multilevel*;
-- **Machine learning**: *overfitting* e validazione, regole associative, classificazione con modelli (lineare, discriminante, logistico politomico e ordinale) e con algoritmi (Naive Bayes, kNN, reti neurali, alberi, PLS, *bagging*, *boosting*, *random forest*).
-
-Copre di fatto *insieme* ciò che in SMLE è sparso tra FML, Data mining, una parte di *Modelli statistici avanzati* e una parte di Statistical Learning M.
-
-### Padova: SEI e STS (L-41, Bollettino 2026/27)
-
-Padova ha due lauree triennali con il 1° anno identico e un 2° anno in buona parte comune. Gli insegnamenti sono quasi tutti da 9 CFU, quindi gli esami sono meno numerosi e più "pesanti". Sono previsti 18 CFU a scelta, 6 CFU di tirocinio obbligatorio e una prova finale da 3 CFU.
-
-| Anno | Comune a SEI e STS | CFU | Solo SEI (Economia e Impresa) | Solo STS (Tecnologie e Scienze) |
+| Anno | Comune a SEI e STS | CFU | Solo SEI | Solo STS |
 |:-:|---|:-:|---|---|
-| 1 | Istituzioni di analisi matematica | 12 | | |
-| 1 | Algebra lineare | 6 | | |
-| 1 | Istituzioni di probabilità (MAT/06) | 9 | | |
-| 1 | Statistica 1 | 9 | | |
+| 1 | Istituzioni di analisi matematica; Algebra lineare | 12 + 6 | | |
+| 1 | Istituzioni di probabilità; Statistica 1 | 9 + 9 | | |
 | 1 | Sistemi di elaborazione 1; Strutture dati e programmazione | 6 + 6 | | |
-| 2 | Statistica 2 | 12 | Microeconomia (9) | Ottimizzazione: modelli e metodi (9) |
-| 2 | **Modelli statistici 1** | 9 | Economia aziendale (9) | **Statistica computazionale** (9) |
-| 2 | Teoria e tecnica dell'indagine e del campionamento | 9 | Misura dei fenomeni economici e aziendali (9) | |
-| 2 | Basi di dati | 6 | | |
-| 3 | Analisi dei dati multidimensionali | 6 | Percorsi: Marketing, Gestione e impresa, Finanza, Socio-economico, Metodologico | Modelli statistici applicati (9) |
-| 3 | Serie storiche | 9 | | Percorsi: Big Data, Tecnologia, Biostatistica, Metodologico |
+| 2 | Statistica 2 | 12 | Microeconomia | Ottimizzazione |
+| 2 | **Modelli statistici 1**: modello lineare (6 CFU) + logistica e Poisson (3 CFU) | 9 | Economia aziendale | **Statistica computazionale**: simulazione, bootstrap, nuclei, *spline*, verosimiglianza numerica |
+| 2 | Teoria e tecnica dell'indagine e del campionamento; Basi di dati | 9 + 6 | Misura dei fenomeni economici | |
+| 3 | Analisi dei dati multidimensionali; Serie storiche | 6 + 9 | 5 percorsi | Modelli statistici applicati; 4 percorsi |
 
-: Piano comune di SEI e STS. A scelta al 2° anno: Analisi matematica 2, *Data visualization*, *Digital demography* (9 CFU ciascuno). Al 3° anno, tra le altre: Modelli statistici 2 (obbligatorio nel percorso Metodologico) e Metodi statistici per big data. {.striped .hover}
+: {.striped .hover}
 
-### A valle: CLAMSES (Milano-Bicocca, LM-82, 2026/27)
+A scelta: *Data visualization* (2°); **Modelli statistici 2** (3°, GLM completi, obbligatorio nel percorso Metodologico); **Metodi statistici per big data** (3°: penalizzazione, ICA, t-SNE, reti, *topic model*, cenni di reti neurali). Data mining e Machine learning sono in magistrale.
+:::
 
-La magistrale in Scienze Statistiche ed Economiche (CLAMSES) prevede 12 esami e tre percorsi: **STAT** (Statistica e data science), **SPI** (Statistica per le imprese) e **MAF** (Mercati assicurativi e finanziari). Il 1° anno ha un nucleo comune ampio. I laureati SSE, e in futuro SMLE, non possono inserire nel piano gli insegnamenti di livellamento ("Introduzione all'inferenza", "Introduzione alle serie storiche"). La magistrale presuppone quindi la triennale di casa.
+::: {.callout-note collapse="true" title="CLAMSES · Milano-Bicocca, LM-82, 2026/27"}
+I percorsi sono tre: STAT (Statistica e data science), SPI (Statistica per le imprese) e MAF (Mercati assicurativi e finanziari). I laureati SSE e SMLE non possono inserire nel piano i corsi di livellamento.
 
-| Insegnamento (CFU) | Percorsi | Sem. | Contenuti statistici rilevanti | Che cosa riprende dalla triennale SMLE |
-|---|:-:|:-:|---|---|
-| **Statistica avanzata M**: *Statistica multivariata* (6) + *Teorie dell'inferenza* (6) | tutti | annuale | Normale multivariata, Mahalanobis, Box-Cox; **classificatore di Bayes, LDA, QDA, regressione logistica** e loro confronto; PCA, MDS; fattoriale, SEM, IRT. Verosimiglianza, sufficienza, famiglie esponenziali, informazione di Fisher, test e regioni di verosimiglianza, selezione del modello | *Analisi esplorativa* (PCA); Inferenza statistica; la logistica di *Modelli statistici avanzati*; e FML, se fa classificazione |
-| **Probabilità e statistica computazionale M**: *Probabilità applicata* (6) + *Statistica computazionale* (6) | tutti | 1 | Kolmogorov, convergenze, vettori gaussiani. Generazione di numeri pseudo-casuali, inversione, accettazione-rifiuto, **Monte Carlo**, riduzione della varianza, **bootstrap e jackknife**, intervalli e test bootstrap | Il blocco "simulazione e bootstrap" che proponevo per FML |
-| **Analisi delle serie economiche temporali e longitudinali M**: *Serie storiche* (6) + *Microeconometria* (6) | tutti | 2 | Radici unitarie, VAR, cointegrazione, ECM. Panel, **logit e probit**, logit multinomiale, Tobit, **Poisson e binomiale negativa**, durata | Serie storiche economiche (3°); in parte *Modelli statistici avanzati* (dal punto di vista econometrico) |
-| **Dynamic models and ML forecasting M** (6) | tutti | 2 | State space, filtro di Kalman, UCM, **algoritmi di ML per la previsione** e costruzione delle *feature* temporali | Serie storiche economiche (3°) |
-| **Data Mining M** (6) | STAT (SPI, sostituibile) | 2 | Minimi quadrati e IRLS, **distorsione e varianza, ottimismo, CV, AIC/BIC**, *best subset*, ridge, lasso, elastic-net, regressione locale, *spline*, GAM | FML (CV, distorsione e varianza); Data mining (3°) |
-| Statistica bayesiana M (6) | STAT | 2 | Prior, MCMC, teoria delle decisioni, modello lineare bayesiano | — |
-| Processi stocastici M (6) | STAT, MAF | 1 | Catene di Markov, Poisson, moto browniano, processi spaziali | — |
-| **Metodi per la Data Science M**: *Machine Learning M* (6, INF/01, Python) + *Statistical Learning M* (6) | STAT (2° anno) | 1 | ML M: errore empirico e di generalizzazione, **metriche, *hold-out*, k-fold, LOO**, **kNN**, SVM, *kernel*, processi gaussiani, kPCA, reti neurali, VAE, GAN, *transformer*, AutoML; testo: Mohri et al., *Foundations of Machine Learning*. SL M: alberi, *bagging*, *random forest*, *boosting*, CNN e RNN, *conformal prediction* | FML; Data mining (3°); Fondamenti di IA e DL (3°) |
-| Metodi e modelli statistici M: *Bayesian statistical modeling* (6) + *Statistica spaziale* (6) | STAT (2° anno) | 2 | Regressione e GLM bayesiani, modelli gerarchici, misture, *prior* per la sparsità; processi di punto, geostatistica, *kriging* | Statistica computazionale (3°, misture) |
-| Metodi per le indagini campionarie M (6) | SPI | 2 | Horvitz-Thompson, stratificato, a grappoli, risposte casualizzate, *differential privacy* | Campionamento in Inferenza statistica |
-| Altri a scelta | vari | | Statistica non parametrica M (ECDF, bootstrap, nuclei, processo di Dirichlet), Statistica ambientale M, Statistica spaziale M | — |
+| Insegnamento (CFU) | Percorsi | Sem. | Contenuti statistici rilevanti |
+|---|:-:|:-:|---|
+| **Statistica avanzata M**: *Statistica multivariata* + *Teorie dell'inferenza* (6 + 6) | tutti | annuale | Normale multivariata; **classificatore di Bayes, LDA, QDA, logistica**; PCA, MDS, fattoriale, SEM, IRT. Verosimiglianza, famiglie esponenziali, test, selezione del modello |
+| **Probabilità e statistica computazionale M** (6 + 6) | tutti | 1 | Convergenze, vettori gaussiani; **Monte Carlo**, riduzione della varianza, **bootstrap e jackknife** |
+| **Serie economiche temporali e longitudinali M**: *Serie storiche* + *Microeconometria* (6 + 6) | tutti | 2 | VAR, cointegrazione; panel, **logit, probit**, Tobit, **Poisson e binomiale negativa** |
+| **Dynamic models and ML forecasting M** (6) | tutti | 2 | State space, Kalman, UCM, ML per la previsione |
+| **Data Mining M** (6) | STAT (SPI) | 2 | IRLS, **distorsione e varianza, CV, AIC/BIC**, ridge, lasso, *spline*, GAM |
+| Statistica bayesiana M; Processi stocastici M (6 + 6) | STAT | 1–2 | MCMC, decisioni; catene di Markov, processi spaziali |
+| **Metodi per la Data Science M**: *Machine Learning M* (Python) + *Statistical Learning M* (6 + 6) | STAT, 2° anno | 1 | ML M: **errore di generalizzazione, metriche, k-fold, kNN**, SVM, *kernel*, reti neurali, GAN, *transformer*, AutoML. SL M: alberi, *ensemble*, CNN, RNN, *conformal prediction* |
+| Metodi e modelli statistici M: *Bayesian statistical modeling* + *Statistica spaziale* (6 + 6) | STAT, 2° anno | 2 | GLM bayesiani, modelli gerarchici, misture; geostatistica |
+| Metodi per le indagini campionarie M (6) | SPI | 2 | Horvitz-Thompson, disegni, *differential privacy* |
 
-: CLAMSES 2026/27: insegnamenti statistici e relazione con la triennale. Fonte: piani di studio dei tre percorsi e *syllabus* su e-learning. {.striped .hover .sm}
-
-Tre osservazioni:
-
-- **Il nucleo comune di CLAMSES ripassa già classificazione e simulazione.** Logistica, LDA, QDA e classificatore di Bayes sono in *Statistica avanzata M*; Monte Carlo e bootstrap in *Probabilità e statistica computazionale M*. Sono corsi obbligatori per tutti e collocati al 1° semestre del 1° anno, quindi qualunque contenuto della triennale su questi temi verrà ripreso subito.
-- **Il percorso STAT ha due corsi pieni di ML** (*Data Mining M* e *Metodi per la Data Science M*). Il loro punto di partenza implicito è il laureato SSE, che ha visto Data mining al 3° anno solo nel percorso corrispondente.
-- **Non c'è un corso sui GLM.** Tra triennale e magistrale, l'unico trattamento sistematico è *Modelli statistici avanzati* (ex Statistica III). In magistrale i GLM sono dati per noti: *Data Mining M* li "richiama", *Microeconometria* li applica, *Bayesian statistical modeling* li estende.
+: {.striped .hover .sm}
+:::
 
 ## Dove sta ogni argomento
 
-Questa è la tabella centrale del documento. Per ogni argomento indica in quale corso viene insegnato in SMLE (con i *syllabus* SSE come riferimento), in SGI e a Padova. A destra, che cosa succede dopo, in magistrale. I punti di attrito sono marcati con ⚠︎.
+⚠︎ segna i punti critici per SMLE. DM e ML = *Data mining e machine learning* (SGI); DS = percorso Data Science di SMLE.
 
-| Argomento | SMLE (triennale) | SGI (triennale) | Padova (triennale) | CLAMSES (magistrale) |
+::: {.callout-note collapse="false" title="Matematica"}
+| Argomento | SMLE | SGI | Padova | CLAMSES |
 |---|---|---|---|---|
-| Statistica descrittiva, grafici | Statistica e Data Visualization (1°) | Statistica I (1°) + Complementi (2°) | Statistica 1 (1°), che arriva già a PCA campionaria e calcolo matriciale | — |
-| Probabilità | Calcolo delle probabilità (1°) | Calcolo delle probabilità (1°) | Istituzioni di probabilità (1°) | *Probabilità applicata* (Prob. e stat. comp. M, tutti) |
-| Inferenza (stima, test, verosimiglianza) | Inferenza statistica (2°, sem. 1) | Statistica II (2°, sem. 1) | Statistica 2 (2°, sem. 1), più centrata sulla verosimiglianza | *Teorie dell'inferenza* (Statistica avanzata M, tutti) |
-| Campionamento da popolazioni finite | dentro Inferenza statistica (2°) | Piano degli esperimenti (3°, a scelta) | Corso dedicato da 9 CFU (2°) | Metodi per le indagini campionarie M |
-| Modello lineare | *Modelli per l'apprendimento statistico* (2°, a cavallo tra i due semestri) | *Modelli statistici*, modulo di ASM (2°, sem. 2) | Modelli statistici 1, 6 CFU su 9 (2°, sem. 2) | richiamato in Data Mining M; in Introduzione alle serie storiche M (livellamento) |
-| Regressione logistica e di Poisson | ⚠︎ Solo al 3° anno, in *Modelli statistici avanzati* | *Modelli statistici* (2°), poi DM e ML (3°) | Modelli statistici 1, 3 CFU (**2° anno**) | ⚠︎ Statistica avanzata M (logistica come classificatore, tutti); Microeconometria (logit, probit, Poisson, tutti) |
-| Teoria dei GLM, quasi-verosimiglianza, sovradispersione | *Modelli statistici avanzati* (3°, sem. 1, ciclo 1), ex Statistica III | parziale in DM e ML (GLM, IRLS) | Modelli statistici 2 (3°, nel percorso Metodologico o a scelta) | ⚠︎ **nessun corso dedicato**: famiglie esponenziali in Teorie dell'inferenza; richiami in Data Mining M; GLM bayesiani in Bayesian statistical modeling |
-| PCA, analisi fattoriale, cluster | *Analisi esplorativa* (2°) | *Analisi esplorativa* di ASM (2°); fattoriale e SEM (3°, a scelta) | Analisi dei dati multidimensionali (3°) | Statistica avanzata M (PCA, MDS, fattoriale, SEM, IRT, tutti); Machine Learning M (*clustering*, STAT) |
-| Simulazione, Monte Carlo, bootstrap | ⚠︎ Nessun corso obbligatorio | bootstrap e jackknife in DM e ML (3°) | Statistica computazionale (2°, obbligatorio in STS) | ⚠︎ *Statistica computazionale* (Prob. e stat. comp. M, **tutti**, 1° sem.) |
-| Lisciamento non parametrico (nuclei, *spline*) | — | *loess* e *spline* in DM e ML (3°) | Statistica computazionale (2°) | Data Mining M (STAT); Statistica non parametrica M (a scelta) |
-| Modelli mistura, *clustering* basato su modelli | Statistica computazionale (3°, Data Science) | — | Metodi statistici per big data (3°, a scelta) | Bayesian statistical modeling (misture bayesiane, STAT) |
-| Distorsione e varianza, convalida incrociata, selezione del modello | ⚠︎ Data mining (3°, Data Science); AIC/BIC in *Modelli per l'apprendimento statistico* | DM e ML (3°) | AIC/BIC in Modelli statistici 1; il resto in magistrale | ⚠︎ Data Mining M (STAT); Machine Learning M (*hold-out*, k-fold, LOO, metriche) |
-| Ridge, lasso, regressione penalizzata | — | — | Metodi statistici per big data (3°, a scelta) | Data Mining M (STAT) |
-| kNN, LDA/QDA, Naive Bayes, alberi | ⚠︎ Data mining (3°, Data Science) | LDA in ASM (2°); il resto in DM e ML (3°) | — (in magistrale) | ⚠︎ Statistica avanzata M (Bayes, LDA, QDA, tutti); Machine Learning M (kNN, SVM); Statistical Learning M (alberi) |
-| *Bagging*, *boosting*, *random forest* | — | DM e ML (3°) | — (in magistrale) | Statistical Learning M |
-| Reti neurali, *deep learning* | ⚠︎ Fondamenti di IA e DL (3°, Data Science) | DM e ML (3°) | Cenni in Metodi statistici per big data | Statistical Learning M (CNN, RNN); Machine Learning M (fino a VAE, GAN, *transformer*) |
-| Riduzione della dimensionalità non lineare (MDS, t-SNE) | — | Data science per dati non strutturati (3°, a scelta) | Metodi statistici per big data (3°, a scelta) | — |
-| *Text mining*, *embedding*, XAI | *Text mining* in Data mining (3°) | Data processing and analysis (3°, a scelta) | *Data visualization* (2°, a scelta); Big data (3°) | — |
-| Serie storiche | Serie storiche economiche (3°) | Analisi dei dati spaziali e temporali (2°) | Serie storiche (3°) | Serie economiche temporali e longitudinali M (VAR, cointegrazione); Dynamic models and ML forecasting M (tutti) |
-| Ottimizzazione | Algoritmi e ottimizzazione (1°, nuovo) | — | Ottimizzazione (2°, STS) | — |
-| **Fondamenti di Machine Learning** | **(2°, contenuto da definire)** | nessun corso corrispondente: il ML è tutto al 3° anno | nessun corso corrispondente | il ML introduttivo è in Machine Learning M (STAT, 2° anno), che usa un testo intitolato *Foundations of Machine Learning* |
+| Analisi in una variabile | Analisi matematica I (1°, 9) | Analisi matematica I (1°, 9) | Istituzioni di analisi (1°, **12**), con cenni alle funzioni di due variabili | livellamento (non per laureati SSE/SMLE) |
+| Più variabili, ottimizzazione vincolata, integrali multipli | Analisi matematica II (2°, 6) | Analisi matematica II (2°, 6) | Analisi matematica 2 (2°, 9, **a scelta**; obbligatoria nel percorso Metodologico), con anche serie di funzioni ed equazioni differenziali | Matematica per l'economia M (MAF) |
+| Algebra lineare | Algebra lineare (1°, 6) | Algebra lineare (1°, 6) | Algebra lineare (1°, 6) | — |
+| Probabilità | Calcolo delle probabilità (1°, 9, SECS-S/01) | Calcolo delle probabilità (1°, 9) | Istituzioni di probabilità (1°, 9, MAT/06) | Probabilità applicata (tutti): convergenze, vettori gaussiani |
+| Ricerca operativa | Algoritmi e ottimizzazione (1°, 6): PL, simplesso, PLI, **metodi del gradiente**, *derivative-free* | — | Ottimizzazione: modelli e metodi (2°, 9, STS): PL, dualità, PLI, non lineare, Gurobi in Python | — |
 
-: Distribuzione degli argomenti tra i corsi. {.striped .hover .sm}
+: {.striped .hover .sm}
+:::
 
-## Il nodo: Fondamenti di Machine Learning
+::: {.callout-note collapse="false" title="Informatica e dati"}
+| Argomento | SMLE | SGI | Padova | CLAMSES |
+|---|---|---|---|---|
+| Programmazione | Informatica (1°, 6): architettura, algoritmi, **Python**, NumPy, pandas | Informatica (1°, 9): **Python**, tabelle, grafici | Sistemi di elaborazione 1 (1°, 6): **Python**, complessità, ricerca | Machine Learning M (Python, STAT) |
+| Algoritmi e strutture dati | — | — | Strutture dati e programmazione (1°, 6): oggetti, ricorsione, ordinamento, pile, *hash*, alberi, grafi | — |
+| Laboratorio | Laboratorio di informatica (1°, 3; dal 2027/28 non più mutuato da SGI) | Laboratorio di informatica (1°, 3) | — | — |
+| Basi di dati | Basi di dati (2°, 6): SQL, progettazione, dati semi-strutturati | Basi di dati (2°, 6) | Basi di dati (2°, 6); Basi di dati 2 (3°, percorso Big Data) | — |
+| Sistemi e dati complessi | Gestione dati complessi (3°, DS, dal 2028/29) | Sistemi informativi (3°, 9): CRM, *data warehouse*, *social media analytics* | Sistemi di elaborazione 2 (3°): reti, *cloud*, calcolo distribuito; Information retrieval (3°): motori di ricerca, RAG | — |
+| IA | Introduzione all'IA (3°, DS, 3) | Data processing and analysis (3°, a scelta): *embedding*, XAI | — | — |
 
-### Cinque problemi
+: {.striped .hover .sm}
+:::
 
-**1. Viene prima di Statistica III.** FML è al 2° anno, mentre la regressione logistica e di Poisson e la teoria dei GLM arrivano al 3° anno, in *Modelli statistici avanzati*. Un corso di ML elementare, però, si appoggia quasi sempre sulla logistica: è il classificatore di riferimento. Le alternative sono due:
+::: {.callout-note collapse="false" title="Inferenza e modelli"}
+| Argomento | SMLE | SGI | Padova | CLAMSES |
+|---|---|---|---|---|
+| Inferenza, verosimiglianza | Inferenza statistica (2°, 12) | Statistica II (2°, 12) | Statistica 2 (2°, 12) | Teorie dell'inferenza (tutti) |
+| Campionamento | dentro Inferenza statistica | Piano degli esperimenti (3°, a scelta) | corso dedicato (2°, 9) | Indagini campionarie M (SPI) |
+| Modello lineare | *Modelli per l'apprendimento statistico* (2°) | *Modelli statistici* (2°) | Modelli statistici 1 (2°) | solo richiami |
+| Logistica e Poisson | ⚠︎ solo al 3° anno (*Modelli statistici avanzati*) | 2° anno | **2° anno** (Modelli statistici 1) | Statistica avanzata M; Microeconometria (tutti) |
+| Teoria dei GLM | *Modelli statistici avanzati* (3°) | in DM e ML (3°) | Modelli statistici 2 (3°, a scelta) | ⚠︎ **nessun corso dedicato** |
+| Serie storiche | Serie storiche economiche (3°) | Dati spaziali e temporali (2°) | Serie storiche (3°) | VAR e cointegrazione; Dynamic models (tutti) |
 
-- FML insegna la logistica "da ML", come minimizzazione di una perdita, e poi *Modelli statistici avanzati* la ripresenta "da statistica";
-- FML la evita, e il corso resta più povero.
+: {.striped .hover .sm}
+:::
 
-Padova ha risolto il problema a monte: in Modelli statistici 1 (2° anno) 3 CFU su 9 sono dedicati a logistica e Poisson, e la teoria generale dei GLM è rinviata a Modelli statistici 2.
+::: {.callout-note collapse="false" title="Multivariata e statistica computazionale"}
+| Argomento | SMLE | SGI | Padova | CLAMSES |
+|---|---|---|---|---|
+| PCA, *cluster*, fattoriale | *Analisi esplorativa* (2°) | ASM (2°) | Analisi dati multidimensionali (3°) | Statistica avanzata M (tutti) |
+| Monte Carlo, bootstrap | ⚠︎ nessun corso obbligatorio | DM e ML (3°) | Statistica computazionale (2°, STS) | Prob. e stat. computazionale M (tutti) |
+| Lisciamento, *spline*, GAM | — | DM e ML (3°) | Statistica computazionale (2°) | Data Mining M (STAT) |
+| Misture | Statistica computazionale (3°, DS) | — | Big data (3°) | Bayesian statistical modeling (STAT) |
 
-**2. Il nome e il collocamento confondono.** Al 2° anno convivono *Fondamenti di Statistical Learning* (15 CFU), che però contiene il modello lineare e l'analisi esplorativa, e *Fondamenti di Machine Learning* (6 CFU). Uno studente, e anche un collega, non può capire dai titoli chi fa cosa. Il *syllabus* di FML dovrà dire in modo esplicito come si distingue dal modulo *Modelli per l'apprendimento statistico*.
+: {.striped .hover .sm}
+:::
 
-**3. Molti corsi a valle fanno già ML**, con punti di partenza diversi:
+::: {.callout-note collapse="false" title="Machine learning"}
+| Argomento | SMLE | SGI | Padova | CLAMSES |
+|---|---|---|---|---|
+| Distorsione e varianza, CV | ⚠︎ Data mining (3°, DS) | DM e ML (3°) | magistrale | Data Mining M; Machine Learning M (STAT) |
+| Ridge, lasso | — | — | Big data (3°, a scelta) | Data Mining M (STAT) |
+| Bayes, LDA, QDA, kNN | ⚠︎ Data mining (3°, DS) | ASM (2°), DM e ML (3°) | magistrale | Statistica avanzata M (tutti); Machine Learning M (STAT) |
+| Alberi ed *ensemble* | alberi in Data mining (3°, DS) | DM e ML (3°) | magistrale | Statistical Learning M (STAT) |
+| Reti neurali | Fondamenti di IA e DL (3°, DS) | DM e ML (3°) | cenni in Big data (3°) | Statistical Learning M; Machine Learning M (STAT) |
 
-| Corso a valle | Che cosa contiene già | Rischio per FML |
+: {.striped .hover .sm}
+:::
+
+## I problemi di Fondamenti di ML
+
+::: {.callout-warning collapse="true" title="1. Arriva prima della regressione logistica"}
+Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna "da ML" e *Modelli statistici avanzati* la ripete "da statistica", oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno).
+:::
+
+::: {.callout-warning collapse="true" title="2. Nomi che si confondono"}
+Al 2° anno ci sono *Fondamenti di Statistical Learning* (15 CFU, che però contiene modello lineare e analisi esplorativa) e *Fondamenti di Machine Learning* (6 CFU). Dai titoli non si capisce chi fa cosa.
+:::
+
+::: {.callout-warning collapse="true" title="3. Molti corsi a valle fanno già ML"}
+| Corso a valle | Contenuti già presenti | Rischio per FML |
 |---|---|---|
-| Data mining (3°, Data Science) | Dati mancanti, LDA/QDA, kNN, alberi, distorsione e varianza, *overfitting*, *text mining*, *market basket* | **Alto**: è il contenuto naturale di un corso introduttivo di ML |
-| Statistica computazionale (3°, DS) | Misture, *model-based clustering*, *mixture of experts*, *tidyverse* | Basso |
-| Fondamenti di IA e DL (3°, DS) | Reti neurali (3 + 3 CFU) | Medio se FML introduce le reti |
-| Strumenti di ML per l'analisi di mercato / per la finanza (3°) | Nuovi, da definire | Medio: presuppongono FML, ma per non ripeterla devono sapere che cosa contiene |
-| Statistica avanzata M (CLAMSES, tutti, 1° anno) | Classificatore di Bayes, LDA, QDA, regressione logistica | **Alto** se FML fa classificazione |
-| Probabilità e stat. computazionale M (CLAMSES, tutti, 1° anno) | Monte Carlo, bootstrap, jackknife | **Alto** se FML fa simulazione e bootstrap |
-| Data Mining M (CLAMSES, STAT) | Distorsione e varianza, ottimismo, CV, AIC/BIC, ridge/lasso/elastic-net, *spline*, GAM | **Alto** su CV e selezione del modello |
-| Statistical Learning M (CLAMSES, STAT) | Alberi, *bagging*, *boosting*, *random forest*, reti neurali, *conformal prediction* | Medio |
-| Machine Learning M (CLAMSES, STAT) | Errore di generalizzazione, metriche, *hold-out* e k-fold, kNN, SVM, *kernel*, reti neurali, AutoML (Python). Testo: Mohri et al., *Foundations of Machine Learning* | **Alto**: ha lo stesso impianto "fondativo" che FML vorrebbe avere |
+| Data mining (3°, DS) | LDA/QDA, kNN, alberi, distorsione e varianza, *text mining* | **Alto** |
+| Fondamenti di IA e DL (3°, DS) | Reti neurali | Medio |
+| Strumenti di ML per mercato e per finanza (3°) | Da definire | Medio |
+| Statistica avanzata M (tutti) | Bayes, LDA, QDA, logistica | **Alto** se FML fa classificazione |
+| Prob. e stat. computazionale M (tutti) | Monte Carlo, bootstrap | **Alto** se FML fa simulazione |
+| Data Mining M (STAT) | Distorsione e varianza, CV, penalizzazione | **Alto** |
+| Machine Learning M (STAT) | Errore di generalizzazione, metriche, k-fold, kNN | **Alto**: stesso impianto "fondativo" |
+| Statistical Learning M (STAT) | Alberi, *ensemble*, reti | Medio |
 
-**4. Manca un corso di statistica computazionale nel tronco comune.** A Padova (STS) Statistica computazionale è un corso da 9 CFU al 2° anno: simulazione, bootstrap, stima di densità con nuclei, lisciamento, ottimizzazione numerica della verosimiglianza. In SMLE questi strumenti non compaiono in nessun corso obbligatorio, e la "Statistica computazionale" del 3° anno tratta in realtà di misture. Proprio questi strumenti, però, sono la base statistica che serve per capire un algoritmo di ML (valutarne l'errore, quantificarne l'incertezza) e non si sovrappongono né a Data Mining né a Statistica III. Si sovrappongono però a *Probabilità e statistica computazionale M*, obbligatorio per tutti al 1° anno di CLAMSES: in triennale andrebbero usati come strumenti, lasciando la teoria (generazione di variabili casuali, riduzione della varianza, intervalli bootstrap) alla magistrale.
+: {.striped .sm}
+:::
 
-**5. A valle c'è già un "Foundations of Machine Learning".** *Machine Learning M* (CLAMSES, percorso STAT) adotta il manuale di Mohri, Rostamizadeh e Talwalkar e parte proprio dai fondamenti: errore empirico e di generalizzazione, metriche, *hold-out* e k-fold, kNN. Se FML in triennale fa le stesse cose in versione semplificata, lo studente SMLE che sceglie STAT le rivede due volte (in FML e in ML M), più CV e selezione del modello in *Data Mining M*. Questa ridondanza si risolve solo con un accordo tra i docenti dei due corsi di studio.
+::: {.callout-warning collapse="true" title="4. Nel tronco comune manca la statistica computazionale"}
+In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun corso obbligatorio. La *Statistica computazionale* del 3° anno (percorso DS) tratta in realtà di misture. A Padova invece è un corso da 9 CFU al 2° anno. In CLAMSES la teoria di Monte Carlo e del bootstrap c'è, ed è obbligatoria per tutti: in triennale basterebbe usarli come strumenti.
+:::
 
-### Che cosa fa Padova, e che cosa non fa
+::: {.callout-warning collapse="true" title="5. A valle c'è già un altro Foundations of Machine Learning"}
+*Machine Learning M* (STAT) adotta il manuale di Mohri, Rostamizadeh e Talwalkar e parte dagli stessi fondamenti. Uno studente SMLE che sceglie STAT li vedrebbe tre volte: in FML, in ML M e, per la CV, in *Data Mining M*. Il problema si risolve solo con un accordo tra i docenti di SMLE e di CLAMSES.
+:::
 
-- Nella triennale **non ha un corso di ML obbligatorio**. L'impostazione è: prima modelli e verosimiglianza, poi le idee computazionali (Statistica computazionale), poi la statistica multivariata.
-- Il ML della triennale è concentrato in **Metodi statistici per big data** (3° anno, a scelta), che fa un po' di tutto: regressione penalizzata, ICA, t-SNE, reti, *topic model*, cenni di reti neurali.
-- La parte "vera" di *data mining* e *statistical learning* è **in magistrale** (Data mining: CV, *spline*, GAM, alberi, *boosting*, SVM, reti neurali). È una divisione netta: la triennale dà gli strumenti, la magistrale gli algoritmi.
-- Il corso SMLE più vicino per spirito è **Data visualization** (2° anno, a scelta): R, *tidyverse*, *text mining* esplorativo, Shiny, grafi di indipendenza condizionata. Somiglia molto a *Statistica e Data Visualization* + *Analisi esplorativa*.
+## Proposta {#proposta}
 
-SMLE ha scelto un'identità diversa, con il "Machine Learning" nel nome, quindi non deve copiare Padova. Il confronto suggerisce però **dove mettere i confini**: alla triennale le idee generali e gli strumenti, alla magistrale l'arsenale di algoritmi.
+**FML: la previsione vista dalla statistica.** Il corso andrebbe al 2° anno, 2° semestre, dopo Inferenza statistica e dopo il modello lineare.
 
-### Che cosa fa SGI
-
-- **Prima i modelli, poi il ML.** Al 2° anno il modulo *Modelli statistici* di ASM (8 CFU) arriva già alle risposte non gaussiane, e *Analisi esplorativa* include l'analisi discriminante lineare. Il ML arriva solo al 3° anno, in un unico corso.
-- **Un solo contenitore da 15 CFU** (*Data mining e machine learning*). Tiene insieme tutto: *modelling* robusto, bootstrap, lisciamento, dati mancanti, validazione, classificatori statistici e algoritmici, *ensemble*, reti neurali. Il vantaggio è che non ci sono sovrapposizioni interne; il limite è che dentro c'è "di tutto".
-- **Gli affini del 3° anno** aggiungono strumenti specifici: riduzione della dimensionalità non lineare, *embedding* e XAI, modelli longitudinali e *multilevel*.
-- **Per SMLE il confronto conta due volte.** SGI e SMLE condividono docenti e mutuazioni: oggi il laboratorio di informatica e Organizzazione dei sistemi informativi; dal 2027/28 il laboratorio sarà autonomo. Inoltre i laureati di entrambi i corsi arrivano a CLAMSES. Un laureato SGI ha già visto *ensemble* e reti neurali; uno SMLE del percorso Data Science, con l'impianto attuale, ha visto alberi, kNN e una parte di reti neurali, ma non *bagging* e *boosting*. Per i corsi della magistrale è un elemento da considerare.
-
-## Proposta per FML {#proposta}
-
-### Opzione raccomandata: "la previsione dal punto di vista statistico"
-
-FML come corso che **mette in forma statistica il problema dell'apprendimento**, prima degli algoritmi. In sintesi:
-
-| Blocco | Contenuti | Perché qui |
+| Blocco | Contenuti | Perché |
 |---|---|---|
-| Il problema della previsione | Perdita e rischio, regressione e classificazione, regola di Bayes, errore riducibile e irriducibile | Linguaggio comune per tutti i corsi a valle |
-| Distorsione, varianza, ottimismo | *Training* e *test*, *overfitting*, convalida incrociata, *holdout* | Oggi arriva solo al 3° anno o in magistrale |
-| Valutare un classificatore | Matrice di confusione, ROC/AUC, calibrazione, *score* di Brier, classi sbilanciate, regole di punteggio proprie | In CLAMSES c'è solo un cenno alle metriche in ML M; molto utile ai percorsi Mercato e Finanza, che non proseguono necessariamente in STAT |
-| Due metodi "di riferimento" | kNN e regressione logistica **come classificatore** (perdita logistica, discesa del gradiente), senza la teoria dei GLM | Basta per gli esempi; la teoria resta a *Modelli statistici avanzati* |
-| Strumenti computazionali | Ottimizzazione numerica (Newton, discesa del gradiente, discesa stocastica); simulazione come **strumento** per studiare il comportamento di un metodo | Si collega ad *Algoritmi e ottimizzazione* del 1° anno. L'ottimizzazione non è trattata in nessun corso statistico di CLAMSES; la teoria di Monte Carlo e bootstrap resta a *Prob. e stat. comp. M* |
+| Il problema della previsione | Perdita e rischio, regressione e classificazione, regola di Bayes, errore riducibile e irriducibile | Linguaggio comune ai corsi a valle |
+| Distorsione e varianza | *Training* e *test*, *overfitting*, convalida incrociata | Oggi arriva solo al 3° anno, e nel solo percorso DS |
+| Valutare un classificatore | Matrice di confusione, ROC/AUC, calibrazione, *score* di Brier, classi sbilanciate | In CLAMSES c'è solo un cenno; serve ai percorsi Mercato e Finanza |
+| Due metodi di riferimento | kNN; logistica **come classificatore** (perdita logistica, discesa del gradiente) | La teoria dei GLM resta a *Modelli statistici avanzati* |
+| Ottimizzazione numerica | Newton e discesa del gradiente applicati a perdita e verosimiglianza; discesa stocastica; simulazione come strumento | Riprende i metodi del gradiente di *Algoritmi e ottimizzazione* (1°); non c'è in nessun corso statistico di CLAMSES |
 
-**Che cosa *non* deve fare** (va scritto nel *syllabus*):
+: {.striped .hover}
 
-- alberi, *ensemble*, LDA/QDA: restano a Data mining e Statistical Learning M;
-- regressione penalizzata, *spline*, GAM: restano a Data Mining M;
-- reti neurali: restano a Fondamenti di IA e DL;
-- PCA e *clustering*: restano ad *Analisi esplorativa*;
-- teoria della verosimiglianza per i GLM: resta a *Modelli statistici avanzati*.
+::: {.callout-note collapse="true" title="Che cosa FML non deve fare"}
+- Alberi, *ensemble*, LDA/QDA: restano a Data mining e a Statistical Learning M.
+- Penalizzazione, *spline*, GAM: restano a Data Mining M.
+- Reti neurali: restano a Fondamenti di IA e DL.
+- PCA e *clustering*: restano ad *Analisi esplorativa*.
+- Teoria dei GLM: resta a *Modelli statistici avanzati*.
+- Teoria di Monte Carlo e del bootstrap: resta a Prob. e stat. computazionale M.
+:::
 
-Collocamento ideale: **2° anno, 2° semestre**, dopo Inferenza statistica (sem. 1) e dopo la parte del modulo sui modelli dedicata al modello lineare.
-
-### Il raccordo con CLAMSES
-
-Da solo, il *syllabus* di FML non basta: serve un accordo su **che cosa la magistrale può dare per acquisito** da un laureato SMLE. Proposta concreta:
-
-| Argomento | In triennale (SMLE) | In CLAMSES diventa |
+::: {.callout-note collapse="true" title="Raccordo con CLAMSES: che cosa diventa richiamo"}
+| Argomento | In SMLE | In CLAMSES |
 |---|---|---|
-| Perdita, rischio, distorsione e varianza, CV | FML (2°): definizioni, intuizione, implementazione in R | *Data Mining M* e *Machine Learning M*: richiamo veloce, poi ottimismo, criteri di informazione, teoria dell'apprendimento (VC, PAC) |
-| Logistica come classificatore, kNN | FML (2°) + logistica nel modulo sui modelli (2°) | *Statistica avanzata M*: confronto teorico Bayes/LDA/QDA/logistica, senza ripartire da zero |
-| Teoria dei GLM | *Modelli statistici avanzati* (3°) | Dato per noto: *Teorie dell'inferenza* lo usa come esempio, *Microeconometria* e *Bayesian statistical modeling* lo estendono |
-| Monte Carlo, bootstrap | Solo come strumento (FML, Inferenza statistica) | *Probabilità e statistica computazionale M*: teoria e algoritmi |
-| Alberi, *ensemble*, reti neurali | Data mining e Fondamenti di IA e DL (3°, solo percorso DS) | *Statistical Learning M*, *Machine Learning M*: per i laureati DS diventano approfondimenti; per gli altri sono una novità |
+| Rischio, distorsione e varianza, CV | FML (2°) | *Data Mining M*, *Machine Learning M*: richiamo, poi ottimismo, criteri di informazione, teoria dell'apprendimento |
+| Logistica, kNN | FML + modulo sui modelli (2°) | *Statistica avanzata M*: confronto teorico tra classificatori, senza ripartire da zero |
+| Teoria dei GLM | *Modelli statistici avanzati* (3°) | Data per nota |
+| Monte Carlo, bootstrap | Solo come strumento | Prob. e stat. computazionale M: teoria |
+| Alberi, *ensemble*, reti | Percorso DS (3°) | Statistical Learning M, Machine Learning M |
 
-C'è però un vincolo da tenere presente. CLAMSES accoglie anche laureati di altre classi e di SGI, che hanno visto i modelli al 2° anno e tutto il ML in un corso da 15 CFU. I corsi della magistrale non possono quindi dare per scontato *solo* il percorso SMLE. La soluzione realistica è sostituire le "ripartenze da zero" con richiami brevi e materiali di allineamento.
+: {.striped .sm}
 
-### Ritocchi collegati
+Vincolo: CLAMSES accoglie anche laureati SGI e di altre classi. Al posto delle ripartenze da zero servono quindi richiami brevi e materiale di allineamento.
+:::
 
-- **Anticipare la logistica (e la Poisson) in *Modelli per l'apprendimento statistico***, come Padova fa in Modelli statistici 1. Basta qualche lezione: modello, stima, interpretazione, in R.
-- Di conseguenza **ridisegnare *Modelli statistici avanzati*** (6 CFU, 3° anno), avvicinandolo a Modelli statistici 2 di Padova: famiglia esponenziale di dispersione, IRLS, devianza e residui, quasi-verosimiglianza, sovradispersione (binomiale negativa, beta-binomiale), cenni a dati correlati. Il ripasso sul modello lineare si può ridurre.
-- **Data mining (3°, DS)**: con FML a monte, il corso può spostarsi su ciò che FML non copre (alberi, *ensemble*, dati mancanti, *text mining*, *market basket*), lasciando distorsione e varianza come "già visto".
-- **Strumenti di ML per mercato e finanza**: devono presupporre FML, non riprenderla da capo.
+::: {.callout-note collapse="true" title="Ritocchi agli altri corsi SMLE"}
+- **Modelli per l'apprendimento statistico** (2°): aggiungere alcune lezioni su logistica e Poisson, come in Modelli statistici 1 di Padova.
+- **Modelli statistici avanzati** (3°): portarlo verso Modelli statistici 2 di Padova (dispersione esponenziale, IRLS, devianza, quasi-verosimiglianza, sovradispersione, cenni a dati correlati) e ridurre il ripasso del modello lineare.
+- **Data mining** (3°, DS): concentrarsi su alberi, *ensemble*, dati mancanti e *text mining*, dando per noti distorsione e varianza.
+- **Strumenti di ML** (3°): partire da FML, senza ripeterla.
+:::
 
-### Alternative scartate o da valutare
-
+::: {.callout-note collapse="true" title="Alternative considerate"}
 | Opzione | Pro | Contro |
 |---|---|---|
-| FML come "ML introduttivo" classico (kNN, alberi, LDA, *clustering*) | Facile da progettare, attraente per gli studenti | Duplica Data mining (3°) e in parte CLAMSES; non risolve l'ordine rispetto ai GLM |
-| FML come Statistica computazionale "alla Padova" (simulazione, bootstrap, lisciamento) | Nessuna sovrapposizione in triennale, solida | Poco "ML" nel titolo; il lisciamento si sovrappone a Data Mining M |
-| Spostare FML al 3° anno, dopo *Modelli statistici avanzati* | Risolve l'ordine | Richiede di modificare l'ordinamento; il 3° anno ha già i percorsi |
-| Modello SGI: un unico contenitore di ML al 3° anno, accorpando FML e Data mining | Nessuna sovrapposizione interna, ordine corretto | FML è nel tronco comune, Data mining solo nel percorso Data Science: accorparli richiede di modificare l'ordinamento e toglie il ML agli altri due percorsi |
+| ML introduttivo classico (kNN, alberi, LDA, *clustering*) | Facile, attraente | Duplica Data mining e CLAMSES; non risolve il problema della logistica |
+| Statistica computazionale "alla Padova" | Solida | Poco ML; si sovrappone a Prob. e stat. computazionale M |
+| FML al 3° anno, dopo i GLM | Risolve l'ordine | Richiede di modificare l'ordinamento |
+| Modello SGI: un unico corso di ML al 3° anno | Nessuna sovrapposizione interna | Richiede di modificare l'ordinamento; toglie il ML ai percorsi Mercato e Finanza |
+
+: {.striped .sm}
+:::
 
 ## Domande aperte
 
-- **Cicli di FML**: il prospetto della programmazione non riporta i cicli del 2° e 3° anno di SMLE. Da fissare tenendo conto del punto sopra.
-- **Docente e contenuto di FML**: chi lo progetta? Conviene scriverne il *syllabus* insieme ai titolari di *Modelli per l'apprendimento statistico*, Data mining e *Modelli statistici avanzati*.
-- **Coerenza con CLAMSES**: chi coinvolgere? Almeno i titolari di *Statistica avanzata M* (modulo multivariato), *Data Mining M*, *Machine Learning M* e *Probabilità e statistica computazionale M*. Va deciso anche se il percorso STAT debba presupporre il percorso DS della triennale.
-- **Linguaggi**: in triennale si lavora in R; *Machine Learning M* è in Python. FML potrebbe essere il punto in cui si introduce Python (o almeno lo si affianca a R), visto che *Algoritmi e ottimizzazione* è un corso di informatica.
-- **Statistica computazionale (3°, DS)**: il nome è fuorviante, perché tratta di misture. Si può pensare di rinominarla o di spostarne una parte nel tronco comune.
-- **Laboratorio di informatica e Gestione dati complessi**: dal 2027/28 e dal 2028/29 diventano corsi propri. È l'occasione per coordinare i linguaggi: oggi R in statistica, Python in Machine Learning M.
+- **Cicli di FML**: il prospetto della programmazione non li indica.
+- **Chi scrive il *syllabus* di FML**: insieme ai titolari di *Modelli per l'apprendimento statistico*, Data mining e *Modelli statistici avanzati*. Per CLAMSES vanno coinvolti almeno i titolari di Statistica avanzata M, Data Mining M, Machine Learning M e Prob. e stat. computazionale M.
+- **R e Python**: Informatica (1°) e *Machine Learning M* usano Python, i corsi di statistica R. FML può essere il ponte tra i due.
+- **Statistica computazionale (3°, DS)**: il nome è fuorviante, perché tratta di misture.
 
 ## Fonti
 
-- Programmazione didattica SMLE 2026/27 (prospetto L-41 R, Scuola di Economia e Statistica) e copertura degli insegnamenti 2026/27 (SSE e SMLE).
-- e-learning Milano-Bicocca: [Statistica, Machine Learning ed Economia (E4105B)](https://elearning.unimib.it/course/index.php?categoryid=12801) (piano di studi e *syllabus* del 1° anno); [Scienze Statistiche ed Economiche](https://elearning.unimib.it/course/index.php?categoryid=2906) (*syllabus* 2026/27 del 2° e 3° anno); [CLAMSES](https://elearning.unimib.it/course/index.php?categoryid=3323) (*syllabus* 2026/27).
-- Statistica e Gestione delle Informazioni: [Regolamento didattico 2026/27](https://elearning.unimib.it/pluginfile.php/2136963/mod_resource/content/1/Reg_Statistica%20e%20gestione%20delle%20informazioni_26-27.pdf); [insegnamenti su e-learning](https://elearning.unimib.it/course/index.php?categoryid=2912); [pagina del corso](https://www.unimib.it/triennale/statistica-gestione-informazioni).
-- Università di Padova, Dipartimento di Scienze Statistiche: [Bollettino 2026/27](https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf); percorsi [SEI](https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf) e [STS](https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf); pagine dei corsi [SEI](https://www.stat.unipd.it/corsi/statistica-economia-e-impresa-sei) e [STS](https://www.stat.unipd.it/corsi/statistica-tecnologie-scienze-sts).
+::: {.callout-note collapse="true" title="Documenti consultati"}
+- Programmazione didattica SMLE 2026/27 e copertura degli insegnamenti 2026/27.
+- e-learning Milano-Bicocca: [SMLE](https://elearning.unimib.it/course/index.php?categoryid=12801), [SSE](https://elearning.unimib.it/course/index.php?categoryid=2906), [SGI](https://elearning.unimib.it/course/index.php?categoryid=2912), [CLAMSES](https://elearning.unimib.it/course/index.php?categoryid=3323) (piani e *syllabus* 2026/27); [Regolamento SGI 2026/27](https://elearning.unimib.it/pluginfile.php/2136963/mod_resource/content/1/Reg_Statistica%20e%20gestione%20delle%20informazioni_26-27.pdf).
+- Padova: [Bollettino 2026/27](https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf); percorsi [SEI](https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf) e [STS](https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf).
+:::
