@@ -1,0 +1,337 @@
+---
+title: "SMLE a confronto con altri corsi di laurea"
+subtitle: "SGI, Bergamo, Padova, Warwick, LSE e Bocconi"
+date: 2026-11-28
+date-format: "D MMMM YYYY"
+toc: true
+toc-depth: 2
+search: false
+css: confronti.css
+grid:
+  body-width: 1100px
+  margin-width: 220px
+include-in-header:
+  text: '<meta name="robots" content="noindex, nofollow">'
+---
+
+::: {.callout-tip appearance="simple"}
+Questa pagina raccoglie il confronto esterno. Le conseguenze per SMLE, cioè il piano proposto, sono nella pagina **[Il piano di studio di SMLE](index.qmd)**.
+:::
+
+## In sintesi
+
+- Sui **fondamentali** (probabilità, matematica, informatica) SMLE fa meglio di SGI, Bergamo e Bocconi, peggio di Padova, Warwick e LSE.
+- SMLE è avanti su statistica economica (12 CFU), Analisi II obbligatoria, ottimizzazione per tutti, GLM completi e variabili strumentali.
+- Il **machine learning** è al 3° anno a Warwick e LSE, dopo regressione e inferenza; in magistrale a Padova; al 3° anno in un unico corso da 15 CFU a SGI; al 2° anno, in un corso unico di stampo ISLR, a Bergamo e Bocconi.
+
+## Cosa manca a SMLE
+
+| Area | Cosa manca | Chi lo fa | Dove sistemarlo | Priorità |
+|---|---|---|---|:-:|
+| Algebra lineare | Proiezioni ortogonali, Gram-Schmidt e QR, teorema spettrale, SVD | Padova, Warwick, LSE | Algebra lineare, al posto di numeri complessi e teorema fondamentale dell'algebra | **Alta** |
+| Probabilità | Il caso multivariato sta nel modulo sui modelli del 2° anno; mancano le trasformazioni di vettori aleatori | Padova, Warwick, LSE | Un unico Calcolo delle probabilità che comprenda il caso multivariato | **Alta** |
+| Statistica computazionale | Simulazione, Monte Carlo, bootstrap, ottimizzazione numerica: in nessun corso obbligatorio | Padova, Bergamo, Bocconi, SGI | FML ([piano proposto](index.qmd#proposta)) | **Alta** |
+| Modelli | Logistica e Poisson solo al 3° anno | SGI, Bergamo, Padova, LSE | Modulo sui modelli del 2° anno ([piano proposto](index.qmd#proposta)) | **Alta** |
+| Inferenza causale | Esiti potenziali, confondimento, *propensity score*, differenze nelle differenze, A/B test, disegno degli esperimenti; oggi solo variabili strumentali in Econometria | Bocconi (1° e 3° anno), LSE, Padova, SGI, Bergamo | Econometria; *Strumenti di ML per l'analisi di mercato*; casi di studio in FML | **Alta** |
+| Algoritmi e strutture dati | Complessità, ricerca e ordinamento, *hash*, *heap*, alberi | Padova (corso da 6 CFU), Warwick, LSE, Bocconi | Informatica | Media |
+| Dati reali | Pulizia dei dati, formati (JSON, XML, Parquet), API, *web scraping* | LSE, Bergamo, Bocconi | Laboratorio di informatica (autonomo dal 2027/28) o Gestione dati complessi | Media |
+| Inferenza | Teoria asintotica della verosimiglianza: test di Wald e *score*, caso multiparametrico | Padova | Inferenza statistica, con meno test uniformemente più potenti | Media |
+| Indagini campionarie | Metodologia d'indagine, questionario, campionamento complesso | Padova (corso da 9 CFU) | In parte CLAMSES (percorso SPI) e Analisi di mercato | Media |
+| Riproducibilità | Git, Quarto, gestione dei pacchetti | Warwick | Progetto di FML; Laboratorio di informatica | Media |
+| Etica e regole dei dati | Privacy, diritto dell'IA | Bergamo, Bocconi, LSE | Fondamenti di IA e DL o seminari | Media |
+| Inferenza bayesiana | *Prior*, *posterior*, intervalli di credibilità | Warwick e Bocconi (2° anno) | Cenni in Inferenza statistica | Bassa |
+
+: {.striped .hover .sm}
+
+
+## I piani degli altri corsi di laurea
+
+Crediti: CFU = ECTS; Warwick usa i CATS (15 CATS = 7,5 ECTS), LSE le *unit* (1 unit = 15 ECTS).
+
+::: {.callout-note collapse="true" title="SGI · Milano-Bicocca, L-41, regolamento 2026/27"}
+| Anno | Insegnamento | CFU |
+|:-:|---|:-:|
+| 1 | Algebra lineare; Analisi matematica I; Calcolo delle probabilità | 6 + 9 + 9 |
+| 1 | Statistica I; Informatica; Demografia; Statistica medica | 6 + 9 + 9 + 6 |
+| 2 | Analisi matematica II; Basi di dati | 6 + 6 |
+| 2 | Analisi statistica multivariata: *Analisi esplorativa* (7: *cluster*, PCA, **LDA**) + *Modelli statistici* (8: regressione lineare e risposte non gaussiane) | 15 |
+| 2 | Statistica I – Complementi; Statistica II | 6 + 12 |
+| 2 | Analisi dei dati spaziali e temporali (ARIMA, ETS/UCM, Kalman, geostatistica); Statistica sociale | 6 + 9 |
+| 3 | **Data mining e machine learning**: GLM, bootstrap, *loess* e *spline*, dati mancanti, selezione del modello; validazione, LDA, logistica politomica, Naive Bayes, kNN, reti neurali, alberi, *bagging*, *boosting*, *random forest* | 15 |
+| 3 | Sistemi informativi | 9 |
+| 3 | 18 CFU a scelta tra: Statistical models (longitudinali, *multilevel*), Analisi dei dati (fattoriale, SEM), Data science per dati non strutturati (SVD, MDS, t-SNE), Data processing and analysis (*embedding*, XAI), Piano degli esperimenti, biostatistica, demografia | 18 |
+
+: {.striped .hover}
+:::
+
+::: {.callout-note collapse="true" title="Data Analytics, economia e tecnologie digitali · Bergamo, L-41, coorte 2026/27"}
+Accesso libero, attivo dal 2025/26 e quindi ancora senza programmi del 3° anno. Ha due percorsi: economico-statistico (ES) e informatico-ingegneristico (II).
+
+| Anno | Insegnamento | CFU |
+|:-:|---|:-:|
+| 1 | Analisi matematica 1 e algebra lineare | 9 |
+| 1 | Statistica descrittiva e calcolo delle probabilità | 9 |
+| 1 | **Inferenza statistica**: stima, verosimiglianza, test, Monte Carlo e bootstrap parametrico, regressione lineare semplice | 6 |
+| 1 | Informatica per data science: Python, algoritmi, SQL, pandas | 12 |
+| 1 | Microeconomia; Gestione e organizzazione aziendale; Diritto dell'IA e dei dati; Inglese | 9 + 6 + 6 + 3 |
+| 2 | **Analisi matematica 2 e ottimizzazione per data science**: più variabili, PL, KKT, gradiente e gradiente stocastico, Newton; ML come problema di ottimizzazione (minimi quadrati, SVM, kNN) | 12 |
+| 2 | **Statistical Learning**: PCA, fattoriale, *clustering*; distorsione e varianza, lineare, logistica, ridge, lasso, kNN, alberi, *bagging*, *random forest*, *boosting*, *spline*, GAM, CV, bootstrap | 12 |
+| 2 | **Programmazione per data science, data management e reti neurali**: Python, NumPy, pandas, pulizia dei dati; *perceptron* multistrato, discesa del gradiente, Keras | 9 |
+| 2 | Statistica economica e data visualization (SAS, Tableau o PowerBI); Macroeconomia | 6 + 9 |
+| 2 | ES: Econometria (regressione, diagnostica, valutazione fuori campione, serie storiche) + 6 CFU di economia · II: Programmazione a oggetti e web; Teoria dei sistemi e dei segnali | 12 |
+| 3 | Comuni: Modellazione statistica di dati complessi (12); Analisi di dati testuali (6); Laboratorio di data science (6) | 24 |
+| 3 | ES: Metodi empirici per l'analisi economica; Politiche pubbliche; Politiche economiche · II: Analisi e filtraggio dei segnali; Reti di telecomunicazione; Applicazioni *data intensive* | 21 |
+| 3 | A scelta; prova finale | 12 + 3 |
+
+: {.striped .hover}
+:::
+
+::: {.callout-note collapse="true" title="SEI e STS · Padova, L-41, Bollettino 2026/27"}
+Quasi tutti gli insegnamenti sono da 9 CFU. Sono previsti 18 CFU a scelta, 6 CFU di tirocinio obbligatorio e 3 CFU di prova finale.
+
+| Anno | Comune a SEI e STS | CFU | Solo SEI | Solo STS |
+|:-:|---|:-:|---|---|
+| 1 | Istituzioni di analisi matematica; Algebra lineare | 12 + 6 | | |
+| 1 | Istituzioni di probabilità; Statistica 1 | 9 + 9 | | |
+| 1 | Sistemi di elaborazione 1; Strutture dati e programmazione | 6 + 6 | | |
+| 2 | Statistica 2 | 12 | Microeconomia | Ottimizzazione |
+| 2 | **Modelli statistici 1**: modello lineare (6 CFU) + logistica e Poisson (3 CFU) | 9 | Economia aziendale | **Statistica computazionale**: simulazione, bootstrap, nuclei, *spline*, verosimiglianza numerica |
+| 2 | Teoria e tecnica dell'indagine e del campionamento; Basi di dati | 9 + 6 | Misura dei fenomeni economici | |
+| 3 | Analisi dei dati multidimensionali; Serie storiche | 6 + 9 | 5 percorsi | Modelli statistici applicati; 4 percorsi |
+
+: {.striped .hover}
+
+A scelta: *Data visualization* (2°); **Modelli statistici 2** (3°, GLM completi, obbligatorio nel percorso Metodologico); **Metodi statistici per big data** (3°: penalizzazione, ICA, t-SNE, reti, *topic model*, cenni di reti neurali). Data mining e Machine learning sono in magistrale.
+:::
+
+::: {.callout-note collapse="true" title="Data Science · Warwick, BSc, 2026/27"}
+Crediti in CATS (15 CATS = 7,5 ECTS = 7,5 CFU). 1° anno tutto obbligatorio; 2° anno circa 20% a scelta; 3° anno circa 75% a scelta.
+
+| Anno | Insegnamento | CATS |
+|:-:|---|:-:|
+| 1 | Programming for Computer Scientists (Java); Design of Information Structures (strutture dati, ricerca, ordinamento, complessità) | 15 + 15 |
+| 1 | Vectors and Matrices; Calculus 1 e 2; Sets and Numbers; Mathematical Programming 1 (programmazione lineare) | 10 + 20 + 10 + 10 |
+| 1 | Introduction to Statistical Modelling (modelli, verosimiglianza, R); Probability 1 e 2 | 15 + 25 |
+| 2 | Software Engineering; Database Systems; Algorithms | 15 + 15 + 15 |
+| 2 | Mathematical Methods for Statistics and Probability (più variabili, ottimizzazione vincolata, matrici simmetriche, ortogonalizzazione e regressione) | 10 |
+| 2 | Probability for Mathematical Statistics (distribuzioni condizionate, normale multivariata, LGN, TLC); Mathematical Statistics (verosimiglianza, stima, test, **inferenza bayesiana**) | 10 + 10 |
+| 2 | **Linear Statistical Modelling with R** (modello lineare normale, test F, ANOVA, diagnostica, selezione); Stochastic Processes | 10 + 10 |
+| 2 | A scelta, tra cui Python for data-analytic tasks, Artificial Intelligence, Data Analytics | ~25 |
+| 3 | Data Science Project | 30 |
+| 3 | A scelta, tra cui **Fundamentals of Machine Learning** (CV, regolarizzazione, logistica, kNN, discriminante, reti, PCA), **GLM for Regression and Classification** (anche quasi-verosimiglianza e sovradispersione), Multivariate Statistics, Bayesian Statistics, Bayesian Forecasting, Professional Practice of Data Analysis | ~90 |
+
+: {.striped .hover}
+:::
+
+::: {.callout-note collapse="true" title="Data Science · LSE, BSc, coorte 2026/27"}
+Crediti in *unit* (1 unit = 15 ECTS; 0,5 unit = 7,5 ECTS). Quattro unit all'anno, più il corso interdisciplinare LSE100 al 1° anno.
+
+| Anno | Insegnamento | Unit |
+|:-:|---|:-:|
+| 1 | Elementary Statistical Theory (descrittiva, probabilità, distribuzioni, stima, test, ANOVA, regressione) | 1,0 |
+| 1 | Mathematical Methods (algebra lineare con diagonalizzazione ortogonale, più variabili, Lagrange) | 1,0 |
+| 1 | Programming for Data Science (Python, oggetti, ricorsione, eccezioni); **Managing and Visualising Data** (API, *web scraping*, pulizia, SQL, JSON e XML, visualizzazione) | 0,5 + 0,5 |
+| 1 | Due mezze unit a scelta tra microeconomia, macroeconomia, finanza, contabilità, analisi, matematica discreta | 0,5 + 0,5 |
+| 2 | Probability and Distribution Theory (trasformazioni, distribuzioni condizionate, misture); **Applied Regression** (regressione multipla, diagnostica, introduzione ai GLM, in R) | 0,5 + 0,5 |
+| 2 | Algorithms and Data Structures; Databases (SQL, NoSQL, database vettoriali) | 0,5 + 0,5 |
+| 2 | Further Mathematical Methods (Linear Algebra: proiezioni, minimi quadrati, **SVD**); analisi o calcolo | 0,5 + 0,5 |
+| 2 | A scelta, tra cui Econometrics I e II, Statistical Inference, Sample Surveys and Experiments, Optimisation, Survival Models | 1,0 |
+| 3 | **Machine Learning** (kNN, lineare e logistica, regolarizzazione, CV, alberi, *ensemble*, reti; inferenza causale con *double ML*); **Artificial Intelligence** (*deep learning*, PyTorch) | 0,5 + 0,5 |
+| 3 | Applied Statistics Project | 0,5 |
+| 3 | A scelta, tra cui Regression and GLM, Stochastic Simulation, Time Series, Bayesian Inference, Multilevel and Longitudinal Models, Financial Statistics, **Ethics for Data Science**, Optimisation for ML | 2,5 |
+
+: {.striped .hover}
+:::
+
+::: {.callout-note collapse="true" title="Management and Computer Science (ex BEMACS) · Bocconi, coorte 2026/27"}
+180 CFU, in inglese. I contenuti vengono dal catalogo Bocconi 2026/27; per il 2° e 3° anno valgono per le coorti precedenti.
+
+| Anno | Insegnamento | CFU |
+|:-:|---|:-:|
+| 1 | Mathematics (una variabile, integrali, matematica discreta) | 8 |
+| 1 | **Statistics**: insegnata per casi di studio (visualizzazione, randomizzazione e RCT, confondimento, paradosso di Simpson, probabilità, distribuzioni, censura, LGN e TLC, *p*-value, test multipli, **bootstrap**) | 8 |
+| 1 | Fundamentals of Computer Science (algoritmi, complessità, strutture dati, grafi, Python, oggetti) | 8 |
+| 1 | Microeconomics; Macroeconomics; Principles of Management; Cognition and Behavior; Fundamentals of IT Law | 8 + 8 + 8 + 6 + 6 |
+| 2 | Applied Mathematics (algebra lineare: spazi vettoriali, autovalori, spazi con prodotto interno) | 7 |
+| 2 | Probability and Stochastic Models / Advanced Statistical Methods (vettori aleatori, trasformazioni, simulazione, stima, verosimiglianza e **metodi bayesiani**, test) | 7 + 7 |
+| 2 | Computer Programming (NumPy, SciPy, Monte Carlo, *simulated annealing*, gradiente, programmazione dinamica) | 7 |
+| 2 | **Machine Learning** (ottimizzazione, lineare e logistica, *kernel*, SVM, alberi, *ensemble*, reti, distorsione e varianza, PCA, *clustering*, *reinforcement learning*, scikit-learn) | 7 |
+| 2 | Accounting; Principles of Finance; European IP and Data Law; lingua | 8 + 7 + 8 + 4 |
+| 3 | Econometrics (regressione, causalità, panel, scelta binaria, variabili strumentali, valutazione delle politiche, serie storiche) | 8 |
+| 3 | Big Data and Databases (SQL, NoSQL, Spark, alberi, *ensemble*, reti); AI for Management; Marketing Analytics | 6 + 6 + 8 |
+| 3 | Game Theory; Mechanism Design; due insegnamenti a scelta o tirocinio; prova finale | 8 + 8 + 12 + 3 |
+
+: {.striped .hover}
+
+Da notare: non c'è un corso di analisi in più variabili, e la statistica del 1° anno è costruita interamente su casi di studio, come era stato proposto per FML.
+:::
+
+## Confronto per argomento
+
+Tre tabelle, una per area. Legenda: ✓ trattato; *cenni* solo accennato; "a scelta" solo in un insegnamento opzionale; "3°" al 3° anno; "DS" solo nel percorso Data Science di SMLE; n.d. non risulta dai programmi pubblicati (per Bergamo il 3° anno non ha ancora programmi); **⚠︎** assente in SMLE ma presente altrove. Per SMLE il 2° e il 3° anno seguono i *syllabus* SSE 2026/27.
+
+::: {.callout-note collapse="true" title="Matematica e probabilità"}
+**Algebra lineare** (SMLE, SGI, Padova: 6 CFU ciascuno; Bergamo: dentro *Analisi matematica 1 e algebra lineare*, 9 CFU, con richiami in Analisi 2)
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Sistemi lineari, eliminazione di Gauss, inversa | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Spazi vettoriali, basi, dimensione, applicazioni lineari, rango | ✓ | ✓ | richiami | ✓ | ✓ | ✓ | ✓ |
+| Determinanti; autovalori e diagonalizzazione | ✓ | ✓ | richiami | ✓ | ✓ | ✓ | ✓ |
+| Forme quadratiche | ✓ | ✓ | richiami | — | n.d. | n.d. | n.d. |
+| Numeri complessi | ✓ | in Analisi II | ✓ | — | ✓ | ✓ | n.d. |
+| Prodotto scalare, basi ortonormali, **proiezioni ortogonali** | *cenni* | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| **Gram-Schmidt e decomposizione QR** | **⚠︎** | Gram-Schmidt in Analisi II | — | ✓ | ✓ | ✓ (proiezioni e minimi quadrati) | n.d. |
+| **Decomposizione LU**, matrici elementari, decomposizione a blocchi | **⚠︎** | — | — | ✓ | *cenni* | *cenni* | — |
+| **Teorema spettrale** | **⚠︎** | ✓ | — | ✓ | ✓ | ✓ | ✓ |
+| Decomposizione a valori singolari (SVD), inverse generalizzate | — | a scelta | — | in Analisi dei dati multidimensionali (3°) | n.d. | ✓ | — |
+| I quattro sottospazi fondamentali di una matrice | **⚠︎** | — | — | ✓ | — | — | — |
+
+: {.striped .hover .sm}
+
+**Analisi** (SMLE e SGI: 9 + 6 CFU obbligatori; Bergamo: 9 + 12, con l'ottimizzazione; Padova: 12 obbligatori + 9 a scelta)
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Una variabile: limiti, derivate, Taylor, integrali, serie numeriche | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Funzioni di più variabili: gradiente, Hessiana, estremi liberi | ✓ | ✓ | ✓ | ✓ (due variabili) | ✓ | ✓ | **—** |
+| Estremi vincolati, moltiplicatori di Lagrange | ✓ | ✓ | KKT | a scelta | ✓ | ✓ | — |
+| Funzione implicita (Dini) | ✓ | — | — | a scelta | — | *cenni* | — |
+| Integrali multipli, cambio di variabili | ✓ | ✓ | ✓ | a scelta | ✓ | a scelta | — |
+| Serie di funzioni e di potenze | — | — | — | a scelta | n.d. | a scelta | — |
+| Equazioni differenziali ordinarie | — | — | *cenni* | a scelta | — | *cenni* | — |
+| Serie di Fourier | — | ✓ | *cenni* | — | — | *cenni* | — |
+| Cenni di teoria della misura (Lebesgue) | — | — | ✓ | a scelta | — | — | — |
+
+: {.striped .hover .sm}
+
+**Calcolo delle probabilità** (9 CFU ovunque; a Bergamo dentro un corso unico con la descrittiva)
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Assiomi, probabilità condizionata, Bayes, indipendenza | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Calcolo combinatorio | — | ✓ | — | ✓ | ✓ | n.d. | ✓ |
+| Variabili casuali notevoli discrete e continue, momenti | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Vettori aleatori, indipendenza | ✓ | *cenni* | in Inferenza | ✓ | ✓ | ✓ | ✓ |
+| **Densità e valore atteso condizionati** | in *Modelli per l'apprendimento statistico* (2°) | — | in Inferenza | ✓ | ✓ | ✓ | n.d. |
+| **Trasformazioni di variabili e vettori aleatori** | **⚠︎** | ✓ | ✓ | ✓ | n.d. | ✓ | ✓ |
+| t, chi-quadrato, F come distribuzioni | in Inferenza | ✓ (chi-quadrato) | in Inferenza | ✓ | ✓ | ✓ | ✓ |
+| Disuguaglianze (Markov, Chebyshev), convergenze, LGN, TLC | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Vettori gaussiani, TLC multidimensionale** | normale multivariata in *Modelli per l'apprendimento statistico* (2°); TLC multidimensionale — | — | — | ✓ | ✓ | n.d. | n.d. |
+| Funzione generatrice dei momenti | — | ✓ | — | — | ✓ | ✓ | ✓ |
+
+: {.striped .hover .sm}
+:::
+
+::: {.callout-note collapse="true" title="Informatica"}
+SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi di dati (6). SGI: Informatica (9) + Laboratorio (3) + Basi di dati (6). Bergamo: Informatica per data science (12) + Programmazione per data science (9). Padova: Sistemi di elaborazione 1 (6) + Strutture dati e programmazione (6) + Basi di dati (6) + Ottimizzazione (9, solo STS).
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Architettura, rappresentazione dell'informazione | ✓ | ✓ | ✓ | ✓ | — | — | ✓ |
+| Python di base (variabili, cicli, funzioni, file) | ✓ | ✓ | ✓ | ✓ | Java (Python a scelta) | ✓ | ✓ |
+| NumPy e pandas | ✓ | ✓ | ✓ | ✓ | a scelta | ✓ | ✓ |
+| Laboratorio in R (*data frame*, *join*, ggplot2) | ✓ | ✓ | — | in Statistica 1 (20 ore) | ✓ (R nei corsi di statistica) | ✓ (R in Applied Regression) | — |
+| Programmazione a oggetti | ✓ | — | solo percorso II | ✓ (ereditarietà, polimorfismo, *design pattern*) | ✓ | ✓ | ✓ |
+| Ricorsione | ✓ | — | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Complessità computazionale** | *cenni* (in Algoritmi e ottimizzazione) | — | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Algoritmi di ricerca e ordinamento** (binaria, *merge sort*, *quick sort*) | **⚠︎** | — | *merge sort* | ✓ | ✓ | ✓ | ✓ |
+| Liste, pile, code | ✓ | — | — | ✓ | ✓ | ✓ | ✓ |
+| **Tabelle *hash*, dizionari, *heap*, alberi binari di ricerca** | **⚠︎** | dizionari Python | — | ✓ | ✓ | ✓ | *cenni* |
+| Grafi | visite e Dijkstra (in Algoritmi e ottimizzazione) | — | — | ✓ (come struttura dati) | ✓ | ✓ | ✓ |
+| Eccezioni | — | — | — | ✓ | n.d. | ✓ | n.d. |
+| SQL, modello E-R, progettazione, normalizzazione | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ (3°) |
+| NoSQL, dati semi-strutturati | *cenni* | ✓ | ✓ (JSON, XML, Parquet) | ✓ | a scelta | ✓ (anche database vettoriali) | ✓ (Hadoop, Spark) |
+| **Pulizia dei dati, formati, *web scraping*** | **⚠︎** | — | ✓ | — | a scelta | ✓ (API, *scraping*, JSON, XML) | ✓ |
+| Programmazione lineare e intera, simplesso, dualità | ✓ | — | ✓ | ✓ (solo STS) | ✓ | a scelta | — |
+| Ottimizzazione non lineare, gradiente, *derivative-free* | ✓ | — | ✓ (+ KKT, SGD, Newton) | ✓ (solo STS) | *cenni* | a scelta | ✓ (gradiente, *simulated annealing*) |
+| Uso di un *solver* (Gurobi) | — | — | — | ✓ (solo STS) | n.d. | — | — |
+| Ingegneria del software, lavoro di gruppo su un progetto | — | — | — | — | ✓ | — | — |
+| Sviluppo software con IA, *AI literacy* | — | — | ✓ | — | a scelta | *cenni* | ✓ |
+
+: {.striped .hover .sm}
+:::
+
+::: {.callout-note collapse="true" title="Statistica"}
+**Descrittiva e inferenza**
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Descrittiva uni- e bivariata, grafici, dipendenza, regressione semplice descrittiva | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Descrittiva in forma matriciale, PCA campionaria al 1° anno | — | — | — | ✓ | — | — | — |
+| Stima puntuale, proprietà, momenti e massima verosimiglianza | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Intervalli di confidenza, test Z, t, χ², F | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Neyman-Pearson, test uniformemente più potenti | ✓ | ✓ | — | — | n.d. | a scelta | n.d. |
+| **Teoria asintotica della verosimiglianza**: informazione osservata e attesa, test di Wald, *score* e rapporto di verosimiglianza, caso multiparametrico | **⚠︎** solo rapporto di verosimiglianza | rapporto di verosimiglianza | ✓ (asintotica dello SMV) | ✓ | *cenni* | a scelta | n.d. |
+| Inferenza bayesiana di base (*prior*, *posterior*, intervalli di credibilità) | — | — | — | — | ✓ (2°) | a scelta | ✓ (2°) |
+
+: {.striped .hover .sm}
+
+**Modelli**
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Regressione lineare multipla: minimi quadrati, verosimiglianza, Gauss-Markov, test F, previsione | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ (Econometria, 3°) |
+| Diagnostica, valori anomali, punti leva | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ (3°) |
+| Variabili qualitative, interazioni, ANOVA e ANCOVA come modello lineare | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | n.d. |
+| Selezione delle variabili, AIC e BIC | ✓ | ✓ | ✓ (anche fuori campione) | ✓ | ✓ | ✓ | ✓ |
+| Eteroschedasticità, stimatore *sandwich*, minimi quadrati pesati, robustezza | ✓ (3°) | ✓ (3°) | ✓ | — | n.d. | n.d. | n.d. |
+| **Regressione logistica e di Poisson** | **⚠︎** solo al 3° anno | ✓ | ✓ | ✓ | 3°, a scelta | ✓ (introduzione ai GLM) | ✓ (logistica in ML) |
+| Teoria dei GLM: famiglia esponenziale, IRLS, devianza | ✓ (3°) | *cenni* (3°) | n.d. | a scelta | a scelta | a scelta | — |
+| Quasi-verosimiglianza, sovradispersione | ✓ (3°) | — | n.d. | a scelta | a scelta | — | — |
+| Risposte multinomiali e ordinali, modelli log-lineari | — | ✓ (3°) | n.d. | a scelta | n.d. | n.d. | — |
+| Dati correlati: effetti casuali, *multilevel*, GEE | — | a scelta | n.d. | a scelta | — | a scelta | panel (3°) |
+| Variabili strumentali, equazioni simultanee | ✓ (Econometria) | — | — | — | — | a scelta | ✓ (3°) |
+
+: {.striped .hover .sm}
+
+**Multivariata, computazionale e machine learning**
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| PCA, *cluster* gerarchico e k-medie, analisi fattoriale | ✓ | ✓ | ✓ | ✓ (3°) | a scelta | n.d. | ✓ (PCA e *clustering*) |
+| Inferenza sulla normale multivariata (test sul vettore delle medie, regioni di confidenza) | — | — | — | ✓ | — | — | — |
+| Correlazioni canoniche | — | — | — | ✓ | — | — | — |
+| MDS, t-SNE, analisi delle corrispondenze | — | a scelta | — | a scelta | — | — | — |
+| Simulazione e Monte Carlo | **⚠︎** non nei *syllabus*: oggi fatto in modo informale nel modulo sui modelli (2°), dal 2027/28 previsto in Statistica computazionale | ✓ (3°) | ✓ | ✓ | *cenni* | a scelta | ✓ |
+| Bootstrap | **⚠︎** | ✓ (3°) | ✓ | ✓ | n.d. | n.d. | ✓ (1° anno) |
+| Stima di densità e lisciamento (nuclei, *spline*) | — | ✓ (3°) | ✓ | ✓ | — | — | — |
+| Misture, *clustering* basato su modelli | DS | — | ✓ | a scelta | — | *cenni* | — |
+| Distorsione e varianza, convalida incrociata | DS | ✓ (3°) | ✓ | — | 3°, a scelta | ✓ (3°) | ✓ (2°) |
+| Penalizzazione (ridge, lasso) | — | — | ✓ | a scelta | 3°, a scelta | ✓ (3°) | n.d. |
+| kNN, analisi discriminante, alberi | DS | ✓ | ✓ | — | 3°, a scelta | ✓ (3°) | ✓ (2°) |
+| *Bagging*, *boosting*, *random forest* | — | ✓ (3°) | ✓ | — | n.d. | ✓ (3°) | ✓ |
+| Reti neurali | DS (da definire) | ✓ (3°) | ✓ | *cenni*, a scelta | 3°, a scelta | ✓ (3°, anche *deep learning*) | ✓ (2°) |
+| Dati mancanti, imputazione | DS | ✓ (3°) | ✓ | — | — | *cenni* | *cenni* |
+| *Text mining* | DS | a scelta | ✓ (3°) | a scelta | — | n.d. | — |
+
+: {.striped .hover .sm}
+
+**Serie storiche, indagini, esperimenti, statistiche applicate**
+
+| Argomento | SMLE | SGI | Bergamo | Padova | Warwick | LSE | Bocconi |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Componenti, destagionalizzazione, ARMA e SARIMA, previsione | ✓ (3°) | ✓ | ✓ (percorso ES) | ✓ (3°) | a scelta | a scelta | *cenni* (Econometria) |
+| Modelli a componenti non osservate, filtro di Kalman, analisi spettrale | — | ✓ | — | — | a scelta | — | — |
+| Campionamento da popolazioni finite (casuale semplice, stratificato) | ✓ (dentro Inferenza) | a scelta | *cenni* | ✓ | — | a scelta | — |
+| **Metodologia d'indagine**: errori, rilevazione, questionario, campionamento a più stadi, post-stratificazione | **⚠︎** | — | — | ✓ (corso da 9 CFU) | — | a scelta | — |
+| Disegno degli esperimenti | — | a scelta | — | ✓ (STS) | — | a scelta | *cenni* (RCT al 1° anno) |
+| Dati spaziali, geostatistica | — | ✓ | — | ✓ (STS) | — | — | — |
+| Analisi di sopravvivenza | — | *cenni*, a scelta | — | ✓ (STS) | — | a scelta | *cenni* |
+| Statistica economica: numeri indici, contabilità nazionale, input-output, disuguaglianza | ✓ (12 CFU) | — | ✓ (6 CFU) | ✓ (SEI) | — | — | — |
+| Demografia, statistica sociale e medica | — | ✓ | — | a scelta | — | — | — |
+
+: {.striped .hover .sm}
+:::
+
+## Fonti
+
+::: {.callout-note collapse="true" title="Documenti consultati"}
+- SMLE: programmazione didattica e copertura degli insegnamenti 2026/27; [Regolamento didattico 2026/27](https://elearning.unimib.it/pluginfile.php/2181058/mod_resource/content/0/Reg_Statistica%2C%20Machine%20learning%20ed%20economia_26-27.pdf); [piano di studi](https://elearning.unimib.it/course/view.php?id=70713).
+- e-learning Milano-Bicocca: [SMLE](https://elearning.unimib.it/course/index.php?categoryid=12801), [SSE](https://elearning.unimib.it/course/index.php?categoryid=2906), [SGI](https://elearning.unimib.it/course/index.php?categoryid=2912), [CLAMSES](https://elearning.unimib.it/course/index.php?categoryid=3323) (piani e *syllabus* 2026/27); [Regolamento SGI 2026/27](https://elearning.unimib.it/pluginfile.php/2136963/mod_resource/content/1/Reg_Statistica%20e%20gestione%20delle%20informazioni_26-27.pdf).
+- Bergamo: [pagina del corso](https://www.unibg.it/studiare/corsi/offertaformativa/data-analytics-economia-e-tecnologie-digitali) e [Course Catalogue](https://unibg.coursecatalogue.cineca.it/corsi/2026/1359) (coorti 2025 e 2026).
+- Warwick: [BSc Data Science](https://warwick.ac.uk/study/undergraduate/courses/bsc-data-science) e [catalogo dei moduli 2026/27](https://courses.warwick.ac.uk/).
+- LSE: [regolamento del BSc Data Science, coorte 2026/27](https://www.lse.ac.uk/resources/calendar2026-2027/programmeRegulations/undergraduate/2026/BScDataScience.htm) e *course guide* 2026/27.
+- Bocconi: [piano di studi di Management and Computer Science](https://www.unibocconi.it/en/programs/bachelor-science/management-and-computer-science/study-plan) e [catalogo dei corsi 2026/27](https://didattica.unibocconi.eu/ts/index.php?anno=2027).
+- Padova: [Bollettino 2026/27](https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf); percorsi [SEI](https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf) e [STS](https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf); pagine dei corsi [SEI](https://www.stat.unipd.it/corsi/statistica-economia-e-impresa-sei) e [STS](https://www.stat.unipd.it/corsi/statistica-tecnologie-scienze-sts).
+:::

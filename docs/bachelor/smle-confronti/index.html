@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SMLE a confronto: SGI, Bergamo, Padova, Warwick, LSE, Bocconi e CLAMSES – STAT_DEMS</title>
+<title>Il piano di studio di SMLE: analisi e proposta – STAT_DEMS</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -154,11 +154,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#in-breve" id="toc-in-breve" class="nav-link active" data-scroll-target="#in-breve">In breve</a></li>
-  <li><a href="#i-piani-di-studio" id="toc-i-piani-di-studio" class="nav-link" data-scroll-target="#i-piani-di-studio">I piani di studio</a></li>
-  <li><a href="#dove-sta-ogni-argomento" id="toc-dove-sta-ogni-argomento" class="nav-link" data-scroll-target="#dove-sta-ogni-argomento">Dove sta ogni argomento</a></li>
-  <li><a href="#i-problemi-di-fondamenti-di-ml" id="toc-i-problemi-di-fondamenti-di-ml" class="nav-link" data-scroll-target="#i-problemi-di-fondamenti-di-ml">I problemi di Fondamenti di ML</a></li>
-  <li><a href="#proposta" id="toc-proposta" class="nav-link" data-scroll-target="#proposta">Proposta</a></li>
-  <li><a href="#argomenti-scoperti" id="toc-argomenti-scoperti" class="nav-link" data-scroll-target="#argomenti-scoperti">Argomenti scoperti</a></li>
+  <li><a href="#il-piano-attuale" id="toc-il-piano-attuale" class="nav-link" data-scroll-target="#il-piano-attuale">Il piano attuale</a></li>
+  <li><a href="#proposta" id="toc-proposta" class="nav-link" data-scroll-target="#proposta">Il piano proposto</a></li>
+  <li><a href="#raccordo-con-clamses" id="toc-raccordo-con-clamses" class="nav-link" data-scroll-target="#raccordo-con-clamses">Raccordo con CLAMSES</a></li>
   <li><a href="#domande-aperte" id="toc-domande-aperte" class="nav-link" data-scroll-target="#domande-aperte">Domande aperte</a></li>
   <li><a href="#fonti" id="toc-fonti" class="nav-link" data-scroll-target="#fonti">Fonti</a></li>
   </ul>
@@ -169,8 +167,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">SMLE a confronto: SGI, Bergamo, Padova, Warwick, LSE, Bocconi e CLAMSES</h1>
-<p class="subtitle lead">Il piano di studio di Statistica, Machine Learning ed Economia (SMLE) e la collocazione di <em>Fondamenti di Machine Learning</em></p>
+<h1 class="title">Il piano di studio di SMLE: analisi e proposta</h1>
+<p class="subtitle lead">Statistica, Machine Learning ed Economia (L-41), Milano-Bicocca</p>
 </div>
 
 
@@ -193,38 +191,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Questa pagina riguarda l’organizzazione interna di SMLE. Il confronto con altri corsi di laurea (SGI, Bergamo, Padova, Warwick, LSE, Bocconi), da cui vengono molti degli argomenti qui sotto, è nella pagina <strong><a href="../../bachelor/smle-confronti/confronto.html">SMLE a confronto</a></strong>.</p>
+</div>
+</div>
+</div>
 <section id="in-breve" class="level2">
 <h2 class="anchored" data-anchor-id="in-breve">In breve</h2>
 <ul>
-<li><strong>Il quadro generale.</strong> Sui fondamentali (probabilità, matematica, informatica) SMLE fa meglio di SGI, Bergamo e Bocconi, ma peggio di Padova, Warwick e LSE. In compenso ci sono molti esami di statistica che ripetono le stesse cose, e diversi contenuti giusti stanno in contenitori sbagliati (le misture in Statistica computazionale, la probabilità multivariata nel modulo sui modelli, i Monte Carlo in nessun <em>syllabus</em>). L’obiettivo dovrebbe essere diventare un riferimento, non un ripiego.</li>
-<li><strong>Fondamenti di Machine Learning (FML)</strong> è al 2° anno (6 CFU) e il suo contenuto è ancora da definire. Viene <strong>prima dei GLM</strong>, che in SMLE restano al 3° anno, in <em>Modelli statistici avanzati</em> (l’ex Statistica III).</li>
-<li><strong>Ogni argomento possibile per FML è già trattato altrove</strong>: nel 3° anno di SMLE e, soprattutto, in CLAMSES. Lì classificazione, Monte Carlo e bootstrap sono nel nucleo obbligatorio del 1° anno, e il percorso STAT ha <em>Machine Learning M</em>, che usa un manuale intitolato proprio <em>Foundations of Machine Learning</em>.</li>
-<li><strong>Gli altri corsi scelgono strade diverse.</strong>
-<ul>
-<li><strong>Padova</strong> insegna logistica e Poisson al 2° anno, ha Statistica computazionale (in STS) e lascia il ML alla magistrale.</li>
-<li><strong>SGI</strong> fa prima i modelli e poi concentra tutto il ML in un corso da 15 CFU al 3° anno.</li>
-<li><strong>Bergamo</strong> (Data Analytics) mette al 2° anno un unico <em>Statistical Learning</em> da 12 CFU, sul modello del manuale ISLR.</li>
-<li><strong>Warwick e LSE</strong> (BSc Data Science) mettono il ML al <strong>3° anno</strong>, dopo probabilità, inferenza e regressione: a Warwick <em>Fundamentals of Machine Learning</em> è un modulo a scelta del 3° anno; a LSE <em>Machine Learning</em> e <em>Artificial Intelligence</em> sono obbligatori al 3°.</li>
-<li><strong>Bocconi</strong> (BEMACS, ora <em>Management and Computer Science</em>) fa ML al 2° anno, dopo un solo corso di statistica del 1° anno, insegnato per casi di studio.</li>
-</ul></li>
-<li><strong>CLAMSES non ha un corso sui GLM.</strong> Per chi passa da SMLE a CLAMSES, <em>Modelli statistici avanzati</em> è l’unico corso in cui i GLM si studiano in modo sistematico.</li>
-<li><strong>Lacune di base rispetto a Padova</strong>: algebra lineare (proiezioni, QR, teorema spettrale), probabilità (vettori gaussiani, trasformazioni), algoritmi e strutture dati. Mancano inoltre inferenza causale e disegno degli esperimenti. Vedi <a href="#dove-sta-ogni-argomento">dove sta ogni argomento</a> e <a href="#argomenti-scoperti">argomenti scoperti</a>.</li>
-<li><strong>Proposta</strong>: FML come corso di <strong>statistica computazionale “vecchio stile”</strong> nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione, insegnati a partire da casi di studio. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Ha ripercussioni su diversi corsi, soprattutto Statistica computazionale (3°, DS), da rivedere. Vedi la <a href="#proposta">proposta</a>.</li>
+<li><strong>Il problema.</strong> SMLE ha molti esami di statistica che si ripetono e fondamentali (probabilità, algebra, informatica) più deboli dei corsi di riferimento. Diversi contenuti giusti stanno in contenitori sbagliati: la probabilità multivariata nel modulo sui modelli, la logistica al 3° anno, le misture in Statistica computazionale, i Monte Carlo in nessun <em>syllabus</em>. Quattro insegnamenti del 3° anno e <em>Fondamenti di Machine Learning</em> (FML) sono nuovi e senza programma.</li>
+<li><strong>La proposta, in tre mosse.</strong>
+<ol type="1">
+<li><strong>FML</strong> (2° anno) diventa un corso di statistica computazionale per tutti, centrato sulla simulazione: generazione di variabili casuali, metodi Monte Carlo, studi di simulazione, bootstrap, ottimizzazione numerica, insegnati per casi di studio.</li>
+<li><strong>Modelli e GLM</strong> seguono il modello Padova: logistica e Poisson al 2° anno, GLM più avanzati al 3°.</li>
+<li><strong>Fondamentali</strong>: un’unica probabilità con il caso multivariato, algebra lineare con proiezioni e teorema spettrale, algoritmi in informatica, un laboratorio di R autonomo.</li>
+</ol></li>
+<li><strong>Il costo</strong>: modifiche da concordare in alcuni insegnamenti e una sovrapposizione accettata con CLAMSES su Monte Carlo e bootstrap.</li>
 </ul>
 </section>
-<section id="i-piani-di-studio" class="level2">
-<h2 class="anchored" data-anchor-id="i-piani-di-studio">I piani di studio</h2>
-<div class="callout callout-style-default callout-note callout-titled" title="SMLE · Milano-Bicocca, L-41, coorte 2026/27">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<section id="il-piano-attuale" class="level2">
+<h2 class="anchored" data-anchor-id="il-piano-attuale">Il piano attuale</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Piano attuale · coorte 2026/27">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>SMLE · Milano-Bicocca, L-41, coorte 2026/27
+<span class="screen-reader-only">Nota</span>Piano attuale · coorte 2026/27
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>In <strong>grassetto</strong> gli insegnamenti nuovi. “=” vuol dire che l’insegnamento esiste già in SSE con lo stesso programma: i contenuti vengono dai <em>syllabus</em> SSE 2026/27. I corsi nuovi non hanno ancora un programma.</p>
 <table class="table-striped table-hover table-sm small caption-top table">
@@ -437,538 +439,366 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="SGI · Milano-Bicocca, L-41, regolamento 2026/27">
+<section id="cosa-non-funziona" class="level3">
+<h3 class="anchored" data-anchor-id="cosa-non-funziona">Cosa non funziona</h3>
+<table class="table-striped table-hover table-sm small caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problema</th>
+<th>Dove</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>FML senza un ruolo chiaro.</strong> Un ML introduttivo duplicherebbe Data mining (3°) e tre corsi di CLAMSES; inoltre arriverebbe prima della logistica</td>
+<td>FML (2°)</td>
+</tr>
+<tr class="even">
+<td><strong>Probabilità spezzata.</strong> Il caso multivariato (vettori aleatori, distribuzioni condizionate, normale multivariata) sta nel modulo sui modelli; mancano le trasformazioni di vettori aleatori</td>
+<td>Calcolo delle probabilità (1°), modulo sui modelli (2°)</td>
+</tr>
+<tr class="odd">
+<td><strong>Logistica e Poisson solo al 3° anno</strong>, dentro <em>Modelli statistici avanzati</em>, che deve quindi partire dalle basi</td>
+<td><em>Modelli statistici avanzati</em> (3°)</td>
+</tr>
+<tr class="even">
+<td><strong>Statistica computazionale assente dal tronco comune.</strong> Simulazione, bootstrap e ottimizzazione numerica non sono in nessun corso obbligatorio; i Monte Carlo si fanno in modo informale e sono stati spostati da un corso all’altro</td>
+<td>Tutto il piano</td>
+</tr>
+<tr class="odd">
+<td><strong>Contenitori sbagliati.</strong> <em>Statistica computazionale</em> tratta di misture; <em>Fondamenti di Statistical Learning</em> contiene modello lineare e analisi esplorativa; il modulo sui modelli dedica tempo all’introduzione a R</td>
+<td>2° e 3° anno</td>
+</tr>
+<tr class="even">
+<td><strong>Algebra lineare e informatica leggere.</strong> Mancano proiezioni, QR, teorema spettrale; complessità, ordinamento, <em>hash</em></td>
+<td>Algebra lineare (1°), Informatica (1°)</td>
+</tr>
+<tr class="odd">
+<td><strong>Inferenza causale assente</strong>, salvo le variabili strumentali in Econometria: un vuoto per un corso con “Economia” nel nome</td>
+<td>Econometria (2°), <em>Strumenti di ML</em> (3°)</td>
+</tr>
+<tr class="even">
+<td><strong>Corsi nuovi del 3° anno da progettare</strong>: Gestione dati complessi, Fondamenti di IA e DL (rischio di sovrapposizione con CLAMSES), i due <em>Strumenti di ML</em></td>
+<td>3° anno</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="proposta" class="level2">
+<h2 class="anchored" data-anchor-id="proposta">Il piano proposto</h2>
+<p>Insegnamento per insegnamento. CFU, SSD e collocazione non cambiano: si interviene solo sui contenuti. “=” significa invariato. Ogni modifica va concordata con chi tiene il corso.</p>
+<table class="table-striped table-hover table-sm small caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Anno</th>
+<th>Insegnamento</th>
+<th style="text-align: center;">CFU</th>
+<th>Oggi</th>
+<th>Proposta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Algebra lineare</td>
+<td style="text-align: center;">6</td>
+<td>Sistemi, spazi vettoriali, applicazioni lineari, autovalori, forme quadratiche, numeri complessi</td>
+<td><strong>+</strong> proiezioni ortogonali, Gram-Schmidt e QR, teorema spettrale; <strong>−</strong> numeri complessi e teorema fondamentale dell’algebra</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Analisi matematica I</td>
+<td style="text-align: center;">9</td>
+<td>Una variabile</td>
+<td>=</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Statistica e Data Visualization</td>
+<td style="text-align: center;">6</td>
+<td>Descrittiva uni- e bivariata</td>
+<td>=</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Calcolo delle probabilità</td>
+<td style="text-align: center;">9</td>
+<td>Caso univariato, convergenze, LGN, TLC</td>
+<td><strong>+</strong> vettori aleatori, distribuzioni condizionate, trasformazioni (jacobiano), normale multivariata</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Informatica</td>
+<td style="text-align: center;">6</td>
+<td>Python, NumPy, pandas, oggetti</td>
+<td><strong>+</strong> complessità, ricerca e ordinamento, dizionari e <em>hash</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Algoritmi e ottimizzazione</td>
+<td style="text-align: center;">6</td>
+<td>Programmazione lineare e intera, grafi, metodi del gradiente</td>
+<td>= ; teoria generale del gradiente qui, applicazioni statistiche in FML</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Laboratorio di informatica</td>
+<td style="text-align: center;">3</td>
+<td>R di base (mutuato da SGI)</td>
+<td>Corso di R autonomo dal 2027/28: programmazione, descrittiva in R, numeri casuali, dati reali (formati, pulizia)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1</td>
+<td>Microeconomia; Statistica economica I; lingua</td>
+<td style="text-align: center;">6 + 6 + 3</td>
+<td></td>
+<td>=</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Analisi matematica II</td>
+<td style="text-align: center;">6</td>
+<td>Più variabili, Lagrange, integrali multipli</td>
+<td>=</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Inferenza statistica</td>
+<td style="text-align: center;">12</td>
+<td>Stima, test, Neyman-Pearson, campionamento</td>
+<td>Più verosimiglianza (test di Wald e <em>score</em>, caso multiparametrico), meno test uniformemente più potenti; cenni di inferenza bayesiana</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td><em>Modelli per l’apprendimento statistico</em></td>
+<td style="text-align: center;">9</td>
+<td>Introduzione a R, probabilità multivariata, modello lineare</td>
+<td><strong>Modello Padova</strong>: modello lineare con i complementi oggi in <em>Modelli statistici avanzati</em> (errata specificazione, <em>sandwich</em>, minimi quadrati pesati, Box-Cox) e <strong>3 CFU su logistica e Poisson</strong>; escono R, probabilità multivariata e Monte Carlo</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td><em>Analisi esplorativa</em></td>
+<td style="text-align: center;">6</td>
+<td>PCA, <em>cluster</em>, analisi fattoriale</td>
+<td>=</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Basi di dati</td>
+<td style="text-align: center;">6</td>
+<td>SQL, progettazione</td>
+<td>=</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Macroeconomia ed Econometria</td>
+<td style="text-align: center;">6 + 6</td>
+<td>Econometria: OLS, GLS, variabili strumentali</td>
+<td><strong>+</strong> esiti potenziali, differenze nelle differenze</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Statistica economica II</td>
+<td style="text-align: center;">6</td>
+<td></td>
+<td>=</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td><strong>Fondamenti di Machine Learning</strong></td>
+<td style="text-align: center;">6</td>
+<td>Nuovo</td>
+<td><strong>Statistica computazionale per tutti</strong>, centrata sulla simulazione e insegnata per casi di studio: vedi il programma qui sotto</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Serie storiche economiche</td>
+<td style="text-align: center;">9</td>
+<td>ARIMA, Box-Jenkins, previsione</td>
+<td>= ; valutazione delle previsioni fuori campione</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3</td>
+<td><em>Modelli statistici avanzati</em></td>
+<td style="text-align: center;">6</td>
+<td>Complementi al modello lineare, GLM, quasi-verosimiglianza</td>
+<td><strong>Modello Padova</strong>: dalla teoria generale (famiglie esponenziali, IRLS come Newton) a beta-binomiale, inflazione di zeri, tabelle di contingenza e log-lineari, risposte correlate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3 · DS</td>
+<td>Data mining</td>
+<td style="text-align: center;">6</td>
+<td>Dati mancanti, LDA, QDA, kNN, alberi, distorsione e varianza, <em>text mining</em></td>
+<td>= ; può usare il bootstrap visto in FML (<em>bagging</em>, valutazione dell’incertezza)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3 · DS</td>
+<td>Statistica computazionale</td>
+<td style="text-align: center;">6</td>
+<td>Misture, <em>clustering</em> e classificazione basati su modelli, <em>tidyverse</em></td>
+<td>= ; i Monte Carlo che si pensava di spostarvi dal 2027/28 vanno in FML</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3 · DS</td>
+<td><strong>Gestione dati complessi</strong></td>
+<td style="text-align: center;">6</td>
+<td>Nuovo dal 2028/29 (oggi mutuato: sistemi informativi aziendali)</td>
+<td>Grandi basi di dati: NoSQL, dati distribuiti, dati semi-strutturati. Da definire</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3 · DS</td>
+<td><strong>Fondamenti di IA e Deep Learning</strong></td>
+<td style="text-align: center;">6</td>
+<td>Nuovo</td>
+<td>Reti neurali, gradiente stocastico, <em>backpropagation</em>, etica e regole dei dati. Da progettare con i titolari di <em>Machine Learning M</em> e <em>Statistical Learning M</em> di CLAMSES</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3 · Mercato</td>
+<td><strong>Strumenti di ML per l’analisi di mercato</strong></td>
+<td style="text-align: center;">6</td>
+<td>Nuovo</td>
+<td>A/B test, effetti di trattamento, <em>uplift</em>; introduce CV e metriche per chi non segue Data mining</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3 · Finanza</td>
+<td><strong>Strumenti di ML per la finanza</strong></td>
+<td style="text-align: center;">6</td>
+<td>Nuovo</td>
+<td>Da definire; può usare simulazione e bootstrap visti in FML</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Altri insegnamenti dei percorsi Mercato e Finanza</td>
+<td style="text-align: center;"></td>
+<td></td>
+<td>=</td>
+</tr>
+</tbody>
+</table>
+<section id="il-programma-di-fml" class="level3">
+<h3 class="anchored" data-anchor-id="il-programma-di-fml">Il programma di FML</h3>
+<p>2° anno, 2° semestre, dopo Inferenza statistica. Circa 48 ore con laboratorio in R.</p>
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Blocco</th>
+<th>Contenuti</th>
+<th style="text-align: center;">Ore</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Generazione di variabili casuali</td>
+<td>Numeri pseudo-casuali; inversione, accettazione-rifiuto, trasformazioni; simulazione da distribuzioni multivariate e da modelli (regressione, catene di Markov semplici)</td>
+<td style="text-align: center;">~10</td>
+</tr>
+<tr class="even">
+<td>Integrazione Monte Carlo</td>
+<td>Stima di integrali e probabilità, errore Monte Carlo; riduzione della varianza: variabili antitetiche e di controllo, <em>importance sampling</em></td>
+<td style="text-align: center;">~10</td>
+</tr>
+<tr class="odd">
+<td>Studi di simulazione</td>
+<td>Progettare uno studio: livello e potenza di un test, copertura di un intervallo, distorsione ed efficienza di uno stimatore, robustezza alle violazioni delle ipotesi; riportare i risultati</td>
+<td style="text-align: center;">~8</td>
+</tr>
+<tr class="even">
+<td>Bootstrap e jackknife</td>
+<td>Bootstrap parametrico e non parametrico; errori standard, intervalli percentile e BCa, test; bootstrap nella regressione</td>
+<td style="text-align: center;">~10</td>
+</tr>
+<tr class="odd">
+<td>Ottimizzazione numerica</td>
+<td>Stima di massima verosimiglianza senza forma chiusa: Newton-Raphson, gradiente, <code>optim</code>; verosimiglianza profilo, informazione osservata numerica</td>
+<td style="text-align: center;">~6</td>
+</tr>
+<tr class="even">
+<td>Progetto</td>
+<td>Uno studio di simulazione o un’analisi bootstrap su dati reali, in forma riproducibile (Git, Quarto)</td>
+<td style="text-align: center;">~4</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Metodo</strong>: per casi di studio. Ogni blocco parte da un problema concreto (un test senza distribuzione nota, l’incertezza di un indicatore economico, una verosimiglianza che non si risolve a mano) e ne ricava il metodo.</li>
+<li><strong>Non fa</strong>: convalida incrociata, distorsione e varianza, classificatori e alberi (Data mining); penalizzazione e GAM (<em>Data Mining M</em>); reti (Fondamenti di IA e DL); misture (Statistica computazionale); teoria dei GLM (<em>Modelli statistici avanzati</em>).</li>
+<li><strong>Sovrapposizione con CLAMSES</strong>: generazione di variabili casuali, Monte Carlo, riduzione della varianza e bootstrap sono anche nel modulo computazionale di <em>Prob. e stat. computazionale M</em>. È una sovrapposizione accettata: per i laureati SMLE quel modulo diventa un approfondimento.</li>
+</ul>
+<p><strong>Nomi.</strong> Restano imperfetti: FML è un corso di simulazione, <em>Fondamenti di Statistical Learning</em> contiene modello lineare e analisi esplorativa, <em>Statistica computazionale</em> è sulle misture. È il male minore: cambiarli richiede di modificare il regolamento.</p>
+</section>
+</section>
+<section id="raccordo-con-clamses" class="level2">
+<h2 class="anchored" data-anchor-id="raccordo-con-clamses">Raccordo con CLAMSES</h2>
+<p>CLAMSES è la magistrale in cui prosegue la maggior parte dei laureati SMLE. Va concordato che cosa può dare per acquisito.</p>
+<table class="table-striped table-sm small caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Argomento</th>
+<th>In SMLE</th>
+<th>In CLAMSES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monte Carlo, bootstrap</td>
+<td>FML (2°, tutti)</td>
+<td><em>Prob. e stat. computazionale M</em> resta per tutti (lo seguono anche laureati SGI e di altre classi); per i laureati SMLE diventa approfondimento</td>
+</tr>
+<tr class="even">
+<td>Ottimizzazione numerica</td>
+<td>FML</td>
+<td>Non c’è: da dare per noto</td>
+</tr>
+<tr class="odd">
+<td>Distorsione e varianza, CV</td>
+<td>Data mining (3°, solo DS)</td>
+<td><em>Data Mining M</em>, <em>Machine Learning M</em>: per i laureati DS richiamo, per gli altri introduzione</td>
+</tr>
+<tr class="even">
+<td>Logistica e GLM</td>
+<td>Modulo sui modelli (2°), <em>Modelli statistici avanzati</em> (3°)</td>
+<td>Dati per noti: CLAMSES non ha un corso sui GLM</td>
+</tr>
+<tr class="odd">
+<td>Alberi, <em>ensemble</em>, reti</td>
+<td>Percorso DS (3°)</td>
+<td><em>Statistical Learning M</em>, <em>Machine Learning M</em></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Il piano di CLAMSES (LM-82, 2026/27)">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>SGI · Milano-Bicocca, L-41, regolamento 2026/27
+<span class="screen-reader-only">Nota</span>Il piano di CLAMSES (LM-82, 2026/27)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Anno</th>
-<th>Insegnamento</th>
-<th style="text-align: center;">CFU</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Algebra lineare; Analisi matematica I; Calcolo delle probabilità</td>
-<td style="text-align: center;">6 + 9 + 9</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Statistica I; Informatica; Demografia; Statistica medica</td>
-<td style="text-align: center;">6 + 9 + 9 + 6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Analisi matematica II; Basi di dati</td>
-<td style="text-align: center;">6 + 6</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Analisi statistica multivariata: <em>Analisi esplorativa</em> (7: <em>cluster</em>, PCA, <strong>LDA</strong>) + <em>Modelli statistici</em> (8: regressione lineare e risposte non gaussiane)</td>
-<td style="text-align: center;">15</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Statistica I – Complementi; Statistica II</td>
-<td style="text-align: center;">6 + 12</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Analisi dei dati spaziali e temporali (ARIMA, ETS/UCM, Kalman, geostatistica); Statistica sociale</td>
-<td style="text-align: center;">6 + 9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td><strong>Data mining e machine learning</strong>: GLM, bootstrap, <em>loess</em> e <em>spline</em>, dati mancanti, selezione del modello; validazione, LDA, logistica politomica, Naive Bayes, kNN, reti neurali, alberi, <em>bagging</em>, <em>boosting</em>, <em>random forest</em></td>
-<td style="text-align: center;">15</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td>Sistemi informativi</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>18 CFU a scelta tra: Statistical models (longitudinali, <em>multilevel</em>), Analisi dei dati (fattoriale, SEM), Data science per dati non strutturati (SVD, MDS, t-SNE), Data processing and analysis (<em>embedding</em>, XAI), Piano degli esperimenti, biostatistica, demografia</td>
-<td style="text-align: center;">18</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Data Analytics, economia e tecnologie digitali · Bergamo, L-41, coorte 2026/27">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Data Analytics, economia e tecnologie digitali · Bergamo, L-41, coorte 2026/27
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Accesso libero, attivo dal 2025/26 e quindi ancora senza programmi del 3° anno. Ha due percorsi: economico-statistico (ES) e informatico-ingegneristico (II).</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Anno</th>
-<th>Insegnamento</th>
-<th style="text-align: center;">CFU</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Analisi matematica 1 e algebra lineare</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Statistica descrittiva e calcolo delle probabilità</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td><strong>Inferenza statistica</strong>: stima, verosimiglianza, test, Monte Carlo e bootstrap parametrico, regressione lineare semplice</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Informatica per data science: Python, algoritmi, SQL, pandas</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Microeconomia; Gestione e organizzazione aziendale; Diritto dell’IA e dei dati; Inglese</td>
-<td style="text-align: center;">9 + 6 + 6 + 3</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td><strong>Analisi matematica 2 e ottimizzazione per data science</strong>: più variabili, PL, KKT, gradiente e gradiente stocastico, Newton; ML come problema di ottimizzazione (minimi quadrati, SVM, kNN)</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td><strong>Statistical Learning</strong>: PCA, fattoriale, <em>clustering</em>; distorsione e varianza, lineare, logistica, ridge, lasso, kNN, alberi, <em>bagging</em>, <em>random forest</em>, <em>boosting</em>, <em>spline</em>, GAM, CV, bootstrap</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td><strong>Programmazione per data science, data management e reti neurali</strong>: Python, NumPy, pandas, pulizia dei dati; <em>perceptron</em> multistrato, discesa del gradiente, Keras</td>
-<td style="text-align: center;">9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Statistica economica e data visualization (SAS, Tableau o PowerBI); Macroeconomia</td>
-<td style="text-align: center;">6 + 9</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>ES: Econometria (regressione, diagnostica, valutazione fuori campione, serie storiche) + 6 CFU di economia · II: Programmazione a oggetti e web; Teoria dei sistemi e dei segnali</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>Comuni: Modellazione statistica di dati complessi (12); Analisi di dati testuali (6); Laboratorio di data science (6)</td>
-<td style="text-align: center;">24</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td>ES: Metodi empirici per l’analisi economica; Politiche pubbliche; Politiche economiche · II: Analisi e filtraggio dei segnali; Reti di telecomunicazione; Applicazioni <em>data intensive</em></td>
-<td style="text-align: center;">21</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>A scelta; prova finale</td>
-<td style="text-align: center;">12 + 3</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="SEI e STS · Padova, L-41, Bollettino 2026/27">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>SEI e STS · Padova, L-41, Bollettino 2026/27
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Quasi tutti gli insegnamenti sono da 9 CFU. Sono previsti 18 CFU a scelta, 6 CFU di tirocinio obbligatorio e 3 CFU di prova finale.</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Anno</th>
-<th>Comune a SEI e STS</th>
-<th style="text-align: center;">CFU</th>
-<th>Solo SEI</th>
-<th>Solo STS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Istituzioni di analisi matematica; Algebra lineare</td>
-<td style="text-align: center;">12 + 6</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Istituzioni di probabilità; Statistica 1</td>
-<td style="text-align: center;">9 + 9</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Sistemi di elaborazione 1; Strutture dati e programmazione</td>
-<td style="text-align: center;">6 + 6</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Statistica 2</td>
-<td style="text-align: center;">12</td>
-<td>Microeconomia</td>
-<td>Ottimizzazione</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td><strong>Modelli statistici 1</strong>: modello lineare (6 CFU) + logistica e Poisson (3 CFU)</td>
-<td style="text-align: center;">9</td>
-<td>Economia aziendale</td>
-<td><strong>Statistica computazionale</strong>: simulazione, bootstrap, nuclei, <em>spline</em>, verosimiglianza numerica</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Teoria e tecnica dell’indagine e del campionamento; Basi di dati</td>
-<td style="text-align: center;">9 + 6</td>
-<td>Misura dei fenomeni economici</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>Analisi dei dati multidimensionali; Serie storiche</td>
-<td style="text-align: center;">6 + 9</td>
-<td>5 percorsi</td>
-<td>Modelli statistici applicati; 4 percorsi</td>
-</tr>
-</tbody>
-</table>
-<p>A scelta: <em>Data visualization</em> (2°); <strong>Modelli statistici 2</strong> (3°, GLM completi, obbligatorio nel percorso Metodologico); <strong>Metodi statistici per big data</strong> (3°: penalizzazione, ICA, t-SNE, reti, <em>topic model</em>, cenni di reti neurali). Data mining e Machine learning sono in magistrale.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Data Science · Warwick, BSc, 2026/27">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Data Science · Warwick, BSc, 2026/27
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Crediti in CATS (15 CATS = 7,5 ECTS = 7,5 CFU). 1° anno tutto obbligatorio; 2° anno circa 20% a scelta; 3° anno circa 75% a scelta.</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Anno</th>
-<th>Insegnamento</th>
-<th style="text-align: center;">CATS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Programming for Computer Scientists (Java); Design of Information Structures (strutture dati, ricerca, ordinamento, complessità)</td>
-<td style="text-align: center;">15 + 15</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Vectors and Matrices; Calculus 1 e 2; Sets and Numbers; Mathematical Programming 1 (programmazione lineare)</td>
-<td style="text-align: center;">10 + 20 + 10 + 10</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Introduction to Statistical Modelling (modelli, verosimiglianza, R); Probability 1 e 2</td>
-<td style="text-align: center;">15 + 25</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Software Engineering; Database Systems; Algorithms</td>
-<td style="text-align: center;">15 + 15 + 15</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Mathematical Methods for Statistics and Probability (più variabili, ottimizzazione vincolata, matrici simmetriche, ortogonalizzazione e regressione)</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Probability for Mathematical Statistics (distribuzioni condizionate, normale multivariata, LGN, TLC); Mathematical Statistics (verosimiglianza, stima, test, <strong>inferenza bayesiana</strong>)</td>
-<td style="text-align: center;">10 + 10</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td><strong>Linear Statistical Modelling with R</strong> (modello lineare normale, test F, ANOVA, diagnostica, selezione); Stochastic Processes</td>
-<td style="text-align: center;">10 + 10</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>A scelta, tra cui Python for data-analytic tasks, Artificial Intelligence, Data Analytics</td>
-<td style="text-align: center;">~25</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>Data Science Project</td>
-<td style="text-align: center;">30</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td>A scelta, tra cui <strong>Fundamentals of Machine Learning</strong> (CV, regolarizzazione, logistica, kNN, discriminante, reti, PCA), <strong>GLM for Regression and Classification</strong> (anche quasi-verosimiglianza e sovradispersione), Multivariate Statistics, Bayesian Statistics, Bayesian Forecasting, Professional Practice of Data Analysis</td>
-<td style="text-align: center;">~90</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Data Science · LSE, BSc, coorte 2026/27">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Data Science · LSE, BSc, coorte 2026/27
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Crediti in <em>unit</em> (1 unit = 15 ECTS; 0,5 unit = 7,5 ECTS). Quattro unit all’anno, più il corso interdisciplinare LSE100 al 1° anno.</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Anno</th>
-<th>Insegnamento</th>
-<th style="text-align: center;">Unit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Elementary Statistical Theory (descrittiva, probabilità, distribuzioni, stima, test, ANOVA, regressione)</td>
-<td style="text-align: center;">1,0</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Mathematical Methods (algebra lineare con diagonalizzazione ortogonale, più variabili, Lagrange)</td>
-<td style="text-align: center;">1,0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Programming for Data Science (Python, oggetti, ricorsione, eccezioni); <strong>Managing and Visualising Data</strong> (API, <em>web scraping</em>, pulizia, SQL, JSON e XML, visualizzazione)</td>
-<td style="text-align: center;">0,5 + 0,5</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Due mezze unit a scelta tra microeconomia, macroeconomia, finanza, contabilità, analisi, matematica discreta</td>
-<td style="text-align: center;">0,5 + 0,5</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Probability and Distribution Theory (trasformazioni, distribuzioni condizionate, misture); <strong>Applied Regression</strong> (regressione multipla, diagnostica, introduzione ai GLM, in R)</td>
-<td style="text-align: center;">0,5 + 0,5</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Algorithms and Data Structures; Databases (SQL, NoSQL, database vettoriali)</td>
-<td style="text-align: center;">0,5 + 0,5</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Further Mathematical Methods (Linear Algebra: proiezioni, minimi quadrati, <strong>SVD</strong>); analisi o calcolo</td>
-<td style="text-align: center;">0,5 + 0,5</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>A scelta, tra cui Econometrics I e II, Statistical Inference, Sample Surveys and Experiments, Optimisation, Survival Models</td>
-<td style="text-align: center;">1,0</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td><strong>Machine Learning</strong> (kNN, lineare e logistica, regolarizzazione, CV, alberi, <em>ensemble</em>, reti; inferenza causale con <em>double ML</em>); <strong>Artificial Intelligence</strong> (<em>deep learning</em>, PyTorch)</td>
-<td style="text-align: center;">0,5 + 0,5</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td>Applied Statistics Project</td>
-<td style="text-align: center;">0,5</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>A scelta, tra cui Regression and GLM, Stochastic Simulation, Time Series, Bayesian Inference, Multilevel and Longitudinal Models, Financial Statistics, <strong>Ethics for Data Science</strong>, Optimisation for ML</td>
-<td style="text-align: center;">2,5</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Management and Computer Science (ex BEMACS) · Bocconi, coorte 2026/27">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Management and Computer Science (ex BEMACS) · Bocconi, coorte 2026/27
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>180 CFU, in inglese. I contenuti vengono dal catalogo Bocconi 2026/27; per il 2° e 3° anno valgono per le coorti precedenti.</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Anno</th>
-<th>Insegnamento</th>
-<th style="text-align: center;">CFU</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Mathematics (una variabile, integrali, matematica discreta)</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td><strong>Statistics</strong>: insegnata per casi di studio (visualizzazione, randomizzazione e RCT, confondimento, paradosso di Simpson, probabilità, distribuzioni, censura, LGN e TLC, <em>p</em>-value, test multipli, <strong>bootstrap</strong>)</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td>Fundamentals of Computer Science (algoritmi, complessità, strutture dati, grafi, Python, oggetti)</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">1</td>
-<td>Microeconomics; Macroeconomics; Principles of Management; Cognition and Behavior; Fundamentals of IT Law</td>
-<td style="text-align: center;">8 + 8 + 8 + 6 + 6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Applied Mathematics (algebra lineare: spazi vettoriali, autovalori, spazi con prodotto interno)</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td>Probability and Stochastic Models / Advanced Statistical Methods (vettori aleatori, trasformazioni, simulazione, stima, verosimiglianza e <strong>metodi bayesiani</strong>, test)</td>
-<td style="text-align: center;">7 + 7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Computer Programming (NumPy, SciPy, Monte Carlo, <em>simulated annealing</em>, gradiente, programmazione dinamica)</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td><strong>Machine Learning</strong> (ottimizzazione, lineare e logistica, <em>kernel</em>, SVM, alberi, <em>ensemble</em>, reti, distorsione e varianza, PCA, <em>clustering</em>, <em>reinforcement learning</em>, scikit-learn)</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">2</td>
-<td>Accounting; Principles of Finance; European IP and Data Law; lingua</td>
-<td style="text-align: center;">8 + 7 + 8 + 4</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td>Econometrics (regressione, causalità, panel, scelta binaria, variabili strumentali, valutazione delle politiche, serie storiche)</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td>Big Data and Databases (SQL, NoSQL, Spark, alberi, <em>ensemble</em>, reti); AI for Management; Marketing Analytics</td>
-<td style="text-align: center;">6 + 6 + 8</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td>Game Theory; Mechanism Design; due insegnamenti a scelta o tirocinio; prova finale</td>
-<td style="text-align: center;">8 + 8 + 12 + 3</td>
-</tr>
-</tbody>
-</table>
-<p>Da notare: non c’è un corso di analisi in più variabili, e la statistica del 1° anno è costruita interamente su casi di studio, come era stato proposto per FML.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="CLAMSES · Milano-Bicocca, LM-82, 2026/27">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>CLAMSES · Milano-Bicocca, LM-82, 2026/27
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>I percorsi sono tre: STAT (Statistica e data science), SPI (Statistica per le imprese) e MAF (Mercati assicurativi e finanziari). I laureati SSE e SMLE non possono inserire nel piano i corsi di livellamento.</p>
 <table class="table-striped table-hover table-sm small caption-top table">
@@ -1047,2062 +877,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="dove-sta-ogni-argomento" class="level2">
-<h2 class="anchored" data-anchor-id="dove-sta-ogni-argomento">Dove sta ogni argomento</h2>
-<p>Le tabelle per insegnamento (solo corsi italiani) riportano anno di corso e CFU; quelle argomento per argomento usano ✓, <em>cenni</em>, “a scelta” e —. ⚠︎ segna i punti critici per SMLE. DM e ML = <em>Data mining e machine learning</em> (SGI); DS = percorso Data Science di SMLE; “tutti” = tutti i percorsi di CLAMSES.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Matematica: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Matematica: insegnamenti e CFU
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>SMLE</th>
-<th>SGI</th>
-<th>Bergamo</th>
-<th>Padova (SEI, STS)</th>
-<th>CLAMSES</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Analisi in una variabile</td>
-<td>Analisi matematica I<br>1° anno · 9 CFU</td>
-<td>Analisi matematica I<br>1° anno · 9 CFU</td>
-<td>Analisi matematica 1 e algebra lineare<br>1° anno · 9 CFU (insieme)</td>
-<td>Istituzioni di analisi matematica<br>1° anno · <strong>12 CFU</strong> (con cenni alle funzioni di due variabili)</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Più variabili, ottimizzazione vincolata, integrali multipli</td>
-<td>Analisi matematica II<br>2° anno · 6 CFU</td>
-<td>Analisi matematica II<br>2° anno · 6 CFU</td>
-<td>Analisi matematica 2 e ottimizzazione<br>2° anno · 12 CFU</td>
-<td>Analisi matematica 2<br>2° anno · 9 CFU · <strong>a scelta</strong> (obbligatoria nel percorso Metodologico); anche serie di funzioni ed equazioni differenziali</td>
-<td>Matematica per l’economia M<br>1° anno · 6 CFU · solo MAF</td>
-</tr>
-<tr class="odd">
-<td>Algebra lineare</td>
-<td>Algebra lineare<br>1° anno · 6 CFU</td>
-<td>Algebra lineare<br>1° anno · 6 CFU</td>
-<td>dentro Analisi matematica 1<br>1° anno</td>
-<td>Algebra lineare<br>1° anno · 6 CFU</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Probabilità</td>
-<td>Calcolo delle probabilità<br>1° anno · 9 CFU</td>
-<td>Calcolo delle probabilità<br>1° anno · 9 CFU</td>
-<td>Statistica descrittiva e calcolo delle probabilità<br>1° anno · 9 CFU (insieme)</td>
-<td>Istituzioni di probabilità<br>1° anno · 9 CFU</td>
-<td>Probabilità applicata<br>1° anno · 6 CFU · tutti</td>
-</tr>
-<tr class="odd">
-<td>Ricerca operativa</td>
-<td>Algoritmi e ottimizzazione<br>1° anno · 6 CFU: PL, simplesso, PLI, <strong>metodi del gradiente</strong>, <em>derivative-free</em></td>
-<td>—</td>
-<td>dentro Analisi matematica 2 e ottimizzazione<br>2° anno: PL, KKT, gradiente, SGD, Newton, ML come ottimizzazione</td>
-<td>Ottimizzazione: modelli e metodi<br>2° anno · 9 CFU · solo STS</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td><strong>Totale obbligatorio</strong></td>
-<td><strong>36 CFU</strong></td>
-<td><strong>30 CFU</strong></td>
-<td><strong>21 CFU</strong> + probabilità (dentro un corso da 9 CFU insieme alla descrittiva)</td>
-<td><strong>27 CFU</strong> (+ 9 in STS)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Matematica e probabilità: argomento per argomento">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Matematica e probabilità: argomento per argomento
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>✓ = trattato; <em>cenni</em> = solo accennato; <strong>⚠︎</strong> = assente in SMLE ma presente altrove; “a scelta” = solo in un insegnamento opzionale; n.d. = non risulta dai programmi pubblicati. Fonti: <em>syllabus</em> 2026/27. Per Warwick, LSE e Bocconi i crediti sono nei rispettivi <a href="#i-piani-di-studio">piani di studio</a>.</p>
-<p><strong>Algebra lineare</strong> (SMLE, SGI, Padova: 6 CFU ciascuno; Bergamo: dentro <em>Analisi matematica 1 e algebra lineare</em>, 9 CFU, con richiami in Analisi 2)</p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sistemi lineari, eliminazione di Gauss, inversa</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Spazi vettoriali, basi, dimensione, applicazioni lineari, rango</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">richiami</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>Determinanti; autovalori e diagonalizzazione</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">richiami</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Forme quadratiche</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">richiami</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="odd">
-<td>Numeri complessi</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">in Analisi II</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td>Prodotto scalare, basi ortonormali, <strong>proiezioni ortogonali</strong></td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td><strong>Gram-Schmidt e decomposizione QR</strong></td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">Gram-Schmidt in Analisi II</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (proiezioni e minimi quadrati)</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td><strong>Decomposizione LU</strong>, matrici elementari, decomposizione a blocchi</td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td><strong>Teorema spettrale</strong></td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Decomposizione a valori singolari (SVD), inverse generalizzate</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">in Analisi dei dati multidimensionali (3°)</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>I quattro sottospazi fondamentali di una matrice</td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Analisi</strong> (SMLE e SGI: 9 + 6 CFU obbligatori; Bergamo: 9 + 12, con l’ottimizzazione; Padova: 12 obbligatori + 9 a scelta)</p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Una variabile: limiti, derivate, Taylor, integrali, serie numeriche</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Funzioni di più variabili: gradiente, Hessiana, estremi liberi</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (due variabili)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><strong>—</strong></td>
-</tr>
-<tr class="odd">
-<td>Estremi vincolati, moltiplicatori di Lagrange</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">KKT</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Funzione implicita (Dini)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Integrali multipli, cambio di variabili</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Serie di funzioni e di potenze</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Equazioni differenziali ordinarie</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Serie di Fourier</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Cenni di teoria della misura (Lebesgue)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Calcolo delle probabilità</strong> (9 CFU ovunque; a Bergamo dentro un corso unico con la descrittiva)</p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Assiomi, probabilità condizionata, Bayes, indipendenza</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Calcolo combinatorio</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>Variabili casuali notevoli discrete e continue, momenti</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Vettori aleatori, indipendenza</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">in Inferenza</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td><strong>Densità e valore atteso condizionati</strong></td>
-<td style="text-align: center;">in <em>Modelli per l’apprendimento statistico</em> (2°)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">in Inferenza</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td><strong>Trasformazioni di variabili e vettori aleatori</strong></td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>t, chi-quadrato, F come distribuzioni</td>
-<td style="text-align: center;">in Inferenza</td>
-<td style="text-align: center;">✓ (chi-quadrato)</td>
-<td style="text-align: center;">in Inferenza</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Disuguaglianze (Markov, Chebyshev), convergenze, LGN, TLC</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td><strong>Vettori gaussiani, TLC multidimensionale</strong></td>
-<td style="text-align: center;">normale multivariata in <em>Modelli per l’apprendimento statistico</em> (2°); TLC multidimensionale —</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td>Funzione generatrice dei momenti</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="Matematica e probabilità: che cosa manca a SMLE e cosa ritoccare">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Matematica e probabilità: che cosa manca a SMLE e cosa ritoccare
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
+<section id="domande-aperte" class="level2">
+<h2 class="anchored" data-anchor-id="domande-aperte">Domande aperte</h2>
 <ul>
-<li><strong>Algebra lineare.</strong> Padova insegna proiezioni ortogonali, Gram-Schmidt e QR, LU e teorema spettrale; SMLE no. Lo stesso vale per Warwick (ortogonalizzazione e regressione nello stesso corso) e LSE (proiezioni, minimi quadrati e SVD). Sono esattamente gli strumenti che servono poi: i minimi quadrati sono una proiezione, QR è come si calcolano, il teorema spettrale sta dietro la PCA e le forme quadratiche. <em>Ritocco</em>: spostare lì il tempo oggi dedicato a numeri complessi e teorema fondamentale dell’algebra.</li>
-<li><strong>Probabilità.</strong> È spezzata in due: Calcolo delle probabilità (1°) fa il caso univariato; vettori aleatori, distribuzioni condizionate e normale multivariata arrivano nel modulo sui modelli del 2° anno, che dovrebbe invece occuparsi del modello lineare. Mancano del tutto le trasformazioni di vettori aleatori (jacobiano). <em>Ritocco</em>: un unico esame di probabilità da 9 CFU che comprenda il caso multivariato, come a Padova, LSE e Warwick, liberando ore nel modulo sui modelli.</li>
-<li><strong>Analisi.</strong> Qui SMLE non è indietro: ha Analisi II obbligatoria (a Padova è a scelta), con Lagrange, Dini e integrali multipli. Manca solo la teoria della misura, che non è necessaria in triennale.</li>
+<li><strong>Cicli di FML</strong>: il prospetto della programmazione non li indica.</li>
+<li><strong>Coordinamento</strong>: il <em>syllabus</em> di FML va scritto con i titolari del modulo sui modelli (che oggi fa i Monte Carlo in modo informale), di <em>Modelli statistici avanzati</em> e di Data mining, e con CLAMSES (<em>Prob. e stat. computazionale M</em>, <em>Data Mining M</em>, <em>Machine Learning M</em>).</li>
+<li><strong>Inferenza causale</strong>: tra Econometria e <em>Strumenti di ML per l’analisi di mercato</em>, chi la insegna?</li>
+<li><strong>R e Python</strong>: Informatica e <em>Machine Learning M</em> usano Python, i corsi di statistica R. FML può fare da ponte.</li>
 </ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Informatica e dati: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Informatica e dati: insegnamenti e CFU
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>SMLE</th>
-<th>SGI</th>
-<th>Bergamo</th>
-<th>Padova (SEI, STS)</th>
-<th>CLAMSES</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Programmazione</td>
-<td>Informatica<br>1° anno · 6 CFU · Python, NumPy, pandas</td>
-<td>Informatica<br>1° anno · 9 CFU · Python</td>
-<td>Informatica per data science<br>1° anno · 12 CFU · Python; Programmazione per data science<br>2° anno · 9 CFU</td>
-<td>Sistemi di elaborazione 1<br>1° anno · 6 CFU · Python</td>
-<td>Machine Learning M<br>2° anno · 6 CFU · Python · solo STAT</td>
-</tr>
-<tr class="even">
-<td>Algoritmi e strutture dati</td>
-<td>—</td>
-<td>—</td>
-<td>dentro Informatica per data science</td>
-<td>Strutture dati e programmazione<br>1° anno · 6 CFU</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Laboratorio</td>
-<td>Laboratorio di informatica<br>1° anno · 3 CFU</td>
-<td>Laboratorio di informatica<br>1° anno · 3 CFU</td>
-<td>Laboratorio di data science<br>3° anno · 6 CFU</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Basi di dati</td>
-<td>Basi di dati<br>2° anno · 6 CFU</td>
-<td>Basi di dati<br>2° anno · 6 CFU</td>
-<td>dentro Informatica per data science (SQL)</td>
-<td>Basi di dati<br>2° anno · 6 CFU; Basi di dati 2<br>3° anno · 9 CFU · percorso Big Data</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Sistemi e dati complessi</td>
-<td>Gestione dati complessi<br>3° anno · 6 CFU · solo DS (dal 2028/29)</td>
-<td>Sistemi informativi<br>3° anno · 9 CFU</td>
-<td>Applicazioni <em>data intensive</em><br>3° anno · 6 CFU · solo II</td>
-<td>Sistemi di elaborazione 2; Information retrieval<br>3° anno · 9 CFU ciascuno · a scelta (STS)</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>IA</td>
-<td>Fondamenti di IA e Deep Learning<br>3° anno · 6 CFU · solo DS · <strong>blocco unico, contenuto tutto da definire</strong></td>
-<td>Data processing and analysis<br>3° anno · 6 CFU · a scelta</td>
-<td>Diritto dell’IA e dei dati<br>1° anno · 6 CFU</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td><strong>Totale obbligatorio</strong></td>
-<td><strong>15 CFU</strong> (+ Gestione dati complessi e parte di Fondamenti di IA e DL nel percorso DS; Algoritmi e ottimizzazione, INF/01, è contato in Matematica)</td>
-<td><strong>27 CFU</strong></td>
-<td><strong>27 CFU</strong></td>
-<td><strong>18 CFU</strong></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Informatica: argomento per argomento">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Informatica: argomento per argomento
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>SMLE: Informatica (6) + Algoritmi e ottimizzazione (6) + Laboratorio (3) + Basi di dati (6). SGI: Informatica (9) + Laboratorio (3) + Basi di dati (6). Bergamo: Informatica per data science (12) + Programmazione per data science (9). Padova: Sistemi di elaborazione 1 (6) + Strutture dati e programmazione (6) + Basi di dati (6) + Ottimizzazione (9, solo STS).</p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Architettura, rappresentazione dell’informazione</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Python di base (variabili, cicli, funzioni, file)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">Java (Python a scelta)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>NumPy e pandas</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Laboratorio in R (<em>data frame</em>, <em>join</em>, ggplot2)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">in Statistica 1 (20 ore)</td>
-<td style="text-align: center;">✓ (R nei corsi di statistica)</td>
-<td style="text-align: center;">✓ (R in Applied Regression)</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Programmazione a oggetti</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">solo percorso II</td>
-<td style="text-align: center;">✓ (ereditarietà, polimorfismo, <em>design pattern</em>)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Ricorsione</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td><strong>Complessità computazionale</strong></td>
-<td style="text-align: center;"><em>cenni</em> (in Algoritmi e ottimizzazione)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td><strong>Algoritmi di ricerca e ordinamento</strong> (binaria, <em>merge sort</em>, <em>quick sort</em>)</td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>merge sort</em></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>Liste, pile, code</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td><strong>Tabelle <em>hash</em>, dizionari, <em>heap</em>, alberi binari di ricerca</strong></td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">dizionari Python</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em></td>
-</tr>
-<tr class="odd">
-<td>Grafi</td>
-<td style="text-align: center;">visite e Dijkstra (in Algoritmi e ottimizzazione)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (come struttura dati)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Eccezioni</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="odd">
-<td>SQL, modello E-R, progettazione, normalizzazione</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (3°)</td>
-</tr>
-<tr class="even">
-<td>NoSQL, dati semi-strutturati</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (JSON, XML, Parquet)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓ (anche database vettoriali)</td>
-<td style="text-align: center;">✓ (Hadoop, Spark)</td>
-</tr>
-<tr class="odd">
-<td><strong>Pulizia dei dati, formati, <em>web scraping</em></strong></td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓ (API, <em>scraping</em>, JSON, XML)</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Programmazione lineare e intera, simplesso, dualità</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (solo STS)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Ottimizzazione non lineare, gradiente, <em>derivative-free</em></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (+ KKT, SGD, Newton)</td>
-<td style="text-align: center;">✓ (solo STS)</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓ (gradiente, <em>simulated annealing</em>)</td>
-</tr>
-<tr class="even">
-<td>Uso di un <em>solver</em> (Gurobi)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (solo STS)</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Ingegneria del software, lavoro di gruppo su un progetto</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Sviluppo software con IA, <em>AI literacy</em></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">✓</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="Informatica: che cosa manca a SMLE e cosa ritoccare">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Informatica: che cosa manca a SMLE e cosa ritoccare
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-14" class="callout-14-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<ul>
-<li><strong>Algoritmi e strutture dati.</strong> Padova dedica un intero corso (6 CFU) a complessità, ordinamento, <em>hash</em>, <em>heap</em>, alberi e grafi; SMLE ha solo liste, pile e code, e in Informatica la complessità è appena accennata. <em>Ritocco</em>: con 6 CFU non si può fare tutto, ma complessità, ricerca e ordinamento e dizionari e <em>hash</em> sono il minimo per scrivere codice statistico efficiente.</li>
-<li><strong>Dati “veri”.</strong> Bergamo e LSE (<em>Managing and Visualising Data</em>, 1° anno) insegnano pulizia dei dati, formati (JSON, XML, Parquet), API e <em>web scraping</em>; SMLE no. <em>Ritocco</em>: è il contenuto naturale del Laboratorio di informatica, che dal 2027/28 non sarà più mutuato da SGI, o di Gestione dati complessi (dal 2028/29).</li>
-<li><strong>Ottimizzazione.</strong> Qui SMLE è più avanti di Padova: <em>Algoritmi e ottimizzazione</em> è obbligatorio per tutti, mentre a Padova Ottimizzazione è solo in STS. Bergamo va oltre e collega esplicitamente ottimizzazione e ML (SGD, SVM, kNN); FML può fare lo stesso.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Statistica di base, inferenza e modelli: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Statistica di base, inferenza e modelli: insegnamenti e CFU
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-15" class="callout-15-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>SMLE</th>
-<th>SGI</th>
-<th>Bergamo</th>
-<th>Padova (SEI, STS)</th>
-<th>CLAMSES</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Statistica descrittiva</td>
-<td>Statistica e Data Visualization<br>1° anno · 6 CFU</td>
-<td>Statistica I<br>1° anno · 6 CFU; Statistica I – Complementi<br>2° anno · 6 CFU</td>
-<td>Statistica descrittiva e calcolo delle probabilità<br>1° anno · 9 CFU (insieme)</td>
-<td>Statistica 1<br>1° anno · 9 CFU</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Inferenza, verosimiglianza</td>
-<td>Inferenza statistica<br>2° anno · 12 CFU</td>
-<td>Statistica II<br>2° anno · 12 CFU</td>
-<td>Inferenza statistica<br><strong>1° anno</strong> · 6 CFU</td>
-<td>Statistica 2<br>2° anno · 12 CFU</td>
-<td>Teorie dell’inferenza<br>1° anno · 6 CFU · tutti</td>
-</tr>
-<tr class="odd">
-<td>Campionamento</td>
-<td>dentro Inferenza statistica</td>
-<td>Piano degli esperimenti<br>3° anno · 6 CFU · a scelta</td>
-<td>cenni in Inferenza statistica</td>
-<td>Teoria e tecnica dell’indagine e del campionamento<br>2° anno · 9 CFU</td>
-<td>Metodi per le indagini campionarie M<br>1° anno · 6 CFU · solo SPI</td>
-</tr>
-<tr class="even">
-<td>Modello lineare</td>
-<td><em>Modelli per l’apprendimento statistico</em><br>2° anno · 9 CFU</td>
-<td><em>Modelli statistici</em> (modulo di ASM)<br>2° anno · 8 CFU</td>
-<td>Inferenza statistica (semplice, 1° anno); Econometria<br>2° anno · 6 CFU · ES; Statistical Learning<br>2° anno · 12 CFU</td>
-<td>Modelli statistici 1<br>2° anno · 9 CFU (6 sul modello lineare)</td>
-<td>solo richiami</td>
-</tr>
-<tr class="odd">
-<td>Logistica e Poisson</td>
-<td>⚠︎ solo al 3° anno, in <em>Modelli statistici avanzati</em></td>
-<td><em>Modelli statistici</em><br>2° anno · 8 CFU</td>
-<td>logistica in <strong>Statistical Learning</strong><br>2° anno · 12 CFU</td>
-<td><strong>Modelli statistici 1</strong><br>2° anno · 9 CFU (3 su logistica e Poisson)</td>
-<td>Statistica multivariata, 1° anno · 6 CFU · tutti; Microeconometria, 1° anno · 6 CFU · tutti</td>
-</tr>
-<tr class="even">
-<td>Teoria dei GLM</td>
-<td><em>Modelli statistici avanzati</em><br>3° anno · 6 CFU</td>
-<td>dentro DM e ML<br>3° anno · 15 CFU</td>
-<td>forse in Modellazione statistica di dati complessi<br>3° anno · 12 CFU (programma non pubblicato)</td>
-<td>Modelli statistici 2<br>3° anno · 9 CFU · a scelta</td>
-<td>⚠︎ <strong>nessun corso dedicato</strong></td>
-</tr>
-<tr class="odd">
-<td>Serie storiche</td>
-<td>Serie storiche economiche<br>3° anno · 9 CFU</td>
-<td>Analisi dei dati spaziali e temporali<br>2° anno · 6 CFU</td>
-<td>Econometria<br>2° anno · 6 CFU · ES</td>
-<td>Serie storiche<br>3° anno · 9 CFU</td>
-<td>Serie storiche ed economiche, 1° anno · 6 CFU; Dynamic models and ML forecasting, 1° anno · 6 CFU · tutti</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Multivariata e statistica computazionale: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Multivariata e statistica computazionale: insegnamenti e CFU
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-16" class="callout-16-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>SMLE</th>
-<th>SGI</th>
-<th>Bergamo</th>
-<th>Padova (SEI, STS)</th>
-<th>CLAMSES</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PCA, <em>cluster</em>, fattoriale</td>
-<td><em>Analisi esplorativa</em><br>2° anno · 6 CFU</td>
-<td><em>Analisi esplorativa</em> (modulo di ASM)<br>2° anno · 7 CFU</td>
-<td>Statistical Learning (modulo non supervisionato)<br>2° anno</td>
-<td>Analisi dei dati multidimensionali<br>3° anno · 6 CFU</td>
-<td>Statistica multivariata<br>1° anno · 6 CFU · tutti</td>
-</tr>
-<tr class="even">
-<td>Monte Carlo, bootstrap</td>
-<td>⚠︎ nessun corso obbligatorio</td>
-<td>dentro DM e ML<br>3° anno · 15 CFU</td>
-<td>Inferenza statistica (1° anno); bootstrap in Statistical Learning (2° anno)</td>
-<td>Statistica computazionale<br>2° anno · 9 CFU · obbligatoria in STS</td>
-<td>Statistica computazionale (modulo)<br>1° anno · 6 CFU · tutti</td>
-</tr>
-<tr class="odd">
-<td>Lisciamento, <em>spline</em>, GAM</td>
-<td>—</td>
-<td>dentro DM e ML<br>3° anno · 15 CFU</td>
-<td>Statistical Learning<br>2° anno · 12 CFU</td>
-<td>Statistica computazionale<br>2° anno · 9 CFU</td>
-<td>Data Mining M<br>1° anno · 6 CFU · STAT</td>
-</tr>
-<tr class="even">
-<td>Misture</td>
-<td>Statistica computazionale<br>3° anno · 6 CFU · solo DS</td>
-<td>—</td>
-<td>Statistical Learning (<em>clustering</em> basato su modelli)<br>2° anno</td>
-<td>Metodi statistici per big data<br>3° anno · 9 CFU · a scelta</td>
-<td>Bayesian statistical modeling<br>2° anno · 6 CFU · STAT</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Machine learning: insegnamenti e CFU">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Machine learning: insegnamenti e CFU
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-17" class="callout-17-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>SMLE</th>
-<th>SGI</th>
-<th>Bergamo</th>
-<th>Padova (SEI, STS)</th>
-<th>CLAMSES</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Fondamenti, previsione</td>
-<td><strong>Fondamenti di Machine Learning</strong><br>2° anno · 6 CFU · contenuto da definire</td>
-<td>—</td>
-<td><strong>Statistical Learning</strong><br>2° anno · 12 CFU</td>
-<td>—</td>
-<td>Machine Learning M<br>2° anno · 6 CFU · STAT</td>
-</tr>
-<tr class="even">
-<td>Distorsione e varianza, CV</td>
-<td>⚠︎ Data mining<br>3° anno · 6 CFU · solo DS</td>
-<td>dentro DM e ML<br>3° anno · 15 CFU</td>
-<td>Statistical Learning<br>2° anno · 12 CFU</td>
-<td>in magistrale</td>
-<td>Data Mining M, 1° anno · 6 CFU; Machine Learning M, 2° anno · 6 CFU · STAT</td>
-</tr>
-<tr class="odd">
-<td>Ridge, lasso</td>
-<td>—</td>
-<td>—</td>
-<td>Statistical Learning<br>2° anno · 12 CFU</td>
-<td>Metodi statistici per big data<br>3° anno · 9 CFU · a scelta</td>
-<td>Data Mining M<br>1° anno · 6 CFU · STAT</td>
-</tr>
-<tr class="even">
-<td>Bayes, LDA, QDA, kNN</td>
-<td>⚠︎ Data mining<br>3° anno · 6 CFU · solo DS</td>
-<td>LDA in <em>Analisi esplorativa</em> (2° anno); il resto in DM e ML (3° anno)</td>
-<td>kNN in Statistical Learning e in Analisi 2 e ottimizzazione<br>2° anno</td>
-<td>in magistrale</td>
-<td>Statistica multivariata, 1° anno · 6 CFU · tutti; Machine Learning M, 2° anno · 6 CFU · STAT</td>
-</tr>
-<tr class="odd">
-<td>Alberi ed <em>ensemble</em></td>
-<td>alberi in Data mining<br>3° anno · 6 CFU · solo DS</td>
-<td>dentro DM e ML<br>3° anno · 15 CFU</td>
-<td>Statistical Learning<br>2° anno · 12 CFU</td>
-<td>in magistrale</td>
-<td>Statistical Learning M<br>2° anno · 6 CFU · STAT</td>
-</tr>
-<tr class="even">
-<td>Reti neurali</td>
-<td>Fondamenti di IA e DL<br>3° anno · 6 CFU · solo DS · da definire</td>
-<td>dentro DM e ML<br>3° anno · 15 CFU</td>
-<td>Programmazione per data science, data management e reti neurali<br>2° anno · 9 CFU</td>
-<td>cenni in Metodi statistici per big data<br>3° anno · 9 CFU · a scelta</td>
-<td>Statistical Learning M e Machine Learning M<br>2° anno · 6 + 6 CFU · STAT</td>
-</tr>
-<tr class="odd">
-<td>Applicazioni settoriali</td>
-<td>Strumenti di ML per l’analisi di mercato / per la finanza<br>3° anno · 6 CFU · percorsi Mercato e Finanza</td>
-<td>—</td>
-<td>Analisi di dati testuali<br>3° anno · 6 CFU</td>
-<td>—</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Statistica: argomento per argomento">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Statistica: argomento per argomento
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-18" class="callout-18-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>Stessa legenda delle tabelle precedenti. In più: “DS” = solo percorso Data Science di SMLE; “3°” = l’argomento arriva al 3° anno. Per SMLE il 2° e il 3° anno seguono i <em>syllabus</em> SSE; per Bergamo il 3° anno non ha programmi pubblicati (n.d. = non disponibile, potrebbe essere in <em>Modellazione statistica di dati complessi</em>).</p>
-<p><strong>Descrittiva e inferenza</strong></p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Descrittiva uni- e bivariata, grafici, dipendenza, regressione semplice descrittiva</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Descrittiva in forma matriciale, PCA campionaria al 1° anno</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Stima puntuale, proprietà, momenti e massima verosimiglianza</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Intervalli di confidenza, test Z, t, χ², F</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>Neyman-Pearson, test uniformemente più potenti</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td><strong>Teoria asintotica della verosimiglianza</strong>: informazione osservata e attesa, test di Wald, <em>score</em> e rapporto di verosimiglianza, caso multiparametrico</td>
-<td style="text-align: center;"><strong>⚠︎</strong> solo rapporto di verosimiglianza</td>
-<td style="text-align: center;">rapporto di verosimiglianza</td>
-<td style="text-align: center;">✓ (asintotica dello SMV)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="odd">
-<td>Inferenza bayesiana di base (<em>prior</em>, <em>posterior</em>, intervalli di credibilità)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (2°)</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓ (2°)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Modelli</strong></p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Regressione lineare multipla: minimi quadrati, verosimiglianza, Gauss-Markov, test F, previsione</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (Econometria, 3°)</td>
-</tr>
-<tr class="even">
-<td>Diagnostica, valori anomali, punti leva</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (3°)</td>
-</tr>
-<tr class="odd">
-<td>Variabili qualitative, interazioni, ANOVA e ANCOVA come modello lineare</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td>Selezione delle variabili, AIC e BIC</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (anche fuori campione)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>Eteroschedasticità, stimatore <em>sandwich</em>, minimi quadrati pesati, robustezza</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="even">
-<td><strong>Regressione logistica e di Poisson</strong></td>
-<td style="text-align: center;"><strong>⚠︎</strong> solo al 3° anno</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">3°, a scelta</td>
-<td style="text-align: center;">✓ (introduzione ai GLM)</td>
-<td style="text-align: center;">✓ (logistica in ML)</td>
-</tr>
-<tr class="odd">
-<td>Teoria dei GLM: famiglia esponenziale, IRLS, devianza</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;"><em>cenni</em> (3°)</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Quasi-verosimiglianza, sovradispersione</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Risposte multinomiali e ordinali, modelli log-lineari</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Dati correlati: effetti casuali, <em>multilevel</em>, GEE</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">panel (3°)</td>
-</tr>
-<tr class="odd">
-<td>Variabili strumentali, equazioni simultanee</td>
-<td style="text-align: center;">✓ (Econometria)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓ (3°)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Multivariata, computazionale e machine learning</strong></p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PCA, <em>cluster</em> gerarchico e k-medie, analisi fattoriale</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓ (PCA e <em>clustering</em>)</td>
-</tr>
-<tr class="even">
-<td>Inferenza sulla normale multivariata (test sul vettore delle medie, regioni di confidenza)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Correlazioni canoniche</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>MDS, t-SNE, analisi delle corrispondenze</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Simulazione e Monte Carlo</td>
-<td style="text-align: center;"><strong>⚠︎</strong> non nei <em>syllabus</em>: oggi fatto in modo informale nel modulo sui modelli (2°), dal 2027/28 previsto in Statistica computazionale</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="even">
-<td>Bootstrap</td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓ (1° anno)</td>
-</tr>
-<tr class="odd">
-<td>Stima di densità e lisciamento (nuclei, <em>spline</em>)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td>Misture, <em>clustering</em> basato su modelli</td>
-<td style="text-align: center;">DS</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Distorsione e varianza, convalida incrociata</td>
-<td style="text-align: center;">DS</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">3°, a scelta</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓ (2°)</td>
-</tr>
-<tr class="even">
-<td>Penalizzazione (ridge, lasso)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">3°, a scelta</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">n.d.</td>
-</tr>
-<tr class="odd">
-<td>kNN, analisi discriminante, alberi</td>
-<td style="text-align: center;">DS</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">3°, a scelta</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓ (2°)</td>
-</tr>
-<tr class="even">
-<td><em>Bagging</em>, <em>boosting</em>, <em>random forest</em></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-</tr>
-<tr class="odd">
-<td>Reti neurali</td>
-<td style="text-align: center;">DS (da definire)</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;"><em>cenni</em>, a scelta</td>
-<td style="text-align: center;">3°, a scelta</td>
-<td style="text-align: center;">✓ (3°, anche <em>deep learning</em>)</td>
-<td style="text-align: center;">✓ (2°)</td>
-</tr>
-<tr class="even">
-<td>Dati mancanti, imputazione</td>
-<td style="text-align: center;">DS</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;"><em>cenni</em></td>
-</tr>
-<tr class="odd">
-<td><em>Text mining</em></td>
-<td style="text-align: center;">DS</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">n.d.</td>
-<td style="text-align: center;">—</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Serie storiche, indagini, esperimenti, statistiche applicate</strong></p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th style="text-align: center;">SMLE</th>
-<th style="text-align: center;">SGI</th>
-<th style="text-align: center;">Bergamo</th>
-<th style="text-align: center;">Padova</th>
-<th style="text-align: center;">Warwick</th>
-<th style="text-align: center;">LSE</th>
-<th style="text-align: center;">Bocconi</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Componenti, destagionalizzazione, ARMA e SARIMA, previsione</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">✓ (percorso ES)</td>
-<td style="text-align: center;">✓ (3°)</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;"><em>cenni</em> (Econometria)</td>
-</tr>
-<tr class="even">
-<td>Modelli a componenti non osservate, filtro di Kalman, analisi spettrale</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Campionamento da popolazioni finite (casuale semplice, stratificato)</td>
-<td style="text-align: center;">✓ (dentro Inferenza)</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;"><em>cenni</em></td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="even">
-<td><strong>Metodologia d’indagine</strong>: errori, rilevazione, questionario, campionamento a più stadi, post-stratificazione</td>
-<td style="text-align: center;"><strong>⚠︎</strong></td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (corso da 9 CFU)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Disegno degli esperimenti</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (STS)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;"><em>cenni</em> (RCT al 1° anno)</td>
-</tr>
-<tr class="even">
-<td>Dati spaziali, geostatistica</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (STS)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Analisi di sopravvivenza</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;"><em>cenni</em>, a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (STS)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;"><em>cenni</em></td>
-</tr>
-<tr class="even">
-<td>Statistica economica: numeri indici, contabilità nazionale, input-output, disuguaglianza</td>
-<td style="text-align: center;">✓ (12 CFU)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓ (6 CFU)</td>
-<td style="text-align: center;">✓ (SEI)</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-<tr class="odd">
-<td>Demografia, statistica sociale e medica</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">✓</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">a scelta</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-<td style="text-align: center;">—</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="Statistica: che cosa manca a SMLE e cosa ritoccare">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Statistica: che cosa manca a SMLE e cosa ritoccare
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-19" class="callout-19-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<ul>
-<li><strong>Inferenza basata sulla verosimiglianza.</strong> L’Inferenza statistica di SMLE (oggi Statistica II di SSE) segue l’impostazione classica di Neyman-Pearson; Padova costruisce invece tutto sulla verosimiglianza (informazione, test di Wald, <em>score</em> e rapporto di verosimiglianza, caso multiparametrico). È la base per GLM, Econometria e CLAMSES. <em>Ritocco</em>: in Inferenza statistica, più verosimiglianza e meno test uniformemente più potenti; in alternativa la parte multiparametrica può stare all’inizio di <em>Modelli statistici avanzati</em>.</li>
-<li><strong>Logistica e Poisson al 3° anno.</strong> SGI, Bergamo, Padova e LSE le insegnano al 2°. <em>Ritocco</em>: 3 CFU nel modulo sui modelli del 2° anno, sul modello di Modelli statistici 1 di Padova; <em>Modelli statistici avanzati</em> parte allora dalla teoria generale dei GLM e arriva a modelli più avanzati (vedi le <a href="#proposta">ripercussioni</a>).</li>
-<li><strong>Statistica computazionale.</strong> Simulazione, bootstrap e lisciamento mancano nel tronco comune, ovunque altrove ci sono. <em>Ritocco</em>: FML, come nella <a href="#proposta">proposta</a>.</li>
-<li><strong>Indagini campionarie.</strong> Padova ha un corso da 9 CFU su metodologia d’indagine e campionamento; SMLE ne fa solo una parte dentro Inferenza statistica. Per un profilo economico (Istat, ricerche di mercato) è una lacuna; si recupera in parte in CLAMSES (<em>Metodi per le indagini campionarie M</em>, solo SPI) e, nel percorso Mercato, in Analisi di mercato.</li>
-<li><strong>Inferenza bayesiana.</strong> Warwick e Bocconi la introducono al 2° anno, dentro i corsi di statistica matematica; in SMLE arriva solo in CLAMSES. Non è una priorità, ma un paio di lezioni in Inferenza statistica allineerebbero SMLE agli standard internazionali.</li>
-<li><strong>Quando arriva il ML.</strong> Warwick e LSE lo mettono al 3° anno, dopo regressione e inferenza; Bergamo e Bocconi al 2°. È un argomento a favore di un FML del 2° anno più computazionale che “di ML”.</li>
-<li><strong>Punti di forza di SMLE.</strong> Statistica economica (12 CFU, più di tutti), GLM completi con quasi-verosimiglianza e sovradispersione (a Padova sono a scelta), variabili strumentali in Econometria, robustezza e stimatore <em>sandwich</em>.</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="i-problemi-di-fondamenti-di-ml" class="level2">
-<h2 class="anchored" data-anchor-id="i-problemi-di-fondamenti-di-ml">I problemi di Fondamenti di ML</h2>
-<div class="callout callout-style-default callout-warning callout-titled" title="1. Arriva prima della regressione logistica">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Arriva prima della regressione logistica
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-20" class="callout-20-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Un corso introduttivo di ML usa la logistica come classificatore di riferimento, ma in SMLE la logistica arriva solo al 3° anno. Restano due strade: FML la insegna “da ML” e <em>Modelli statistici avanzati</em> la ripete “da statistica”, oppure FML ne fa a meno. Padova risolve il problema a monte, insegnando logistica e Poisson in Modelli statistici 1 (2° anno). Bergamo lo aggira: la logistica entra nel suo <em>Statistical Learning</em> al 2° anno, dentro un unico corso da 12 CFU. Con la <a href="#proposta">proposta</a> il problema si risolve: FML non si regge sulla logistica, e logistica e Poisson passano al modulo sui modelli del 2° anno.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="2. Nomi che si confondono">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Nomi che si confondono
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-21" class="callout-21-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Al 2° anno ci sono <em>Fondamenti di Statistical Learning</em> (15 CFU, che però contiene modello lineare e analisi esplorativa) e <em>Fondamenti di Machine Learning</em> (6 CFU). Dai titoli non si capisce chi fa cosa.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="3. Molti corsi a valle fanno già ML">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Molti corsi a valle fanno già ML
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-22" class="callout-22-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-sm small caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Corso a valle</th>
-<th>Contenuti già presenti</th>
-<th>Rischio per FML</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Data mining (3°, DS)</td>
-<td>LDA/QDA, kNN, alberi, distorsione e varianza, <em>text mining</em></td>
-<td><strong>Alto</strong></td>
-</tr>
-<tr class="even">
-<td>Fondamenti di IA e DL (3°, DS)</td>
-<td>Reti neurali</td>
-<td>Medio</td>
-</tr>
-<tr class="odd">
-<td>Strumenti di ML per mercato e per finanza (3°)</td>
-<td>Da definire</td>
-<td>Medio</td>
-</tr>
-<tr class="even">
-<td>Statistica avanzata M (tutti)</td>
-<td>Bayes, LDA, QDA, logistica</td>
-<td>Basso con la proposta (FML non fa classificazione)</td>
-</tr>
-<tr class="odd">
-<td>Prob. e stat. computazionale M (tutti)</td>
-<td>Monte Carlo, bootstrap</td>
-<td><strong>Alto</strong> con la proposta: sovrapposizione accettata, vedi il raccordo</td>
-</tr>
-<tr class="even">
-<td>Data Mining M (STAT)</td>
-<td>Distorsione e varianza, CV, penalizzazione</td>
-<td><strong>Alto</strong></td>
-</tr>
-<tr class="odd">
-<td>Machine Learning M (STAT)</td>
-<td>Errore di generalizzazione, metriche, k-fold, kNN</td>
-<td>Medio con la proposta: resta in comune la CV</td>
-</tr>
-<tr class="even">
-<td>Statistical Learning M (STAT)</td>
-<td>Alberi, <em>ensemble</em>, reti</td>
-<td>Medio</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="4. Nel tronco comune manca la statistica computazionale">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>Nel tronco comune manca la statistica computazionale
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-23" class="callout-23-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun corso obbligatorio. La <em>Statistica computazionale</em> del 3° anno (percorso DS) tratta in realtà di misture. A Padova invece è un corso da 9 CFU al 2° anno. In CLAMSES Monte Carlo e bootstrap ci sono e sono obbligatori per tutti; ottimizzazione numerica ed EM invece mancano anche lì. La <a href="#proposta">proposta</a> mette questi contenuti in FML, quindi nel tronco comune.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="5. A valle c'è già un altro Foundations of Machine Learning">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Avviso</span>A valle c’è già un altro Foundations of Machine Learning
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-24" class="callout-24-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><em>Machine Learning M</em> (STAT) adotta il manuale di Mohri, Rostamizadeh e Talwalkar e parte dagli stessi fondamenti. Uno studente SMLE che sceglie STAT li vedrebbe tre volte: in FML, in ML M e, per la CV, in <em>Data Mining M</em>. Con la <a href="#proposta">proposta</a> FML non è più un corso di “fondamenti di ML” in senso stretto, e in comune resta soprattutto la CV. Serve comunque un accordo tra i docenti di SMLE e di CLAMSES.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="proposta" class="level2">
-<h2 class="anchored" data-anchor-id="proposta">Proposta</h2>
-<p><strong>FML come statistica computazionale “vecchio stile”.</strong> Il corso va al 2° anno, 2° semestre, dopo Inferenza statistica (I semestre) e dopo il modello lineare. Dà a <strong>tutti</strong> gli studenti SMLE, nel tronco comune, gli strumenti computazionali che oggi non insegna nessuno: servono per capire un algoritmo di ML, per valutare uno stimatore, per stimare un modello senza soluzione in forma chiusa.</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Blocco</th>
-<th>Contenuti</th>
-<th style="text-align: center;">Ore</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ottimizzazione numerica</td>
-<td>Stima come ottimizzazione: minimi quadrati, verosimiglianza, funzioni di perdita. Newton-Raphson, gradiente e gradiente stocastico, <code>optim</code>; verosimiglianza profilo e informazione osservata numerica</td>
-<td style="text-align: center;">~12</td>
-</tr>
-<tr class="even">
-<td>Simulazione e Monte Carlo</td>
-<td>Inversione e accettazione-rifiuto; integrazione Monte Carlo; <strong>studi di simulazione</strong> su livello, potenza, copertura e distorsione di stimatori e test</td>
-<td style="text-align: center;">~12</td>
-</tr>
-<tr class="odd">
-<td>Bootstrap e jackknife</td>
-<td>Errori standard, intervalli percentile e BCa, bootstrap nella regressione (dei residui e delle coppie)</td>
-<td style="text-align: center;">~10</td>
-</tr>
-<tr class="even">
-<td>Ricampionamento per la previsione</td>
-<td><em>Training</em> e <em>test</em>, convalida incrociata, distorsione e varianza, scelta della complessità; metriche di errore</td>
-<td style="text-align: center;">~10</td>
-</tr>
-<tr class="odd">
-<td>Progetto</td>
-<td>Uno studio di simulazione o un’analisi bootstrap su dati reali</td>
-<td style="text-align: center;">~4</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Metodo: per casi di studio.</strong> Ogni blocco parte da un problema concreto (una verosimiglianza che non si risolve a mano, l’incertezza di un indicatore economico, un test di cui non si conosce la distribuzione, una previsione da valutare) e ne ricava il metodo. Il corso resta metodologico nei contenuti; i casi ne sono il filo. Il progetto finale è un’occasione per lavorare in modo riproducibile (Git, Quarto o R Markdown).</p>
-<p>Si aggancia a corsi già presenti: riprende i metodi del gradiente di <em>Algoritmi e ottimizzazione</em> (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in <em>Modelli statistici avanzati</em> (IRLS), Statistica computazionale, Data mining e <em>Strumenti di ML</em>. Le conseguenze corso per corso sono nella tabella delle ripercussioni qui sotto.</p>
-<p>I nomi restano imperfetti (<em>Fondamenti di Machine Learning</em> è un corso computazionale, <em>Fondamenti di Statistical Learning</em> contiene modello lineare e analisi esplorativa, <em>Modelli statistici avanzati</em> sono i GLM, <em>Statistica computazionale</em> è un corso sui modelli mistura). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Che cosa FML non deve fare">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Che cosa FML non deve fare
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-25" class="callout-25-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>Alberi, <em>ensemble</em>, LDA/QDA, kNN: restano a Data mining e a Statistical Learning M.</li>
-<li>Penalizzazione, <em>spline</em>, GAM: restano a Data Mining M.</li>
-<li>Reti neurali: restano a Fondamenti di IA e DL.</li>
-<li>PCA e <em>clustering</em>, misture: restano ad <em>Analisi esplorativa</em> e a Statistica computazionale.</li>
-<li>Teoria dei GLM: resta a <em>Modelli statistici avanzati</em>.</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Raccordo con CLAMSES: che cosa diventa richiamo">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Raccordo con CLAMSES: che cosa diventa richiamo
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-26" class="callout-26-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<table class="table-striped table-sm small caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>In SMLE</th>
-<th>In CLAMSES</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Monte Carlo, bootstrap</td>
-<td>FML (2°, tutti)</td>
-<td><em>Prob. e stat. computazionale M</em>: resta per tutti (lo seguono anche laureati SGI e di altre classi); per i laureati SMLE diventa approfondimento (teoria, riduzione della varianza, intervalli bootstrap)</td>
-</tr>
-<tr class="even">
-<td>Ottimizzazione numerica</td>
-<td>FML (2°, tutti)</td>
-<td>Non c’è: da dare per noto</td>
-</tr>
-<tr class="odd">
-<td>Distorsione e varianza, CV</td>
-<td>FML (2°, tutti)</td>
-<td><em>Data Mining M</em>, <em>Machine Learning M</em>: richiamo, poi ottimismo, criteri di informazione, teoria dell’apprendimento</td>
-</tr>
-<tr class="even">
-<td>Logistica</td>
-<td>Modulo sui modelli (2°) e <em>Modelli statistici avanzati</em> (3°)</td>
-<td><em>Statistica avanzata M</em>: confronto teorico tra classificatori</td>
-</tr>
-<tr class="odd">
-<td>Teoria dei GLM</td>
-<td><em>Modelli statistici avanzati</em> (3°)</td>
-<td>Data per nota</td>
-</tr>
-<tr class="even">
-<td>Alberi, <em>ensemble</em>, reti</td>
-<td>Percorso DS (3°)</td>
-<td>Statistical Learning M, Machine Learning M</td>
-</tr>
-</tbody>
-</table>
-<p>Vincolo: CLAMSES accoglie anche laureati SGI e di altre classi. Al posto delle ripartenze da zero servono quindi richiami brevi e materiale di allineamento.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Ripercussioni sugli altri insegnamenti SMLE">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Ripercussioni sugli altri insegnamenti SMLE
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-27" class="callout-27-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>FML computazionale al 2° anno cambia il punto di partenza di molti corsi successivi. Ogni modifica va concordata con chi tiene il corso.</p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Insegnamento</th>
-<th style="text-align: center;">Anno</th>
-<th>Cosa cambia</th>
-<th style="text-align: center;">Quanto</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Algoritmi e ottimizzazione</td>
-<td style="text-align: center;">1°</td>
-<td>Coordinarsi su gradiente e Newton: lì la teoria generale, in FML l’applicazione a perdita e verosimiglianza</td>
-<td style="text-align: center;">Poco</td>
-</tr>
-<tr class="even">
-<td>Laboratorio di informatica</td>
-<td style="text-align: center;">1°</td>
-<td>Diventa il corso di R: programmazione di base, descrittiva in R (oggi nel modulo sui modelli), funzioni, cicli, generazione di numeri casuali. Dal 2027/28 non è più mutuato da SGI, quindi si può riprogettare</td>
-<td style="text-align: center;">Medio</td>
-</tr>
-<tr class="odd">
-<td>Calcolo delle probabilità</td>
-<td style="text-align: center;">1°</td>
-<td>Assorbe vettori aleatori, distribuzioni condizionate, normale multivariata e trasformazioni, oggi sparsi nel modulo sui modelli</td>
-<td style="text-align: center;">Medio</td>
-</tr>
-<tr class="even">
-<td><em>Modelli per l’apprendimento statistico</em></td>
-<td style="text-align: center;">2°</td>
-<td><strong>Modello Padova</strong> (Modelli statistici 1): modello lineare come ora, più i complementi oggi all’inizio di <em>Modelli statistici avanzati</em> (errata specificazione, <em>sandwich</em>, minimi quadrati pesati, Box-Cox), più <strong>3 CFU su logistica e Poisson</strong>. Escono la parte introduttiva su R (al laboratorio), i Monte Carlo (a FML) e la convalida incrociata (a FML); restano AIC e BIC</td>
-<td style="text-align: center;"><strong>Alto</strong></td>
-</tr>
-<tr class="odd">
-<td><em>Modelli statistici avanzati</em> (GLM)</td>
-<td style="text-align: center;">3°</td>
-<td><strong>Modello Padova</strong> (Modelli statistici 2): si parte dalla teoria generale (famiglie esponenziali di dispersione, IRLS come caso di Newton già visto in FML) e si va oltre: sovradispersione e quasi-verosimiglianza, beta-binomiale, modelli con inflazione di zeri, tabelle di contingenza e modelli log-lineari, risposte correlate</td>
-<td style="text-align: center;"><strong>Alto</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Statistica computazionale</strong></td>
-<td style="text-align: center;">3° (DS)</td>
-<td>Va rivista, anche perché dal 2027/28 dovrebbe ospitare i Monte Carlo oggi fatti nel modulo sui modelli: meglio farli in FML, per tutti e in modo esteso, e coordinarsi. Può dare per noti simulazione, ottimizzazione e bootstrap e restare sulle misture, ma in modo più computazionale: algoritmo EM esplicito, scelta del numero di componenti (criteri di informazione, bootstrap parametrico). Al posto del <em>tidyverse</em>, che passa al laboratorio, una parte su <strong>riproducibilità</strong>: Git e GitHub, progetti R organizzati, Quarto, gestione dei pacchetti (renv), codice documentato e testato</td>
-<td style="text-align: center;"><strong>Alto</strong></td>
-</tr>
-<tr class="odd">
-<td>Data mining</td>
-<td style="text-align: center;">3° (DS)</td>
-<td>Distorsione e varianza e CV diventano già noti; il corso si concentra su classificatori, alberi, <em>ensemble</em>, dati mancanti e <em>text mining</em></td>
-<td style="text-align: center;">Medio</td>
-</tr>
-<tr class="even">
-<td>Fondamenti di IA e Deep Learning</td>
-<td style="text-align: center;">3° (DS)</td>
-<td>Discesa del gradiente stocastica e <em>backpropagation</em> partono da quanto visto in FML</td>
-<td style="text-align: center;">Poco</td>
-</tr>
-<tr class="odd">
-<td>Serie storiche economiche; Econometria</td>
-<td style="text-align: center;">2°–3°</td>
-<td>Stima numerica della verosimiglianza ed errori standard bootstrap diventano disponibili; valutazione delle previsioni fuori campione</td>
-<td style="text-align: center;">Poco</td>
-</tr>
-<tr class="even">
-<td><em>Strumenti di ML</em> (mercato, finanza)</td>
-<td style="text-align: center;">3°</td>
-<td>Presuppongono CV, metriche e ottimizzazione: non vanno ripresi</td>
-<td style="text-align: center;">Medio</td>
-</tr>
-<tr class="odd">
-<td>CLAMSES: <em>Prob. e stat. computazionale M</em>, <em>Data Mining M</em></td>
-<td style="text-align: center;">M1</td>
-<td>Per i laureati SMLE Monte Carlo, bootstrap e CV diventano richiami; vedi il raccordo sopra</td>
-<td style="text-align: center;">Medio</td>
-</tr>
-</tbody>
-</table>
-<p>Per le lacune di matematica, probabilità e informatica (algebra lineare, vettori gaussiani, algoritmi) vedi <a href="#dove-sta-ogni-argomento">Dove sta ogni argomento</a>; per l’inferenza causale gli <a href="#argomenti-scoperti">argomenti scoperti</a>.</p>
-</div>
-</div>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Alternative considerate">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-28-contents" aria-controls="callout-28" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -3111,7 +895,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-28" class="callout-28-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <table class="table-striped table-sm small caption-top table">
 <colgroup>
@@ -3128,9 +912,9 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>FML come corso sulla previsione (perdita e rischio, metriche, kNN, logistica come classificatore)</td>
+<td>FML come corso sulla previsione (perdita, metriche, kNN, logistica)</td>
 <td>Più “ML” nel titolo</td>
-<td>Si sovrappone a Data mining (3°) e a <em>Machine Learning M</em>; richiede la logistica prima dei GLM</td>
+<td>Duplica Data mining e <em>Machine Learning M</em>; richiede la logistica prima dei GLM</td>
 </tr>
 <tr class="even">
 <td>ML introduttivo classico (kNN, alberi, LDA, <em>clustering</em>)</td>
@@ -3138,14 +922,14 @@ ul.task-list li input[type="checkbox"] {
 <td>Duplica Data mining e CLAMSES</td>
 </tr>
 <tr class="odd">
-<td>FML interamente per casi di studio, senza un programma metodologico</td>
-<td>Coinvolgente, vicino al lavoro reale</td>
-<td>Dipende molto dal docente; rischio di superficialità al 2° anno; valutazione difficile con molti studenti. Meglio come metodo (proposta adottata) che come contenuto</td>
+<td>FML interamente per casi di studio</td>
+<td>Coinvolgente</td>
+<td>Dipende dal docente, rischio di superficialità, valutazione difficile: meglio come metodo</td>
 </tr>
 <tr class="even">
-<td>Modello Bergamo: un unico <em>Statistical Learning</em> al 2° anno (stile ISLR)</td>
+<td>Modello Bergamo: un unico <em>Statistical Learning</em> al 2° anno</td>
 <td>Ordine coerente</td>
-<td>Svuota Data mining (3°); molto sovrapposto a Data Mining M e Statistical Learning M</td>
+<td>Svuota Data mining; molto sovrapposto a CLAMSES</td>
 </tr>
 <tr class="odd">
 <td>Modello SGI: un unico corso di ML al 3° anno</td>
@@ -3158,93 +942,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="argomenti-scoperti" class="level2">
-<h2 class="anchored" data-anchor-id="argomenti-scoperti">Argomenti scoperti</h2>
-<p>Argomenti che il tronco comune di SMLE non tratta, con una possibile collocazione senza aggiungere esami.</p>
-<table class="table-striped table-hover table-sm small caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Argomento</th>
-<th>SMLE oggi</th>
-<th>Altrove</th>
-<th>Dove metterlo in SMLE</th>
-<th style="text-align: center;">Priorità</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Inferenza causale</strong>: esiti potenziali, randomizzazione, confondimento, <em>propensity score</em>, differenze nelle differenze</td>
-<td>Solo variabili strumentali ed equazioni simultanee in Econometria (2°)</td>
-<td>SGI: Analisi dei dati (causalità, <em>path analysis</em>, SEM; a scelta). Bergamo: Metodi empirici per l’analisi economica e Modelli e analisi empirica di politiche pubbliche (3°, ES; programmi non pubblicati). Padova: cenni in Modelli statistici applicati (STS); corso dedicato in magistrale. LSE: inferenza causale con <em>double ML</em> in Machine Learning (3°). Bocconi: RCT e confondimento al 1° anno, valutazione delle politiche in Econometria (3°). CLAMSES: panel e IV in Microeconometria</td>
-<td>Econometria (esiti potenziali, DiD); Strumenti di ML per l’analisi di mercato (A/B test, effetti di trattamento, <em>uplift</em>); casi di studio in FML</td>
-<td style="text-align: center;"><strong>Alta</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Disegno degli esperimenti</strong>, A/B test</td>
-<td>—</td>
-<td>SGI: Piano degli esperimenti (a scelta). Padova: Modelli statistici applicati (STS). LSE: Sample Surveys and Experiments (a scelta)</td>
-<td>Insieme all’inferenza causale, in Strumenti di ML per l’analisi di mercato o Analisi di mercato</td>
-<td style="text-align: center;"><strong>Alta</strong></td>
-</tr>
-<tr class="odd">
-<td>Regole, privacy ed etica dei dati</td>
-<td>—</td>
-<td>Bergamo: Diritto dell’IA e dei dati (1°, 6 CFU). Bocconi: IT Law (1°) e European IP and Data Law (2°). LSE: Ethics for Data Science (a scelta)</td>
-<td>Fondamenti di IA e DL (da definire) o seminari tra le altre attività</td>
-<td style="text-align: center;">Media</td>
-</tr>
-<tr class="even">
-<td>Riproducibilità (Git, Quarto o R Markdown)</td>
-<td>—</td>
-<td>Padova: Data visualization (a scelta). Warwick: Software Engineering (2°)</td>
-<td>Statistica computazionale (3°, DS); per tutti, il progetto di FML</td>
-<td style="text-align: center;">Media</td>
-</tr>
-<tr class="odd">
-<td>Statistica bayesiana</td>
-<td>—</td>
-<td>Warwick e Bocconi: al 2° anno, dentro la statistica matematica. LSE: a scelta. CLAMSES: Statistica bayesiana M</td>
-<td>Cenni in Inferenza statistica</td>
-<td style="text-align: center;">Media</td>
-</tr>
-<tr class="even">
-<td>Dati longitudinali e <em>multilevel</em></td>
-<td>—</td>
-<td>SGI: Statistical models (a scelta). CLAMSES: panel in Microeconometria</td>
-<td>Va bene in magistrale</td>
-<td style="text-align: center;">Bassa</td>
-</tr>
-<tr class="odd">
-<td>Analisi di sopravvivenza</td>
-<td>—</td>
-<td>Padova: Modelli statistici applicati (STS)</td>
-<td>Non necessaria per il profilo di SMLE</td>
-<td style="text-align: center;">Bassa</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="domande-aperte" class="level2">
-<h2 class="anchored" data-anchor-id="domande-aperte">Domande aperte</h2>
-<ul>
-<li><strong>Cicli di FML</strong>: il prospetto della programmazione non li indica.</li>
-<li><strong>Chi scrive il <em>syllabus</em> di FML</strong>: insieme ai titolari di <em>Modelli per l’apprendimento statistico</em>, Data mining, Statistica computazionale e <em>Modelli statistici avanzati</em>. Per CLAMSES vanno coinvolti almeno i titolari di Statistica avanzata M, Data Mining M, Machine Learning M e Prob. e stat. computazionale M.</li>
-<li><strong>Inferenza causale</strong>: chi la insegna? In Econometria e in Strumenti di ML per l’analisi di mercato va concordata con i titolari, che appartengono a settori diversi (econometria e statistica economica).</li>
-<li><strong>Fondamenti di IA e Deep Learning</strong>: va progettato insieme ai titolari di <em>Machine Learning M</em> e <em>Statistical Learning M</em> di CLAMSES, che già coprono reti neurali, CNN, RNN e <em>transformer</em>. Per i laureati SMLE del percorso DS può diventare il primo livello di quei corsi, a patto che in magistrale non si riparta da zero.</li>
-<li><strong>R e Python</strong>: Informatica (1°) e <em>Machine Learning M</em> usano Python, i corsi di statistica R. FML può essere il ponte tra i due.</li>
-</ul>
-</section>
 <section id="fonti" class="level2">
 <h2 class="anchored" data-anchor-id="fonti">Fonti</h2>
 <div class="callout callout-style-default callout-note callout-titled" title="Documenti consultati">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-29-contents" aria-controls="callout-29" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -3253,16 +954,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-29" class="callout-29-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>SMLE: programmazione didattica e copertura degli insegnamenti 2026/27; <a href="https://elearning.unimib.it/pluginfile.php/2181058/mod_resource/content/0/Reg_Statistica%2C%20Machine%20learning%20ed%20economia_26-27.pdf">Regolamento didattico 2026/27</a>; <a href="https://elearning.unimib.it/course/view.php?id=70713">piano di studi</a>.</li>
-<li>e-learning Milano-Bicocca: <a href="https://elearning.unimib.it/course/index.php?categoryid=12801">SMLE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2906">SSE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2912">SGI</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=3323">CLAMSES</a> (piani e <em>syllabus</em> 2026/27); <a href="https://elearning.unimib.it/pluginfile.php/2136963/mod_resource/content/1/Reg_Statistica%20e%20gestione%20delle%20informazioni_26-27.pdf">Regolamento SGI 2026/27</a>.</li>
-<li>Bergamo: <a href="https://www.unibg.it/studiare/corsi/offertaformativa/data-analytics-economia-e-tecnologie-digitali">pagina del corso</a> e <a href="https://unibg.coursecatalogue.cineca.it/corsi/2026/1359">Course Catalogue</a> (coorti 2025 e 2026).</li>
-<li>Warwick: <a href="https://warwick.ac.uk/study/undergraduate/courses/bsc-data-science">BSc Data Science</a> e <a href="https://courses.warwick.ac.uk/">catalogo dei moduli 2026/27</a>.</li>
-<li>LSE: <a href="https://www.lse.ac.uk/resources/calendar2026-2027/programmeRegulations/undergraduate/2026/BScDataScience.htm">regolamento del BSc Data Science, coorte 2026/27</a> e <em>course guide</em> 2026/27.</li>
-<li>Bocconi: <a href="https://www.unibocconi.it/en/programs/bachelor-science/management-and-computer-science/study-plan">piano di studi di Management and Computer Science</a> e <a href="https://didattica.unibocconi.eu/ts/index.php?anno=2027">catalogo dei corsi 2026/27</a>.</li>
-<li>Padova: <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/BOLLETTINO_20262027.pdf">Bollettino 2026/27</a>; percorsi <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSEI_2.pdf">SEI</a> e <a href="https://www.stat.unipd.it/sites/stat.unipd.it/files/percorsiSTS_2.pdf">STS</a>; pagine dei corsi <a href="https://www.stat.unipd.it/corsi/statistica-economia-e-impresa-sei">SEI</a> e <a href="https://www.stat.unipd.it/corsi/statistica-tecnologie-scienze-sts">STS</a>.</li>
+<li>e-learning Milano-Bicocca: <a href="https://elearning.unimib.it/course/index.php?categoryid=12801">SMLE</a>, <a href="https://elearning.unimib.it/course/index.php?categoryid=2906">SSE</a> e <a href="https://elearning.unimib.it/course/index.php?categoryid=3323">CLAMSES</a> (<em>syllabus</em> 2026/27).</li>
+<li>Per gli altri corsi di laurea vedi le fonti della pagina <a href="../../bachelor/smle-confronti/confronto.html">SMLE a confronto</a>.</li>
 </ul>
 </div>
 </div>
