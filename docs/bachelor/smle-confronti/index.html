@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><strong>CLAMSES non ha un corso sui GLM.</strong> Per chi passa da SMLE a CLAMSES, <em>Modelli statistici avanzati</em> è l’unico corso in cui i GLM si studiano in modo sistematico.</li>
 <li><strong>Lacune di base rispetto a Padova</strong>: algebra lineare (proiezioni, QR, teorema spettrale), probabilità (vettori gaussiani, trasformazioni), algoritmi e strutture dati. Mancano inoltre inferenza causale e disegno degli esperimenti. Vedi <a href="#dove-sta-ogni-argomento">dove sta ogni argomento</a> e <a href="#argomenti-scoperti">argomenti scoperti</a>.</li>
-<li><strong>Proposta</strong>: FML come corso di <strong>statistica computazionale “vecchio stile”</strong> nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione, insegnati a partire da casi di studio. Statistica computazionale (3°, DS) resta com’è, sulle misture. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Vedi la <a href="#proposta">proposta</a>.</li>
+<li><strong>Proposta</strong>: FML come corso di <strong>statistica computazionale “vecchio stile”</strong> nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione, insegnati a partire da casi di studio. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Ha ripercussioni su diversi corsi, soprattutto Statistica computazionale (3°, DS), da rivedere. Vedi la <a href="#proposta">proposta</a>.</li>
 </ul>
 </section>
 <section id="i-piani-di-studio" class="level2">
@@ -2913,7 +2913,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p><strong>Metodo: per casi di studio.</strong> Ogni blocco parte da un problema concreto (una verosimiglianza che non si risolve a mano, l’incertezza di un indicatore economico, un test di cui non si conosce la distribuzione, una previsione da valutare) e ne ricava il metodo. Il corso resta metodologico nei contenuti; i casi ne sono il filo. Il progetto finale è un’occasione per lavorare in modo riproducibile (Git, Quarto o R Markdown).</p>
-<p>Si aggancia a corsi già presenti: riprende i metodi del gradiente di <em>Algoritmi e ottimizzazione</em> (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in <em>Modelli statistici avanzati</em> (IRLS), Data mining e <em>Strumenti di ML</em>. Statistica computazionale (3° anno, DS) resta com’è, sulle misture.</p>
+<p>Si aggancia a corsi già presenti: riprende i metodi del gradiente di <em>Algoritmi e ottimizzazione</em> (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in <em>Modelli statistici avanzati</em> (IRLS), Statistica computazionale, Data mining e <em>Strumenti di ML</em>. Le conseguenze corso per corso sono nella tabella delle ripercussioni qui sotto.</p>
 <p>I nomi restano imperfetti (<em>Fondamenti di Machine Learning</em> è un corso computazionale, <em>Fondamenti di Statistical Learning</em> contiene modello lineare e analisi esplorativa, <em>Modelli statistici avanzati</em> sono i GLM, <em>Statistica computazionale</em> è un corso sui modelli mistura). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Che cosa FML non deve fare">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
@@ -2999,26 +2999,98 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="Ritocchi agli altri corsi SMLE">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout callout-style-default callout-note callout-titled" title="Ripercussioni sugli altri insegnamenti SMLE">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-27-contents" aria-controls="callout-27" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Ritocchi agli altri corsi SMLE
+<span class="screen-reader-only">Nota</span>Ripercussioni sugli altri insegnamenti SMLE
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-27" class="callout-27-contents callout-collapse collapse">
+<div id="callout-27" class="callout-27-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<ul>
-<li><strong>Modelli per l’apprendimento statistico</strong> (2°): aggiungere alcune lezioni su logistica e Poisson, come in Modelli statistici 1 di Padova. Non è più indispensabile per FML, ma resta utile.</li>
-<li><strong>Modelli statistici avanzati</strong> (3°): portarlo verso Modelli statistici 2 di Padova (dispersione esponenziale, IRLS, devianza, quasi-verosimiglianza, sovradispersione, cenni a dati correlati) e ridurre il ripasso del modello lineare.</li>
-<li><strong>Data mining</strong> (3°, DS): dare per noti CV e distorsione e varianza; concentrarsi su classificatori, alberi, <em>ensemble</em>, dati mancanti e <em>text mining</em>.</li>
-<li><strong>Strumenti di ML</strong> (3°): presupporre gli strumenti di FML.</li>
-<li><strong>Algebra lineare, Calcolo delle probabilità, Informatica, Laboratorio</strong>: vedi le lacune in <a href="#dove-sta-ogni-argomento">Dove sta ogni argomento</a>.</li>
-<li><strong>Econometria</strong> (2°) e <strong>Strumenti di ML per l’analisi di mercato</strong> (3°): spazio per l’inferenza causale, vedi gli <a href="#argomenti-scoperti">argomenti scoperti</a>.</li>
-</ul>
+<p>FML computazionale al 2° anno cambia il punto di partenza di molti corsi successivi. Ogni modifica va concordata con chi tiene il corso.</p>
+<table class="table-striped table-hover table-sm small caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Insegnamento</th>
+<th style="text-align: center;">Anno</th>
+<th>Cosa cambia</th>
+<th style="text-align: center;">Quanto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Algoritmi e ottimizzazione</td>
+<td style="text-align: center;">1°</td>
+<td>Coordinarsi su gradiente e Newton: lì la teoria generale, in FML l’applicazione a perdita e verosimiglianza</td>
+<td style="text-align: center;">Poco</td>
+</tr>
+<tr class="even">
+<td>Laboratorio di informatica</td>
+<td style="text-align: center;">1°</td>
+<td>Deve dare in R le basi che FML presuppone: funzioni, cicli, generazione di numeri casuali</td>
+<td style="text-align: center;">Poco</td>
+</tr>
+<tr class="odd">
+<td><em>Modelli per l’apprendimento statistico</em></td>
+<td style="text-align: center;">2°</td>
+<td>La convalida incrociata passa a FML; restano AIC e BIC. Utile anticipare logistica e Poisson</td>
+<td style="text-align: center;">Medio</td>
+</tr>
+<tr class="even">
+<td><em>Modelli statistici avanzati</em> (GLM)</td>
+<td style="text-align: center;">3°</td>
+<td>IRLS e Fisher <em>scoring</em> si presentano come casi di Newton già visti; più tempo per inferenza, sovradispersione e quasi-verosimiglianza; bootstrap e simulazioni come strumenti</td>
+<td style="text-align: center;">Medio</td>
+</tr>
+<tr class="odd">
+<td><strong>Statistica computazionale</strong></td>
+<td style="text-align: center;">3° (DS)</td>
+<td>Va rivista. Può dare per noti simulazione, ottimizzazione e bootstrap e restare sulle misture, ma in modo più computazionale: algoritmo EM esplicito, scelta del numero di componenti (criteri di informazione, bootstrap parametrico), cenni a misture bayesiane e MCMC. Il <em>tidyverse</em> passa al laboratorio</td>
+<td style="text-align: center;"><strong>Alto</strong></td>
+</tr>
+<tr class="even">
+<td>Data mining</td>
+<td style="text-align: center;">3° (DS)</td>
+<td>Distorsione e varianza e CV diventano già noti; il corso si concentra su classificatori, alberi, <em>ensemble</em>, dati mancanti e <em>text mining</em></td>
+<td style="text-align: center;">Medio</td>
+</tr>
+<tr class="odd">
+<td>Fondamenti di IA e Deep Learning</td>
+<td style="text-align: center;">3° (DS)</td>
+<td>Discesa del gradiente stocastica e <em>backpropagation</em> partono da quanto visto in FML</td>
+<td style="text-align: center;">Poco</td>
+</tr>
+<tr class="even">
+<td>Serie storiche economiche; Econometria</td>
+<td style="text-align: center;">2°–3°</td>
+<td>Stima numerica della verosimiglianza ed errori standard bootstrap diventano disponibili; valutazione delle previsioni fuori campione</td>
+<td style="text-align: center;">Poco</td>
+</tr>
+<tr class="odd">
+<td><em>Strumenti di ML</em> (mercato, finanza)</td>
+<td style="text-align: center;">3°</td>
+<td>Presuppongono CV, metriche e ottimizzazione: non vanno ripresi</td>
+<td style="text-align: center;">Medio</td>
+</tr>
+<tr class="even">
+<td>CLAMSES: <em>Prob. e stat. computazionale M</em>, <em>Data Mining M</em></td>
+<td style="text-align: center;">M1</td>
+<td>Per i laureati SMLE Monte Carlo, bootstrap e CV diventano richiami; vedi il raccordo sopra</td>
+<td style="text-align: center;">Medio</td>
+</tr>
+</tbody>
+</table>
+<p>Per le lacune di matematica, probabilità e informatica (algebra lineare, vettori gaussiani, algoritmi) vedi <a href="#dove-sta-ogni-argomento">Dove sta ogni argomento</a>; per l’inferenza causale gli <a href="#argomenti-scoperti">argomenti scoperti</a>.</p>
 </div>
 </div>
 </div>

@@ -26,7 +26,7 @@ include-in-header:
   - **Bocconi** (BEMACS, ora *Management and Computer Science*) fa ML al 2° anno, dopo un solo corso di statistica del 1° anno, insegnato per casi di studio.
 - **CLAMSES non ha un corso sui GLM.** Per chi passa da SMLE a CLAMSES, *Modelli statistici avanzati* è l'unico corso in cui i GLM si studiano in modo sistematico.
 - **Lacune di base rispetto a Padova**: algebra lineare (proiezioni, QR, teorema spettrale), probabilità (vettori gaussiani, trasformazioni), algoritmi e strutture dati. Mancano inoltre inferenza causale e disegno degli esperimenti. Vedi [dove sta ogni argomento](#dove-sta-ogni-argomento) e [argomenti scoperti](#argomenti-scoperti).
-- **Proposta**: FML come corso di **statistica computazionale "vecchio stile"** nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione, insegnati a partire da casi di studio. Statistica computazionale (3°, DS) resta com'è, sulle misture. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Vedi la [proposta](#proposta).
+- **Proposta**: FML come corso di **statistica computazionale "vecchio stile"** nel tronco comune: ottimizzazione numerica, Monte Carlo, bootstrap e ricampionamento per la previsione, insegnati a partire da casi di studio. Si sovrappone in parte a CLAMSES, ma ha un suo perché. Ha ripercussioni su diversi corsi, soprattutto Statistica computazionale (3°, DS), da rivedere. Vedi la [proposta](#proposta).
 
 ## I piani di studio
 
@@ -500,7 +500,7 @@ In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun
 
 **Metodo: per casi di studio.** Ogni blocco parte da un problema concreto (una verosimiglianza che non si risolve a mano, l'incertezza di un indicatore economico, un test di cui non si conosce la distribuzione, una previsione da valutare) e ne ricava il metodo. Il corso resta metodologico nei contenuti; i casi ne sono il filo. Il progetto finale è un'occasione per lavorare in modo riproducibile (Git, Quarto o R Markdown).
 
-Si aggancia a corsi già presenti: riprende i metodi del gradiente di *Algoritmi e ottimizzazione* (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in *Modelli statistici avanzati* (IRLS), Data mining e *Strumenti di ML*. Statistica computazionale (3° anno, DS) resta com'è, sulle misture.
+Si aggancia a corsi già presenti: riprende i metodi del gradiente di *Algoritmi e ottimizzazione* (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in *Modelli statistici avanzati* (IRLS), Statistica computazionale, Data mining e *Strumenti di ML*. Le conseguenze corso per corso sono nella tabella delle ripercussioni qui sotto.
 
 I nomi restano imperfetti (*Fondamenti di Machine Learning* è un corso computazionale, *Fondamenti di Statistical Learning* contiene modello lineare e analisi esplorativa, *Modelli statistici avanzati* sono i GLM, *Statistica computazionale* è un corso sui modelli mistura). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.
 
@@ -527,13 +527,25 @@ I nomi restano imperfetti (*Fondamenti di Machine Learning* è un corso computaz
 Vincolo: CLAMSES accoglie anche laureati SGI e di altre classi. Al posto delle ripartenze da zero servono quindi richiami brevi e materiale di allineamento.
 :::
 
-::: {.callout-note collapse="true" title="Ritocchi agli altri corsi SMLE"}
-- **Modelli per l'apprendimento statistico** (2°): aggiungere alcune lezioni su logistica e Poisson, come in Modelli statistici 1 di Padova. Non è più indispensabile per FML, ma resta utile.
-- **Modelli statistici avanzati** (3°): portarlo verso Modelli statistici 2 di Padova (dispersione esponenziale, IRLS, devianza, quasi-verosimiglianza, sovradispersione, cenni a dati correlati) e ridurre il ripasso del modello lineare.
-- **Data mining** (3°, DS): dare per noti CV e distorsione e varianza; concentrarsi su classificatori, alberi, *ensemble*, dati mancanti e *text mining*.
-- **Strumenti di ML** (3°): presupporre gli strumenti di FML.
-- **Algebra lineare, Calcolo delle probabilità, Informatica, Laboratorio**: vedi le lacune in [Dove sta ogni argomento](#dove-sta-ogni-argomento).
-- **Econometria** (2°) e **Strumenti di ML per l'analisi di mercato** (3°): spazio per l'inferenza causale, vedi gli [argomenti scoperti](#argomenti-scoperti).
+::: {.callout-note collapse="false" title="Ripercussioni sugli altri insegnamenti SMLE"}
+FML computazionale al 2° anno cambia il punto di partenza di molti corsi successivi. Ogni modifica va concordata con chi tiene il corso.
+
+| Insegnamento | Anno | Cosa cambia | Quanto |
+|---|:-:|---|:-:|
+| Algoritmi e ottimizzazione | 1° | Coordinarsi su gradiente e Newton: lì la teoria generale, in FML l'applicazione a perdita e verosimiglianza | Poco |
+| Laboratorio di informatica | 1° | Deve dare in R le basi che FML presuppone: funzioni, cicli, generazione di numeri casuali | Poco |
+| *Modelli per l'apprendimento statistico* | 2° | La convalida incrociata passa a FML; restano AIC e BIC. Utile anticipare logistica e Poisson | Medio |
+| *Modelli statistici avanzati* (GLM) | 3° | IRLS e Fisher *scoring* si presentano come casi di Newton già visti; più tempo per inferenza, sovradispersione e quasi-verosimiglianza; bootstrap e simulazioni come strumenti | Medio |
+| **Statistica computazionale** | 3° (DS) | Va rivista. Può dare per noti simulazione, ottimizzazione e bootstrap e restare sulle misture, ma in modo più computazionale: algoritmo EM esplicito, scelta del numero di componenti (criteri di informazione, bootstrap parametrico), cenni a misture bayesiane e MCMC. Il *tidyverse* passa al laboratorio | **Alto** |
+| Data mining | 3° (DS) | Distorsione e varianza e CV diventano già noti; il corso si concentra su classificatori, alberi, *ensemble*, dati mancanti e *text mining* | Medio |
+| Fondamenti di IA e Deep Learning | 3° (DS) | Discesa del gradiente stocastica e *backpropagation* partono da quanto visto in FML | Poco |
+| Serie storiche economiche; Econometria | 2°–3° | Stima numerica della verosimiglianza ed errori standard bootstrap diventano disponibili; valutazione delle previsioni fuori campione | Poco |
+| *Strumenti di ML* (mercato, finanza) | 3° | Presuppongono CV, metriche e ottimizzazione: non vanno ripresi | Medio |
+| CLAMSES: *Prob. e stat. computazionale M*, *Data Mining M* | M1 | Per i laureati SMLE Monte Carlo, bootstrap e CV diventano richiami; vedi il raccordo sopra | Medio |
+
+: {.striped .hover .sm}
+
+Per le lacune di matematica, probabilità e informatica (algebra lineare, vettori gaussiani, algoritmi) vedi [Dove sta ogni argomento](#dove-sta-ogni-argomento); per l'inferenza causale gli [argomenti scoperti](#argomenti-scoperti).
 :::
 
 ::: {.callout-note collapse="true" title="Alternative considerate"}
