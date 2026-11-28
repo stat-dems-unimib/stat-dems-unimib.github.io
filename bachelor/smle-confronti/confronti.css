@@ -1,0 +1,62 @@
+/* Page-specific styles for the SMLE comparison page, matching the site palette
+   (yellow #e5c200, soft yellow #fbf3c7, ink #000, muted #3b3b3b). */
+
+/* Collapsible sections: site cards instead of Bootstrap callouts */
+.callout {
+  border: 1px solid #e3e3e3 !important;
+  border-top: 3px solid #e5c200 !important;
+  border-left: 1px solid #e3e3e3 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  margin: 1rem 0 !important;
+}
+.callout .callout-header {
+  background: #fff !important;
+  border: 0 !important;
+  padding: .55rem .9rem !important;
+}
+.callout .callout-header:hover { background: #fbf3c7 !important; }
+.callout .callout-icon-container { display: none !important; }
+.callout .callout-title-container {
+  font-family: "PT Sans Narrow", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #000 !important;
+  opacity: 1 !important;
+}
+.callout .callout-btn-toggle .bi::before { color: #000; }
+.callout .callout-body-container { padding: .2rem .9rem .8rem !important; }
+.callout-warning { border-top-color: #6e5d00 !important; }
+
+/* Tables: same look as the PhD register tables */
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .9rem;
+  margin: .3rem 0 .8rem;
+}
+main table thead th {
+  font-family: "PT Sans Narrow", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-size: .78rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 2px solid #000 !important;
+  padding: .5rem .6rem;
+  white-space: nowrap;
+}
+main table td {
+  padding: .5rem .6rem;
+  border-bottom: 1px solid #ececec;
+  vertical-align: top;
+  line-height: 1.4;
+}
+main table td:first-child { font-weight: 600; }
+main table.table-striped > tbody > tr:nth-of-type(odd) > * { --bs-table-bg-type: transparent; }
+main table.table-hover > tbody > tr:hover > * { --bs-table-bg-state: #fbf3c7; }
+main table tbody tr:last-child td { border-bottom: 0; }
+
+/* Let columns size to their content instead of pandoc's equal widths */
+main table { table-layout: auto; }
+main table col { width: auto !important; }
