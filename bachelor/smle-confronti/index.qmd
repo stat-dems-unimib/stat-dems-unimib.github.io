@@ -249,7 +249,7 @@ In SMLE simulazione, bootstrap e ottimizzazione numerica non compaiono in nessun
 
 Si aggancia a corsi già presenti: riprende i metodi del gradiente di *Algoritmi e ottimizzazione* (1° anno) applicandoli alla statistica; fornisce gli strumenti usati poi in *Modelli statistici avanzati* (IRLS), Data mining e *Strumenti di ML*. Statistica computazionale (3° anno, DS) resta com'è, sulle misture.
 
-I nomi restano imperfetti (*Fondamenti di Machine Learning* è un corso computazionale, *Fondamenti di Statistical Learning* contiene modello lineare e analisi esplorativa, *Modelli statistici avanzati* sono i GLM). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.
+I nomi restano imperfetti (*Fondamenti di Machine Learning* è un corso computazionale, *Fondamenti di Statistical Learning* contiene modello lineare e analisi esplorativa, *Modelli statistici avanzati* sono i GLM, *Statistica computazionale* è un corso sui modelli mistura). È il male minore: cambiarli richiede di modificare il regolamento e non cambia la sostanza.
 
 ::: {.callout-note collapse="true" title="Che cosa FML non deve fare"}
 - Alberi, *ensemble*, LDA/QDA, kNN: restano a Data mining e a Statistical Learning M.
