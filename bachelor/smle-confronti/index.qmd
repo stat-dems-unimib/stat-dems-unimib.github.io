@@ -31,33 +31,38 @@ include-in-header:
 ## I piani di studio
 
 ::: {.callout-note collapse="false" title="SMLE · Milano-Bicocca, L-41, coorte 2026/27"}
-In **grassetto** gli insegnamenti nuovi rispetto a SSE. Per il 2° e il 3° anno valgono ancora i *syllabus* SSE.
+In **grassetto** gli insegnamenti nuovi. "=" vuol dire che l'insegnamento esiste già in SSE con lo stesso programma: i contenuti vengono dai *syllabus* SSE 2026/27. I corsi nuovi non hanno ancora un programma.
 
-| Anno | Insegnamento | CFU | SSD | Corrisponde in SSE a |
-|:-:|---|:-:|---|---|
-| 1 | Algebra lineare | 6 | MAT/02 | = |
-| 1 | Analisi matematica I | 9 | MAT/05 | = |
-| 1 | Statistica e Data Visualization | 6 | SECS-S/01 | Statistica I |
-| 1 | Calcolo delle probabilità | 9 | SECS-S/01 | = |
-| 1 | Informatica e ottimizzazione: Informatica (6) + **Algoritmi e ottimizzazione** (6) | 12 | INF/01 | Informatica |
-| 1 | Microeconomia; Statistica economica I | 6 + 6 | SECS-P/01, S/03 | = |
-| 1 | Laboratorio di informatica; lingua straniera | 3 + 3 | — | = |
-| 2 | Analisi matematica II | 6 | MAT/05 | = |
-| 2 | Fondamenti di Statistical Learning: *Modelli per l'apprendimento statistico* (9) + *Analisi esplorativa* (6) | 15 | SECS-S/01 | Analisi statistica multivariata |
-| 2 | Inferenza statistica | 12 | SECS-S/01 | Statistica II |
-| 2 | Basi di dati | 6 | INF/01 | = |
-| 2 | Macroeconomia ed Econometria | 6 + 6 | SECS-P/01, P/05 | = |
-| 2 | Statistica economica II | 6 | SECS-S/03 | = |
-| 2 | **Fondamenti di Machine Learning** | 6 | SECS-S/01 | — |
-| 3 | Modelli statistici e serie storiche: *Serie storiche economiche* (9) + *Modelli statistici avanzati* (6) | 15 | SECS-S/03, S/01 | Serie storiche + Statistica III |
-| 3 | Percorso **Data Science**: Data mining, Statistica computazionale, Gestione dati complessi, **Fondamenti di IA e Deep Learning** | 24 | S/01, INF/01 | |
-| 3 | Percorso **Analisi di mercato**: Analisi di mercato, Economia industriale, Statistica aziendale, **Strumenti di ML per l'analisi di mercato** | 24 | S/03, P/02 | |
-| 3 | Percorso **Mercati finanziari**: Econ. mercati monetari e finanziari, Finanza aziendale, Matematica finanziaria, **Strumenti di ML per la finanza** | 24 | P/02, P/09, S/06, P/01 | |
-| 3 | A scelta libera o stage; prova finale | 12 + 6 | | |
+| Anno | Insegnamento | CFU | SSD | In SSE | Contenuti |
+|:-:|---|:-:|---|---|---|
+| 1 | Algebra lineare | 6 | MAT/02 | = | Sistemi lineari, spazi vettoriali, applicazioni lineari, autovalori, forme quadratiche |
+| 1 | Analisi matematica I | 9 | MAT/05 | = | Una variabile, serie, integrali |
+| 1 | Statistica e Data Visualization | 6 | SECS-S/01 | ≈ Statistica I | Descrittiva uni- e bivariata, grafici, regressione semplice, tabelle di contingenza |
+| 1 | Calcolo delle probabilità | 9 | SECS-S/01 | = | Probabilità, variabili casuali, convergenze, LGN e TLC |
+| 1 | Informatica e ottimizzazione: Informatica (6) + **Algoritmi e ottimizzazione** (6) | 12 | INF/01 | ≈ Informatica + nuovo | Python, NumPy, pandas, oggetti; programmazione lineare e intera, grafi, metodi del gradiente |
+| 1 | Microeconomia; Statistica economica I | 6 + 6 | SECS-P/01, S/03 | = | Statistica economica: contabilità nazionale, numeri indici, disuguaglianza |
+| 1 | Laboratorio di informatica; lingua straniera | 3 + 3 | — | = | Laboratorio in R (mutuato da SGI fino al 2026/27) |
+| 2 | Analisi matematica II | 6 | MAT/05 | = | Più variabili, Lagrange, Dini, integrali multipli |
+| 2 | Fondamenti di Statistical Learning: *Modelli per l'apprendimento statistico* (9) + *Analisi esplorativa* (6) | 15 | SECS-S/01 | = Analisi statistica multivariata | Modello lineare e R; PCA, *cluster*, analisi fattoriale |
+| 2 | Inferenza statistica | 12 | SECS-S/01 | = Statistica II | Stima, intervalli, test, Neyman-Pearson, campionamento da popolazioni finite |
+| 2 | Basi di dati | 6 | INF/01 | = | SQL, progettazione, transazioni |
+| 2 | Macroeconomia ed Econometria | 6 + 6 | SECS-P/01, P/05 | = | Econometria: OLS, GLS, diagnostica, variabili strumentali, equazioni simultanee |
+| 2 | Statistica economica II | 6 | SECS-S/03 | = | |
+| 2 | **Fondamenti di Machine Learning** | 6 | SECS-S/01 | nuovo | Da definire: vedi la [proposta](#proposta) |
+| 3 | Modelli statistici e serie storiche: *Serie storiche economiche* (9) + *Modelli statistici avanzati* (6) | 15 | SECS-S/03, S/01 | = Serie storiche + Statistica III | ARIMA, Box-Jenkins, previsione; GLM, quasi-verosimiglianza |
+| 3 · DS | Data mining | 6 | SECS-S/01 | = | Dati mancanti, LDA e QDA, kNN, alberi, distorsione e varianza, *text mining*, *market basket* |
+| 3 · DS | Statistica computazionale | 6 | SECS-S/01 | = | Modelli mistura, *clustering* e classificazione basati su modelli, *mixture of experts*, *tidyverse* |
+| 3 · DS | **Gestione dati complessi** | 6 | INF/01 | nuovo dal 2028/29; fino ad allora Organizzazione dei sistemi informativi (mutuato da SGI) | Da definire; il regolamento parla di «grandi basi di dati». Oggi: sistemi informativi aziendali, CRM, *data warehouse*, *social media analytics* |
+| 3 · DS | **Fondamenti di IA e Deep Learning** | 6 | STAT-01/A (3) + INFO-01/A (3) | nuovo | Da definire. ⚠︎ Rischio di sovrapposizione con *Machine Learning M* e *Statistical Learning M* di CLAMSES (reti neurali, CNN, RNN, *transformer*) |
+| 3 · Mercato | Analisi di mercato; Economia industriale; Statistica aziendale | 6 + 6 + 6 | S/03, P/02 | = | Ricerche di mercato, segmentazione; organizzazione industriale; statistica d'impresa |
+| 3 · Mercato | **Strumenti di ML per l'analisi di mercato** | 6 | STAT-02/A | nuovo | Da definire |
+| 3 · Finanza | Econ. mercati monetari e finanziari; Finanza aziendale; Matematica finanziaria | 6 + 6 + 6 | P/02, P/09, S/06 | = | Portafoglio e CAPM; finanza delle *startup* ed ESG; ammortamenti, modello binomiale |
+| 3 · Finanza | **Strumenti di ML per la finanza** | 6 | ECON-01/A | nuovo | Da definire |
+| 3 | A scelta libera o stage; prova finale | 12 + 6 | | | |
 
-: {.striped .hover}
+: {.striped .hover .sm}
 
-Dal 2027/28 il laboratorio di informatica non sarà più mutuato da SGI; dal 2028/29 *Gestione dati complessi* sostituisce Organizzazione dei sistemi informativi, oggi mutuato da SGI.
+Nel prospetto della programmazione *Gestione dati complessi* non è evidenziato come nuovo, perché fino al 2027/28 il posto è occupato da un corso mutuato; nella sostanza però è un insegnamento nuovo, con un programma ancora da scrivere.
 :::
 
 ::: {.callout-note collapse="true" title="SGI · Milano-Bicocca, L-41, regolamento 2026/27"}
@@ -564,6 +569,7 @@ Argomenti che il tronco comune di SMLE non tratta, con una possibile collocazion
 - **Cicli di FML**: il prospetto della programmazione non li indica.
 - **Chi scrive il *syllabus* di FML**: insieme ai titolari di *Modelli per l'apprendimento statistico*, Data mining, Statistica computazionale e *Modelli statistici avanzati*. Per CLAMSES vanno coinvolti almeno i titolari di Statistica avanzata M, Data Mining M, Machine Learning M e Prob. e stat. computazionale M.
 - **Inferenza causale**: chi la insegna? In Econometria e in Strumenti di ML per l'analisi di mercato va concordata con i titolari, che appartengono a settori diversi (econometria e statistica economica).
+- **Fondamenti di IA e Deep Learning**: va progettato insieme ai titolari di *Machine Learning M* e *Statistical Learning M* di CLAMSES, che già coprono reti neurali, CNN, RNN e *transformer*. Per i laureati SMLE del percorso DS può diventare il primo livello di quei corsi, a patto che in magistrale non si riparta da zero.
 - **R e Python**: Informatica (1°) e *Machine Learning M* usano Python, i corsi di statistica R. FML può essere il ponte tra i due.
 
 ## Fonti
